@@ -313,9 +313,9 @@
             "D": "Szedés közben"
         },
         "Ki mondta, hogy nincs a teremtésben vesztes, csak ő?": {
-            "A": "Hamlet",
+            "A": "Ádám",
             "B": "*Bánk bán",
-            "C": "Ádám",
+            "C": "Hamlet",
             "D": "Rómeó"
         },
         "Mi volt a címe az Arany János kései műveit tartalmazó versgyűjteménynek?": {
@@ -1285,10 +1285,10 @@
             "D": "*Montague"
         },
         "Mi Hamlet utolsó mondata halála előtt Arany János fordításában?": {
-            "A": "Küzd és bízva bízzál!",
+            "A": "Küzdj és bízva bízzál!",
             "B": "*A többi, néma csend.",
-            "C": "Menj, lőjenek sort!",
-            "D": "Lenni vagy nem lenni!"
+            "C": "Lenni vagy nem lenni!",
+            "D": "Dőlne már romba az egész világ!"
         },
         "Milyen állat szerepel Mándy Iván Csutakról szóló regényének címében?": {
             "A": "Árva kiscica",
@@ -2934,7 +2934,7 @@
             "C": "A virágcsokrot",
             "D": "*A bokavédőt"
         },
-        "Hogyan szól a tréfás mondás? \"Veszek neked toronyórát ...\"": {
+        "Hogyan szól a tréfás mondás? \"Veszek neked toronyórát...\"": {
             "A": "Toronyőrrel",
             "B": "Ingával",
             "C": "*Lánccal",
@@ -4446,12 +4446,6 @@
             "C": "*Színházakban",
             "D": "Varrodákban"
         },
-        "Mit neveznek egy színházban zsöllyének?": {
-            "A": "Súgólyukat",
-            "B": "*Nézőtéri ülőhelyet",
-            "C": "Díszpáholyt",
-            "D": "Színészbejárót"
-        },
         "Hogy nevezték régen a mozdonyokat?": {
             "A": "Gőzelefánt",
             "B": "Acélbika",
@@ -4591,7 +4585,850 @@
             "D": "Nedvszívó"
         }
     },
+    "cult": {
+        "Hogy nevezi az utókor Blaha Lujzát?": {
+            "A": "Az avoni hattyú",
+            "B": "A legdalosabb magyar",
+            "C": "*A nemzet csalogánya",
+            "D": "A nagyasszony"
+        },
+        "Az alábbiak közül melyik egy japán színpadi műfaj?": {
+            "A": "Kaliban",
+            "B": "*Kabuki",
+            "C": "Nori",
+            "D": "Nippon"
+        },
+        "Hogyan kapcsolódik Shakespeare nevéhez a \"Globe\"?": {
+            "A": "Darabjának címe",
+            "B": "Születési helye",
+            "C": "*A színháza volt",
+            "D": "A színésznője volt"
+        },
+        "Melyik budapesti színházunk mutatta be A padlás című musicalt?": {
+            "A": "*A Vígszínház",
+            "B": "A Madách Színház",
+            "C": "A Thália Színház",
+            "D": "Az Operett Színház"
+        },
+        "Hogy nevezték a színházi előadás szüneteiben előadott jelenetet?": {
+            "A": "Jutalomjáték",
+            "B": "*Közjáték",
+            "C": "Macskajáték",
+            "D": "Vendégjáték"
+        },
+        "Az alábbi színésznők közül kiről neveztek el Budapesten színházat?": {
+            "A": "*Ruttkai Éva",
+            "B": "Gobbi Hilda",
+            "C": "Dajka Margit",
+            "D": "Domján Edit"
+        },
+        "Milyen néven nyílt meg 1837-ben Pest első magyar színháza?": {
+            "A": "Nemzeti Színház",
+            "B": "Pesti Víg Színház",
+            "C": "*Pesti Magyar Színház",
+            "D": "Pesti Thália Színház"
+        },
+        "Melyik darabbal nyitották meg a Nemzeti Színház elődjének számító Pesti Magyar Színházat?": {
+            "A": "Csongor és Tünde",
+            "B": "Az ember tragédiája",
+            "C": "*Árpád ébredése",
+            "D": "Bánk bán"
+        },
+        "Hogy nevezik azokat a fiatal fiúszerepeket, amelyeket általában színésznők játszanak?": {
+            "A": "Nyakkendőszerep",
+            "B": "Szoknyaszerep",
+            "C": "Sapkaszerep",
+            "D": "*Nadrágszerep"
+        },
+        "Kiről kapta nevét a budapesti színészmúzeum?": {
+            "A": "Jászai Mari",
+            "B": "*Bajor Gizi",
+            "C": "Blaha Lujza",
+            "D": "Gobbi Hilda"
+        },
+        "Mi volt a híres magyar színésznő, Déryné felvett leánykori neve?": {
+            "A": "Vajda Júlia",
+            "B": "Laborfalvi Róza",
+            "C": "Szendrey Júlia",
+            "D": "*Széppataki Róza"
+        },
+        "Hogy nevezik egy színdarabban az ártatlan fiatal lány szerepkörét?": {
+            "A": "Buffo",
+            "B": "Komika",
+            "C": "*Naiva",
+            "D": "Femme fatale"
+        },
+        "Melyik darabot játszotta a Nemzeti Színház 1848. március 15-én?": {
+            "A": "Az ember tragédiája",
+            "B": "*Bánk bán",
+            "C": "A pártütők",
+            "D": "Csongor és Tünde"
+        },
+        "Milyen \"Színpad\" egy budapesti színház neve?": {
+            "A": "Horoszkóp",
+            "B": "*Mikroszkóp",
+            "C": "Sztereoszkóp",
+            "D": "Monoszkóp"
+        },
+        "Kinek a kezdeményezésére jött létre a Bajor Gizi Színészmúzeum?": {
+            "A": "Major Tamás",
+            "B": "*Gobbi Hilda",
+            "C": "Dajka Margit",
+            "D": "Páger Antal"
+        },
+        "Melyik város színháza az 1776-ban alapított Bolsoj Tyeatr?": {
+            "A": "Szentpétervár ",
+            "B": "*Moszkva",
+            "C": "Kijev",
+            "D": "Szófia"
+        },
+        "Mit neveznek egy színházban zsöllyének?": {
+            "A": "Súgólyukat",
+            "B": "*Nézőtéri ülőhelyet",
+            "C": "Díszpáholyt",
+            "D": "Színészbejárót"
+        },
+        "Hogy nevezik a színházi karzat legfelső helyeit?": {
+            "A": "Fecskefészek",
+            "B": "Kakukkfészek",
+            "C": "*Kakasülő",
+            "D": "Libadűlő"
+        },
+        "Az alábbi művészek közül kiről nincs budapesti színház elnevezve?": {
+            "A": "József Attila",
+            "B": "Katona József",
+            "C": "Radnóti Miklós",
+            "D": "*Vörösmarty Mihály"
+        },
+        "Mikből áll össze egy színház repertoárja?": {
+            "A": "Jelmezekből",
+            "B": "*Színdarabokból",
+            "C": "Díszletekből",
+            "D": "Kellékekből"
+        },
+        "Melyik egy budapesti színház neve?": {
+            "A": "Tragédium",
+            "B": "*Komédium",
+            "C": "Melodramatikum",
+            "D": "Abszurdum"
+        },
+        "Hogy nevezik az olcsó hatásokra törekvő, rossz színészt?": {
+            "A": "Pipacs",
+            "B": "Ipiapacs",
+            "C": "Pamacs",
+            "D": "*Ripacs"
+        },
+        "Mely drámákban jutott először fontos szerep a kardalokat előadó kórusnak?": {
+            "A": "*Ókori görög",
+            "B": "Angol reneszánsz",
+            "C": "Francia klasszicista",
+            "D": "Német avantgarde"
+        },
+        "Melyik zeneszerző építtetett színházat Bayreuthban?": {
+            "A": "Wolfgang Amadeus Mozart",
+            "B": "*Richard Wagner",
+            "C": "Ludwig von Beethoven",
+            "D": "Johann Sebastian Bach"
+        },
+        "Melyik színházunkban mutatták be a \"Képzelt riport egy amerikai popfesztiválról\" című darabot?": {
+            "A": "*A Vígszínházban",
+            "B": "A Madách Színházban",
+            "C": "A Nemzeti Színházban",
+            "D": "Az Operett Színházban"
+        },
+        "Ki nem rendező az ismert művészek közül?": {
+            "A": "Szinetár Miklós",
+            "B": "Babarczy László",
+            "C": "Szikora János",
+            "D": "*Cseh Tamás"
+        },
+        "Ki alapította a Karinthy Színházat?": {
+            "A": "Karinthy Frigyes",
+            "B": "*Karinthy Márton",
+            "C": "Karinthy Ferenc",
+            "D": "Karinthy Gábor"
+        },
+        "Ki alapította a híres francia színházat, a Comédie Francaise-t?": {
+            "A": "Napóleon",
+            "B": "*XIV. Lajos",
+            "C": "Richelieu bíboros",
+            "D": "Madame de Pompadour"
+        },
+        "Kik szerepelnek egy Dürrenmatt-színmű címében?": {
+            "A": "Botanikusok",
+            "B": "*Fizikusok",
+            "C": "Kémikusok",
+            "D": "Ornitológusok"
+        },
+        "Melyik város nevezetessége volt a XVII. század elején a Globe Színház?": {
+            "A": "Berlin",
+            "B": "Lisszabon",
+            "C": "Párizs",
+            "D": "*London"
+        },
+        "Ki volt az 1837-ben megnyílt Pesti Magyar Színház első igazgatója?": {
+            "A": "Csiky Gergely",
+            "B": "*Bajza József",
+            "C": "Szigligeti Ede",
+            "D": "Paulay Ede"
+        },
+        "Egy színész hányadik nyilvános fellépését nevezik debütálásnak?": {
+            "A": "*Elsőt",
+            "B": "Századikat",
+            "C": "Ötszázadikat",
+            "D": "Ezrediket"
+        },
+        "Melyik egy híres londoni színházépület neve?": {
+            "A": "Uncle Sam",
+            "B": "*Old Vic",
+            "C": "Old Black Joe",
+            "D": "Old McDonnald"
+        },
+        "Melyik Verdi-operában hangzik el \"Az asszony ingatag\" kezdetű ária?": {
+            "A": "Otello",
+            "B": "Don Carlos",
+            "C": "*Rigoletto",
+            "D": "Traviata"
+        },
+        "Ki zenésítette meg a Szózatot?": {
+            "A": "Erkel Ferenc",
+            "B": "Mosonyi Mihály",
+            "C": "*Egressy Béni",
+            "D": "Liszt Ferenc"
+        },
+        "Mi a foglalkozása Figarónak Rossini operájában?": {
+            "A": "Ékszerész",
+            "B": "*Borbély",
+            "C": "Bérkocsis",
+            "D": "Kottamásoló"
+        },
+        "Milyen hangszer készítőjeként vált híressé Stradivari?": {
+            "A": "Zongora",
+            "B": "Gitár",
+            "C": "*Hegedű",
+            "D": "Nagybőgő"
+        },
+        "Kinek a meséje alapján írta meg Ránki György a \"Pomádé király új ruhája\" című operát?": {
+            "A": "Grimm-testvérek",
+            "B": "Benedek Elek",
+            "C": "La Fontaine",
+            "D": "*Andersen"
+        },
+        "Melyik operát írta Verdi a Szuezi-csatorna megnyitása kapcsán?": {
+            "A": "A Rigolettót",
+            "B": "Az Otellót",
+            "C": "A Traviatát",
+            "D": "*Az Aidát"
+        },
+        "Ki írt zongoraversenyt balkézre?": {
+            "A": "Liszt Ferenc",
+            "B": "*Ravel",
+            "C": "Chopin",
+            "D": "Rahmanyinov"
+        },
+        "Ki a zeneszerzője a \"Magyar táncok\"-nak?": {
+            "A": "*Johannes Brahms",
+            "B": "Liszt Ferenc",
+            "C": "Frédéric Chopin",
+            "D": "Richard Wagner"
+        },
+        "Milyen déligyümölcs szerepel Bartók \"csodálatos\" táncjátékának címében?": {
+            "A": "Füge",
+            "B": "Banán",
+            "C": "*Mandarin",
+            "D": "Kókusz"
+        },
+        "Melyik Grimm-mesefiguráról írt balettzenét Csajkovszkij?": {
+            "A": "*Csipkerózsikáról",
+            "B": "Hófehérkéről",
+            "C": "Hamupipőkéről",
+            "D": "Hüvelyk Matyiról"
+        },
+        "Melyik országban játszódik Puccini Pillangókisasszony című operája?": {
+            "A": "Kínában",
+            "B": "Az Egyesült Államokban",
+            "C": "*Japánban",
+            "D": "Olaszországban"
+        },
+        "Melyik opera bordalában hallhatjuk a \"Gondold meg és igyál!\" kezdetű sorokat?": {
+            "A": "Verdi: Traviata",
+            "B": "*Erkel: Bánk bán",
+            "C": "Bizet: Carmen",
+            "D": "Gounod: Faust"
+        },
+        "Mi volt a Rigoletto című opera alapjául szolgáló színmű címe?": {
+            "A": "A herceg szerelmes",
+            "B": "A bolond leánya",
+            "C": "*A király mulat",
+            "D": "A bérgyilkos vallomása"
+        },
+        "Melyik operában hangzik fel a híres Torreádordal?": {
+            "A": "*Bizet: Carmen",
+            "B": "Verdi: A trubadúr",
+            "C": "Rossini: A sevillai borbély",
+            "D": "Puccini: Tosca"
+        },
+        "Ki írta a \"Befejezetlen szimfóniá\"-t?": {
+            "A": "Johannes Brahms",
+            "B": "Felix Mendelssohn",
+            "C": "*Franz Schubert",
+            "D": "Robert Schumann"
+        },
+        "Milyen \"özvegy\" szerepel Lehár Ferenc nagy sikerű operettjének címében?": {
+            "A": "Kikapós",
+            "B": "*Víg",
+            "C": "Szalma",
+            "D": "Széna"
+        },
+        "Melyik operettben szerepel a \"Hajmási Péter, Hajmási Pál\" kezdetű dal?": {
+            "A": "*Csárdáskirálynő",
+            "B": "A víg özvegy",
+            "C": "Bob herceg",
+            "D": "A denevér"
+        },
+        "Az alábbiak közül melyik 3/4 ütemű?": {
+            "A": "Tangó",
+            "B": "Polka",
+            "C": "*Menüett",
+            "D": "Kánkán"
+        },
+        "Melyik halról írt zenedarabot öt hangszerre Schubert?": {
+            "A": "A tintahalról",
+            "B": "A tonhalról",
+            "C": "A lazacról",
+            "D": "*A pisztrángról"
+        },
+        "Milyen grófnőről írt nagy sikerű operettet Kálmán Imre?": {
+            "A": "*Marica",
+            "B": "Katica",
+            "C": "Terike",
+            "D": "Borika"
+        },
+        "Melyik operában hangzik fel a \"Méregária\"?": {
+            "A": "Bellini: Norma",
+            "B": "Donizetti: Lammermoori Lucia",
+            "C": "*Ponchielli: Gioconda",
+            "D": "Puccini: Bohémélet"
+        },
+        "Ki írta a \"Dalok szöveg nélkül\" című zongoraciklust?": {
+            "A": "*Felix Mendelssohn",
+            "B": "Robert Schumann",
+            "C": "Johannes Brahms",
+            "D": "Liszt Ferenc"
+        },
+        "Melyik Beethoven egyetlen operája?": {
+            "A": "*Fidelio",
+            "B": "Rigoletto",
+            "C": "A varázsfuvola",
+            "D": "Prométheusz"
+        },
+        "Milyen szakállú hercegről írt operát Bartók Béla?": {
+            "A": "Ősz",
+            "B": "*Kék",
+            "C": "Rőt",
+            "D": "Kecske"
+        },
+        "Ki írta \"A négy évszak\" című hegedűverseny-sorozatot?": {
+            "A": "*Antonio Vivaldi",
+            "B": "Johann Sebastian Bach",
+            "C": "Claudio Monteverdi",
+            "D": "Joseph Haydn"
+        },
+        "Melyik állat lett a címadója ifj. Johann Strauss egyik operettjének?": {
+            "A": "A pulyka",
+            "B": "A csiga",
+            "C": "A fóka",
+            "D": "*A denevér"
+        },
+        "Melyik opera szereplői Donna Anna, Donna Elvira és Don Ottavio?": {
+            "A": "Don Carlos",
+            "B": "*Don Giovanni",
+            "C": "Don Pasquale",
+            "D": "Don Quijote"
+        },
+        "Melyik operettet játsszák hagyományosan szilveszterkor?": {
+            "A": "Egy éj Velencében",
+            "B": "A víg özvegy",
+            "C": "*A denevér",
+            "D": "Csárdáskirálynő"
+        },
+        "Melyik Wagner-operában szerepel többek között cipész, ötvös, bádogos és pék?": {
+            "A": "A Lohengrin",
+            "B": "A bolygó hollandiban",
+            "C": "A Tannhauserben",
+            "D": "*A nürnbergi mesterdalnokokban"
+        },
+        "Melyik operában hangzik el a \"Rágalomária\"?": {
+            "A": "*Rossini: A sevillai borbély",
+            "B": "Verdi: Rigoletto",
+            "C": "Verdi: Otello",
+            "D": "Mozart: Don Giovanni"
+        },
+        "Kinek a verséből született Beethoven Örömódája?": {
+            "A": "Dante",
+            "B": "*Schiller",
+            "C": "Horatius",
+            "D": "Sheiley"
+        },
+        "Kinek a szövege alapján készült Bartók Béla A csodálatos mandarin című műve?": {
+            "A": "*Lengyel Menyhért",
+            "B": "Balázs Béla",
+            "C": "Herczeg Ferenc",
+            "D": "Kassák Lajos"
+        },
+        "Melyik Beethoven-szimfóniában hangzik fel az \"Örömóda\"?": {
+            "A": "A III. szimfóniában",
+            "B": "Az V. szimfóniában",
+            "C": "A VI. szimfóniában",
+            "D": "*A IX. szimfóniában"
+        },
+        "Kinek a meséi szerepelnek Offenbach operájának címében?": {
+            "A": "Andersen",
+            "B": "La Fontaine",
+            "C": "*Hoffmann",
+            "D": "Grimm testvérek"
+        },
+        "Milyen nevű hercegről írt operettet Huszka Jenő?": {
+            "A": "Bill herceg",
+            "B": "*Bob herceg",
+            "C": "Joe herceg",
+            "D": "Sam herceg"
+        },
+        "Melyik operában hallhatjuk a \"Levéláriát\"?": {
+            "A": "Puccini: Manon Lescaut",
+            "B": "*Puccini: Tosca",
+            "C": "Verdi: Rigoletto",
+            "D": "Verdi: Traviata"
+        },
+        "Ki írta a Csárdáskirálynő című operettet?": {
+            "A": "Ifj. Johann Strauss",
+            "B": "Huszka Jenő",
+            "C": "*Kálmán Imre",
+            "D": "Lehár Ferenc"
+        },
+        "Melyik városban játszódik Puccini Tosca című operája?": {
+            "A": "Párizsban",
+            "B": "*Rómában",
+            "C": "Velencében",
+            "D": "Sevillában"
+        },
+        "Ki szerezte a Brandenburgi versenyek zenéjét?": {
+            "A": "Georg Friedrich Handel",
+            "B": "*Johann Sebastian Bach",
+            "C": "Antonio Vivaldi",
+            "D": "Georg Philipp Telemann"
+        },
+        "Ki írta az Erkel-operában Petúr bán előadásában elhangzó bordal szövegét?": {
+            "A": "Katona József",
+            "B": "Egressy Béni",
+            "C": "*Vörösmarty Mihály",
+            "D": "Bajza József"
+        },
+        "Ki zenésítette meg a Himnuszt?": {
+            "A": "Liszt Ferenc",
+            "B": "Kodály Zoltán",
+            "C": "Egressy Béni",
+            "D": "*Erkel Ferenc"
+        },
+        "Miből készült királyfiról írt táncjátékot Bartók Béla?": {
+            "A": "Selyemből szőtt",
+            "B": "Papírból hajtogatott",
+            "C": "*Fából faragott",
+            "D": "Gyurmából formált"
+        },
+        "Az alábbiak közül melyik nem vígopera?": {
+            "A": "Mozart: Figaro házassága",
+            "B": "Rossini: A sevillai borbély",
+            "C": "Verdi: Falstaff",
+            "D": "*Puccini: Bohémélet"
+        },
+        "Ki a zeneszerzője \"A bűvös vadász\" című operának?": {
+            "A": "Wolfgang Amadeus Mozart",
+            "B": "Vincenzo Bellini",
+            "C": "Gioachino Rossini",
+            "D": "*Carl Maria von Weber"
+        },
+        "Melyik Verdi-opera játszódik Bostonban?": {
+            "A": "*Az álarcosbál",
+            "B": "A végzet hatalma",
+            "C": "Ernani",
+            "D": "Traviata"
+        },
+        "Melyik keresztény ünnep idején játszódik Mascagni Parasztbecsület című operája?": {
+            "A": "*Húsvétkor",
+            "B": "Vízkeresztkor",
+            "C": "Pünkösdkor",
+            "D": "Karácsonykor"
+        },
+        "Mi a foglalkozása Tevjének, a Hegedűs a háztetőn főhősének?": {
+            "A": "Szabó",
+            "B": "Mészáros",
+            "C": "*Tejesember",
+            "D": "Pénzváltó"
+        },
+        "Melyik operában hangzik el a \"Virágária\"?": {
+            "A": "Verdi: Aida",
+            "B": "Puccini: Tosca",
+            "C": "Gounod: Faust",
+            "D": "*Bizet: Carmen"
+        },
+        "Ki játszotta az operettekben az elegáns világfi énekes-táncos szerepkörét?": {
+            "A": "Az amorózó",
+            "B": "Az intrikus",
+            "C": "*A bonviván",
+            "D": "A rezonőr"
+        },
+        "Melyik operában hallható a \"Meghalt a cselszövő, nem dúl már rút viszály\" kezdetű kórus?": {
+            "A": "Erkel: Bánk bán",
+            "B": "Rossini: Tell Vilmos",
+            "C": "Verdi: Nabucco",
+            "D": "*Erkel: Hunyadi László"
+        },
+        "Minek az \"országa\" szerepel Lehár Ferenc operettjének címében?": {
+            "A": "*A mosoly",
+            "B": "A szerelem",
+            "C": "Az amazonok",
+            "D": "A könnyek"
+        },
+        "Melyik operettet írta ifj. Johann Strauss egy Jókai-mű alapján?": {
+            "A": "*A cigánybáró",
+            "B": "A denevér",
+            "C": "Egy éj Velencében",
+            "D": "Bécsi vér"
+        },
+        "Kik voltak a Leoncavallo operájában is szereplő \"bajazzók\"?": {
+            "A": "Udvari muzsikusok",
+            "B": "Halászok",
+            "C": "*Vándorkomédiások",
+            "D": "Aranycsempészek"
+        },
+        "Melyik operában szerepel többek között egy szép cigánylány, egy torreádor és egy tizedes?": {
+            "A": "Verdi: A trubadúr",
+            "B": "Puccini: Tosca",
+            "C": "Verdi: Traviata",
+            "D": "*Bizet: Carmen"
+        },
+        "Melyik bibliai nőalakról írt operát Richard Strauss?": {
+            "A": "Sába királynője",
+            "B": "Judit",
+            "C": "Eszter",
+            "D": "*Salome"
+        },
+        "Ki írta a Búcsú-szimfóniát?": {
+            "A": "Beethoven",
+            "B": "*Haydn",
+            "C": "Schubert",
+            "D": "Mendelssohn"
+        },
+        "Melyik operában csendül fel az \"Eladó az egész világ\" kezdetű ária?": {
+            "A": "Leoncavallo: Bajazzók",
+            "B": "*Gounod: Faust",
+            "C": "Bizet: Carmen",
+            "D": "Csajkovszkij: Anyegin"
+        },
+        "Melyik orosz cárról írt operát Muszorgszkij?": {
+            "A": "Nagy Péterről",
+            "B": "*Borisz Godunovról",
+            "C": "I. Miklósról",
+            "D": "Rettegett Ivánról"
+        },
+        "Az alábbiak közül melyik Verdi-opera nem Shakespeare-dráma alapján készült?": {
+            "A": "Othello",
+            "B": "Macbeth",
+            "C": "*Don Carlos",
+            "D": "Falstaff"
+        },
+        "Melyik nem Mozart-opera az alábbiak közül?": {
+            "A": "Cosi fan tutte",
+            "B": "*A sevillai borbély",
+            "C": "Don Giovanni",
+            "D": "A varázsfuvola"
+        },
+        "Milyen hollandiról írt operát Wagner?": {
+            "A": "Facipős",
+            "B": "Eltévedt",
+            "C": "Tulipános",
+            "D": "*Bolygó"
+        },
+        "Kinek a regénye alapján írt Verdi Traviata című operáját?": {
+            "A": "Victor Hugo",
+            "B": "*Ifj. Alexandre Dumas",
+            "C": "E. T. A. Hoffmann",
+            "D": "Walter Scott"
+        },
+        "Melyik operában énekli Plumkett a \"sördalt\"?": {
+            "A": "Weber: A bűvös vadász",
+            "B": "Lortzing: A fegyverkovács",
+            "C": "Beethoven: Fidelio",
+            "D": "*Flotow: Márta"
+        },
+        "Minek a művészetéről írt nagyszabású zeneművet Johann Sebastian Bach?": {
+            "A": "*A fúga",
+            "B": "A kantáta",
+            "C": "A szvit",
+            "D": "A szonáta"
+        },
+        "Mi a foglalkozása a Mágnás Miska című operett címszereplőjének?": {
+            "A": "*Lovászlegény",
+            "B": "Főhadnagy",
+            "C": "Bankigazgató",
+            "D": "Főherceg"
+        },
+        "Milyen nemzetiségű volt a neves operaszerző Giacomo Meyerbeer?": {
+            "A": "*Német",
+            "B": "Olasz",
+            "C": "Angol",
+            "D": "Osztrák"
+        },
+        "Milyen utazásról írt dalciklust Franz Schubert?": {
+            "A": "Végzetes",
+            "B": "Nagy",
+            "C": "*Téli",
+            "D": "Szerencsés"
+        },
+        "Milyen lovagról írt operát Richard Strauss?": {
+            "A": "*Rózsa",
+            "B": "Szerencse",
+            "C": "Rabló",
+            "D": "Keresztes"
+        },
+        "Milyen menyasszonyról írt operát Bed&rcaron;ich Smetana?": {
+            "A": "Az elvarázsolt",
+            "B": "A megcsalt",
+            "C": "A becsapott",
+            "D": "*Az eladott"
+        },
+        "Ki írt kísérőzenét Shakespeare Szentivánéji álom című művéhez?": {
+            "A": "Pjotr Iljics Csajkovszkij",
+            "B": "Hector Berlioz",
+            "C": "*Felix Mendelssohn",
+            "D": "Franz Schubert"
+        },
+        "Melyik operában hangzik el az Éj királynőjének áriája?": {
+            "A": "Gounod: Faust",
+            "B": "*Mozart: A varázsfuvola",
+            "C": "Rossini: Hamupipőke",
+            "D": "Wagner: Az istenek alkonya"
+        },
+        "Ki írta Erkel Bánk bánjának szövegét?": {
+            "A": "Vörösmarty Mihály",
+            "B": "*Egressy Béni",
+            "C": "Balázs Béla",
+            "D": "Egressy Gábor"
+        },
+        "Mi a foglalkozása a Csárdáskirálynő című operett szereplőjének, Miskának?": {
+            "A": "Főhadnagy",
+            "B": "Tábornok",
+            "C": "*Főpincér",
+            "D": "Nagykövet"
+        },
+        "Melyik Wagner-operában csendül fel a Tűzvarázs?": {
+            "A": "*A walkür",
+            "B": "A nürnbergi mesterdalnokok",
+            "C": "A Rajna kincse",
+            "D": "Parsifal"
+        },
+        "Mi a foglalkozása Alfiónak Mascagni Parasztbecsület című operájában?": {
+            "A": "Kalmár",
+            "B": "*Fuvaros",
+            "C": "Katona",
+            "D": "Kocsmáros"
+        },
+        "Melyik Verdi-opera fináléjában hangzik el Violetta és Alfréd kettőse?": {
+            "A": "Tosca",
+            "B": "*Traviata",
+            "C": "Rigoletto",
+            "D": "Bohémélet"
+        },
+        "Milyen címen írt zenés mesét Szergej Prokofjev? \"Péter és a …\"": {
+            "A": "Medve",
+            "B": "*Farkas",
+            "C": "Vadkacsa",
+            "D": "Kisnyúl"
+        },
+        "Milyen virág szerepel Kálmán Imre operettjének címében?": {
+            "A": "Nizzai nárcisz",
+            "B": "Marseille-i mimóza",
+            "C": "Párizsi pipacs",
+            "D": "*Montmartre-i ibolya"
+        },
+        "Ki írta a \"Forradalmi etüd\" című zongoradarabot?": {
+            "A": "*Frédéric Chopin",
+            "B": "Franz Schubert",
+            "C": "Liszt Ferenc",
+            "D": "Ludwig van Beethoven",
+            "N": 8
+        },
+        "Milyen címen írt zenekari művet Debbussy?": {
+            "A": "Egy pán reggele",
+            "B": "Egy szatír éjjele",
+            "C": "*Egy faun délutánja",
+            "D": "Egy nimfa hajnala"
+        },
+        "Milyen címen írt zenét Mozart? \"Egy kis...\"": {
+            "A": "Macskazene",
+            "B": "*Éji zene",
+            "C": "Téli zene",
+            "D": "Katonazene"
+        },
+        "Melyik város közelében játszódik Mozart: Figaro házassága című operája?": {
+            "A": "Velence",
+            "B": "Firenze",
+            "C": "*Sevilla",
+            "D": "Párizs"
+        },
+        "Hány ajtót nyit ki Judit Bartók Béla A kékszakállú herceg vára című operájában?": {
+            "A": "Hármat",
+            "B": "*Hetet",
+            "C": "Tizet",
+            "D": "Tizenhármat"
+        },
+        "Minek a három éjszakájáról szól az ismert zenés tragédia?": {
+            "A": "*Egy szerelem",
+            "B": "Egy bűntény",
+            "C": "Egy utazás",
+            "D": "Egy szellem"
+        },
+        "Melyik művét írta Kodály Pest, Buda és Óbuda egyesítésének 50. évfordulójára?": {
+            "A": "Budavári Te Deum",
+            "B": "Missa brevis",
+            "C": "*Psalmus Hungaricus",
+            "D": "Fölszállott a páva"
+        },
+        "Melyik operában csendül fel Olympia áriája?": {
+            "A": "Puccini: Turandot",
+            "B": "Weber: A bűvös vadász",
+            "C": "*Offenbach: Hoffmann meséi",
+            "D": "Beethoven: Fidelio"
+        },
+        "Melyik orosz zeneszerző írt operát Puskin Anyegin című művéből?": {
+            "A": "Muszorgszkij",
+            "B": "Borogyin",
+            "C": "*Csajkovszkij",
+            "D": "Rimszkij-Korszakov"
+        },
+        "Melyik operettben szerepel Adél, a szobalány?": {
+            "A": "Kálmán Imre: A csárdáskirálynő",
+            "B": "Lehár Ferenc: A mosoly országa",
+            "C": "*Ifj. Johann Strauss: A denevér",
+            "D": "Huszka Jenő: Bob herceg"
+        },
+        "Ki írt John Milton műve alapján oratóriumot a teremtésről?": {
+            "A": "Johann Sebastian Bach",
+            "B": "*Joseph Haydn",
+            "C": "Liszt Ferenc",
+            "D": "Georg Friedrich H&auml;ndel"
+        },
+        "Milyen diákról írt operettet Karl Millöcker?": {
+            "A": "Vándor",
+            "B": "Garabonciás",
+            "C": "*Koldus",
+            "D": "Öreg"
+        },
+        "Ki szerezte a Bál a Savoyban című operett zenéjét?": {
+            "A": "*Ábrahám Pál",
+            "B": "Huszka Jenő",
+            "C": "Jacobi Viktor",
+            "D": "Lehár Ferenc"
+        },
+        "Mit jelent magyarul Mozart: Cosi fan tutte operájának címe?": {
+            "A": "*Mind így csinálják",
+            "B": "A vége mindig jó",
+            "C": "Légy hű magadhoz!",
+            "D": "A gonosz végül pórul jár"
+        },
+        "Melyik egy világhírű Offenbach-eperett címe?": {
+            "A": "*Szép Heléna",
+            "B": "Féltékeny Héra",
+            "C": "Hatalmas Aphrodité",
+            "D": "Vén Európa"
+        },
+        "Melyik állat egy Rossini által írt duett címadója?": {
+            "A": "Medve",
+            "B": "Kakukk",
+            "C": "Szamár",
+            "D": "*Macska"
+        },
+        "Melyik zenés színpadi mű főhősének mátkája Örzse?": {
+            "A": "Huszka Jenő: Bob herceg",
+            "B": "*Kodály Zoltán: Háry János",
+            "C": "Erkel Ferenc: Dózsa György",
+            "D": "Kacsóh Pongrác: János vitéz"
+        },
+        "Az alábbiak közül melyik opera nem tartozik Puccini Triptichonjába?": {
+            "A": "A köpeny",
+            "B": "*Nyugat lánya",
+            "C": "Angelica nővér",
+            "D": "Gianni Schicchi"
+        },
+        "Melyik Verdi-operában hangzik el a híres Szabadságkettős?": {
+            "A": "Aida",
+            "B": "A trubadúr",
+            "C": "*Don Carlos",
+            "D": "Nabucco"
+        },
+        "Mi a foglalkozása Papagenónak Mozart: A varázsfuvola című operájában?": {
+            "A": "*Madarász",
+            "B": "Halász",
+            "C": "Vadász",
+            "D": "Kanász"
+        },
+        "Hogyan szól Francoise Sagan ismert művének címe? \"Szereti Ön...?\"": {
+            "A": "Mozartot",
+            "B": "Schubertet",
+            "C": "Bachot",
+            "D": "*Brahmsot"
+        },
+        "Ki írta a Für Elise című zongoradarabot?": {
+            "A": "Franz Schubert",
+            "B": "*Ludwig van Beethoven",
+            "C": "Frédéric Chopin",
+            "D": "Wolfgang Amadeus Mozart"
+        },
+        "Melyik szerző írt zenedarabot Az állatok farsangja címmel?": {
+            "A": "Szergej Prokofjev",
+            "B": "Richard Strauss",
+            "C": "Rimszkij-Korszakov",
+            "D": "*Saint-Saens"
+        },
+        "Mi a foglalkozása Sparafucilének Verdi Rigoletto című operájában?": {
+            "A": "Bűvész",
+            "B": "*Bérgyilkos",
+            "C": "Torreádor",
+            "D": "Főinkvizitor"
+        },
+        "Melyik Wagner-operában szerepel Madarász Henrik király?": {
+            "A": "Tannhauser",
+            "B": "A bolygó hollandi",
+            "C": "*Lohengrin",
+            "D": "Trisztán és Izolda"
+        }
+    },
     "misc": {
+        "Melyik nem húros hangszer az alábbiak közül?": {
+            "A": "Viola da gamba",
+            "B": "Citera",
+            "C": "Hárfa",
+            "D": "*Tuba"
+        },
+        "Mi a cselló közkeletű másik neve?": {
+            "A": "Brácsa",
+            "B": "*Gordonka",
+            "C": "Hegedű",
+            "D": "Nagybőgő"
+        },
+        "A felsoroltak közül melyik nem ütőhangszer?": {
+            "A": "Triangulum",
+            "B": "Xilofon",
+            "C": "Marimba",
+            "D": "*Spinét"
+        },
+        "A hangszerek melyik csoportjába tartozik a marimba?": {
+            "A": "Fafúvós hangszer",
+            "B": "*Ütőhangszer",
+            "C": "Pengetős hangszer",
+            "D": "Rézfúvós hangszer"
+        },
         "Kinek a nevéhez fűződik a mondás: \"A kocka el van vetve\"?": {
             "A": "Szókratész",
             "B": "Thalész",
