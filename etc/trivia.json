@@ -5406,12 +5406,173 @@
         }
     },
     "misc": {
+        "Kinek a képe látható a magyar kártya zöld alsóján?": {
+            "A": "Rudenz Ulrich",
+            "B": "Reding Itell",
+            "C": "*Fürst Walter",
+            "D": "Harras Rudolf"
+        },
+        "Melyik játékban játszik nagy szerepet a blöffölés?": {
+            "A": "*A pókerban",
+            "B": "A biliárdban",
+            "C": "A rulettben",
+            "D": "A huszonegyben"
+        },
+        "Hogy nevezik a sakkban a király és a bástya speciális helycserélyét?": {
+            "A": "Koronázás",
+            "B": "Ostrom",
+            "C": "Kitörés",
+            "D": "*Sáncolás"
+        },
+        "Hány ütést szabad vinnie az ultiban annak, aki \"betlit\" vállal?": {
+            "A": "Mindet",
+            "B": "Csak az utolsót",
+            "C": "*Egyet sem",
+            "D": "Csak a kezdőt"
+        },
+        "Mikor jelent be egy kártyajátékos renonszot?": {
+            "A": "Ha megnyerte a játékot",
+            "B": "Ha emeli a tétet",
+            "C": "*Ha szabálytalanság történt",
+            "D": "Ha viszi az első ütést"
+        },
+        "Hány pontot ér, ha a darts-tábla közepébe találunk?": {
+            "A": "Huszonötöt",
+            "B": "Százat",
+            "C": "*Ötvenet",
+            "D": "Harmincötöt"
+        },
+        "Mit csinálnak egymás vezérével a sakkjátékosok, amikor vezércsere történik?": {
+            "A": "Királyra cserélik",
+            "B": "*Kölcsönösen kiütik",
+            "C": "Színt cserélnek",
+            "D": "Futóra cserélik"
+        },
+        "Hány korongból áll egy malom az azonos nevű játékban?": {
+            "A": "Kettőből",
+            "B": "Négyből",
+            "C": "*Háromból",
+            "D": "Hétből"
+        },
+        "Mit jelent a kártyában az überelés?": {
+            "A": "Osztást",
+            "B": "*Felülütést",
+            "C": "Húzást",
+            "D": "Számolást"
+        },
+        "Melyik lapok kapnak a dzsókerhez hasonlóan helyettesítő szerepet a kanasztában?": {
+            "A": "*A kettesek",
+            "B": "Az ászok",
+            "C": "A piros hármasok",
+            "D": "A dámák"
+        },
+        "Hány pontja van az első két lapból annak a kártyásnak, akinek Black Jackje van?": {
+            "A": "Tizenhat",
+            "B": "*Huszonegy",
+            "C": "Húsz",
+            "D": "Huszonkettő"
+        },
+        "Az ultiban melyik lappal kell vinnie az utolsó ütést annak, aki \"ultit\" vállal?": {
+            "A": "*Adu hetessel",
+            "B": "Adu ásszal",
+            "C": "Piros királlyal",
+            "D": "Zöld alsóval"
+        },
+        "Mit jelent a szanzadu bemondása egy kártyajátékban?": {
+            "A": "A piros az adu",
+            "B": "*Adu nélkül játsszák",
+            "C": "Pikk az adu",
+            "D": "A joker az adu"
+        },
+        "Hogyan döntik el a sakkjátékosok, hogy ki lépi a nyitólépést?": {
+            "A": "Mindig a sötét",
+            "B": "Megegyezés szerint",
+            "C": "*Mindig a világos",
+            "D": "Pénzfeldobással"
+        },
+        "Ki találta fel a bűvös kockát?": {
+            "A": "Harsányi János",
+            "B": "*Rubik Ernő",
+            "C": "Bárány Róbert",
+            "D": "Oláh György"
+        },
+        "Hányszoros tétért folyik az ulti, ha az egyik játékos szubkontrát mond?": {
+            "A": "Háromszoros",
+            "B": "Négyszeres",
+            "C": "*Nyolcszoros",
+            "D": "Hatszoros"
+        },
+        "Mivel játsszák a tarokk nevű játékot?": {
+            "A": "*Kártyával",
+            "B": "Kockával",
+            "C": "Dominóval",
+            "D": "Sakkbábúval"
+        },
+        "Mivel játsszák a snóblit?": {
+            "A": "Golyókkal",
+            "B": "Kártyával",
+            "C": "*Pénzérmékkel",
+            "D": "Pálcikákkal"
+        },
+        "Mivel játsszák a svindli nevű játékot?": {
+            "A": "Kockákkal",
+            "B": "Tekebábokkal",
+            "C": "*Kártyával",
+            "D": "Ugrókötéllel"
+        },
+        "Hány azonos értékű lapja van a pókerjátékosnak, ha drillje van?": {
+            "A": "Kettő",
+            "B": "*Három",
+            "C": "Négy",
+            "D": "Öt"
+        },
+        "Mi kell a snúrozás nevű játékhoz?": {
+            "A": "Kártya",
+            "B": "Dobókocka",
+            "C": "*Pénzérmék",
+            "D": "Labda"
+        },
+        "Hogy nevezik a sakkban a megnyitás után néhány lépéssel adott mattot?": {
+            "A": "Baktermatt",
+            "B": "*Susztermatt",
+            "C": "Kondásmatt",
+            "D": "Pandúrmatt"
+        },
+        "Mivel játsszák a römi nevű játékot?": {
+            "A": "Dominóval",
+            "B": "Sakkfigurákkal",
+            "C": "*Francia kártyával",
+            "D": "Magyar kártyával"
+        },
+        "Honnan \"jöttünk\" a népszerű társasági játék neve szerint?": {
+            "A": "Angolából",
+            "B": "Angliából",
+            "C": "*Amerikából",
+            "D": "Ausztráliából"
+        },
+        "Melyik a kanaszta nevű kártyajátékban használt kifejezés?": {
+            "A": "Jegelés",
+            "B": "*Fagyasztás",
+            "C": "Olvasztás",
+            "D": "Forralás"
+        },
+        "Melyikkel játsszák a rexet?": {
+            "A": "*Dákóval és golyókkal",
+            "B": "Kártyával",
+            "C": "Bábokkal és játéktáblával",
+            "D": "Malomkövekkel"
+        },
+        "Milyen játék a talonmáriás?": {
+            "A": "*Kártyajáték",
+            "B": "Dámajáték",
+            "C": "Sakkjáték",
+            "D": "Dominójáték"
+        },
         "Hogyan nevezik a bíborosok pápaválasztó gyűlését?": {
             "A": "Konvent",
             "B": "Konkordátum",
             "C": "Kongregáció",
-            "D": "*Konklávé",
-            "N": 7
+            "D": "*Konklávé"
         },
         "Hány stációt járt végig Jézus Krisztus a keresztúton?": {
             "A": "7",
