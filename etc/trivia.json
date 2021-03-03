@@ -2799,8 +2799,7 @@
             "A": "Iskolai fenyítő eszköz",
             "B": "Rossz minőségű benzin",
             "C": "Afrikai vadtulok",
-            "D": "*Csillagászati szögmérő műszer",
-            "N": 4
+            "D": "*Csillagászati szögmérő műszer"
         },
         "Milyen \"ágyú\" a katonai mozgókonyha?": {
             "A": "Pörkölt",
@@ -4002,7 +4001,7 @@
             "C": "Víztől",
             "D": "*Nyílt terektől"
         },
-        "Melyik szó nem egy szemüvegfajtát takar?": {
+        "Melyik szó NEM egy szemüvegfajtát takar?": {
             "A": "Lornyon",
             "B": "Okuláré",
             "C": "Monokli",
@@ -5257,8 +5256,7 @@
             "A": "*Frédéric Chopin",
             "B": "Franz Schubert",
             "C": "Liszt Ferenc",
-            "D": "Ludwig van Beethoven",
-            "N": 8
+            "D": "Ludwig van Beethoven"
         },
         "Milyen címen írt zenekari művet Debbussy?": {
             "A": "Egy pán reggele",
@@ -5338,7 +5336,7 @@
             "C": "Légy hű magadhoz!",
             "D": "A gonosz végül pórul jár"
         },
-        "Melyik egy világhírű Offenbach-eperett címe?": {
+        "Melyik egy világhírű Offenbach-operett címe?": {
             "A": "*Szép Heléna",
             "B": "Féltékeny Héra",
             "C": "Hatalmas Aphrodité",
