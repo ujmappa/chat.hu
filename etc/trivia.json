@@ -5406,6 +5406,241 @@
         }
     },
     "misc": {
+        "Hogyan nevezik a bíborosok pápaválasztó gyűlését?": {
+            "A": "Konvent",
+            "B": "Konkordátum",
+            "C": "Kongregáció",
+            "D": "*Konklávé",
+            "N": 7
+        },
+        "Hány stációt járt végig Jézus Krisztus a keresztúton?": {
+            "A": "7",
+            "B": "*14",
+            "C": "10",
+            "D": "12"
+        },
+        "Ki volt a sakálfejű isten az egyiptomi mitológiában?": {
+            "A": "Ozirisz",
+            "B": "Ízisz",
+            "C": "*Anubisz",
+            "D": "Ámon-Ré"
+        },
+        "Hogyan ábrázolják Justitiát, az igazság istennőjét?": {
+            "A": "Lándzsával a kezében",
+            "B": "Törvénykönyvvel a kezében",
+            "C": "Bekötött szájjal",
+            "D": "*Bekötött szemmel"
+        },
+        "Hogy nevezik a buddhista szerzetesrendet?": {
+            "A": "Hinajána",
+            "B": "*Szangha",
+            "C": "Dharma",
+            "D": "Mahájána"
+        },
+        "Hány csapással sújtotta az Úr Egyiptomot?": {
+            "A": "Száz",
+            "B": "Tizenkettő",
+            "C": "*Tíz",
+            "D": "Hét"
+        },
+        "Mit őriz a görög mitológiában Cerberus?": {
+            "A": "Zeusz palotáját",
+            "B": "*Az alvilág kapuját",
+            "C": "Az istenek álmát",
+            "D": "A tüzet"
+        },
+        "Ki volt Antigoné apja a görög mitológia szerint?": {
+            "A": "*Oidipusz",
+            "B": "Kreon",
+            "C": "Zeusz",
+            "D": "Agamemnon"
+        },
+        "Hogyan nevezzük az iszlám szent háborúját?": {
+            "A": "Szunna",
+            "B": "Hidzsra",
+            "C": "Ramadán",
+            "D": "*Dzsihád"
+        },
+        "A Biblia szerint hova került József, miután testvérei eladták?": {
+            "A": "Föníciába",
+            "B": "Szíriába",
+            "C": "Perzsiába",
+            "D": "*Egyiptomba"
+        },
+        "Mi szokott lenni Szent Péter kezében az őt ábrázoló képeken?": {
+            "A": "Pálca",
+            "B": "Rózsafüzér",
+            "C": "Esernyő",
+            "D": "*Kulcs"
+        },
+        "Minek volt az istennője a görög mitológiában Nemezis?": {
+            "A": "Költészet",
+            "B": "Családi béke",
+            "C": "Újjászületés",
+            "D": "*Megtorlás"
+        },
+        "Melyik szentet illetik a \"Sárkányölő\" melléknévvel?": {
+            "A": "Szent Lászlót",
+            "B": "*Szent Györgyöt",
+            "C": "Szent Andrást",
+            "D": "Szent Ágostont"
+        },
+        "Milyen néven vált ismertté Gautama Sziddhartha?": {
+            "A": "Visnu",
+            "B": "Siva",
+            "C": "Brahma",
+            "D": "*Buddha"
+        },
+        "Melyik bibliai szereplő álmában jelenik meg egy égbe vezető lajtorja?": {
+            "A": "Izsák",
+            "B": "Jób",
+            "C": "*Jákob",
+            "D": "József"
+        },
+        "Hányszor kell körbejárnia egy iszlám hívőnek Mekkában a Kába-követ?": {
+            "A": "Háromszor",
+            "B": "*Hétszer",
+            "C": "Ötször",
+            "D": "Tízszer"
+        },
+        "Minek az istene volt Poszeidón a görög mitológiában?": {
+            "A": "A kovácsművesség",
+            "B": "*A tenger",
+            "C": "A bor",
+            "D": "A bölcsesség"
+        },
+        "Ki nem nőnemű az alábbi mitológiai alakok közül?": {
+            "A": "Erisz",
+            "B": "Déméter",
+            "C": "*Daphnis",
+            "D": "Khrüszéisz"
+        },
+        "A Biblia szerint ki mosta kezeit Jézus elítélésekor?": {
+            "A": "*Pontius Pilátus",
+            "B": "Kajafás",
+            "C": "Júdás",
+            "D": "Heródes"
+        },
+        "Mit jelent az imákban gyakran használt malaszt szó?": {
+            "A": "Áhitat",
+            "B": "*Kegyelem",
+            "C": "Menedék",
+            "D": "Segítség"
+        },
+        "Milyen alakban ábrázolták az ókori egyiptomiak Hórusz istent?": {
+            "A": "Bagoly",
+            "B": "*Sólyom",
+            "C": "Tehén",
+            "D": "Sakál"
+        },
+        "Kinek adja Párisz Erisz aranyalmáját a mitológiai szépségverseny bírájaként?": {
+            "A": "*Aphroditének",
+            "B": "Pallasz Athénének",
+            "C": "Hérának",
+            "D": "Helénának"
+        },
+        "A Biblia szerint milyen állat állkapcsával ütött agyon Sámson ezer filiszteust?": {
+            "A": "Kecske",
+            "B": "*Szamár",
+            "C": "Oroszlán",
+            "D": "Borjú"
+        },
+        "Mi előtt áll az iszlám hívő, ha a ramadánra készül?": {
+            "A": "Szent háború",
+            "B": "*Böjti hónap",
+            "C": "Rituális öngyilkosság",
+            "D": "Esküvői lakoma"
+        },
+        "Kit lesett meg fürdőzés közben Dávid a palotája tetejéről a Biblia szerint?": {
+            "A": "Juditot",
+            "B": "Zsuzsannát",
+            "C": "Ráchelt",
+            "D": "*Betsabét"
+        },
+        "Melyik görög istennel azonosították a római Mercuriust?": {
+            "A": "Dionüszosszal",
+            "B": "*Hermésszel",
+            "C": "Pánnal",
+            "D": "Apollónnal"
+        },
+        "Ki volt Oresztész testvére a görög mitológiában?": {
+            "A": "Antigoné",
+            "B": "Oidipusz",
+            "C": "*Élektra",
+            "D": "Orpheusz"
+        },
+        "Mije volt a görög mitológiából ismert Kharónnak?": {
+            "A": "Szamárfeje",
+            "B": "*Ladikja",
+            "C": "Mérhetetlen kincse",
+            "D": "Varázserejű nyila"
+        },
+        "Melyik madár égeti el magát, majd születik újjá ötszáz évenként a hiedelem szerint?": {
+            "A": "Griff",
+            "B": "*Főnix",
+            "C": "Turul",
+            "D": "Falkon"
+        },
+        "Kik voltak a danaidák a görög mitológiában?": {
+            "A": "A sors istennői",
+            "B": "*Férjgyilkos asszonyok",
+            "C": "Zeusz törvénytelen lányai",
+            "D": "Tengeri tündérek"
+        },
+        "Kik voltak jósnők az alábbi mitológiai lények közül?": {
+            "A": "Hárpiák",
+            "B": "Fúriák",
+            "C": "Szirének",
+            "D": "*Szibillák"
+        },
+        "Milyen nyelvű bibliafordítás a Vulgata?": {
+            "A": "Görög",
+            "B": "Héber",
+            "C": "*Latin",
+            "D": "Olasz"
+        },
+        "Ki volt Argosz, akinek nevéből az árgus szavunk ered?": {
+            "A": "Egyszemű óriás",
+            "B": "*Százszemű szörny",
+            "C": "Az aranygyapjú őrzője",
+            "D": "Az alvilág őre"
+        },
+        "Ki volt Polüphémosz?": {
+            "A": "*Egyszemű óriás",
+            "B": "Milétoszi filozófus",
+            "C": "Krétai király",
+            "D": "Trójai hős"
+        },
+        "Hogyan született a mitológia szerint Aphrodité?": {
+            "A": "*A tenger habjaiból",
+            "B": "Egy hattyútojásból",
+            "C": "A Nap sugaraiból",
+            "D": "Egy almamagból"
+        },
+        "Ki az alvilág görög istenének, Hádésznak a római megfelelője?": {
+            "A": "Pollux",
+            "B": "Pygmalion",
+            "C": "*Pluto",
+            "D": "Pallasz"
+        },
+        "Melyik elveszett állatról szól Jézus egyik példabeszéde?": {
+            "A": "Szamár",
+            "B": "Kutya",
+            "C": "*Bárány",
+            "D": "Disznó"
+        },
+        "Ki a tenger istene a római mitológiában?": {
+            "A": "*Neptunus",
+            "B": "Mercurius",
+            "C": "Pluto",
+            "D": "Saturnus"
+        },
+        "Melyik istenség tartozik a germán mitológiához az alábbiak közül?": {
+            "A": "Ámon-Ré",
+            "B": "Siva",
+            "C": "Minerva",
+            "D": "*Thor"
+        },
         "Mivel tartósítanak a kandírozás során?": {
             "A": "Sóval",
             "B": "Ecettel",
