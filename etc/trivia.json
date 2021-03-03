@@ -4794,7 +4794,8 @@
             "A": "Erkel Ferenc",
             "B": "Mosonyi Mihály",
             "C": "*Egressy Béni",
-            "D": "Liszt Ferenc"
+            "D": "Liszt Ferenc",
+            "X": "A költeményre Egressy Béni írt zenét 1843-ban, amikor annak megzenésítésére Bartay András, nemzeti színházi igazgató pályadíjat tűzött ki"
         },
         "Mi a foglalkozása Figarónak Rossini operájában?": {
             "A": "Ékszerész",
@@ -5405,6 +5406,174 @@
         }
     },
     "misc": {
+        "Mivel tartósítanak a kandírozás során?": {
+            "A": "Sóval",
+            "B": "Ecettel",
+            "C": "*Cukorral",
+            "D": "Szesszel"
+        },
+        "Az alábbi ételek közül melyiket nevezik \"gömböcnek\"?": {
+            "A": "*A disznósajtot",
+            "B": "A májas hurkát",
+            "C": "A kecskesajtot",
+            "D": "A rozscipót"
+        },
+        "A kakaó melyik rokonát használják üditőital gyártására?": {
+            "A": "A gyömbért",
+            "B": "*A kóladiót",
+            "C": "A kokacserjét",
+            "D": "A kinint"
+        },
+        "Miből készül a kumisz?": {
+            "A": "Kecsketejből",
+            "B": "Rozsból",
+            "C": "*Kancatejből",
+            "D": "Mákból"
+        },
+        "Miből készül a borovicska nevű pálinka?": {
+            "A": "Borsikafűből",
+            "B": "Borsmentából",
+            "C": "*Borókabogyóból",
+            "D": "Borbolyából"
+        },
+        "Az alábbi anyagok közül melyik nem a besamelmártás alapanyaga?": {
+            "A": "Vaj",
+            "B": "Liszt",
+            "C": "Tej",
+            "D": "*Tojás"
+        },
+        "Az alábbi élelmiszerek közül melyik szükséges a marinírozáshoz?": {
+            "A": "Búzadara",
+            "B": "Sajt",
+            "C": "*Ecet",
+            "D": "Tejföl"
+        },
+        "Minek a feltalálását tulajdonítják Pérignon francia szerzetesnek?": {
+            "A": "A burgundi bor",
+            "B": "A mustár",
+            "C": "*A pezsgő",
+            "D": "A trappista sajt"
+        },
+        "Milyen pálinka a román eredetű cujka?": {
+            "A": "*Szilva",
+            "B": "Barack",
+            "C": "Boróka",
+            "D": "Eper"
+        },
+        "Milyen ízesítésű a Sacher-torta?": {
+            "A": "Marcipán",
+            "B": "Mandula",
+            "C": "*Csokoládé",
+            "D": "Vanília"
+        },
+        "Kiről nevezték el a szendvicset?": {
+            "A": "Egy ír tengerészről",
+            "B": "Egy francia énekesnőről",
+            "C": "Egy skót szakácsról",
+            "D": "*Egy angol grófról"
+        },
+        "Mit főzött a háziasszony, ha csirágot készített?": {
+            "A": "Tésztát",
+            "B": "*Spárgát",
+            "C": "Articsókát",
+            "D": "Galambot"
+        },
+        "A marha melyik bontási része a bélszin?": {
+            "A": "*A vesepecsenye",
+            "B": "A magas hátszin",
+            "C": "A fehérpecsenye",
+            "D": "A gömbölyű felsál"
+        },
+        "Melyik nem fehérborszőlő-fajta az alábbiak közül?": {
+            "A": "Leányka",
+            "B": "*Oportó",
+            "C": "Rizlingszilváni",
+            "D": "Kéknyelű"
+        },
+        "Mi a japán konyha egyik jellegzetes étele, a tofu?": {
+            "A": "Szójaszósz",
+            "B": "Bambuszrügy",
+            "C": "*Szójatúró",
+            "D": "Hosszú szemű rizs"
+        },
+        "Az alábbiak közül melyik anyaggal sűrítik az ételt legírozás során?": {
+            "A": "Búzadarával",
+            "B": "*Tojássárgájával",
+            "C": "Kukoricaliszttel",
+            "D": "Tojásfehérjével"
+        },
+        "A marha melyik részéből készül az ököruszály leves?": {
+            "A": "A füléből",
+            "B": "A tőgyéből",
+            "C": "*A farkából",
+            "D": "A veséjéből"
+        },
+        "Milyen italt neveznek murcinak?": {
+            "A": "*Erjedőben lévő újbort",
+            "B": "Friss mézsört",
+            "C": "Málnalikőrt",
+            "D": "Vegyespálinkát"
+        },
+        "Kik ettek először paradicsomot?": {
+            "A": "*Az inkák",
+            "B": "A kínaiak",
+            "C": "Az indiaiak",
+            "D": "A törökök"
+        },
+        "Melyik a korhelyleves alapanyaga az alábbiak közül?": {
+            "A": "Aludttej",
+            "B": "*Savanyú káposzta leve",
+            "C": "Fehérbor",
+            "D": "Sűrített paradicsom"
+        },
+        "Miről kapta nevét a könnyű vörösborfajta, a chianti?": {
+            "A": "*Egy toscanai dombságról",
+            "B": "Egy szicíliai hegyről",
+            "C": "Egy korzikai síkságról",
+            "D": "Egy lombardiai folyóról"
+        },
+        "Miből készül a hecsedlilekvár?": {
+            "A": "Szilvából",
+            "B": "*Csipkebogyóból",
+            "C": "Eperből",
+            "D": "Málnából"
+        },
+        "Milyen étel a minestrone?": {
+            "A": "*Leves",
+            "B": "Báránysült",
+            "C": "Fagylalt",
+            "D": "Pizza"
+        },
+        "A borjú melyik bontási részéből vásárol, aki frikandót vesz?": {
+            "A": "Gerinc",
+            "B": "Szegy",
+            "C": "Lapocka",
+            "D": "*Comb"
+        },
+        "Mit tesznek a sertésbordához, ha \"hentes módra\" készítik?": {
+            "A": "*Ecetes uborkát",
+            "B": "Savanyú káposztát",
+            "C": "Céklát",
+            "D": "Tormát"
+        },
+        "Melyik egy péksütemény elnevezése?": {
+            "A": "Szakadtzsemle",
+            "B": "Lezserlinzer",
+            "C": "Topisbukta",
+            "D": "*Rongyoskifli"
+        },
+        "Miről kapta a nevét a parmezán sajt?": {
+            "A": "*Olasz városról",
+            "B": "Tehénfajtáról",
+            "C": "Szerzetesrendről",
+            "D": "Szicíliai hegyről"
+        },
+        "Mit eszik, aki smarnit falatozik?": {
+            "A": "Rizsfelfújtat",
+            "B": "Sült burgonyát",
+            "C": "*Császármorzsát",
+            "D": "Füstölt halat"
+        },
         "Melyik nem húros hangszer az alábbiak közül?": {
             "A": "Viola da gamba",
             "B": "Citera",
