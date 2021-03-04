@@ -56,13 +56,6 @@
             "D": "Termoszféra",
             "X": "The ionosphere is an abundant layer of electrons and ionized atoms and molecules that stretches from about 48 kilometers (30 miles) above the surface of the Earth to the edge of space at about 965 km (600 mi). This dynamic region grows and shrinks based on solar conditions. Because of its high concentration of ions and free electrons, this region is able to reflect radio waves and makes radio communications possible."
         },
-        "Mekkora egy kolibri pulzusa?": {
-            "A": "170 dobbanás percenként",
-            "B": "240 dobbanás percenként",
-            "C": "600 dobbanás percenként",
-            "D": "*1260 dobbanás percenként",
-            "X": "While in flight, hummingbirds have the highest metabolism of all animals (excluding insects). Their heart rate can reach as much as 1,260 beats per minute."
-        },
         "Miért kapott Albert Einstein Nobel-díjat 1921-ben?": {
             "A": "*Fotoelektromos hatás",
             "B": "Hullám-részecske kettősség",
@@ -90,13 +83,6 @@
             "C": "*A szeizmográfot",
             "D": "Az iránytűt",
             "X": "The first seismograph was invented in 132 A.D. by the Chinese astronomer and mathematician Chang Heng. It consisted of a ceramic urn with eight dragons attached to its sides. Each dragon held a small bronze ball in its mouth. Whenever there was even a slight earth tremor, a mechanism inside the seismograph would open the mouth of one dragon, and the bronze ball would fall into the open mouth of one of eight toads sitting below. Imperial watchman could tell which direction the earthquake came from by seeing which dragon's mouth was empty."
-        },
-        "Milyen gyorsan ver a szárnyaival egy kolibri (szárnycsapás másodpercenként)?": {
-            "A": "15",
-            "B": "50",
-            "C": "*80",
-            "D": "600",
-            "X": "A typical hummingbird can flap its wings up to 80 times per second."
         },
         "Mi az oganesszon periodósus rendszáma?": {
             "A": "84",
@@ -4585,6 +4571,12 @@
         }
     },
     "cult": {
+        "Melyik balettben szerepelnek egerek?": {
+            "A": "*Csajkovszkij: Diótörő",
+            "B": "Hacsaturján: Spartacus",
+            "C": "Delibes: Coppélia",
+            "D": "Csajkovszkij: Csipkerózsika"
+        },
         "Hogy nevezi az utókor Blaha Lujzát?": {
             "A": "Az avoni hattyú",
             "B": "A legdalosabb magyar",
@@ -5403,7 +5395,287 @@
             "D": "Trisztán és Izolda"
         }
     },
+    "art": {
+        "Ki tervezte az Országház épületét?": {
+            "A": "Lotz Károly",
+            "B": "*Steindl Imre",
+            "C": "Schulek Frigyes",
+            "D": "Alpár Ignác"
+        },
+        "Hogy nevezik a gótikus katedrálisok homlokzatának nagy, kerek ablakait?": {
+            "A": "Napablak",
+            "B": "Glóriaablak",
+            "C": "*Rózsaablak",
+            "D": "Holdablak"
+        },
+        "Ki tervezte a debreceni Arany Bika Szálló épületét?": {
+            "A": "Hild József",
+            "B": "*Hajós Alfréd",
+            "C": "Ybl Miklós",
+            "D": "Pollack Mihály"
+        },
+        "Milyen építészeti stílusban épült a budapesti Halászbástya?": {
+            "A": "Neogótikus",
+            "B": "Barokk",
+            "C": "*Neoromán",
+            "D": "Klasszicista"
+        },
+        "Melyik királyunk NEM szerepel a Hősök terén látható millenniumi emlékművön?": {
+            "A": "*Zsigmond",
+            "B": "IV. Béla",
+            "C": "Nagy Lajos",
+            "D": "II. András"
+        },
+        "Az alábbiak közül melyik NEM volt ókori görög építészeti stílus?": {
+            "A": "Dór",
+            "B": "Ión",
+            "C": "Korinthoszi",
+            "D": "*Akkád"
+        },
+        "Kit kért II. Gyula pápa saját síremlékének megtervezésére?": {
+            "A": "Leonardo da Vincit",
+            "B": "*Michelangelót",
+            "C": "Raffaellót",
+            "D": "Donatellót"
+        },
+        "Milyen nőt ábrázol Munkácsy ismert, 1873-as képe?": {
+            "A": "Korsóvívő",
+            "B": "Bordóruhás",
+            "C": "*Rőzsehordó",
+            "D": "Gyermekét tartó"
+        },
+        "Mi a címe Edvard Munch 1939-es képének, mely egy rémült, kétségbeesett alakot ábrázol?": {
+            "A": "A sokk",
+            "B": "*A sikoly",
+            "C": "A megriadt ló",
+            "D": "A rémület arca"
+        },
+        "Ki készítette a firenzei Dávid szobrot?": {
+            "A": "*Michelangelo",
+            "B": "Leonardo",
+            "C": "Amerigo Tot",
+            "D": "Caravaggio"
+        },
+        "Mi volt az a téma, amit Rembrandt majdnem minden évben megfestett?": {
+            "A": "Apja portréja",
+            "B": "Felesége aktja",
+            "C": "*Önarcképe",
+            "D": "Szobabelső"
+        },
+        "Melyik szín egyik árnyalatát nevezték el a híres festőről, Tizianóról?": {
+            "A": "Kék",
+            "B": "Zöld",
+            "C": "*Vörös",
+            "D": "Sárga"
+        },
+        "Melyik világhírű festmény viseli a Gioconda nevet is?": {
+            "A": "Renoir: Az olvasó nő",
+            "B": "Goya: Meztelen Maya",
+            "C": "*Leonardo: Mona Lisa",
+            "D": "Szinyei: A lilaruhás nő"
+        },
+        "Ki az a híres festő, aki levágta a saját fülét?": {
+            "A": "Gauguin",
+            "B": "Cézanne",
+            "C": "*Van Gogh",
+            "D": "Tolulouse-Lautrec"
+        },
+        "Az alábbi festménytémák közül melyik lehet pieta?": {
+            "A": "Egy gyümölcsöstál",
+            "B": "*A fiát sirató Mária",
+            "C": "Csatajelenet",
+            "D": "Mitológiai jelenet"
+        },
+        "Milyen zsiráf szerepel Salvador Dali híres képén?": {
+            "A": "Harántcsíkos",
+            "B": "*Lángoló",
+            "C": "Nyolclábú",
+            "D": "Kétfejű"
+        },
+        "Ki az a festő, akinek gyakori témája volt a sevillai piactér?": {
+            "A": "Caravaggio",
+            "B": "Goya",
+            "C": "El Greco",
+            "D": "*Velázquez"
+        },
+        "Melyik festményével nyert aranyérmet Munkácsy Mihály 1870-ben Párizsban?": {
+            "A": "Tépéscsinálók",
+            "B": "Ásító inas",
+            "C": "*Siralomház",
+            "D": "Éjjeli csavargók"
+        },
+        "Ki vagy mi riad meg a villámlástól Delacroix festményén?": {
+            "A": "Egy kisfiú",
+            "B": "Egy szarvas",
+            "C": "Egy cselédlány",
+            "D": "*Egy ló"
+        },
+        "Kit ábrázol Izsó Miklós legismertebb szobra?": {
+            "A": "Töprengő kondást",
+            "B": "Bóbiskoló gulyást",
+            "C": "Flótázó pásztort",
+            "D": "*Búsuló juhászt"
+        },
+        "Ki küzd meg a sárkánnyal a Kolozsvári testvérek egyetlen fennmaradt szobrán?": {
+            "A": "*Szent György",
+            "B": "Szent Márk",
+            "C": "Szent Vencel",
+            "D": "Szent Flórián"
+        },
+        "Milyen kisasszonyok címmel festette meg Picasso 1907-ben az első jelentős kubista alkotást?": {
+            "A": "Sevillai",
+            "B": "*Avignoni",
+            "C": "Madridi",
+            "D": "Párizsi"
+        },
+        "Ki volt a modellje a Mona Lisának a XVI. századi festő és művészeti író, Giorgio Vasari leírása szerint?": {
+            "A": "*Egy firenzei polgár felesége",
+            "B": "A velencei dózse lánya",
+            "C": "A pápa unokahúga",
+            "D": "Egy ismeretlen szolgálónő"
+        },
+        "Honnan kapta a címét Picasso Guernica című képe?": {
+            "A": "Egy színárnyalatról",
+            "B": "*Egy városról",
+            "C": "Egy balett-táncosnőről",
+            "D": "Egy mecénás lányáról"
+        },
+        "Melyik híres reneszánsz festő foglalkozott anatómiai és optikai kísérletekkel is?": {
+            "A": "Raffaello",
+            "B": "*Leonardo",
+            "C": "Michelangelo",
+            "D": "Tiziano"
+        },
+        "Milyen felkérésre készítette Rembrandt az Éjjeli őrjárat című festményt?": {
+            "A": "Egy polgármesterére",
+            "B": "Egy pápáéra",
+            "C": "*Egy lövészegyletére",
+            "D": "Egy kaszárnyáéra"
+        },
+        "Ki készített portrét II. Gyula pápáról?": {
+            "A": "Veronese",
+            "B": "Tintoretto",
+            "C": "*Raffaello",
+            "D": "Giorgione"
+        },
+        "Hol alakult ki az ikonfestészet központja a X. században?": {
+            "A": "Avignonban",
+            "B": "Ravennában",
+            "C": "*Bizáncban",
+            "D": "Kijevben"
+        },
+        "Ki készített bronz Dávid-szobrot a Mediciek számára?": {
+            "A": "Michelangelo",
+            "B": "*Donatello",
+            "C": "Bernini",
+            "D": "Pisano"
+        },
+        "Melyik stílusirányzatban alkotott pályája jelentős, korai szakaszában Paul Gauguin?": {
+            "A": "Expresszionizmus",
+            "B": "*Impresszionizmus",
+            "C": "Kubizmus",
+            "D": "Szürrealizmus"
+        },
+        "Kiket látunk a puttókat ábrázoló képzőművészeti alkotásokon?": {
+            "A": "Szüretelő munkásokat",
+            "B": "Mitológiai szörnyeket",
+            "C": "*Pufók angyalokat",
+            "D": "Ókeresztény vértanúkat"
+        },
+        "Melyik reneszánsz művész tervezett repülőgépet?": {
+            "A": "Dante Alighieri",
+            "B": "*Leonardo da Vinci",
+            "C": "Giorgio Vasari",
+            "D": "Michelangelo Buonarroti"
+        },
+        "Milyen előadáson találkozhatunk mimussal?": {
+            "A": "Árnyjáték",
+            "B": "Bábjáték",
+            "C": "*Pantomim",
+            "D": "Opera"
+        },
+        "Milyen művészeti ággal foglalkozó ember találkozik tanulmányai során az Arnolfini házaspárral?": {
+            "A": "*Festészettel",
+            "B": "Irodalommal",
+            "C": "Szobrászattal",
+            "D": "Színművészettel"
+        },
+        "Ki volt Rembrandt modellje élete utolsó éveiben?": {
+            "A": "Cybille",
+            "B": "Saskia",
+            "C": "*Hendrickje",
+            "D": "Kirsten"
+        },
+        "Melyik művészeti ág jeles képviselője a világhírű Marcel Marceau?": {
+            "A": "Operaénekes",
+            "B": "*Pantomimművész",
+            "C": "Szobrász",
+            "D": "Zongoraművész"
+        },
+        "Mit kerülnek munkáik során az absztrakt művészek?": {
+            "A": "Színek használatát",
+            "B": "*Tárgyábrázolást",
+            "C": "Érintkezést a külvilággal",
+            "D": "Kilétük felfedését"
+        },
+        "Kinek a műhelyében tanult Leonardo da Vinci?": {
+            "A": "Mantegna",
+            "B": "Masaccio",
+            "C": "Veronese",
+            "D": "*Verrocchio"
+        },
+        "Mely városban tekinthető meg Leonardo az Utolsó vacsora című freskója?": {
+            "A": "Firenzében",
+            "B": "*Milánóban",
+            "C": "Rómában",
+            "D": "Velencében"
+        },
+        "Melyik az a festői technika, melynek képviselői kisebb tárgyakat ragasztanak a képekre?": {
+            "A": "Bandázs",
+            "B": "Grillázs",
+            "C": "*Kollázs",
+            "D": "Masszázs"
+        },
+        "Melyik képzőművészeti irányzat jellegzetes ábrázolási eszközei a geometriai formák?": {
+            "A": "Eklekticizmus",
+            "B": "Fauvizmus",
+            "C": "*Kubizmus",
+            "D": "Aktvivizmus"
+        },
+        "Kinek a megkeresztelését ábrázolja Benczúr Gyula ismert festménye?": {
+            "A": "Jézus",
+            "B": "Szent János",
+            "C": "*Vajk",
+            "D": "Szent Gellért"
+        },
+        "Mely országból származott a neves festő, Edvard Munch?": {
+            "A": "Anglia",
+            "B": "Svédország",
+            "C": "*Norvégia",
+            "D": "Skócia"
+        },
+        "Kinek a tanítványa volt Rippl-Rónai József?": {
+            "A": "Paál László",
+            "B": "*Munkácsy Mihály",
+            "C": "Benczúr Gyula",
+            "D": "Székely Bertalan"
+        }
+    },
     "nat": {
+        "Milyen gyorsan ver a szárnyaival egy kolibri (szárnycsapás másodpercenként)?": {
+            "A": "15",
+            "B": "50",
+            "C": "*80",
+            "D": "600",
+            "X": "A typical hummingbird can flap its wings up to 80 times per second."
+        },
+        "Mekkora egy kolibri pulzusa?": {
+            "A": "170 dobbanás percenként",
+            "B": "240 dobbanás percenként",
+            "C": "600 dobbanás percenként",
+            "D": "*1260 dobbanás percenként",
+            "X": "While in flight, hummingbirds have the highest metabolism of all animals (excluding insects). Their heart rate can reach as much as 1,260 beats per minute."
+        },
         "Hogy nevezzük másképpen a kárókatonát?": {
             "A": "Obsitos",
             "B": "Treff bubi",
