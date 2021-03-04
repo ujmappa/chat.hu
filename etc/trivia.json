@@ -4571,6 +4571,150 @@
         }
     },
     "cult": {
+        "Hol játszódik Bernstein \"West Side Story\" című musicalje?": {
+            "A": "San Franciscoban",
+            "B": "Los Angelesben",
+            "C": "*New Yorkban",
+            "D": "Londonban"
+        },
+        "Melyik királyunkról írt rock-operát a Szörényi-Bródy szerzőpáros 1983-ban?": {
+            "A": "Szent Lászlóról",
+            "B": "*Szent Istvánról",
+            "C": "Könyves Kálmánról",
+            "D": "Mátyás királyról"
+        },
+        "Milyen állatokról írt musicalt Andrew Lloyd Webber?": {
+            "A": "Elefántokról",
+            "B": "Medvékről",
+            "C": "*Macskákról",
+            "D": "Denevérekről"
+        },
+        "Az alábbi musicalek közül melyiket komponálta utoljára Andrew Lloyd Webber?": {
+            "A": "Macskák",
+            "B": "Evita",
+            "C": "Jézus Krisztus Szupersztár",
+            "D": "*Az Operaház fantomja"
+        },
+        "Melyik rock-operában éneklik, hogy \"Ringasd el magad!\"?": {
+            "A": "A nyomorultak",
+            "B": "*Képzelt riport...",
+            "C": "István, a király",
+            "D": "Sztárcsinálók"
+        },
+        "Melyik városban játszódik a Kabaré című musical?": {
+            "A": "Rómában",
+            "B": "Párizsban",
+            "C": "Bécsben",
+            "D": "*Berlinben"
+        },
+        "Melyik történelmi alakot játszotta Vikidál Gyula az István, a király című rockopera ősbemutatóján?": {
+            "A": "Istvánt",
+            "B": "Asztrikot",
+            "C": "*Koppányt",
+            "D": "Gézát"
+        },
+        "Melyik történelmi korban játszódik a \"Valahol Európában\" című musical?": {
+            "A": "A lovagkorban",
+            "B": "Az ipari forradalom idején",
+            "C": "*A II. világháború után",
+            "D": "A honfoglalás korában"
+        },
+        "Ki a főhőse a \"La Mancha lovagja\" című musicalnek?": {
+            "A": "Robin Hood",
+            "B": "János vitéz",
+            "C": "*Don Quijote",
+            "D": "Zorro"
+        },
+        "Ki a zeneszerzője a \"Jézus Krisztus szupersztár\" című rock-operának?": {
+            "A": "Leonard Bernstein",
+            "B": "Presser Gábor",
+            "C": "Galt McDermott",
+            "D": "*Andrew Lloyd Webber"
+        },
+        "Ki írta Szörényi Levente rockoperája, az Attila, Isten kardja dalainak szövegét?": {
+            "A": "Bródy János",
+            "B": "*Lezsák Sándor",
+            "C": "Illés Lajos",
+            "D": "Tolcsvay Béla"
+        },
+        "Egy ház melyik részében játszódik Presser Gábor 1987-ben bemutatott musicalje?": {
+            "A": "A pincében",
+            "B": "A garázsban",
+            "C": "*A padláson",
+            "D": "A lépcsőházban"
+        },
+        "Mi a címe Szörényi Levente és Bródy János 2000-ben bemutatott darabjának?": {
+            "A": "Mária országa",
+            "B": "Szállj, szabad madár!",
+            "C": "*Veled, uram!",
+            "D": "Kálmán, a könyves"
+        },
+        "Victor Hugo melyik regényéből készült musical főszerepét játszotta Vikidál Gyula?": {
+            "A": "A párizsi Notre-Dame",
+            "B": "*A nyomorultak",
+            "C": "A nevető ember",
+            "D": "A tenger munkásai"
+        },
+        "Mi a címe Lloyd Webber musicaljének: \"József és a színes, szélesvásznú …\"": {
+            "A": "Filmkocka",
+            "B": "Televízió",
+            "C": "*Álomkabát",
+            "D": "Csodasaru"
+        },
+        "Az alábbi zenés darabok közül melyiknek nem Presser Gábor a zeneszerzője?": {
+            "A": "A próba",
+            "B": "Harmincéves vagyok",
+            "C": "A padlás",
+            "D": "*Isten pénze"
+        },
+        "Melyik országban játszódik a \"Hegedűs a háztetőn\" című musical?": {
+            "A": "*Oroszországban",
+            "B": "Franciaországban",
+            "C": "Izraelben",
+            "D": "Lengyelországban"
+        },
+        "Melyik meseregényből készített musicalt Geszti Péter és Dés László?": {
+            "A": "Micimackó",
+            "B": "Végtelen történet",
+            "C": "Alice csodaországban",
+            "D": "*A dzsungel könyve"
+        },
+        "Ki írta a Képzelt riport egy amerikai popfesztiválról című musical dalszövegeit?": {
+            "A": "Sztevanovity Dusán",
+            "B": "Bródy János",
+            "C": "*Adamis Anna",
+            "D": "Bereményi Géza"
+        },
+        "Mi a címe Munkácsi Miklós színpadi művének: \"Mindhalálig ...\"": {
+            "A": "Metallica",
+            "B": "*Beatles",
+            "C": "Rolling Stones",
+            "D": "Rock 'n' Roll"
+        },
+        "Ki a Hair című musical zeneszerzője?": {
+            "A": "*Galt McDermot",
+            "B": "Leonard Bernstein",
+            "C": "Andrew Lloyd Webber",
+            "D": "John Kander"
+        },
+        "Ki írta a Jézus Krisztus szupersztár című Webber-musical dalszövegeit?": {
+            "A": "Peter Gabriel",
+            "B": "Paul Simon",
+            "C": "Robert Plant",
+            "D": "*Tim Rice"
+        },
+        "Melyik rockoperában hangzik el a \"Te kit választanál?\" kezdetű dal?": {
+            "A": "Sztárcsinálók",
+            "B": "Attila",
+            "C": "*István, a király",
+            "D": "Jézus Krisztus szupersztár"
+        },
+        "Melyik egy Szörényi Levente és Bródy János által írt rockopera címe?": {
+            "A": "A kitaszított",
+            "B": "*A kiátkozott",
+            "C": "Az elátkozott",
+            "D": "A kitagadott"
+        },
         "Melyik balettben szerepelnek egerek?": {
             "A": "*Csajkovszkij: Diótörő",
             "B": "Hacsaturján: Spartacus",
@@ -9293,12 +9437,6 @@
             "C": "Bölcsészeket",
             "D": "Zenészeket"
         },
-        "Melyik díjat alapította Péchy Blanka színésznő?": {
-            "A": "Karinthy-díjat",
-            "B": "*Kazinczy-díjat",
-            "C": "József Attila-díjat",
-            "D": "Jászai-díjat"
-        },
         "Kiknek a képzésére hozták létre az Eötvös Kollégiumot?": {
             "A": "*Tanárok",
             "B": "Orvosok",
@@ -9316,12 +9454,6 @@
             "B": "Tulipános ládákat",
             "C": "A tisztaszobákat",
             "D": "Cserépkályhákat"
-        },
-        "Hány árbóca volt egy hagyományos fregattnak?": {
-            "A": "Egy",
-            "B": "Kettő",
-            "C": "*Három",
-            "D": "Négy"
         },
         "Hol lépnek fel a matadorok?": {
             "A": "Operában",
