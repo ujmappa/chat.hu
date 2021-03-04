@@ -366,7 +366,7 @@
             "C": "Salome",
             "D": "Antónia"
         },
-        "Az alábbi történelmi alakok közül kit nem Ádám személyesít meg Az ember tragédiájában?": {
+        "Az alábbi történelmi alakok közül kit NEM Ádám személyesít meg Az ember tragédiájában?": {
             "A": "Miltiadész",
             "B": "Kepler",
             "C": "*Michelangelo",
@@ -3157,7 +3157,7 @@
         },
         "Hogyan reszket a fázó vagy ijedt ember a szólás szerint?": {
             "A": "*Mint a nyárfalevél",
-            "B": "Mint a miskolci kacsa",
+            "B": "Mint a miskolci béka",
             "C": "Mint a harcsabajusz",
             "D": "Mint Marci hevesen"
         },
@@ -5013,7 +5013,7 @@
             "D": "Sevillában"
         },
         "Ki szerezte a Brandenburgi versenyek zenéjét?": {
-            "A": "Georg Friedrich Handel",
+            "A": "Georg Friedrich H&auml;ndel",
             "B": "*Johann Sebastian Bach",
             "C": "Antonio Vivaldi",
             "D": "Georg Philipp Telemann"
@@ -5403,6 +5403,1503 @@
             "D": "Trisztán és Izolda"
         }
     },
+    "bio": {
+        "Hol található a csarnokvíz?": {
+            "A": "A pályaudvaron",
+            "B": "*A szemben",
+            "C": "A tejcsarnokban",
+            "D": "Barlangfürdőben"
+        },
+        "Hogy nevezzük másképpen a kárókatonát?": {
+            "A": "Obsitos",
+            "B": "Treff bubi",
+            "C": "Bölömbika",
+            "D": "*Kormorán"
+        },
+        "Hol használták régen az édesvízi piócák egyes fajait?": {
+            "A": "A növénynemesítéseknél",
+            "B": "A harcászatban",
+            "C": "*A gyógyászatban",
+            "D": "A szakácsművészetben"
+        },
+        "Mi a neve a hím szamárnak?": {
+            "A": "Kan",
+            "B": "Mén",
+            "C": "Ünő",
+            "D": "*Csődör"
+        },
+        "Mi történik a mimóza levelével, ha megérintjük?": {
+            "A": "Elporlad",
+            "B": "Szétnyílik",
+            "C": "*Összecsukódik",
+            "D": "Festékanyagot spriccel"
+        },
+        "Melyik az a ruhaipari anyag, amelyet fiatal kecske bőréből készítenek?": {
+            "A": "*Sevró",
+            "B": "Szatén",
+            "C": "Velúr",
+            "D": "Nubuk"
+        },
+        "Miért szorítja meg ujjunkat egy újszülött csecsemő?": {
+            "A": "Így kér enni",
+            "B": "*A fogóreflex miatt",
+            "C": "Így mutatja ki a szeretetét",
+            "D": "Hogy figyeljünk rá"
+        },
+        "Az egyik magyar népmesében égig ér a paszuly. Milyen növény ez a valóságban?": {
+            "A": "Jegenye",
+            "B": "*Bab",
+            "C": "Gaz",
+            "D": "Borsó"
+        },
+        "Melyik testrészünk csontjai: a kalapács, az üllő és a kengyel?": {
+            "A": "A láb",
+            "B": "A kéz",
+            "C": "A váll",
+            "D": "*A fül"
+        },
+        "Hogyan tájékozódnak éjszaka a denevérek?": {
+            "A": "*Ultrahanggal",
+            "B": "Karmaikkal",
+            "C": "Szárnyaikkal",
+            "D": "Faroktollaikkal"
+        },
+        "Milyen növény a borbolya?": {
+            "A": "Moha",
+            "B": "*Fenyőféle",
+            "C": "Páfrány",
+            "D": "Gombaféle"
+        },
+        "Az előlények milyen képessége a mimikri?": {
+            "A": "Szárazságtűrés",
+            "B": "Fényenergia-átalakítás",
+            "C": "*Szín- és alakutánzás",
+            "D": "Szaganyag-felismerés"
+        },
+        "Melyik madár tud hátrafelé is repülni?": {
+            "A": "Gólya",
+            "B": "Sas",
+            "C": "Galamb",
+            "D": "*Kolibri"
+        },
+        "Az alábbiak közül milyen alapszínű lehet a levelibéka?": {
+            "A": "Sárga",
+            "B": "Fehér",
+            "C": "*Zöld",
+            "D": "Fekete"
+        },
+        "Milyen állatokat tart, akinek guppijai vannak?": {
+            "A": "Ugróegereket",
+            "B": "Csörgőkígyókat",
+            "C": "*Díszhalakat",
+            "D": "Teheneket"
+        },
+        "Melyik nem növény az alábbiak közül?": {
+            "A": "Boglárka",
+            "B": "Gyöngyvirág",
+            "C": "*Tiszavirág",
+            "D": "Csombor"
+        },
+        "Meddig nevezünk egy tehenet üszőnek?": {
+            "A": "Egy hónapos koráig",
+            "B": "*Míg nem ellik",
+            "C": "Két éves koráig",
+            "D": "Az utolsó ellésig"
+        },
+        "Melyik ma is élő állat hossza haladhatja meg a 30 métert?": {
+            "A": "Palackorrú delfin",
+            "B": "*Kékbálna",
+            "C": "Robusztuskígyó",
+            "D": "Gigantoteknős"
+        },
+        "Mi az ókori egyiptomiak szent bogarának, a szkarabeusznak a mai neve?": {
+            "A": "Szarvasbogár",
+            "B": "Katicabogár",
+            "C": "*Galacsinhajtó bogár",
+            "D": "Kőrisbogár"
+        },
+        "Milyen alakú baktériumok a bacilusok?": {
+            "A": "*Pálcika",
+            "B": "Gömb",
+            "C": "Csavar",
+            "D": "Kúp"
+        },
+        "Ki fedezte fel a penicilint?": {
+            "A": "*Sir Alexander Fleming",
+            "B": "Paul Ehrlich",
+            "C": "Howard Temin",
+            "D": "Robert Koch"
+        },
+        "Hol élnek a jegesmedvék?": {
+            "A": "*Az Északi-sarkon",
+            "B": "A Déli-sarkon",
+            "C": "Mindkét sarkvidéken",
+            "D": "Dél-Ausztráliában"
+        },
+        "Az alábbiak közül melyik egy szőlőfajta neve?": {
+            "A": "Desdemona",
+            "B": "*Otelló",
+            "C": "Rómeó",
+            "D": "Prosperó"
+        },
+        "Melyik betegség ellen védenek a Sabin-cseppek?": {
+            "A": "Torokgyík",
+            "B": "*Gyermekbénulás",
+            "C": "Szamárköhögés",
+            "D": "Tuberkolózis"
+        },
+        "Melyik növény szárított húsa a kopra?": {
+            "A": "Kivi",
+            "B": "*Kókuszdió",
+            "C": "Licsi",
+            "D": "Kesudió"
+        },
+        "Milyen állat a dromedár?": {
+            "A": "*Egypúpú teve",
+            "B": "Kétpúpú teve",
+            "C": "Szamár és öszvér utóda",
+            "D": "Ló és öszvér utóda"
+        },
+        "Melyik szervünk betegsége a gümőkór?": {
+            "A": "A fogé",
+            "B": "A májé",
+            "C": "A bőré",
+            "D": "*A tüdőé"
+        },
+        "Milyen színű nyáron a hermelin bundája?": {
+            "A": "Fekete",
+            "B": "Szürke",
+            "C": "*Barna",
+            "D": "Fehér"
+        },
+        "Hol él a trópusi gyümölcs nevével megegyezző nevű madár, a kivi?": {
+            "A": "Dél-Amerikában",
+            "B": "*Új-Zélandon",
+            "C": "Afrikában",
+            "D": "Szibériában"
+        },
+        "Az alábbiak közül melyik nem halfajta?": {
+            "A": "Viza",
+            "B": "Tok",
+            "C": "Harcsa",
+            "D": "*Varsa"
+        },
+        "Melyik testrészünk csontja a singcsont?": {
+            "A": "A koponyáé",
+            "B": "*Az alkaré",
+            "C": "A törzsé",
+            "D": "A lábszáré"
+        },
+        "Mi a növényi sejtfalakat felípítő szénhidrát neve?": {
+            "A": "Laktóz",
+            "B": "*Cellulóz",
+            "C": "Maltóz",
+            "D": "Glükóz"
+        },
+        "Melyik állat tetteti magát halottnak vészhelyzetben?": {
+            "A": "Pávián",
+            "B": "*Oposszum",
+            "C": "Ugróegér",
+            "D": "Gekkó"
+        },
+        "Hol vannak planktonok?": {
+            "A": "*A tengerekben",
+            "B": "Az őserdők fáin",
+            "C": "A magas sziklákon",
+            "D": "A tavaszi réteken"
+        },
+        "Melyik gázlómadár az alábbiak közül?": {
+            "A": "Sólyom",
+            "B": "Ölyv",
+            "C": "*Gulipán",
+            "D": "Cinke"
+        },
+        "Melyik állat lehet kilencöves?": {
+            "A": "*Tatu",
+            "B": "Hangyász",
+            "C": "Medúza",
+            "D": "Teknős"
+        },
+        "Minek a szállításával végzik a méhek a virágok beporzását?": {
+            "A": "A nektár",
+            "B": "A bibe",
+            "C": "*A pollen",
+            "D": "A párta"
+        },
+        "A csicsóka melyik része ehető?": {
+            "A": "A virágzata",
+            "B": "A levele",
+            "C": "*A gyökérgumója",
+            "D": "A magja"
+        },
+        "Melyik állat lakik dúcban?": {
+            "A": "*Galamb",
+            "B": "Fecske",
+            "C": "Veréb",
+            "D": "Párduc"
+        },
+        "Melyik állat jelzője a \"kacagó\"?": {
+            "A": "*Hiéna",
+            "B": "Koala",
+            "C": "Cerkófmajom",
+            "D": "Lajhár"
+        },
+        "Melyik állat mirigyéből nyertek régen a bíborfestéket?": {
+            "A": "Bíborkagyló",
+            "B": "Bíborpolip",
+            "C": "Bíborlepke",
+            "D": "*Bíborcsiga"
+        },
+        "Melyik állattal áll szoros rokonságban a vidra?": {
+            "A": "Fóka",
+            "B": "*Menyét",
+            "C": "Patkány",
+            "D": "Hidra"
+        },
+        "Miből van a szervezetünkben: vékony, vastag, patkó?": {
+            "A": "*Bél",
+            "B": "Bőr",
+            "C": "Ideg",
+            "D": "Hártya"
+        },
+        "Az alábbi női nevek közül melyik nem növénynév?": {
+            "A": "Amarillisz",
+            "B": "Erika",
+            "C": "*Xénia",
+            "D": "Georgina"
+        },
+        "Melyik állat hímje a gácsér?": {
+            "A": "*Kacsa",
+            "B": "Gyöngytyúk",
+            "C": "Fajd",
+            "D": "Páva"
+        },
+        "Melyik növényt alkalmazták szemölcs ellen?": {
+            "A": "Árvacsalán",
+            "B": "*Vérehulló fecskefű",
+            "C": "Fehér mályva",
+            "D": "Fagyöngy"
+        },
+        "Melyik állatnak van csáprágója?": {
+            "A": "A szitakötőnek",
+            "B": "A tarisznyaráknak",
+            "C": "A pontytetűnek",
+            "D": "*A póknak"
+        },
+        "Hol él a varacskos disznó?": {
+            "A": "Faodúkban",
+            "B": "*Föld alatti lyukakban",
+            "C": "Sárból tapasztott vackokban",
+            "D": "Dús aljnövényzetben"
+        },
+        "Melyik szervünk termeli az inzulint?": {
+            "A": "A pajzsmirigy",
+            "B": "*A hasnyálmirigy",
+            "C": "A mellékvese",
+            "D": "Az agyalapi mirigy"
+        },
+        "Melyik fogai hosszabodtak meg az őskorban élt kardfogú tigrisnek?": {
+            "A": "A metszőfogai",
+            "B": "*A szemfogai",
+            "C": "Az őrlőfogai",
+            "D": "A zápfogai"
+        },
+        "Melyik állat WWF (Vadvédelmi világalapítvány) címerállata?": {
+            "A": "Koala",
+            "B": "*Óriáspanda",
+            "C": "Oroszlán",
+            "D": "Kenguru"
+        },
+        "Melyik állat nem tartozik a nagymacskák közé?": {
+            "A": "Tigris",
+            "B": "Oroszlán",
+            "C": "Jaguár",
+            "D": "*Hiúz"
+        },
+        "Melyik vitamin hiánya okozza a farkasvakságot?": {
+            "A": "D vitamin",
+            "B": "K vitamin",
+            "C": "*A vitamin",
+            "D": "B vitamin"
+        },
+        "Az alábbiak közül melyik állat lakóhelyét nevezzük kotoréknak?": {
+            "A": "*A rókáét",
+            "B": "A medvéét",
+            "C": "A mókusét",
+            "D": "A farkasét"
+        },
+        "Hogyan nevezzük a pillangók kialakulásának egyik fázisát?": {
+            "A": "Hernyózás",
+            "B": "*Bebábozódás",
+            "C": "Bábozás",
+            "D": "Begubódzás"
+        },
+        "Milyen állat a vadnyugati regényekből ismert coyote?": {
+            "A": "Vadló",
+            "B": "Szürke medve",
+            "C": "*Prérifarkas",
+            "D": "Bölény"
+        },
+        "Hogy hívják a moszatok és a gombák hasznos együttéléséből létrejövő növényi telepet?": {
+            "A": "*Zuzmó",
+            "B": "Páfrány",
+            "C": "Moha",
+            "D": "Alga"
+        },
+        "Melyik íz érzékelhető a nyelv hátsó részén (a nyelvgyökön)?": {
+            "A": "*Keserű",
+            "B": "Édes",
+            "C": "Savanyú",
+            "D": "Sós"
+        },
+        "Melyik amerikai államról nevezték el a krumplibogarat?": {
+            "A": "Buffalo",
+            "B": "Florida",
+            "C": "*Colorado",
+            "D": "Kansas"
+        },
+        "Milyen állatot nevezhetnek jerkének?": {
+            "A": "Tyúkot",
+            "B": "*Bárányt",
+            "C": "Szamarat",
+            "D": "Pulykát"
+        },
+        "Milyen állat a varánusz?": {
+            "A": "Krokodil",
+            "B": "*Gyík",
+            "C": "Cápa ",
+            "D": "Majom"
+        },
+        "Melyik növényt nevezik nősziromnak?": {
+            "A": "A tulipánt",
+            "B": "Az orchideát",
+            "C": "*Az íriszt",
+            "D": "A nárciszt"
+        },
+        "Milyen betegséggel hozható összefüggésbe Szent Balázs neve?": {
+            "A": "*Torokgyík",
+            "B": "Kanyaró",
+            "C": "Gyermekbénulás",
+            "D": "Skarlát"
+        },
+        "Hol hasznosítják az ámbráscetekből nyert váladékot?": {
+            "A": "A konyhaművészetben",
+            "B": "*A kozmetikai iparban",
+            "C": "A halászatban",
+            "D": "A motorolajgyártásban"
+        },
+        "Melyik szent nevét viseli az éjszaka világító bogár?": {
+            "A": "*Szent János",
+            "B": "Szent Ferenc",
+            "C": "Szent Péter",
+            "D": "Szent Ignác"
+        },
+        "Melyik a leggyorsabb rövidtávfutó szárazföldi állat?": {
+            "A": "Emu",
+            "B": "*Gepárd",
+            "C": "Párduc",
+            "D": "Jaguár"
+        },
+        "Milyen élőlény a susulyka?": {
+            "A": "Rovar",
+            "B": "*Gomba",
+            "C": "Énekesmadár",
+            "D": "Futóbab"
+        },
+        "Mi a neve az elefántok két ma élő fajának?": {
+            "A": "Nílusi és amazonasi",
+            "B": "Ázsiai és bengáli",
+            "C": "*Afrikai és indiai",
+            "D": "Alaszkai és mandzsúriai"
+        },
+        "Melyik madár NEM rak fészket?": {
+            "A": "Kolibri",
+            "B": "Gólya",
+            "C": "*Császárpingvin",
+            "D": "Kócsag"
+        },
+        "Melyik növénnyel NEM áll rokonságban a paradicsom?": {
+            "A": "A burgonyával",
+            "B": "A padlizsánnal",
+            "C": "A paprikával",
+            "D": "*Az uborkával"
+        },
+        "A felsoroltak közül melyik NEM emberszabású majom?": {
+            "A": "Orángután",
+            "B": "Csimpánz",
+            "C": "*Galléros pávián",
+            "D": "Gorilla"
+        },
+        "Melyik állat erszényes?": {
+            "A": "Antilop",
+            "B": "Panda",
+            "C": "*Koala",
+            "D": "Mosómedve"
+        },
+        "Melyik állítás NEM igaz a sünre?": {
+            "A": "Éjjel vadászik",
+            "B": "Megeszi a csigát",
+            "C": "Téli álmot alszik",
+            "D": "*Nagy családokban él"
+        },
+        "A sáfrány melyik részéből készítenek fűszert?": {
+            "A": "Porzószálaiból",
+            "B": "Rügyeiből",
+            "C": "Magházából",
+            "D": "*Bibeszálából"
+        },
+        "Az alábbi növények közül melyik nem spórával szaporodnak?": {
+            "A": "Páfrányok",
+            "B": "Zsurlók",
+            "C": "Mohák",
+            "D": "*Ciprusfélék"
+        },
+        "Ki eszik a zsákmányból legelőszőr egy oroszlánfalkában?": {
+            "A": "*A vezérhím",
+            "B": "A kölyökhím",
+            "C": "A vezérnőstény",
+            "D": "A kölyöknőstény"
+        },
+        "Melyik madár \"bízza\" fiókái kiköltését más madarakra?": {
+            "A": "Sárgarigó",
+            "B": "Seregély",
+            "C": "Galamb",
+            "D": "*Kakukk"
+        },
+        "Melyik a legnagyobb testű macskafaj?": {
+            "A": "Oroszlán",
+            "B": "*Szibériai tigris",
+            "C": "Párduc",
+            "D": "Jaguár"
+        },
+        "Mi a jegesmedvék fő tápláléka?": {
+            "A": "Plankton",
+            "B": "*Fóka",
+            "C": "Alga",
+            "D": "Pingvin"
+        },
+        "Az alábbi növények közül melyik a mák rokona?": {
+            "A": "*Pipacs",
+            "B": "Tulipán",
+            "C": "Muskátli",
+            "D": "Liliom"
+        },
+        "Milyen baromfi a kappan?": {
+            "A": "Hím liba",
+            "B": "Nőstény kacsa",
+            "C": "*Herélt kakas",
+            "D": "Keveset tojó tyúk"
+        },
+        "Milyen betegséget terjeszt a cecelégy?": {
+            "A": "Sárgalázt",
+            "B": "Influenzát",
+            "C": "*Álomkórt",
+            "D": "Maláriát"
+        },
+        "Hogyan nevezzük a békák lárvaállapotát?": {
+            "A": "Alga",
+            "B": "*Ebihal",
+            "C": "Pondró",
+            "D": "Csibor"
+        },
+        "Melyik vitamin hiánya okoz skorbutot?": {
+            "A": "*C vitamin",
+            "B": "D vitamin",
+            "C": "A vitamin",
+            "D": "E vitamin"
+        },
+        "Melyik állatfajnak nem lehet előtagja az angóra?": {
+            "A": "Kecske",
+            "B": "Macska",
+            "C": "Nyúl",
+            "D": "*Nyest"
+        },
+        "Hol élnek a rénszarvasok?": {
+            "A": "Az esőerdőkben",
+            "B": "A szavannákon",
+            "C": "*Az Északi sarkkör táján",
+            "D": "A Déli sarkkör táján"
+        },
+        "Az alábbiak közül melyik állat képes gyorsan megváltoztatni a színét szükség esetén?": {
+            "A": "A sarki róka",
+            "B": "*A kaméleon",
+            "C": "A levelibéka",
+            "D": "A varánusz"
+        },
+        "Milyen gyümölcsfajta kapta az Idared nevet?": {
+            "A": "Görögdinnye",
+            "B": "*Alma",
+            "C": "Körte",
+            "D": "Szilva"
+        },
+        "Ha egy betegséget nadállyal gyógyítottak, mi volt a \"csodaszer\"?": {
+            "A": "Kanalas orvosság",
+            "B": "*Pióca",
+            "C": "Kamillatea",
+            "D": "Iszapfürdő"
+        },
+        "Hogyan nevezik az elefánt utódját?": {
+            "A": "Pulya",
+            "B": "*Borjú",
+            "C": "Gida",
+            "D": "Csikó"
+        },
+        "Melyik állattal kerestetik meg a szarvasgombát?": {
+            "A": "Macskával",
+            "B": "*Disznóval",
+            "C": "Menyéttel",
+            "D": "Szarvassal"
+        },
+        "Az alábbiak közül melyik a tátika másik elnevezése?": {
+            "A": "Tigrispilla",
+            "B": "Pumapamacs",
+            "C": "Hiénaláb",
+            "D": "*Oroszlánszáj"
+        },
+        "Milyen orvoshoz fordulunk panaszunkkal, ha fáj a fauxunk?": {
+            "A": "Bőrgyógyászhoz",
+            "B": "Urológushoz",
+            "C": "Fogorvoshoz",
+            "D": "*Gégészhez"
+        },
+        "A kakaófa melyik részéből készítik a kakaóport?": {
+            "A": "A kérgéből",
+            "B": "A gyökeréből",
+            "C": "*A terméséből",
+            "D": "A rügyéből"
+        },
+        "Az alábbiak közül melyik egy madárfajta neve?": {
+            "A": "Tavaszapó",
+            "B": "Nyárapó",
+            "C": "*Őszapó",
+            "D": "Télapó"
+        },
+        "Melyik női névvel fejezhetjük ki egy adott terület növényvilágát?": {
+            "A": "Leonóra",
+            "B": "Anasztázia",
+            "C": "*Flóra",
+            "D": "Emerencia"
+        },
+        "Hogy nevezzük a bolhák megnyúlt, megvastagodott hátsó lábát?": {
+            "A": "Ciripláb",
+            "B": "Rovátkolt láb",
+            "C": "*Ugróláb",
+            "D": "Iksz láb"
+        },
+        "Milyen madár az albatrosz?": {
+            "A": "Kétéltű",
+            "B": "Élveszülő",
+            "C": "*Tengeri",
+            "D": "Csökevényes szárnyú"
+        },
+        "Melyik növény NEM áll rokonságban a tökkel?": {
+            "A": "Uborka",
+            "B": "Cukkini",
+            "C": "Sárgadinnye",
+            "D": "*Avokádó"
+        },
+        "A növények mely családjába tartozik a lótuszvirág?": {
+            "A": "Varázsdiófélék",
+            "B": "Vénuszhajfélék",
+            "C": "*Tündérrózsafélék",
+            "D": "Liliomfafélék"
+        },
+        "Milyen állat a halfarkas?": {
+            "A": "Ragadozó",
+            "B": "Tengeri hal",
+            "C": "*Madár",
+            "D": "Rágcsáló"
+        },
+        "Melyik testrészünkben találhatók csapok és pálcikák?": {
+            "A": "A fülben",
+            "B": "A fogban",
+            "C": "Az orrban",
+            "D": "*A szemben"
+        },
+        "Milyen anyagból van az orrszarvú tülke?": {
+            "A": "Csont",
+            "B": "*Szaru",
+            "C": "Megkeményedett bőr",
+            "D": "Megkövesedett mész"
+        },
+        "Melyik hal úszik majdnem függőleges testtartásban?": {
+            "A": "Sünhal",
+            "B": "Ebihal",
+            "C": "Denevérhal",
+            "D": "*Csikóhal"
+        },
+        "Milyen állat az ocelot?": {
+            "A": "Rágcsáló",
+            "B": "Hal",
+            "C": "*Macskaféle",
+            "D": "Kutyaféle"
+        },
+        "Melyik állat készít a vakondéhoz hasonló túrásokat?": {
+            "A": "Mongúz",
+            "B": "*Földikutya",
+            "C": "Krill",
+            "D": "Cickány"
+        },
+        "Melyik madárra illik szó szerint az állítás? \"Iszik, mint a gödény.\"": {
+            "A": "A struccra",
+            "B": "A flamingóra",
+            "C": "*A pelikánra",
+            "D": "A gólyára"
+        },
+        "Melyik állat nem erszényes?": {
+            "A": "Oposszum",
+            "B": "Kuszkusz",
+            "C": "*Pele",
+            "D": "Vombat"
+        },
+        "Az alábbiak közül melyik nem ragadozó madár?": {
+            "A": "Vércse",
+            "B": "Gatyásölyv",
+            "C": "Vándorsólyom",
+            "D": "*Varjú"
+        },
+        "Melyik emberi szerv szövete az irha?": {
+            "A": "A nyelv",
+            "B": "Az agy",
+            "C": "*A bőr",
+            "D": "A fül"
+        },
+        "Mi az óriáspöfeteg?": {
+            "A": "Egy darázsfaj",
+            "B": "Egy békafaj",
+            "C": "Egy medúzafaj",
+            "D": "*Egy gombafaj"
+        },
+        "Az alábbiak közül melyik egy létező víziállat neve?": {
+            "A": "Batyuhal",
+            "B": "*Tarisznyarák",
+            "C": "Táskás kígyó",
+            "D": "Szütyős sirály"
+        },
+        "Az alábbi növények közül melyik NEM tűlevelű?": {
+            "A": "Tiszafa",
+            "B": "Boróka",
+            "C": "Törpefenyő",
+            "D": "*Juhar"
+        },
+        "Melyik majomfajta NEM emberszabású?": {
+            "A": "Gorilla",
+            "B": "Orángután",
+            "C": "Csimpánz",
+            "D": "*Makákó"
+        },
+        "Melyik állat lehet a pinty előtagja?": {
+            "A": "Antilop",
+            "B": "*Zebra",
+            "C": "Tigris",
+            "D": "Gácsér"
+        },
+        "Hogyan nevezik az észak-amerikai vadlovakat?": {
+            "A": "Gnú",
+            "B": "Okapi",
+            "C": "*Musztáng",
+            "D": "Impala",
+            "N": 2
+        },
+        "Milyen állat a güzü?": {
+            "A": "Ízeltlábú",
+            "B": "Tengeri gyík",
+            "C": "*Mezei rágcsáló",
+            "D": "Méh"
+        },
+        "Milyen pitypangnak hívják a gyermekláncfüvet?": {
+            "A": "Pipogya",
+            "B": "Patyolat",
+            "C": "*Pongyola",
+            "D": "Papucs"
+        },
+        "Milyen állat a kazuár?": {
+            "A": "Ausztráliai hüllő",
+            "B": "Macskaféle",
+            "C": "*Futómadár",
+            "D": "Medúza"
+        },
+        "Milyen növényrész a barka?": {
+            "A": "Rügylevél",
+            "B": "*Füzérvirágzat",
+            "C": "Légggyökér",
+            "D": "Termés"
+        },
+        "Melyik férfinév szerepel egy körtefajta nevében?": {
+            "A": "Viktor",
+            "B": "Ödön",
+            "C": "*Vilmos",
+            "D": "Imre"
+        },
+        "Mivel táplálkozik a selyemlepke hernyója?": {
+            "A": "A kínafa kérgével",
+            "B": "A tamariszkusz levelével",
+            "C": "Vízigesztenyével",
+            "D": "*A fehér eperfa levelével"
+        },
+        "Melyik állat épít magának várat az alábbiak közül?": {
+            "A": "*Hód",
+            "B": "Ürge",
+            "C": "Pocok",
+            "D": "Nyest"
+        },
+        "Melyik bagolyfajta latin nevét kapta a rajzfilmhős dr. Bubo?": {
+            "A": "Sarki bagoly",
+            "B": "Kuvik",
+            "C": "*Uhu",
+            "D": "Búbos bagoly"
+        },
+        "Az alábbiak közül melyik egy termesztett dohányfaj elnevezése?": {
+            "A": "Kasza",
+            "B": "Ásó",
+            "C": "*Kapa",
+            "D": "Nagyharang"
+        },
+        "Melyik gyümölcs terem pálmafán az alábbiak közül?": {
+            "A": "Banán",
+            "B": "Citrom",
+            "C": "*Datolya",
+            "D": "Füge"
+        },
+        "Melyik vitamin hiánya okoz fokozott vérzéshajlamot?": {
+            "A": "A vitamin",
+            "B": "*K vitamin",
+            "C": "D vitamin",
+            "D": "B vitamin"
+        },
+        "Mivel táplálkozik a folyton rágcsáló koala?": {
+            "A": "Bambusszal",
+            "B": "*Eukaliptuszlevéllel",
+            "C": "Cukorrépával",
+            "D": "Kókusszal"
+        },
+        "Milyen állat az ürü?": {
+            "A": "Fiatal bárány",
+            "B": "*Herélt kos",
+            "C": "Idős szarvasmarha",
+            "D": "Versenyló"
+        },
+        "Milyen kártevők a peronoszpórafélék?": {
+            "A": "*Gombák",
+            "B": "Atkák",
+            "C": "Tetvek",
+            "D": "Vírusok"
+        },
+        "A virágnak melyik része a kocsány?": {
+            "A": "A szírma",
+            "B": "A porzója",
+            "C": "*A nyele",
+            "D": "A bibéje"
+        },
+        "Melyik vadon élő állat nőstényét nevezzük sutának?": {
+            "A": "Mókus",
+            "B": "*Őz",
+            "C": "Strucc",
+            "D": "Zerge"
+        },
+        "Az alábbiak közül melyikben tehet kárt a zsizsik?": {
+            "A": "*A babban",
+            "B": "A parkettában",
+            "C": "A burgonyalevélben",
+            "D": "A ruhában"
+        },
+        "Milyen az a ló, amelyet hókának neveznek?": {
+            "A": "Szelídíthetetlen",
+            "B": "*Foltos homlokú",
+            "C": "Nagyon gyors",
+            "D": "Fehér színű"
+        },
+        "Melyik növénnyel tartozik egy családba komló?": {
+            "A": "*Kender",
+            "B": "Árpa",
+            "C": "Kökörcsin",
+            "D": "Mák"
+        },
+        "Melyik növényt nevezték török búzának?": {
+            "A": "Az árpát",
+            "B": "A zabot",
+            "C": "*A kukoricát",
+            "D": "A komlót"
+        },
+        "Melyik szervünk termeli az epét?": {
+            "A": "Vese",
+            "B": "*Máj",
+            "C": "Lép",
+            "D": "Tüdő"
+        },
+        "Milyen állat a gödölye?": {
+            "A": "*Nőstény kiskecske",
+            "B": "Hím kisbirka",
+            "C": "Kiskakas",
+            "D": "Kiscsirke"
+        },
+        "Milyen orvoshoz fordul az, aki dermatológushoz megy?": {
+            "A": "Fogorvoshoz",
+            "B": "*Bőrgyógyászhoz",
+            "C": "Szemészhez",
+            "D": "Nőgyógyászhoz"
+        },
+        "Melyik medvefajt nevezzük grizzlynek?": {
+            "A": "A fekete medvét",
+            "B": "*A szürke medvét",
+            "C": "Az örvös medvét",
+            "D": "A jegesmedvét"
+        },
+        "Melyik állat lehet kardszárnyú?": {
+            "A": "Szirti sas",
+            "B": "Kárókatona",
+            "C": "Kardhal",
+            "D": "*Delfin"
+        },
+        "Milyen lehet egy gőte az alábbiak közül?": {
+            "A": "Búbos",
+            "B": "*Tarajos",
+            "C": "Bóbitás",
+            "D": "Copfos"
+        },
+        "Milyen betegséget okoz az inzulintermelés zavara?": {
+            "A": "Vérszegénységet",
+            "B": "Farkasvakságot",
+            "C": "*Cukorbetegséget",
+            "D": "Gyomorfekélyt"
+        },
+        "Miből készül az élesztő?": {
+            "A": "*Gombákból",
+            "B": "Algákból",
+            "C": "Baktériumokból",
+            "D": "Mohákból"
+        },
+        "Milyen állat a hárpia?": {
+            "A": "Emlős",
+            "B": "Hal",
+            "C": "Hüllő",
+            "D": "*Madár"
+        },
+        "Melyik növény NEM tartozik a pázsitfűfélék közé?": {
+            "A": "Kukorica",
+            "B": "Cukornád",
+            "C": "*Len",
+            "D": "Árpa"
+        },
+        "Mely macskaféle példányai élnek szabadon is Európában?": {
+            "A": "Tigris",
+            "B": "Oroszlán",
+            "C": "*Hiúz",
+            "D": "Puma"
+        },
+        "Melyik földrészen él a kenguru?": {
+            "A": "Afrikában",
+            "B": "*Ausztráliában",
+            "C": "Dél-Amerikában",
+            "D": "Ázsiában"
+        },
+        "Mik \"laknak\" külön a kétlaki növényeken?": {
+            "A": "A levelek és a gyökerek",
+            "B": "*A porzós és a termős virágok",
+            "C": "A madarak és a méhek",
+            "D": "Az összeveszett katicák"
+        },
+        "Hogyan nevezik, amikor egy állatfaj két egyede harc nélkül dönt valamelyikük elsőbbségéről?": {
+            "A": "Paktum",
+            "B": "Blöffölés",
+            "C": "Snúrozás",
+            "D": "*Pózolás"
+        },
+        "Melyik ruhadarab neve jelöli a gombák egyik családját?": {
+            "A": "Ködmön",
+            "B": "*Kucsma",
+            "C": "Kapca",
+            "D": "Csákó"
+        },
+        "Melyik állítás NEM igaz a pelefélékre?": {
+            "A": "Éjszakai életet élnek",
+            "B": "Némelyik téli álmot alszik",
+            "C": "*Ragadozó állatok",
+            "D": "A farkuk bozontos"
+        },
+        "Az alábbiak közül melyik a szarvasmarha közeli rokona?": {
+            "A": "Emu",
+            "B": "*Zebu",
+            "C": "Tatu",
+            "D": "Nandu"
+        },
+        "Melyik növényt termesztik vízzel elárasztott parcellákon is?": {
+            "A": "Árpát",
+            "B": "Kukoricát",
+            "C": "*Rizst",
+            "D": "Rozst"
+        },
+        "Melyik állatnak nincs bajsza?": {
+            "A": "Macska",
+            "B": "Harcsa",
+            "C": "Fóka",
+            "D": "*Béka"
+        },
+        "Hol található az ember egyensúlyérző szerve?": {
+            "A": "A talpon",
+            "B": "A gerincoszlopban",
+            "C": "*A fülben",
+            "D": "A homloküregben"
+        },
+        "Milyen állat a nünüke?": {
+            "A": "Mókusféle",
+            "B": "*Nagy testű bogár",
+            "C": "Erdei rigó",
+            "D": "Mezei nyúl kicsinye"
+        },
+        "Melyik betegség régies elnevezése a sápkór?": {
+            "A": "Himlő",
+            "B": "Gyomorfekély",
+            "C": "*Vérszegénység",
+            "D": "Epilepszia"
+        },
+        "Az alábbiak közül melyik egy cédrusfaj neve?": {
+            "A": "Lesothói",
+            "B": "Líbiai",
+            "C": "*Libanoni",
+            "D": "Libériai"
+        },
+        "Mely növénynek van csuhéja?": {
+            "A": "Paradicsom",
+            "B": "*Kukorica",
+            "C": "Borsó",
+            "D": "Burgonya"
+        },
+        "Az alábbi növények közül melyik lombhullató?": {
+            "A": "Libanoni cédrus",
+            "B": "*Vörösfenyő",
+            "C": "Duglászfenyő",
+            "D": "Atlaszcédrus"
+        },
+        "Milyen állat az elsőként bemutatott, testi sejtből klónozott emlős, Dolly?": {
+            "A": "Kecske",
+            "B": "*Bárány",
+            "C": "Szarvasmarha",
+            "D": "Ló"
+        },
+        "Melyik gyümölcsnek van bogyótermése?": {
+            "A": "Alma",
+            "B": "*Szőlő",
+            "C": "Szilva",
+            "D": "Dinnye"
+        },
+        "Melyik földrészen honos a mosómedve?": {
+            "A": "Afrika",
+            "B": "Ázsia",
+            "C": "*Amerika",
+            "D": "Ausztrália"
+        },
+        "Milyen madarak a lórik?": {
+            "A": "Kolibrik",
+            "B": "*Papagájok",
+            "C": "Galambok",
+            "D": "Sirályok"
+        },
+        "Milyen mitológiai lények nevét viseli a tengeri tehenek rendje?": {
+            "A": "Valkűrök",
+            "B": "*Szirének",
+            "C": "Hérák",
+            "D": "Hetérák"
+        },
+        "Az alábbi helyszínek közül hol találkozhatunk egy jakkal?": {
+            "A": "A prérin",
+            "B": "*Tibetben",
+            "C": "Az Amazonasban",
+            "D": "A déli sarkvidéken"
+        },
+        "Melyik állat prémje a szilszkin?": {
+            "A": "Nyest",
+            "B": "Menyét",
+            "C": "*Fóka",
+            "D": "Róka"
+        },
+        "Melyik \"hír\" egy növény neve?": {
+            "A": "Füsti fecskehír",
+            "B": "Varangyos békahír",
+            "C": "Buta libahír",
+            "D": "*Mocsári gólyahír"
+        },
+        "Milyen állat a languszta?": {
+            "A": "*Rák",
+            "B": "Hal",
+            "C": "Kagyló",
+            "D": "Csiga"
+        },
+        "Melyik állat hímjét nevezzük kakasnak az alábbiak közül?": {
+            "A": "Gólya",
+            "B": "Liba",
+            "C": "*Fácán",
+            "D": "Vöcsök"
+        },
+        "A növény melyik részéből bújik elő a sziklevél?": {
+            "A": "Az ágából",
+            "B": "*A magjából",
+            "C": "A gyökeréből",
+            "D": "A törzséből"
+        },
+        "Milyen állat volt az iguanodon?": {
+            "A": "Kutya",
+            "B": "*Dinoszaurusz",
+            "C": "Nagymacska",
+            "D": "Cet"
+        },
+        "Milyen állatfajta a mamba?": {
+            "A": "Majom",
+            "B": "Antilop",
+            "C": "*Kígyó",
+            "D": "Delfin"
+        },
+        "Melyik madárcsapat tagjai repülnek \"V\" alakban?": {
+            "A": "Verebek",
+            "B": "Fecskék",
+            "C": "*Vadludak",
+            "D": "Galambok"
+        },
+        "Melyik gyümölcs az alma rokona?": {
+            "A": "A füge",
+            "B": "*A birs",
+            "C": "A kókuszdió",
+            "D": "A datolya"
+        },
+        "Milyen színű télen a sarki róka bundája?": {
+            "A": "*Fehér",
+            "B": "Vörös",
+            "C": "Barna",
+            "D": "Fekete"
+        },
+        "A paratölgy melyik részéből készül a parafa?": {
+            "A": "*Külső kérgéből",
+            "B": "A gyökeréből",
+            "C": "Ágából",
+            "D": "A makkjából"
+        },
+        "Melyik állat NEM a puhatestűek törzsébe tartozik?": {
+            "A": "Tintahal",
+            "B": "Tavikagyló",
+            "C": "Éticsiga",
+            "D": "*Giliszta"
+        },
+        "A szem melyik része szabályozza a bejutó fény mennyiségét?": {
+            "A": "*Pupilla",
+            "B": "Sárgatest",
+            "C": "Csarnokvíz",
+            "D": "Könnymirigy"
+        },
+        "Milyen állat a hosszúfarkú tobzoska?": {
+            "A": "Ritka díszmadár",
+            "B": "Sivatagi gyík",
+            "C": "*Trópusi emlős",
+            "D": "Kis méretű aligátor"
+        },
+        "Mi a neve egy Dél-Amerikában honos denevérfajnak?": {
+            "A": "Libri",
+            "B": "*Vámpír",
+            "C": "Szamba",
+            "D": "Kopasznyakú"
+        },
+        "Milyen állatokkal foglalkozik egy ornitológus?": {
+            "A": "Halakkal",
+            "B": "Rovarokkal",
+            "C": "*Madarakkal",
+            "D": "Hüllőkkel"
+        },
+        "Melyik növény virágjának bimbójából készül fűszer?": {
+            "A": "Bazsalikom",
+            "B": "Kakukkfű",
+            "C": "*Szegfűszeg",
+            "D": "Citromfű"
+        },
+        "Milyen növényrész a becő?": {
+            "A": "*Termés",
+            "B": "Főgyökér",
+            "C": "Levélerezet",
+            "D": "Fakéreg"
+        },
+        "Az alábbiak közül melyik egy módosult állkapcsú, 3-4 méteres tengeri hal neve?": {
+            "A": "Lándzsahal",
+            "B": "*Kardhal",
+            "C": "Karabélyhal",
+            "D": "Szuronyhal"
+        },
+        "Melyik gyümölcs NEM tartozik a csonthéjasok közé?": {
+            "A": "Cseresznye",
+            "B": "Kajszibarack",
+            "C": "Őszibarack",
+            "D": "*Gesztenye"
+        },
+        "Melyik állat lehet \"kaffer\" az alábbiak közül?": {
+            "A": "Kecske",
+            "B": "Láma",
+            "C": "*Bivaly",
+            "D": "Antilop"
+        },
+        "Melyik madár NEM tartozik a rigófélék közé?": {
+            "A": "Vörösbegy",
+            "B": "Fülemüle",
+            "C": "*Fácán",
+            "D": "Kerti rozsdafarkú"
+        },
+        "Melyik állat fajtái a mezei, grönlandi, sarki, sivatagi, tibeti, havasi?": {
+            "A": "Egér",
+            "B": "Medve",
+            "C": "Róka",
+            "D": "*Nyúl"
+        },
+        "Milyen állat a futrinka?": {
+            "A": "*Bogár",
+            "B": "Rágcsáló emlős",
+            "C": "Perui mérges béka",
+            "D": "Futómadár"
+        },
+        "Milyen állat a compó?": {
+            "A": "Trópusi majom",
+            "B": "Nagyszőrű kutya",
+            "C": "Erdei madár",
+            "D": "*Sugarasúszójú hal"
+        },
+        "Melyik gyümölcs NEM a szilva rokona?": {
+            "A": "Mandula",
+            "B": "Őszibarack",
+            "C": "Meggy",
+            "D": "*Dió"
+        },
+        "Mit vizsgál az orvos, ha a mandibulát tapogatja?": {
+            "A": "Az orrot",
+            "B": "A homlokot",
+            "C": "*Az állkapcsot",
+            "D": "A térdet"
+        },
+        "Melyik földrészen van a rizs őshazája?": {
+            "A": "Afrikában",
+            "B": "*Ázsiában",
+            "C": "Dél-Amerikában",
+            "D": "Európában"
+        },
+        "Milyen élőlény a henye boroszlán?": {
+            "A": "*Növény",
+            "B": "Díszhal",
+            "C": "Futómadár",
+            "D": "Sörényes borz"
+        },
+        "Melyik nem rágcsáló az alábbiak közül?": {
+            "A": "Hód",
+            "B": "Hörcsög",
+            "C": "Csincsilla",
+            "D": "*Menyét"
+        },
+        "Melyik pókfaj jellegzetes élettere a trópusi övezet?": {
+            "A": "Keresztes pók",
+            "B": "*Madárpók",
+            "C": "Farkaspók",
+            "D": "Zugpók"
+        },
+        "Melyik állítás NEM igaz a csókára?": {
+            "A": "Szürkés, feketés tollazatú",
+            "B": "Varjúféle",
+            "C": "Társaságban él",
+            "D": "*Hazánkban nem fordul elő"
+        },
+        "Milyen részéért termesztik a szezámot?": {
+            "A": "*Olajos magvaiért",
+            "B": "Ehető gyökérgumóiért",
+            "C": "Fás száráért",
+            "D": "Rostos leveleiért"
+        },
+        "Melyik fa adja nevét egy zöldes színű, kellemetlen szagú bogárnak is?": {
+            "A": "Cseresznye",
+            "B": "*Kőris",
+            "C": "Jegenye",
+            "D": "Bükk"
+        },
+        "Melyik szó egy virágrész elnevezése?": {
+            "A": "Kanál",
+            "B": "Bögre",
+            "C": "*Csésze",
+            "D": "Villa"
+        },
+        "Melyik nem ausztráliai állat az alábbiak közül?": {
+            "A": "Dingó",
+            "B": "Koala",
+            "C": "*Dromedár",
+            "D": "Emu"
+        },
+        "Milyen állat a szipoly?": {
+            "A": "*Kártevő bogár",
+            "B": "Mocsári bolha",
+            "C": "Tavaszi szúnyog",
+            "D": "Barlangi denevér"
+        },
+        "Melyik anyag nem növényi eredetű?": {
+            "A": "Gyanta",
+            "B": "Tömjén",
+            "C": "Mézga",
+            "D": "*Zselatin"
+        },
+        "Hogyan lélegeznek a kagylók?": {
+            "A": "Gázcserenyílással",
+            "B": "Bőrlégzéssel",
+            "C": "*Kopoltyúval",
+            "D": "Tüdővel"
+        },
+        "Melyik egy hosszú csőrű madár neve az alábbiak közül?": {
+            "A": "*Szalonka",
+            "B": "Budoárka",
+            "C": "Gardróbka",
+            "D": "Páholyka"
+        },
+        "Melyik állat ősének tekinthető a masztodon?": {
+            "A": "Oroszlán",
+            "B": "Orrszarvú",
+            "C": "*Elefánt",
+            "D": "Krokodil"
+        },
+        "Melyik növény NEM rokona a körtének?": {
+            "A": "Japánbirs",
+            "B": "Naspolya",
+            "C": "Galagonya",
+            "D": "*Gránátalma"
+        },
+        "Melyik állat NEM tartozik a krokodilok rendjébe?": {
+            "A": "Alligátor",
+            "B": "Kajmán",
+            "C": "Gaviál",
+            "D": "*Baribál"
+        },
+        "Az alábbi gombafajták közül melyik mérgező?": {
+            "A": "Nagy őzlábgomba",
+            "B": "Császárgomba",
+            "C": "Trombitagomba",
+            "D": "*Parlagi tölcsérgomba"
+        },
+        "Mely állatok NEM tartoznak a hártyásszárnyúak rendjébe?": {
+            "A": "Darazsak",
+            "B": "Méhek",
+            "C": "Hangyák",
+            "D": "*Lepkék"
+        },
+        "Mit csinálnak a növényekkel, amikor egyelik?": {
+            "A": "Metszik",
+            "B": "Kapálják",
+            "C": "*Ritkítják",
+            "D": "Permetezik"
+        },
+        "Melyik növény tartozik a nyitvatermők közé?": {
+            "A": "*Jegenyefenyő",
+            "B": "Kocsányos tölgy",
+            "C": "Gyöngyvirág",
+            "D": "Cukornád"
+        },
+        "Melyik részéért termesztik a ricinust?": {
+            "A": "*Olajos magváért",
+            "B": "Rostos száráért",
+            "C": "Ehető virágzatáért",
+            "D": "Húsos gyümölcséért"
+        },
+        "Az állatok melyik rendjébe tartoznak a narválok?": {
+            "A": "Krokodilok",
+            "B": "Teknősök",
+            "C": "*Cetek",
+            "D": "Tüdős halak"
+        },
+        "Melyik madár tartozik a papagájalakúak közé az alábbiak közül?": {
+            "A": "Kócsag",
+            "B": "Kanári",
+            "C": "*Kakadu",
+            "D": "Kenderike"
+        },
+        "Melyik konyhakerti növényt termesztik ehető virágzatáért?": {
+            "A": "Retek",
+            "B": "Zeller",
+            "C": "*Karfiol",
+            "D": "Fejes képoszta"
+        },
+        "Melyik kedves állatot nevezik bambuszmedvének is?": {
+            "A": "Maláj medve",
+            "B": "Mosómedve",
+            "C": "Koala",
+            "D": "*Panda"
+        },
+        "Milyen állat a haris?": {
+            "A": "Hal",
+            "B": "*Madár",
+            "C": "Rovar",
+            "D": "Emlős"
+        },
+        "Honnan szerzik leginkább táplálékukat a kolibrik?": {
+            "A": "Fák odvából",
+            "B": "Más madarak fészkéből",
+            "C": "*Virágok kelyhéből",
+            "D": "Mocsár iszapjából"
+        },
+        "Milyen anyagok közé sorolható a keményítő?": {
+            "A": "Zsírok",
+            "B": "Fehérjék",
+            "C": "*Szénhidrátok",
+            "D": "Vitaminok"
+        },
+        "Melyik növénycsaládba tartoznak a bambuszok?": {
+            "A": "*Pázsitfűfélék",
+            "B": "Pálmafélék",
+            "C": "Banánfélék",
+            "D": "Vasfűfélék"
+        },
+        "Melyik egy növénycsalád neve?": {
+            "A": "Gólyalábfélék",
+            "B": "Gólyafülfélék",
+            "C": "*Gólyaorrfélék",
+            "D": "Gólyaszemfélék"
+        },
+        "Milyen állatot nevez a népnyelv ártánynak?": {
+            "A": "Vaddisznót",
+            "B": "Bivalyt",
+            "C": "*Sertést",
+            "D": "Farkast"
+        },
+        "Melyik állat fajai viselik a barna, szürke, maláj, örvös és jeges elnevezést?": {
+            "A": "Őz",
+            "B": "Tigris",
+            "C": "*Medve",
+            "D": "Nyúl"
+        },
+        "Milyen manó a neve egy Magyarországon is élő ragadozó rovarnak?": {
+            "A": "Remete",
+            "B": "Imamondó",
+            "C": "*Ájtatos",
+            "D": "Csuhás"
+        },
+        "Mikor nyílik ki az újszülött kismacskák szeme?": {
+            "A": "Egy nap után",
+            "B": "*Kb. másfél hét után",
+            "C": "Kb. három hét után",
+            "D": "Egy hónap után"
+        },
+        "Melyik egy nyugat-afrikai majom az alábbiak közül?": {
+            "A": "Mamba",
+            "B": "Mandala",
+            "C": "*Mandrill",
+            "D": "Mangrove"
+        },
+        "Melyik növény rokonai a cédrusok?": {
+            "A": "*Vörösfenyő",
+            "B": "Kocsányos tölgy",
+            "C": "Bükk",
+            "D": "Szelídgesztenye"
+        },
+        "Melyik állat párosujjú patás az alábbiak közül?": {
+            "A": "Orrszarvú",
+            "B": "Ló",
+            "C": "Szamár",
+            "D": "*Sertés"
+        },
+        "Milyen állatok tartoznak a csíkfélék közé?": {
+            "A": "*Halak",
+            "B": "Madarak",
+            "C": "Rákok",
+            "D": "Hüllők"
+        },
+        "Mivel képesek mozogni egyes egysejtűek?": {
+            "A": "Kaccsal",
+            "B": "Indával",
+            "C": "*Csillóval",
+            "D": "Csáppal"
+        },
+        "Milyen állatoknak van zuzájuk?": {
+            "A": "*Madaraknak",
+            "B": "Halaknak",
+            "C": "Kétéltűeknek",
+            "D": "Hüllőknek"
+        },
+        "Melyik állat nem kérődző?": {
+            "A": "Kecske",
+            "B": "Zsiráf",
+            "C": "*Tapír",
+            "D": "Szarvasmarha"
+        },
+        "Milyen rovar a trópusokon élő moszkító?": {
+            "A": "Hangya",
+            "B": "Poloska",
+            "C": "*Szúnyog",
+            "D": "Szitakötő"
+        },
+        "Melyik állatnév előtagja lehet még a pézsma a pockon kívül?": {
+            "A": "Rája",
+            "B": "*Szarvas",
+            "C": "Mókus",
+            "D": "Gödény"
+        },
+        "Melyik vízimadár az alábbiak közül?": {
+            "A": "*Csér",
+            "B": "Csíz",
+            "C": "Csóka",
+            "D": "Csicsörke"
+        },
+        "Hol őshonos a napraforgó?": {
+            "A": "Európában",
+            "B": "*Amerikában",
+            "C": "Afrikában",
+            "D": "Ázsiában"
+        },
+        "Honnan kerültek a Kárpát-medencébe az első komondorok?": {
+            "A": "Észak-Amerikából",
+            "B": "*Ázsiából",
+            "C": "Skandináviából",
+            "D": "Skóciából"
+        },
+        "Melyik állat betegsége a kehesség?": {
+            "A": "Kutya",
+            "B": "Macska",
+            "C": "*Ló",
+            "D": "Juh"
+        },
+        "Hogy nevezik a kukorica porzós virágzatát?": {
+            "A": "*Címer",
+            "B": "Csuhé",
+            "C": "Gubó",
+            "D": "Bajusz"
+        },
+        "Milyen élőlények a mügék?": {
+            "A": "Erszényes rágcsálók",
+            "B": "Halak",
+            "C": "Trópusi madarak",
+            "D": "*Növények"
+        },
+        "Miből készítik a kasmírt?": {
+            "A": "Szarvasbőrből",
+            "B": "*Gyapjúból",
+            "C": "Selyemből",
+            "D": "Kígyóbőrből"
+        },
+        "Az alábbiak közül melyik gombanév?": {
+            "A": "Pukkancs",
+            "B": "Rikkancs",
+            "C": "Görgeteg",
+            "D": "*Pöfeteg"
+        },
+        "Melyik egy kengurufajta neve?": {
+            "A": "Nagyfejű",
+            "B": "Kaktuszevő",
+            "C": "*Fakúszó",
+            "D": "Fületlen"
+        },
+        "Mi a batáta másik elnevezése?": {
+            "A": "Csillagtök",
+            "B": "Cickafark",
+            "C": "*Édesburgonya",
+            "D": "Spárgakel"
+        },
+        "Milyen állat gyurgyalag?": {
+            "A": "Rovar",
+            "B": "Hal",
+            "C": "*Madár",
+            "D": "Emlős"
+        },
+        "Az alábbiak közül melyik növény?": {
+            "A": "Pásztorgyűrű",
+            "B": "*Pásztortáska",
+            "C": "Pásztorsíp",
+            "D": "Pásztorgém"
+        }
+    },
     "misc": {
         "Kinek a képe látható a magyar kártya zöld alsóján?": {
             "A": "Rudenz Ulrich",
@@ -5675,7 +7172,7 @@
             "D": "Khrüszéisz"
         },
         "A Biblia szerint ki mosta kezeit Jézus elítélésekor?": {
-            "A": "*Pontius Pilátus",
+            "A": "*Poncius Pilátus",
             "B": "Kajafás",
             "C": "Júdás",
             "D": "Heródes"
@@ -6292,7 +7789,7 @@
             "C": "*II. János Pál pápa",
             "D": "Henryk Sienkiewicz"
         },
-        "Ki nem volt a híres Bronte-nővérek egyike?": {
+        "Ki NEM volt a híres Bronte-nővérek egyike?": {
             "A": "Charlotte",
             "B": "Anne",
             "C": "Emily",
@@ -6799,7 +8296,7 @@
             "B": "Maradj otthon, mert jól vagy napon",
             "C": "Tükörország napján",
             "D": "Gondold meg magad napon",
-            "X": "Az Őrült Kalapos napja október 6-án van, mert az Őrült Kalapos cilindere “10/6”-s címkével szerepel a könyv illusztrációkban, ugyanakkor 6 hónapra van az áprilisben tartott Bolondok napjától."
+            "X": "Az Őrült Kalapos napja október 6-án van, mert az Őrült Kalapos cilindere \"10/6\"-s címkével szerepel a könyv illusztrációkban, ugyanakkor 6 hónapra van az áprilisban tartott Bolondok napjától."
         },
         "Mikor ünnepelték először nemzeti ünnepként a Martin Luther King napot?": {
             "A": "1971",
@@ -6913,7 +8410,7 @@
             "D": "Grand Theft Auto",
             "X": "Digital diva Lara Croft is the heroine of the Tomb Raider series of video games that revolutionized computer gaming. The Tomb Raider trilogy was so popular it spawned two movies starring Angelina Jolie as the buxom archaeologist."
         },
-        "What meteorological phenomenon causes a warm current of water to appear every three to seven years in the eastern Pacific Ocean, causing unusual weather conditions all over the world?": {
+        "Melyik meteorológiai jelenség okozza három-hét évente a Csendes-óceán keleti része felett megjelenő meleg vízáramot, amely szokatlan időjárási körülményeket okoz a világ minden táján?": {
             "A": "La Mujer",
             "B": "El Hombre",
             "C": "La Ni&ntilde;a",
