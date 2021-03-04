@@ -5403,13 +5403,7 @@
             "D": "Trisztán és Izolda"
         }
     },
-    "bio": {
-        "Hol található a csarnokvíz?": {
-            "A": "A pályaudvaron",
-            "B": "*A szemben",
-            "C": "A tejcsarnokban",
-            "D": "Barlangfürdőben"
-        },
+    "nat": {
         "Hogy nevezzük másképpen a kárókatonát?": {
             "A": "Obsitos",
             "B": "Treff bubi",
@@ -5440,23 +5434,11 @@
             "C": "Velúr",
             "D": "Nubuk"
         },
-        "Miért szorítja meg ujjunkat egy újszülött csecsemő?": {
-            "A": "Így kér enni",
-            "B": "*A fogóreflex miatt",
-            "C": "Így mutatja ki a szeretetét",
-            "D": "Hogy figyeljünk rá"
-        },
         "Az egyik magyar népmesében égig ér a paszuly. Milyen növény ez a valóságban?": {
             "A": "Jegenye",
             "B": "*Bab",
             "C": "Gaz",
             "D": "Borsó"
-        },
-        "Melyik testrészünk csontjai a kalapács, az üllő és a kengyel?": {
-            "A": "A láb",
-            "B": "A kéz",
-            "C": "A váll",
-            "D": "*A fül"
         },
         "Hogyan tájékozódnak éjszaka a denevérek?": {
             "A": "*Ultrahanggal",
@@ -5524,12 +5506,6 @@
             "C": "Csavar",
             "D": "Kúp"
         },
-        "Ki fedezte fel a penicilint?": {
-            "A": "*Sir Alexander Fleming",
-            "B": "Paul Ehrlich",
-            "C": "Howard Temin",
-            "D": "Robert Koch"
-        },
         "Hol élnek a jegesmedvék?": {
             "A": "*Az Északi-sarkon",
             "B": "A Déli-sarkon",
@@ -5542,12 +5518,6 @@
             "C": "Rómeó",
             "D": "Prosperó"
         },
-        "Melyik betegség ellen védenek a Sabin-cseppek?": {
-            "A": "Torokgyík",
-            "B": "*Gyermekbénulás",
-            "C": "Szamárköhögés",
-            "D": "Tuberkolózis"
-        },
         "Melyik növény szárított húsa a kopra?": {
             "A": "Kivi",
             "B": "*Kókuszdió",
@@ -5559,12 +5529,6 @@
             "B": "Kétpúpú teve",
             "C": "Szamár és öszvér utóda",
             "D": "Ló és öszvér utóda"
-        },
-        "Melyik szervünk betegsége a gümőkór?": {
-            "A": "A fogé",
-            "B": "A májé",
-            "C": "A bőré",
-            "D": "*A tüdőé"
         },
         "Milyen színű nyáron a hermelin bundája?": {
             "A": "Fekete",
@@ -5583,18 +5547,6 @@
             "B": "Tok",
             "C": "Harcsa",
             "D": "*Varsa"
-        },
-        "Melyik testrészünk csontja a singcsont?": {
-            "A": "A koponyáé",
-            "B": "*Az alkaré",
-            "C": "A törzsé",
-            "D": "A lábszáré"
-        },
-        "Mi a növényi sejtfalakat felípítő szénhidrát neve?": {
-            "A": "Laktóz",
-            "B": "*Cellulóz",
-            "C": "Maltóz",
-            "D": "Glükóz"
         },
         "Melyik állat tetteti magát halottnak vészhelyzetben?": {
             "A": "Pávián",
@@ -5656,12 +5608,6 @@
             "C": "Patkány",
             "D": "Hidra"
         },
-        "Miből van a szervezetünkben: vékony, vastag, patkó?": {
-            "A": "*Bél",
-            "B": "Bőr",
-            "C": "Ideg",
-            "D": "Hártya"
-        },
         "Az alábbi női nevek közül melyik nem növénynév?": {
             "A": "Amarillisz",
             "B": "Erika",
@@ -5692,12 +5638,6 @@
             "C": "Sárból tapasztott vackokban",
             "D": "Dús aljnövényzetben"
         },
-        "Melyik szervünk termeli az inzulint?": {
-            "A": "A pajzsmirigy",
-            "B": "*A hasnyálmirigy",
-            "C": "A mellékvese",
-            "D": "Az agyalapi mirigy"
-        },
         "Melyik fogai hosszabodtak meg az őskorban élt kardfogú tigrisnek?": {
             "A": "A metszőfogai",
             "B": "*A szemfogai",
@@ -5715,12 +5655,6 @@
             "B": "Oroszlán",
             "C": "Jaguár",
             "D": "*Hiúz"
-        },
-        "Melyik vitamin hiánya okozza a farkasvakságot?": {
-            "A": "*A vitamin",
-            "B": "B vitamin",
-            "C": "K vitamin",
-            "D": "D vitamin"
         },
         "Az alábbiak közül melyik állat lakóhelyét nevezzük kotoréknak?": {
             "A": "*A rókáét",
@@ -5746,12 +5680,6 @@
             "C": "Moha",
             "D": "Alga"
         },
-        "Melyik íz érzékelhető a nyelv hátsó részén (a nyelvgyökön)?": {
-            "A": "*Keserű",
-            "B": "Édes",
-            "C": "Savanyú",
-            "D": "Sós"
-        },
         "Melyik amerikai államról nevezték el a krumplibogarat?": {
             "A": "Buffalo",
             "B": "Florida",
@@ -5775,12 +5703,6 @@
             "B": "Az orchideát",
             "C": "*Az íriszt",
             "D": "A nárciszt"
-        },
-        "Milyen betegséggel hozható összefüggésbe Szent Balázs neve?": {
-            "A": "*Torokgyík",
-            "B": "Kanyaró",
-            "C": "Gyermekbénulás",
-            "D": "Skarlát"
         },
         "Hol hasznosítják az ámbráscetekből nyert váladékot?": {
             "A": "A konyhaművészetben",
@@ -5902,13 +5824,7 @@
             "C": "Pondró",
             "D": "Csibor"
         },
-        "Melyik vitamin hiánya okoz skorbutot?": {
-            "A": "A vitamin",
-            "B": "B vitamin",
-            "C": "*C vitamin",
-            "D": "D vitamin"
-        },
-        "Melyik állatfajnak nem lehet előtagja az angóra?": {
+        "Melyik állatfajnak NEM lehet előtagja az angóra?": {
             "A": "Kecske",
             "B": "Macska",
             "C": "Nyúl",
@@ -5955,12 +5871,6 @@
             "B": "Pumapamacs",
             "C": "Hiénaláb",
             "D": "*Oroszlánszáj"
-        },
-        "Milyen orvoshoz fordulunk panaszunkkal, ha fáj a fauxunk?": {
-            "A": "Bőrgyógyászhoz",
-            "B": "Urológushoz",
-            "C": "Fogorvoshoz",
-            "D": "*Gégészhez"
         },
         "A kakaófa melyik részéből készítik a kakaóport?": {
             "A": "A kérgéből",
@@ -6010,12 +5920,6 @@
             "C": "*Madár",
             "D": "Rágcsáló"
         },
-        "Melyik testrészünkben találhatók csapok és pálcikák?": {
-            "A": "A fülben",
-            "B": "A fogban",
-            "C": "Az orrban",
-            "D": "*A szemben"
-        },
         "Milyen anyagból van az orrszarvú tülke?": {
             "A": "Csont",
             "B": "*Szaru",
@@ -6046,23 +5950,17 @@
             "C": "*A pelikánra",
             "D": "A gólyára"
         },
-        "Melyik állat nem erszényes?": {
+        "Melyik állat NEM erszényes?": {
             "A": "Oposszum",
             "B": "Kuszkusz",
             "C": "*Pele",
             "D": "Vombat"
         },
-        "Az alábbiak közül melyik nem ragadozó madár?": {
+        "Az alábbiak közül melyik NEM ragadozó madár?": {
             "A": "Vércse",
             "B": "Gatyásölyv",
             "C": "Vándorsólyom",
             "D": "*Varjú"
-        },
-        "Melyik emberi szerv szövete az irha?": {
-            "A": "A nyelv",
-            "B": "Az agy",
-            "C": "*A bőr",
-            "D": "A fül"
         },
         "Mi az óriáspöfeteg?": {
             "A": "Egy darázsfaj",
@@ -6220,23 +6118,11 @@
             "C": "*A kukoricát",
             "D": "A komlót"
         },
-        "Melyik szervünk termeli az epét?": {
-            "A": "Vese",
-            "B": "*Máj",
-            "C": "Lép",
-            "D": "Tüdő"
-        },
         "Milyen állat a gödölye?": {
             "A": "*Nőstény kiskecske",
             "B": "Hím kisbirka",
             "C": "Kiskakas",
             "D": "Kiscsirke"
-        },
-        "Milyen orvoshoz fordul az, aki dermatológushoz megy?": {
-            "A": "Fogorvoshoz",
-            "B": "*Bőrgyógyászhoz",
-            "C": "Szemészhez",
-            "D": "Nőgyógyászhoz"
         },
         "Melyik medvefajt nevezzük grizzlynek?": {
             "A": "A fekete medvét",
@@ -6255,12 +6141,6 @@
             "B": "*Tarajos",
             "C": "Bóbitás",
             "D": "Copfos"
-        },
-        "Milyen betegséget okoz az inzulintermelés zavara?": {
-            "A": "Vérszegénységet",
-            "B": "Farkasvakságot",
-            "C": "*Cukorbetegséget",
-            "D": "Gyomorfekélyt"
         },
         "Miből készül az élesztő?": {
             "A": "*Gombákból",
@@ -6334,23 +6214,11 @@
             "C": "Fóka",
             "D": "*Béka"
         },
-        "Hol található az ember egyensúlyérző szerve?": {
-            "A": "A talpon",
-            "B": "A gerincoszlopban",
-            "C": "*A fülben",
-            "D": "A homloküregben"
-        },
         "Milyen állat a nünüke?": {
             "A": "Mókusféle",
             "B": "*Nagy testű bogár",
             "C": "Erdei rigó",
             "D": "Mezei nyúl kicsinye"
-        },
-        "Melyik betegség régies elnevezése a sápkór?": {
-            "A": "Himlő",
-            "B": "Gyomorfekély",
-            "C": "*Vérszegénység",
-            "D": "Epilepszia"
         },
         "Az alábbiak közül melyik egy cédrusfaj neve?": {
             "A": "Lesothói",
@@ -6457,7 +6325,7 @@
         "Melyik gyümölcs az alma rokona?": {
             "A": "A füge",
             "B": "*A birs",
-            "C": "A kókuszdió",
+            "C": "A kókusz",
             "D": "A datolya"
         },
         "Milyen színű télen a sarki róka bundája?": {
@@ -6477,12 +6345,6 @@
             "B": "Tavikagyló",
             "C": "Éticsiga",
             "D": "*Giliszta"
-        },
-        "A szem melyik része szabályozza a bejutó fény mennyiségét?": {
-            "A": "*Pupilla",
-            "B": "Sárgatest",
-            "C": "Csarnokvíz",
-            "D": "Könnymirigy"
         },
         "Milyen állat a hosszúfarkú tobzoska?": {
             "A": "Ritka díszmadár",
@@ -6730,12 +6592,6 @@
             "C": "*Virágok kelyhéből",
             "D": "Mocsár iszapjából"
         },
-        "Milyen anyagok közé sorolható a keményítő?": {
-            "A": "Zsírok",
-            "B": "Fehérjék",
-            "C": "*Szénhidrátok",
-            "D": "Vitaminok"
-        },
         "Melyik növénycsaládba tartoznak a bambuszok?": {
             "A": "*Pázsitfűfélék",
             "B": "Pálmafélék",
@@ -6897,6 +6753,1299 @@
             "B": "*Pásztortáska",
             "C": "Pásztorsíp",
             "D": "Pásztorgém"
+        }
+    },
+    "geo": {
+        "Melyik Európa legmagasabb működő vulkánja?": {
+            "A": "Stromboli",
+            "B": "Hekla",
+            "C": "Szantorini",
+            "D": "*Etna"
+        },
+        "Melyik országban található a Szent András-törésvonal?": {
+            "A": "Ausztrália",
+            "B": "*USA",
+            "C": "Mexikó",
+            "D": "Kanada"
+        },
+        "Melyik országot nem érinti a Duna?": {
+            "A": "Bulgáriát",
+            "B": "*Szlovéniát",
+            "C": "Horvátországot",
+            "D": "Szlovákiát"
+        },
+        "Melyik ország területén található a Kalahári-sivatag?": {
+            "A": "*Botswana",
+            "B": "Namíbia",
+            "C": "Zimbabwe",
+            "D": "Dél-afrikai Köztársaság"
+        },
+        "Melyik a Föld legnagyobb sivataga?": {
+            "A": "Kalahári-sivatag",
+            "B": "Líbiai-sivatag",
+            "C": "Góbi-sivatag",
+            "D": "*Szahara"
+        },
+        "Melyik ország nem szigetország?": {
+            "A": "Sri Lanka",
+            "B": "Írország",
+            "C": "*Honduras",
+            "D": "Tajvan"
+        },
+        "Melyik USA tagállam területén található a Grand Canyon?": {
+            "A": "Nevada",
+            "B": "Colorado",
+            "C": "*Arizona",
+            "D": "Utah"
+        },
+        "Melyik tengerbe torkollik a Duna?": {
+            "A": "Az Adriai-tengerbe",
+            "B": "A Földközi-tengerbe",
+            "C": "*A Fekete-tengerbe",
+            "D": "A Márvány-tengerbe"
+        },
+        "Hogy nevezzük a vulkáni kráterből kiömlő izzó folyadékot?": {
+            "A": "Gleccser",
+            "B": "*Láva",
+            "C": "Gejzír",
+            "D": "Lavina"
+        },
+        "Melyik Európa legkisebb szigetállama?": {
+            "A": "*Málta",
+            "B": "Ciprus",
+            "C": "Izland",
+            "D": "Írország"
+        },
+        "Melyik a Föld leghosszabb folyója?": {
+            "A": "Jangce",
+            "B": "*Nílus",
+            "C": "Mississippi",
+            "D": "Amazonas"
+        },
+        "Hol folyik a Maros a Tiszába?": {
+            "A": "Makónál",
+            "B": "*Szegednél",
+            "C": "Battonyánál",
+            "D": "Hódmezővásárhelynél"
+        },
+        "Melyik megyénkben van a Szelidi-tó?": {
+            "A": "Békés megyében",
+            "B": "*Bács-Kiskun megyében",
+            "C": "Baranya megyében",
+            "D": "Csongrád megyében"
+        },
+        "Az alábbi miniállamok közül melyiknek van tengerpartja?": {
+            "A": "*Monaco",
+            "B": "Andorra",
+            "C": "Liechtenstein",
+            "D": "San Marino"
+        },
+        "Melyik Budapest legmagasabb hegye?": {
+            "A": "A Hármashatár-hegy",
+            "B": "*A János-hegy",
+            "C": "A Gellért-hegy",
+            "D": "A Szabadság-hegy"
+        },
+        "Melyik országgal nem határos Luxemburg?": {
+            "A": "Belgium",
+            "B": "*Svájc",
+            "C": "Franciaország",
+            "D": "Németország",
+            "N": 11
+        },
+        "Melyik folyó partján fekszik Köln?": {
+            "A": "*Rajna",
+            "B": "Majna",
+            "C": "Duna",
+            "D": "Weser"
+        },
+        "Melyik tenger partján fekszik Barcelona?": {
+            "A": "Fekete-tenger",
+            "B": "Adriai-tenger",
+            "C": "Balti-tenger",
+            "D": "*Földközi-tenger"
+        },
+        "Melyik magyar hegység legmagasabb pontja a Csóványos?": {
+            "A": "Mecsek",
+            "B": "Cserhát",
+            "C": "Bükk",
+            "D": "*Börzsöny"
+        },
+        "Melyik folyó vezeti le a Balaton vízfeleslegét?": {
+            "A": "*Sió",
+            "B": "Rába",
+            "C": "Zala",
+            "D": "Marcal"
+        },
+        "Melyik a Föld legmélyebb tava?": {
+            "A": "Malawi (Nyasza)-tó",
+            "B": "*Bajkál-tó",
+            "C": "Tanganyika-tó",
+            "D": "Nagy-Rabszolga-tó"
+        },
+        "Melyik ország területén talalható a Labrador-félsziget?": {
+            "A": "USA",
+            "B": "Argentína",
+            "C": "*Kanada",
+            "D": "Mexikó"
+        },
+        "Hol található a Yellowstone Nemzeti Park?": {
+            "A": "Az Andokban",
+            "B": "*A Sziklás-hegységben",
+            "C": "Az Atlasz-hegységben",
+            "D": "A Pireneusokban"
+        },
+        "Melyik hegységben fekszik Andorra?": {
+            "A": "Az Alpokban",
+            "B": "*A Pireneusokban",
+            "C": "Az Andokban",
+            "D": "A Kárpátokban"
+        },
+        "Melyik Európa legnagyobb félszigete?": {
+            "A": "*Skandináv-félsziget",
+            "B": "Pireneusi-félsziget",
+            "C": "Balkán-félsziget",
+            "D": "Appennini-félsziget"
+        },
+        "Melyik ország fekszik a legközelebb a Déli-sarkhoz?": {
+            "A": "Dél-afrikai Köztársaság",
+            "B": "*Chile",
+            "C": "Argentína",
+            "D": "Új-Zéland"
+        },
+        "Melyik országhoz tartoznak a Galápagos-szigetek?": {
+            "A": "*Ecuador",
+            "B": "Chile",
+            "C": "Argentína",
+            "D": "Kolumbia"
+        },
+        "Az alábbi városok közül melyik NEM megyeszékhely?": {
+            "A": "Szekszárd",
+            "B": "Tatabánya",
+            "C": "*Esztergom",
+            "D": "Salgótarján"
+        },
+        "Melyik országban terül el a Nagy-Viktória-sivatag?": {
+            "A": "Amerikai Egyesült Államok",
+            "B": "*Ausztrália",
+            "C": "Kanada",
+            "D": "Dél-afrikai Köztársaság"
+        },
+        "Melyik országban húzódik a Vogézek nevű középhegység?": {
+            "A": "*Franciaországban",
+            "B": "Németországban",
+            "C": "Svédországban",
+            "D": "Csehországban"
+        },
+        "Hány megyéje van Magyarországnak?": {
+            "A": "15",
+            "B": "*19",
+            "C": "22",
+            "D": "25"
+        },
+        "Melyik megyénkben található a Velencei-tó?": {
+            "A": "Pest",
+            "B": "*Fejér",
+            "C": "Komárom-Esztergom",
+            "D": "Veszprém"
+        },
+        "Melyik hegységünkben található a Szeleta-barlang?": {
+            "A": "A Pilisben",
+            "B": "A Mecsekben",
+            "C": "*A Bükkben",
+            "D": "A Börzsönyben"
+        },
+        "Hol található a Veszélyek Tengere?": {
+            "A": "A Horn-foknál",
+            "B": "Borneó és Szumátra között",
+            "C": "A Hebridáknál",
+            "D": "*A Holdon"
+        },
+        "Melyik megyénk nem határos a Balatonnal az alábbiak közül?": {
+            "A": "*Fejér megye",
+            "B": "Somogy megye",
+            "C": "Zala megye",
+            "D": "Veszprém megye"
+        },
+        "Melyik nem svájci város az alábbiak közül?": {
+            "A": "Lausanne",
+            "B": "Luzern",
+            "C": "*Leiden",
+            "D": "Locarno"
+        },
+        "Melyik országhoz tartozik Korzika szigete?": {
+            "A": "Olaszországhoz",
+            "B": "*Franciaországhoz",
+            "C": "Portugáliához",
+            "D": "Görögországhoz"
+        },
+        "Melyik hegységünkben mászhatjuk meg az Istállós-kő nevű hegyet?": {
+            "A": "*A Bükkben",
+            "B": "A Bakonyban",
+            "C": "A Kőszegi-hegységben",
+            "D": "A Zempléni-hegységben"
+        },
+        "Melyik megyénkben található Ónod, ahol a történelmi országgyűlést tartották?": {
+            "A": "Szabolcs-Szatmár-Bereg megye",
+            "B": "Veszprém megye",
+            "C": "*Borsod-Abaúj-Zemplén megye",
+            "D": "Komárom-Esztergom megye"
+        },
+        "Melyik földrészhez tartozik a Magellán-szoros?": {
+            "A": "Afrikához",
+            "B": "Ázsiához",
+            "C": "Ausztráliához",
+            "D": "*Dél-Amerikához"
+        },
+        "Melyik Európa legnagyobb meleg vízű tava?": {
+            "A": "Garda-tó",
+            "B": "Ladoga-tó",
+            "C": "Wörthi-tó",
+            "D": "*Hévízi-tó"
+        },
+        "Melyik a földkerekség legkisebb szigetállama?": {
+            "A": "Málta",
+            "B": "Marshall-szigetek",
+            "C": "*Nauru",
+            "D": "Seychelle-szigetek"
+        },
+        "Melyik országhoz tartozik a Húsvét-sziget?": {
+            "A": "Nagy-Britannia",
+            "B": "Argentína",
+            "C": "Amerikai Egyesült Államok",
+            "D": "*Chile"
+        },
+        "Melyik ország külbirtoka Szent Ilona szigete?": {
+            "A": "*Nagy-Britannia",
+            "B": "Olaszország",
+            "C": "Franciaország",
+            "D": "Amerikai Egyesült Államok"
+        },
+        "Melyik országhoz tartozik Ibiza szigete?": {
+            "A": "Franciaországhoz",
+            "B": "Olaszországhoz",
+            "C": "Portugáliához",
+            "D": "*Spanyolországhoz"
+        },
+        "Melyik megyénkben található Zala község?": {
+            "A": "Zala megyében",
+            "B": "*Somogy megyében",
+            "C": "Heves megyében",
+            "D": "Vas megyében"
+        },
+        "Melyik országhoz tartozik ma a történelmi Normandia?": {
+            "A": "Nagy-Britannia",
+            "B": "*Franciaország",
+            "C": "Svédország",
+            "D": "Belgium"
+        },
+        "Mi a cseppkő alapanyaga?": {
+            "A": "Agyag",
+            "B": "*Mészkő",
+            "C": "Gránit",
+            "D": "Kvarc"
+        },
+        "Melyik földrészen található a Kilimandzsáró nevű hegység?": {
+            "A": "*Afrika",
+            "B": "Dél-Amerika",
+            "C": "Ázsia",
+            "D": "Ausztrália"
+        },
+        "Melyik országhoz tartozik Capri szigete?": {
+            "A": "Franciaország",
+            "B": "*Olaszország",
+            "C": "Görögország",
+            "D": "Spanyolország"
+        },
+        "Melyik földrészen található a Titicaca-tó?": {
+            "A": "*Dél-Amerika",
+            "B": "Ázsia",
+            "C": "Afrika",
+            "D": "Ausztrália"
+        },
+        "Hová ömlik a Volga?": {
+            "A": "A Fekete-tengerbe",
+            "B": "Az Azovi-tengerbe",
+            "C": "*A Kaszpi-tengerbe",
+            "D": "A Fehér-tengerbe"
+        },
+        "Az alábbi folyók közül melyiknek van tölcsértorkolata?": {
+            "A": "Duna",
+            "B": "*Elba",
+            "C": "Nílus",
+            "D": "Amazonas"
+        },
+        "A felsorolt országok közül melyik nem az afrikai földrészen található?": {
+            "A": "Szomália",
+            "B": "Szudán",
+            "C": "Szváziföld",
+            "D": "*Suriname"
+        },
+        "Melyik hegységünkben található az ország legmagasabb pontja, a Kékes?": {
+            "A": "A Bükkben",
+            "B": "*A Mátrában",
+            "C": "A Bakonyban",
+            "D": "A Mecsekben"
+        },
+        "Mi a neve az osztrák-magyar határon található hegycsúcsnak?": {
+            "A": "Csókakő",
+            "B": "Hollókő",
+            "C": "*Írott-kő",
+            "D": "Istállós-kő"
+        },
+        "Melyik tó partján fekszik Chicago?": {
+            "A": "Huron-tó",
+            "B": "Erie-tó",
+            "C": "*Michigan-tó",
+            "D": "Ontario-tó"
+        },
+        "Melyik folyó partján fekszik Torino?": {
+            "A": "Piave",
+            "B": "Arno",
+            "C": "*Pó",
+            "D": "Tevere"
+        },
+        "Melyik nem félsziget az alábbiak közül?": {
+            "A": "Krím",
+            "B": "Balkán",
+            "C": "Labrador",
+            "D": "*Grönland"
+        },
+        "Melyik a legteljesebben átalakult, legrégibb kőszénfajta?": {
+            "A": "*Antracit",
+            "B": "Lignit",
+            "C": "Barnakőszén",
+            "D": "Feketekőszén"
+        },
+        "Melyik földrészen található Patagónia?": {
+            "A": "Ausztrália",
+            "B": "Afrika",
+            "C": "Ázsia",
+            "D": "*Dél-Amerika"
+        },
+        "Melyik mai állam területén található Waterloo?": {
+            "A": "Nagy-Britannia",
+            "B": "*Belgium",
+            "C": "Németország",
+            "D": "Hollandia"
+        },
+        "Melyik mai ország területén található az egykori Fiume kikötője?": {
+            "A": "Bosznia-Hercegovina",
+            "B": "Szlovénia",
+            "C": "*Horvátország",
+            "D": "Olaszország"
+        },
+        "Melyik Európa leghosszabb folyója?": {
+            "A": "*Volga",
+            "B": "Rajna",
+            "C": "Elba",
+            "D": "Duna"
+        },
+        "Melyik ország nem határos Brazíliával?": {
+            "A": "*Ecuador",
+            "B": "Guyana",
+            "C": "Paraguyay",
+            "D": "Bolívia"
+        },
+        "Melyik országot választja ketté a Cook-szoros?": {
+            "A": "Fülöp-szigetek",
+            "B": "Malajzia",
+            "C": "*Új-Zéland",
+            "D": "Indonézia"
+        },
+        "Melyik országnak van a legtöbb szomszédja?": {
+            "A": "*Oroszország",
+            "B": "Kína",
+            "C": "Szudán",
+            "D": "Brazília"
+        },
+        "Melyik országban található a Stonehenge titokzatos kőtömbjei?": {
+            "A": "A Dél-afrikai Köztársaságban",
+            "B": "*Angliában",
+            "C": "Ausztráliában",
+            "D": "Kanadában"
+        },
+        "Mi volt Tajvan korábbi neve?": {
+            "A": "Burma",
+            "B": "Ceylon",
+            "C": "Sziám",
+            "D": "*Formosa"
+        },
+        "Melyik város híres strandja a Copacabana?": {
+            "A": "Barcelona",
+            "B": "*Rio de Janeiro",
+            "C": "Havanna",
+            "D": "Buenos Aires"
+        },
+        "Milyen szín nem szerepel Németország zászlajában?": {
+            "A": "Fekete",
+            "B": "*Zöld",
+            "C": "Sárga",
+            "D": "Vörös"
+        },
+        "Mely országban található a méneséről híres Lipica helység?": {
+            "A": "Horvátország",
+            "B": "*Szlovénia",
+            "C": "Ausztria",
+            "D": "Szlovákia"
+        },
+        "Melyik országban láthatók a Meteóra-kolostorok?": {
+            "A": "Bulgáriában",
+            "B": "Törökországban",
+            "C": "Oroszországban",
+            "D": "*Görögországban"
+        },
+        "Melyik ország tánca volt eredetileg a tangó?": {
+            "A": "*Argentína",
+            "B": "Portugália",
+            "C": "Spanyolország",
+            "D": "Brazília"
+        },
+        "Melyik városban áll a híres vár, a Hradzsin?": {
+            "A": "Isztambul",
+            "B": "*Prága",
+            "C": "Koppenhága",
+            "D": "Bagdad"
+        },
+        "Hol található a híres francia egyetem, a Sorbonne?": {
+            "A": "*Párizsban",
+            "B": "Nizzában",
+            "C": "Rómában",
+            "D": "Lyonban"
+        },
+        "Melyik város nevezetessége a Trevi-kút?": {
+            "A": "Firenze",
+            "B": "Velence",
+            "C": "*Róma",
+            "D": "Nápoly"
+        },
+        "Melyik városban található a világhírű Uffizi képtár?": {
+            "A": "Velence",
+            "B": "*Firenze",
+            "C": "Madrid",
+            "D": "Barcelona"
+        },
+        "Melyik város világhírű múzeuma a Zwinger?": {
+            "A": "Potsdam",
+            "B": "Berlin",
+            "C": "Lipcse",
+            "D": "*Drezda"
+        },
+        "A felsorolt országok közül melyiknek a zászlójában nincs csillag?": {
+            "A": "Szíria",
+            "B": "Vietnam",
+            "C": "Törökország",
+            "D": "*Indonézia"
+        },
+        "Melyik főváros nem Ázsiában található?": {
+            "A": "Islamabad",
+            "B": "*Tripoli",
+            "C": "Bejrút",
+            "D": "Bangkok"
+        },
+        "Melyik földrész lakói a zuluk?": {
+            "A": "Ausztrália",
+            "B": "Ázsia ",
+            "C": "Dél-Amerika",
+            "D": "*Afrika"
+        },
+        "Milyen állat szerepel Dánia címerében?": {
+            "A": "Sas",
+            "B": "*Oroszlán",
+            "C": "Farkas",
+            "D": "Szarvas"
+        },
+        "Melyik országot nevezik az \"ezer tó országának\"?": {
+            "A": "*Finnországot",
+            "B": "Kanadát",
+            "C": "Hollandiát",
+            "D": "Norvégiát"
+        },
+        "Mi Kanada fővárosa?": {
+            "A": "Toronto",
+            "B": "*Ottawa",
+            "C": "Montreal",
+            "D": "Québec"
+        },
+        "Melyik városban tekinthető meg az Atomium?": {
+            "A": "Párizs",
+            "B": "*Brüsszel",
+            "C": "Amszterdam",
+            "D": "Bern"
+        },
+        "Mi az államformája a Vatikánnak?": {
+            "A": "Alkotmányos monarchia",
+            "B": "Pápaság",
+            "C": "*Teokratikus királyság",
+            "D": "Köztársaság"
+        },
+        "Melyik város nevezetessége a Colosseum?": {
+            "A": "*Róma",
+            "B": "Párizs",
+            "C": "Bécs",
+            "D": "Firenze"
+        },
+        "Melyik ország egyetlen szomszédja a Dél-afrikai Köztársaság?": {
+            "A": "Malawi",
+            "B": "*Lesotho",
+            "C": "Szváziföld",
+            "D": "Botswana"
+        },
+        "Melyik országban épült a híres Taj Mahal?": {
+            "A": "Kína",
+            "B": "*India",
+            "C": "Egyiptom",
+            "D": "Pakisztán"
+        },
+        "Melyik állam zászlajában szerepel az ország térképe?": {
+            "A": "Libanon",
+            "B": "Mongólia",
+            "C": "Japán",
+            "D": "*Ciprus"
+        },
+        "Melyik ország külbirtoka Grönland?": {
+            "A": "Kanada",
+            "B": "*Dánia",
+            "C": "Norvégia",
+            "D": "Svédország"
+        },
+        "Melyik városhoz tartozik a híres Golden Gate híd?": {
+            "A": "*San Francisco",
+            "B": "Los Angeles",
+            "C": "Boston",
+            "D": "New York"
+        },
+        "Melyik nép tánca a polka?": {
+            "A": "Ukrán",
+            "B": "Lengyel",
+            "C": "*Cseh",
+            "D": "Bolgár"
+        },
+        "Melyik szín nem szerepel Olaszország zászlójában?": {
+            "A": "Zöld",
+            "B": "Piros",
+            "C": "*Kék",
+            "D": "Fehér"
+        },
+        "Melyik országot nevezik a \"felkelő nap országának\"?": {
+            "A": "Ausztráliát",
+            "B": "Kínát",
+            "C": "Indiát",
+            "D": "*Japánt"
+        },
+        "Melyik ország régi neve Abesszínia?": {
+            "A": "Irán",
+            "B": "Spanyolország",
+            "C": "Ceylon",
+            "D": "*Etiópia"
+        },
+        "Melyik ország nem köztársaság az alábbi európai államok közül?": {
+            "A": "San Marino",
+            "B": "Málta",
+            "C": "*Andorra",
+            "D": "Izland"
+        },
+        "A felsorolt országok közül melyik zászlajában nincs vörös szín?": {
+            "A": "Ausztria",
+            "B": "Kína",
+            "C": "*Izrael",
+            "D": "Kanada"
+        },
+        "Melyik a világ legkisebb állama?": {
+            "A": "Monaco",
+            "B": "*Vatikán",
+            "C": "San Marino",
+            "D": "Szingapúr"
+        },
+        "Melyik európai városban található a Wawel?": {
+            "A": "Berlinben",
+            "B": "*Krakkóban",
+            "C": "Prágában",
+            "D": "Pozsonyban"
+        },
+        "Melyik város nevezetessége a \"Kék Mecset\"?": {
+            "A": "Damaszkusz",
+            "B": "Jeruzsálem",
+            "C": "*Isztambul",
+            "D": "Mekka"
+        },
+        "Melyik ország koronagyarmata Gibraltár?": {
+            "A": "Spanyolország",
+            "B": "Hollandia",
+            "C": "*Nagy-Britannia",
+            "D": "Marokkó"
+        },
+        "Melyik ország zászlója egyszínű zöld?": {
+            "A": "Libanon",
+            "B": "*Líbia",
+            "C": "Libéria",
+            "D": "Liechtenstein"
+        },
+        "Melyik ország címerállata a kivi futómadár?": {
+            "A": "*Új-Zéland",
+            "B": "Kolumbia",
+            "C": "Kuvait",
+            "D": "Tanzánia"
+        },
+        "Melyik ország nem tagja a Benelux államoknak?": {
+            "A": "Belgium",
+            "B": "Hollandia",
+            "C": "Luxemburg",
+            "D": "*Dánia"
+        },
+        "Melyik a világ legmagasabban fekvő fővárosa?": {
+            "A": "*La Paz",
+            "B": "Quito",
+            "C": "Katmandu",
+            "D": "Jereván"
+        },
+        "Hol található az 1856-os leleteiről híressé vált Neander-völgy?": {
+            "A": "Spanyolországban",
+            "B": "*Németországban",
+            "C": "Franciaországban",
+            "D": "Ausztriában"
+        },
+        "Mi Macedónia fővárosa?": {
+            "A": "Szarajevó",
+            "B": "*Skopje",
+            "C": "Pristina",
+            "D": "Split"
+        },
+        "Melyik ország mai neve Mianmar?": {
+            "A": "*Burma",
+            "B": "Ceylon",
+            "C": "Laosz",
+            "D": "Thaiföld"
+        },
+        "Melyik város korábbi neve volt Új Amszterdam?": {
+            "A": "Canberra",
+            "B": "Buenos Aires",
+            "C": "Los Angeles",
+            "D": "*New York"
+        },
+        "Az alábbiak közül melyik ország zászlaja nem háromszínű?": {
+            "A": "Csehország",
+            "B": "Luxemburg",
+            "C": "Írország",
+            "D": "*Lengyelország"
+        },
+        "Hol van a Moszkvából induló transzszibériai vasút végállomása?": {
+            "A": "Szentpéterváron",
+            "B": "*Vlagyivosztokban",
+            "C": "Nahodkában",
+            "D": "Novoszibirszkben"
+        },
+        "Melyik mai ország területén található a népballadában is szereplő \"magos Déva vára\"?": {
+            "A": "Ukrajna",
+            "B": "*Románia",
+            "C": "Szlovákia",
+            "D": "Horvátország"
+        },
+        "Melyik városban áll a Westminster-apátság?": {
+            "A": "Washington",
+            "B": "Boston",
+            "C": "*London",
+            "D": "Liverpool"
+        },
+        "Mi a neve a Franciaországot jelképező nőalaknak?": {
+            "A": "Isabelle",
+            "B": "Sophie",
+            "C": "*Marianne",
+            "D": "Valentine"
+        },
+        "Hol élnek a hottentották?": {
+            "A": "Kelet-Ázsiában",
+            "B": "*Dél-Afrikában",
+            "C": "Észak-Amerikában",
+            "D": "Közép-Ausztráliában"
+        },
+        "A felsorolt európai államok közül melyik nem köztársaság?": {
+            "A": "Szlovénia",
+            "B": "Portugália",
+            "C": "*Hollandia",
+            "D": "Írország"
+        },
+        "Az alábbiak közül melyik ország zászlajában nincs fehér szín?": {
+            "A": "*Belgium",
+            "B": "Hollandia",
+            "C": "Franciaország",
+            "D": "Finnország"
+        },
+        "Melyik ország fővárosa Jereván?": {
+            "A": "Grúzia",
+            "B": "Kazahsztán",
+            "C": "*Örményország",
+            "D": "Azerbajdzsán"
+        },
+        "Melyik afrikai ország korábbi neve volt Dél-Rhodesia?": {
+            "A": "Namíbia",
+            "B": "Burkina Faso",
+            "C": "*Zimbabwe",
+            "D": "Zambia"
+        },
+        "Melyik város nevezetessége volt a \"Checkpoint Charlie\"?": {
+            "A": "New York",
+            "B": "San Francisco",
+            "C": "*Berlin",
+            "D": "London"
+        },
+        "Mi Litvánia fővárosa?": {
+            "A": "*Vilnius",
+            "B": "Riga",
+            "C": "Kaunas",
+            "D": "Tallin"
+        },
+        "Mi Svájc fővárosa?": {
+            "A": "Zürich",
+            "B": "Basel",
+            "C": "*Bern",
+            "D": "Genf"
+        },
+        "Melyik kontinensen neveztek el országot a szabadságharcos Simon Bolivarról?": {
+            "A": "Afrikában",
+            "B": "Ázsiában",
+            "C": "*Dél-Amerikában",
+            "D": "Észak-Amerikában"
+        },
+        "Melyik ország része ma a történelméről és boráról ismert Burgundia?": {
+            "A": "Németország",
+            "B": "*Franciaország",
+            "C": "Hollandia",
+            "D": "Belgium"
+        },
+        "Melyik városban lehet végigmenni az aranyművesek utcáján?": {
+            "A": "Krakkóban",
+            "B": "Bécsben",
+            "C": "Velencében",
+            "D": "*Prágában"
+        },
+        "Melyik ország fővárosa Doha?": {
+            "A": "Gambia",
+            "B": "Kamerun",
+            "C": "*Katar",
+            "D": "Bhután"
+        },
+        "Melyik ország fővárosa Nicosia?": {
+            "A": "Kolumbia",
+            "B": "*Ciprus",
+            "C": "Sri Lanka",
+            "D": "Málta"
+        },
+        "Melyik városban található a világhírű Scala operaház?": {
+            "A": "New York",
+            "B": "*Milánó",
+            "C": "Párizs",
+            "D": "Sydney"
+        },
+        "Melyik város fölött magasodik a Cukorsüveg-hegy?": {
+            "A": "Tokió",
+            "B": "*Rio de Janeiro",
+            "C": "Isztambul",
+            "D": "Mexikóváros"
+        },
+        "Melyik város nevezetes helye a Szent Márk tér?": {
+            "A": "*Velence",
+            "B": "Párizs",
+            "C": "Róma",
+            "D": "Madrid"
+        },
+        "Miről volt nevezetes a spanyolországi Toledo városa?": {
+            "A": "*Fegyverkészítőiről",
+            "B": "Agyagműveseiről",
+            "C": "Csodatevő forrásáról",
+            "D": "Lótelepéről"
+        },
+        "Milyen minden évben megrendezett eseményről nevezetes Pamplona városa?": {
+            "A": "Filmfesztivál",
+            "B": "Borverseny",
+            "C": "*Bikafuttatás",
+            "D": "Karnevál"
+        },
+        "Melyik ország fővárosa Rabat?": {
+            "A": "Nepál",
+            "B": "*Marokkó",
+            "C": "Angola",
+            "D": "Peru"
+        },
+        "Melyik spanyol város nevezetessége az Alhambra?": {
+            "A": "Sevilla",
+            "B": "Madrid",
+            "C": "Cordoba",
+            "D": "*Granada"
+        },
+        "Melyik nem alkotmányos monarchia az alábbi észak-európai országok közül?": {
+            "A": "Dánia",
+            "B": "Norvégia",
+            "C": "Svédország",
+            "D": "*Izland"
+        },
+        "Hogyan szokás nevezni egyes közép-amerikai országokat?": {
+            "A": "Narancskirályságok",
+            "B": "*Banánköztársaságok",
+            "C": "Citromdiktatúrák",
+            "D": "Ananászmonarchiák"
+        },
+        "Mi Vietnam fővárosa?": {
+            "A": "Phenjan",
+            "B": "*Hanoi",
+            "C": "Ho Si Minh-város",
+            "D": "Hai Phong"
+        },
+        "Mi a Dél-afrikai Köztársaság fővárosa?": {
+            "A": "Fokváros",
+            "B": "*Pretoria",
+            "C": "Johannesburg",
+            "D": "Durban"
+        },
+        "Melyik ország őslakói a maorik?": {
+            "A": "Haiti",
+            "B": "*Új-Zéland",
+            "C": "Dél-afrikai Köztársaság",
+            "D": "Fülöp-szigetek"
+        },
+        "Melyik országban élnek a flamandok és a vallonok?": {
+            "A": "Franciaország",
+            "B": "*Belgium",
+            "C": "Németország",
+            "D": "Dánia"
+        },
+        "Melyik magyar várost nevezik a \"vizek városának\"?": {
+            "A": "Siófok",
+            "B": "*Tata",
+            "C": "Szeged",
+            "D": "Debrecen"
+        },
+        "Hol található a Balaton Múzeum?": {
+            "A": "*Keszthely",
+            "B": "Siófok",
+            "C": "Balatonfüred",
+            "D": "Fonyód"
+        },
+        "Melyik városunkban látható a Ferenczy-művészcsalád múzeuma?": {
+            "A": "Vácott",
+            "B": "Győrött",
+            "C": "*Szentendrén",
+            "D": "Pécsett"
+        },
+        "Hol található II. Szulejmán szultán dzsámija?": {
+            "A": "Pécsett",
+            "B": "Siklóson",
+            "C": "*Szigetváron",
+            "D": "Pécsváradon"
+        },
+        "Melyik városunkban van a Storno-ház?": {
+            "A": "*Sopronban",
+            "B": "Kőszegen",
+            "C": "Veszprémben",
+            "D": "Tatán"
+        },
+        "Hol található Magyarországon Kékfestő Múzeum?": {
+            "A": "Sümeg",
+            "B": "Veszprém",
+            "C": "*Pápa",
+            "D": "Zirc"
+        },
+        "Melyik városunkban áll a Gályarabok Emlékoszlopa?": {
+            "A": "Veszprém",
+            "B": "Mohács",
+            "C": "Szigetvár",
+            "D": "*Debrecen"
+        },
+        "Melyik városunkban rendezik februárban a busójárást?": {
+            "A": "*Mohácson",
+            "B": "Szigetváron",
+            "C": "Baján",
+            "D": "Pécsett"
+        },
+        "Hol látható Magyarországon barokk kőhíd?": {
+            "A": "Egerben",
+            "B": "Kalocsán",
+            "C": "Szentendrén",
+            "D": "*Vácott"
+        },
+        "Melyik magyar városban harangoznak 11 órakor is?": {
+            "A": "Szombathelyen",
+            "B": "Győrben",
+            "C": "Sopronban",
+            "D": "*Kőszegen"
+        },
+        "Melyik magyar várost nevezték \"Bodrog-parti Athén\"-nak?": {
+            "A": "Tokaj",
+            "B": "Sátoraljaújhely",
+            "C": "*Sárospatak",
+            "D": "Tolcsva"
+        },
+        "Melyik településünkön látható a Salamon-torony?": {
+            "A": "Esztergomban",
+            "B": "Nagyvázsonyban",
+            "C": "*Visegrádon",
+            "D": "Egerben"
+        },
+        "Hol áll a kilenclyukú híd?": {
+            "A": "Szegeden",
+            "B": "Bugacpusztán",
+            "C": "Tokajban",
+            "D": "*A Hortobágyon"
+        },
+        "Melyik településünket nevezik a Hűség városának?": {
+            "A": "Kőszeg",
+            "B": "*Sopron",
+            "C": "Székesfehérvár",
+            "D": "Esztergom"
+        },
+        "Melyik falunkat nyilvánították a világörökség részének?": {
+            "A": "Hollóháza",
+            "B": "Szirák",
+            "C": "*Hollókő",
+            "D": "Buják"
+        },
+        "Mi volt az első balatoni gőzhajó neve?": {
+            "A": "Martinovics",
+            "B": "Búvár Kund",
+            "C": "Széchenyi",
+            "D": "*Kisfaludy"
+        },
+        "Milyen építészeti emlék áll Zsurkon és Nyírbátorban is?": {
+            "A": "Gótikus templomrom",
+            "B": "Honfoglalás kori földvár",
+            "C": "Csónak alakú fejfa",
+            "D": "*Fa harangtorony"
+        },
+        "Melyik magyar városban található a Rippl-Rónai Múzeum?": {
+            "A": "Zalaegerszeg",
+            "B": "*Kaposvár",
+            "C": "Pécs",
+            "D": "Szeged"
+        },
+        "Melyik magyar város nevezetessége a Munkácsy Múzeum?": {
+            "A": "Szeged",
+            "B": "Sopron",
+            "C": "*Békéscsaba",
+            "D": "Veszprém"
+        },
+        "Melyik városunkban van a Keresztény Múzeum?": {
+            "A": "Székesfehérvár",
+            "B": "Visegrád",
+            "C": "*Esztergom",
+            "D": "Pécs"
+        },
+        "Mi a híres budapesti épület neve: \"Gül Baba ...\"": {
+            "A": "Turbánja",
+            "B": "*Türbéje",
+            "C": "Kaftánja",
+            "D": "Bülbülje"
+        },
+        "A felsorolt városok közül melyikben található a Fellegvár?": {
+            "A": "Esztergomban",
+            "B": "Székesfehérvárott",
+            "C": "Győrött",
+            "D": "*Visegrádon"
+        },
+        "Melyik hegységünkben látható Boldogkő vára?": {
+            "A": "A Mecsekben",
+            "B": "A Bakonyban",
+            "C": "A Cserhátban",
+            "D": "*A Zempléni-hegységben"
+        },
+        "Melyik szerzetesrend tulajdonában van a pannonhalmi apátság?": {
+            "A": "Domonkos",
+            "B": "*Bencés",
+            "C": "Pálos",
+            "D": "Ferences"
+        },
+        "Hol található Magyarországon a Brunszvik-kastély?": {
+            "A": "Sátoraljaújhelyen",
+            "B": "Szirákon",
+            "C": "Aszódon",
+            "D": "*Martonvásáron"
+        },
+        "Hol áll az egykori Sándor palota?": {
+            "A": "A visegrádi várban",
+            "B": "*A budai Várhegyen",
+            "C": "Az egri várban",
+            "D": "A siklósi várban"
+        },
+        "Kinek a tervei szerint készült az első hazai villamosított vasútvonal?": {
+            "A": "*Kandó Kálmán",
+            "B": "Ganz Ábrahám",
+            "C": "Bánki Donát",
+            "D": "Jedlik Ányos"
+        },
+        "Hol található Magyarországon a Tessedik Sámuel Múzeum?": {
+            "A": "Mezőkövesden",
+            "B": "*Szarvason",
+            "C": "Sárospatakon",
+            "D": "Őriszentpéteren"
+        },
+        "Melyik híd budai oldalán áll a 0. kilométerkő?": {
+            "A": "Margit híd",
+            "B": "Erzsébet híd",
+            "C": "*Lánchíd",
+            "D": "Szabadság híd"
+        },
+        "Melyik várunkban látható a Vöröstorony?": {
+            "A": "*A sárospataki várban",
+            "B": "A siklósi várban",
+            "C": "Az egri várban",
+            "D": "A budai várban"
+        },
+        "Hol található Magyarországon lámpamúzeum?": {
+            "A": "Mór",
+            "B": "Tata",
+            "C": "*Zsámbék",
+            "D": "Sopron"
+        },
+        "Melyik városunkban tekinthető meg a Palóc Múzeum?": {
+            "A": "Salgótarjánban",
+            "B": "Egerben",
+            "C": "*Balassagyarmaton",
+            "D": "Pásztón"
+        },
+        "Melyik megyénkben láthatók a sümegi vár romjai?": {
+            "A": "*Veszprém",
+            "B": "Fejér",
+            "C": "Komárom-Esztergom",
+            "D": "Győr-Moson-Sopron"
+        },
+        "Melyik városunkban van a Szórakaténusz Játékmúzeum?": {
+            "A": "*Kecskeméten",
+            "B": "Szegeden",
+            "C": "Debrecenben",
+            "D": "Egerben"
+        },
+        "Melyik mai állam területén látható Munkács vára?": {
+            "A": "*Ukrajna",
+            "B": "Szlovákia",
+            "C": "Horvátország",
+            "D": "Románia"
+        },
+        "Melyik városunkban található a királysírokat rejtő középkori Romkert?": {
+            "A": "Esztergom",
+            "B": "Pécs",
+            "C": "*Székesfehérvár",
+            "D": "Szombathely"
+        },
+        "Melyik balatoni város nevezetessége a Tagore-emlékfa?": {
+            "A": "Tihany",
+            "B": "Siófok",
+            "C": "Keszthely",
+            "D": "*Balatonfüred"
+        },
+        "Kik lakják Mezőkövesdet a néprajzi elnevezés szerint?": {
+            "A": "Sokácok",
+            "B": "Böszörmények",
+            "C": "*Matyók",
+            "D": "Rutének"
+        },
+        "Melyik török személyiség után nem maradt fenn építészeti emlék Pécsett?": {
+            "A": "Gázi Kászim pasa",
+            "B": "Jakováli Hasszán pasa",
+            "C": "Memi pasa",
+            "D": "*Gül baba"
+        },
+        "Melyik megyénkben található a nagycenki Széchenyi-kastély?": {
+            "A": "Fejér",
+            "B": "Vas",
+            "C": "*Győr-Moson-Sopron",
+            "D": "Komárom-Esztergom"
+        },
+        "Melyik főúri család építtetett kastélyt Gödöllőn?": {
+            "A": "Esterházy",
+            "B": "*Grassalkovich",
+            "C": "Festetics",
+            "D": "Széchenyi"
+        },
+        "Hazánk melyik nevezetes könyvtárterme található a Szent Márton-hegyen lévő kolostorban?": {
+            "A": "A pécsváradi apátságé",
+            "B": "A bakonybéli apátságé",
+            "C": "*A pannonhalmi apátságé",
+            "D": "A zalavári apátságé"
+        },
+        "Melyik városunkban tekinthető meg a Dobó István Vármúzeum?": {
+            "A": "Szigetváron",
+            "B": "Veszprémben",
+            "C": "Komáromban",
+            "D": "*Egerben"
+        },
+        "Hol látható hazánkban a Nemzeti Történelmi Emlékpark?": {
+            "A": "*Ópusztaszer",
+            "B": "Székesfehérvár",
+            "C": "Somogyvár",
+            "D": "Esztergom"
+        },
+        "Ki alapított egyetemet Nagyszombatban 1635-ben?": {
+            "A": "Zrínyi Miklós",
+            "B": "Heltai Gáspár",
+            "C": "*Pázmány Péter",
+            "D": "Károli Gáspár"
+        },
+        "Hol található Magyarországon a Mátra Múzeum?": {
+            "A": "Parádon",
+            "B": "Egerben",
+            "C": "*Gyöngyösön",
+            "D": "Mátrafüreden"
+        },
+        "Hol látogathatjuk meg neves festőnk, Szőnyi Sándor emlékmúzeumát?": {
+            "A": "Nagymaroson",
+            "B": "Visegrádon",
+            "C": "*Zebegényben",
+            "D": "Dömösön"
+        },
+        "Melyik városunkban látogatható a Türr István Múzeum?": {
+            "A": "Hatvan",
+            "B": "Tata",
+            "C": "*Baja",
+            "D": "Nagykanizsa"
+        },
+        "Hol található a \"Pepi-kert\" nevű arborétum?": {
+            "A": "Zircen",
+            "B": "Vácott",
+            "C": "Debrecenben",
+            "D": "*Szarvason"
+        },
+        "Kinek a nevét viseli egyetem Budapesten?": {
+            "A": "*Eötvös Loránd",
+            "B": "Szilárd Leó",
+            "C": "Teller Ede",
+            "D": "Jedlik Ányos"
+        },
+        "Melyik városunk jelképe a Tűztorony?": {
+            "A": "Eger",
+            "B": "Tata",
+            "C": "*Sopron",
+            "D": "Kőszeg"
+        },
+        "Hol él jelentősebb számban Magyarországon a bunyevác népcsoport?": {
+            "A": "Miskolc környékén",
+            "B": "Sopron környékén",
+            "C": "*Baja környékén",
+            "D": "Gyula környékén"
+        },
+        "Melyik Balaton-parti településen látogatható meg a József Attila Emlékmúzeum?": {
+            "A": "Siófok",
+            "B": "*Balatonszárszó",
+            "C": "Balatonfüred",
+            "D": "Balatonszemes"
+        },
+        "Mit hozott létre Tessedik Sámuel Szarvason?": {
+            "A": "Vadrezervátumot",
+            "B": "Tanítóképző egyetemet",
+            "C": "Dohánygyárat",
+            "D": "*Mezőgazdasági iskolát"
+        },
+        "Melyik városunkban található a Csontváry Múzeum?": {
+            "A": "Szentendrén",
+            "B": "*Pécsett",
+            "C": "Szombathelyen",
+            "D": "Győrött"
+        },
+        "Melyik városunkban látogatható a Fűszerpaprika Múzeum?": {
+            "A": "Szegeden",
+            "B": "Makón",
+            "C": "*Kalocsán",
+            "D": "Gyulán"
+        },
+        "Melyik városunkban tekinthető meg a Gárdonyi Géza Emlékmúzeum?": {
+            "A": "Kőszeg",
+            "B": "*Eger",
+            "C": "Szigetvár",
+            "D": "Komárom"
+        },
+        "Melyik magyarországi népcsoporthoz köthető a busójárás?": {
+            "A": "Vendek",
+            "B": "*Sokácok",
+            "C": "Ruszinok",
+            "D": "Palócok"
+        },
+        "Melyik magyar városban található a Déri Múzeum?": {
+            "A": "Szolnokon",
+            "B": "Békéscsabán",
+            "C": "*Debrecenben",
+            "D": "Miskolcon"
+        },
+        "Hol tekinthető meg a Lehel kürtjeként ismert régészeti lelet?": {
+            "A": "Veszprémben",
+            "B": "*Jászberényben",
+            "C": "Debrecenben",
+            "D": "Sopronban"
+        },
+        "Melyik megyénkben található a hagymájáról híres Makó városa?": {
+            "A": "Heves",
+            "B": "Bács-Kiskun",
+            "C": "*Csongrád",
+            "D": "Hajdú-Bihar"
+        },
+        "Melyik városunkban látogatható meg a Balassi Bálint Múzeum?": {
+            "A": "*Esztergomban",
+            "B": "Tatán",
+            "C": "Egerben",
+            "D": "Győrött"
+        },
+        "Melyik megyénkben található Szentes városa?": {
+            "A": "Békés",
+            "B": "Heves",
+            "C": "*Csongrád",
+            "D": "Tolna"
+        },
+        "Mely település nevezetessége a Rákóczi-vár?": {
+            "A": "Eperjes",
+            "B": "*Sárospatak",
+            "C": "Késmárk",
+            "D": "Bártfa"
+        },
+        "Melyik magyar várost nevezik \"kálvinista Rómának\"?": {
+            "A": "Szegedet",
+            "B": "Sárospatakot",
+            "C": "Pápát",
+            "D": "*Debrecent"
+        },
+        "Melyik megyénkben található a tavasbarlangjáról híres Tapolca?": {
+            "A": "*Veszprém",
+            "B": "Somogy",
+            "C": "Nógrád",
+            "D": "Baranya"
+        },
+        "Melyik városunkban látható Szent László hermája?": {
+            "A": "Budapesten",
+            "B": "Székesfehérváron",
+            "C": "*Győrben",
+            "D": "Esztergomban"
+        },
+        "Melyik nem határállomás az alábbi települések közül?": {
+            "A": "Rajka",
+            "B": "Rédics",
+            "C": "Röszke",
+            "D": "*Ráckeve"
+        },
+        "Melyik településünkön őrzik a tihanyi apátság alapítólevelének eredeti példányát?": {
+            "A": "Győr",
+            "B": "*Pannonhalma",
+            "C": "Tihany",
+            "D": "Esztergom"
+        },
+        "Melyik megyénkben található Göcsej nevű tájegység?": {
+            "A": "Bács-Kiskun",
+            "B": "Somogy",
+            "C": "*Zala",
+            "D": "Békés"
+        },
+        "Melyik budapesti hegyen található a Citadella?": {
+            "A": "*Gellért-hegy",
+            "B": "János-hegy",
+            "C": "Széchenyi-hegy",
+            "D": "Várhegy"
+        },
+        "Melyik városunkban látható a Gizella-kápolna?": {
+            "A": "*Veszprémben",
+            "B": "Székesfehérvárott",
+            "C": "Győrben",
+            "D": "Egerben"
+        },
+        "Melyik megyénkben található Nagykanizsa?": {
+            "A": "*Zala",
+            "B": "Baranya",
+            "C": "Somogy",
+            "D": "Vas"
         }
     },
     "misc": {
