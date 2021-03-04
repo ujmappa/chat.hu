@@ -5452,7 +5452,7 @@
             "C": "Gaz",
             "D": "Borsó"
         },
-        "Melyik testrészünk csontjai: a kalapács, az üllő és a kengyel?": {
+        "Melyik testrészünk csontjai a kalapács, az üllő és a kengyel?": {
             "A": "A láb",
             "B": "A kéz",
             "C": "A váll",
@@ -5717,10 +5717,10 @@
             "D": "*Hiúz"
         },
         "Melyik vitamin hiánya okozza a farkasvakságot?": {
-            "A": "D vitamin",
-            "B": "K vitamin",
-            "C": "*A vitamin",
-            "D": "B vitamin"
+            "A": "*A vitamin",
+            "B": "B vitamin",
+            "C": "K vitamin",
+            "D": "D vitamin"
         },
         "Az alábbiak közül melyik állat lakóhelyét nevezzük kotoréknak?": {
             "A": "*A rókáét",
@@ -5848,7 +5848,7 @@
             "C": "Magházából",
             "D": "*Bibeszálából"
         },
-        "Az alábbi növények közül melyik nem spórával szaporodnak?": {
+        "Az alábbi növények közül melyik NEM spórával szaporodik?": {
             "A": "Páfrányok",
             "B": "Zsurlók",
             "C": "Mohák",
@@ -5903,10 +5903,10 @@
             "D": "Csibor"
         },
         "Melyik vitamin hiánya okoz skorbutot?": {
-            "A": "*C vitamin",
-            "B": "D vitamin",
-            "C": "A vitamin",
-            "D": "E vitamin"
+            "A": "A vitamin",
+            "B": "B vitamin",
+            "C": "*C vitamin",
+            "D": "D vitamin"
         },
         "Melyik állatfajnak nem lehet előtagja az angóra?": {
             "A": "Kecske",
@@ -6098,8 +6098,7 @@
             "A": "Gnú",
             "B": "Okapi",
             "C": "*Musztáng",
-            "D": "Impala",
-            "N": 2
+            "D": "Impala"
         },
         "Milyen állat a güzü?": {
             "A": "Ízeltlábú",
@@ -6122,7 +6121,7 @@
         "Milyen növényrész a barka?": {
             "A": "Rügylevél",
             "B": "*Füzérvirágzat",
-            "C": "Légggyökér",
+            "C": "Léggyökér",
             "D": "Termés"
         },
         "Melyik férfinév szerepel egy körtefajta nevében?": {
@@ -6163,9 +6162,9 @@
         },
         "Melyik vitamin hiánya okoz fokozott vérzéshajlamot?": {
             "A": "A vitamin",
-            "B": "*K vitamin",
-            "C": "D vitamin",
-            "D": "B vitamin"
+            "B": "B vitamin",
+            "C": "*K vitamin",
+            "D": "D vitamin"
         },
         "Mivel táplálkozik a folyton rágcsáló koala?": {
             "A": "Bambusszal",
@@ -6809,7 +6808,7 @@
             "C": "Kétéltűeknek",
             "D": "Hüllőknek"
         },
-        "Melyik állat nem kérődző?": {
+        "Melyik állat NEM kérődző?": {
             "A": "Kecske",
             "B": "Zsiráf",
             "C": "*Tapír",
