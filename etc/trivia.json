@@ -1,4 +1,517 @@
 {
+    "music": {
+        "Melyik volt Koncz Zsuzsa első önálló nagy slágere?": {
+            "A": "*Szőke Anni balladája",
+            "B": "Rohan az idő",
+            "C": "Színes ceruzák",
+            "D": "Kis virág"
+        },
+        "Melyik híres popsztár slágerei voltak a \"Bad\" illetve a \"Black Or White\"?": {
+            "A": "*Michael Jackson",
+            "B": "Rod Stewart",
+            "C": "George Michael",
+            "D": "Elton John"
+        },
+        "\"Mit csinálj\" a sörrel a Fonográf együttes slágerének címe szerint?": {
+            "A": "Döntsd be!",
+            "B": "*Lökd ide!",
+            "C": "Fizesd ki!",
+            "D": "Küld le!"
+        },
+        "Melyik volt az Illés együttes első nagylemeze?": {
+            "A": "Illések és pofonok",
+            "B": "Add a kezed!",
+            "C": "*Nehéz az út",
+            "D": "Ne sírjatok lányok!"
+        },
+        "Ki volt az Omega együttes első dobosa?": {
+            "A": "Solti János",
+            "B": "Debreceni Ferenc",
+            "C": "*Laux József",
+            "D": "Németh Oszkár"
+        },
+        "Melyik magyar együttes nagylemeze volt a \"Zenegép\"?": {
+            "A": "Fonográf",
+            "B": "*Generál",
+            "C": "Karthago",
+            "D": "Corvina"
+        },
+        "Melyik együttes slágere volt a \"The Wall\"?": {
+            "A": "*Pink Floyd",
+            "B": "Genesis",
+            "C": "Rolling Stones",
+            "D": "Queen"
+        },
+        "Ki volt a legnagyobb ragtime-zeneszerző?": {
+            "A": "*Scott Joplin",
+            "B": "Irving Berlin",
+            "C": "Glenn Miller",
+            "D": "Cole Porter"
+        },
+        "Melyik rock-együttes énekese volt Freddie Mercury?": {
+            "A": "AC/DC",
+            "B": "Rolling Stones",
+            "C": "*Queen",
+            "D": "Led Zeppelin"
+        },
+        "Miről választotta nevét a U2 együttes?": {
+            "A": "Atom-tengeralattjáróról",
+            "B": "Kémműholdról",
+            "C": "*Felderítő repülőgépről",
+            "D": "Anyahajóról"
+        },
+        "Melyik magyar rock-együttes slágerei voltak a \"Szállj fel magasra!\" és a \"Kóbor angyal\"?": {
+            "A": "Beatrice",
+            "B": "*Piramis",
+            "C": "Korál",
+            "D": "Edda"
+        },
+        "Melyik rockzenész nem volt soha tagja a Locomotív GT-nek?": {
+            "A": "Barta Tamás",
+            "B": "Frenreisz Károly",
+            "C": "Karácsony János",
+            "D": "*Tátrai Tibor"
+        },
+        "Melyik Beatles-tag felesége volt Yoko Ono?": {
+            "A": "Paul McCartney",
+            "B": "*John Lennon",
+            "C": "Ringo Starr",
+            "D": "George Harrison"
+        },
+        "Milyen őrmester szerepel a Beatles híres lemezének címében?": {
+            "A": "Paprika",
+            "B": "*Bors",
+            "C": "Fokhagyma",
+            "D": "Chili"
+        },
+        "Hol volt a legendás rockfesztivál 1969 nyarán?": {
+            "A": "Sacramentóban",
+            "B": "*Woodstockban",
+            "C": "Seattle-ben",
+            "D": "Londonban"
+        },
+        "Melyik együttes tagja volt Sting?": {
+            "A": "Kiss",
+            "B": "Genesis",
+            "C": "Yes",
+            "D": "*Police"
+        },
+        "Kit tekintenek a jazzrock megteremtőjének?": {
+            "A": "*Miles Davist",
+            "B": "Gil Evanst",
+            "C": "John McLaughlint",
+            "D": "Chick Coreát"
+        },
+        "Milyen Frédiről énekelt az Omega együttes?": {
+            "A": "*Trombitás",
+            "B": "Verklis",
+            "C": "Üstdobos",
+            "D": "Flinstone"
+        },
+        "Milyen hangszeren játszott Louis Armstrong?": {
+            "A": "Trombonon",
+            "B": "Szaxofonon",
+            "C": "Pozanon",
+            "D": "*Trombitán"
+        },
+        "Ki a Rolling Stones együttes szólóénekese?": {
+            "A": "*Mick Jagger",
+            "B": "David Bowie",
+            "C": "Elton John",
+            "D": "Freddy Mercury"
+        },
+        "Mi az eredeti neve a Beatles legendás dobosának, Ringo Starrnak?": {
+            "A": "Richard Wayne Penniman",
+            "B": "*Richard Starkey",
+            "C": "Harry Rodger Webb",
+            "D": "Lionel Richie"
+        },
+        "Ki nem adott elő James Bond-film főcímdalt az alábbi híres zenészek közül?": {
+            "A": "Paul McCartney",
+            "B": "Tom Jones",
+            "C": "Louis Amstrong",
+            "D": "*David Bowie"
+        },
+        "Ki örökítette meg Lady Diana emlékét \"Gyertyák a szélben\" című dalával?": {
+            "A": "Mick Jagger",
+            "B": "*Elton John",
+            "C": "Rod Stewart",
+            "D": "Paul McCartney"
+        },
+        "Melyik várost tartják a dzsessz szülőhazájának?": {
+            "A": "*New Orleans",
+            "B": "Memphis",
+            "C": "Boston",
+            "D": "Charleston"
+        },
+        "Melyik együttes szólóénekese Balázs Ferenc?": {
+            "A": "Generál",
+            "B": "Apostol",
+            "C": "*Korál",
+            "D": "Edda"
+        },
+        "Milyen ízű banánról énekelt a Metró együttes?": {
+            "A": "Menta",
+            "B": "Kávé",
+            "C": "Csokoládé",
+            "D": "*Citrom"
+        },
+        "Melyik magyar városból indult a 70-es évek végén az Edda együttes?": {
+            "A": "Ózd",
+            "B": "Debrecen",
+            "C": "*Miskolc",
+            "D": "Szolnok"
+        },
+        "Melyik együttessel énekelt először Koncz Zsuzsa?": {
+            "A": "*Omega együttes",
+            "B": "Illés együttes",
+            "C": "Metró együttes",
+            "D": "Bergendy együttes"
+        },
+        "Melyik legendás együttesnek volt énekese Horváth Charlie?": {
+            "A": "Korál",
+            "B": "*Generál",
+            "C": "Omega",
+            "D": "Piramis"
+        },
+        "Milyen címen jelent meg Madonna első albuma?": {
+            "A": "Like a Virgin",
+            "B": "True Blue",
+            "C": "*Madonna",
+            "D": "You Can Dance"
+        },
+        "Melyik világhírű gitáros-énekes robbant be a rockzenébe \"Hey Joe\" című számával?": {
+            "A": "*Jimi Hendrix",
+            "B": "Paul Simon",
+            "C": "Roy Orbison",
+            "D": "Eric Clapton"
+        },
+        "Melyik dallal búcsúzott egy európai várostól az Illés együttes?": {
+            "A": "Auf Wiedersehen, Berlin!",
+            "B": "Arrivederci, Roma!",
+            "C": "*Good-bye, London!",
+            "D": "Viszontlátásra, Budapest!"
+        },
+        "Melyik magyar énekesnő nagy slágere volt a 70-es években az \"Árva fiú\"?": {
+            "A": "Karda Beáta",
+            "B": "Kovács Kati",
+            "C": "*Cserháti Zsuzsa",
+            "D": "Szűcs Judit"
+        },
+        "Melyik angol városból indult a Beatles együttes pályafutása?": {
+            "A": "*Liverpool",
+            "B": "London",
+            "C": "Birmingham",
+            "D": "Manchester"
+        },
+        "Milyen nemzetiségű az AC/DC nevű rockegyüttes?": {
+            "A": "*Ausztrál",
+            "B": "Kanadai",
+            "C": "Angol",
+            "D": "Egyesült államokbeli"
+        },
+        "Melyik kitűnő rockzenészünk dolgozott egy ideig zenebohócként?": {
+            "A": "Pataky Attila",
+            "B": "Horváth Charlie",
+            "C": "Demjén Ferenc",
+            "D": "*Somló Tamás"
+        },
+        "Melyik dzsesszzenészt becézték \"Satchmo\"-nak?": {
+            "A": "Miles Davist",
+            "B": "Benny Goodmant",
+            "C": "*Louis Armstrongot",
+            "D": "Duke Ellingtont"
+        },
+        "Milyen ital szerepel Horváth Charlie számának címében: \"Jég...\"": {
+            "A": "Alkoholmentes sörrel",
+            "B": "Dupla kávéval",
+            "C": "Szimpla brandyvel",
+            "D": "*Dupla whiskyvel"
+        },
+        "Melyik együttes énekelt arról, hogy milyen nehéz az iskolatáska?": {
+            "A": "Bojtorján együttes",
+            "B": "*Bergendy együttes",
+            "C": "Fonográf együttes",
+            "D": "Neoton Família"
+        },
+        "Folytassa a dalt! \"Mindig az a perc a legszebb perc, mit...\"": {
+            "A": "Nincs időnk megélni",
+            "B": "*Meg nem ád az élet",
+            "C": "Átalszik az ember",
+            "D": "Borral tölt a férfi"
+        },
+        "\"Van neki, na mije van neki?\" Fényes Szabolcs dala szerint?": {
+            "A": "Pisze orra",
+            "B": "Csókos ajka",
+            "C": "*Szöszi haja",
+            "D": "Arany szíve"
+        },
+        "Melyik brit együttes lemezei a \"Romeo and Juliet\" és a \"Sultans of Swing\"?": {
+            "A": "Genesis",
+            "B": "*Dire Straits",
+            "C": "Yes",
+            "D": "Pink Floyd"
+        },
+        "Milyen hajú lányról énekelt az Omega együttes a 60-as években?": {
+            "A": "Len",
+            "B": "*Gyöngy",
+            "C": "Arany",
+            "D": "Vörös"
+        },
+        "Melyik országból indult el világhírű útjára az ABBA együttes?": {
+            "A": "*Svédországból",
+            "B": "Nagy-Britanniából",
+            "C": "Dániából",
+            "D": "Hollandiából"
+        },
+        "Hová \"jöjjön ki\" egy jó túrós csuszára a régi sláger szerint?": {
+            "A": "Visegrádra",
+            "B": "Hűvösvölgybe",
+            "C": "A vásárba",
+            "D": "*Óbudára"
+        },
+        "Melyik hangszer kiváló művésze volt Benny Goodman?": {
+            "A": "Szaxofon",
+            "B": "*Klarinét",
+            "C": "Trombita",
+            "D": "Szárnykürt"
+        },
+        "Hogyan folytatódik a dal? \"Köszönöm, hogy imádott, hogy …\"": {
+            "A": "Sohasem hibázott",
+            "B": "Az ablakon bemászott",
+            "C": "Tegezett, nem magázott",
+            "D": "*Reám így vigyázott"
+        },
+        "Melyik együttes énekelt a 70-es években Raszputyinról?": {
+            "A": "ABBA",
+            "B": "Dschingis Khan",
+            "C": "*Boney M.",
+            "D": "Blondie"
+        },
+        "Milyen rózsáról énekelt az Illés együttes 1969-es nagylemezén?": {
+            "A": "Őszi",
+            "B": "*Sárga",
+            "C": "Bazsa",
+            "D": "Vörös"
+        },
+        "Milyen tengeralattjáró szerepel a Beatles együttes zenéjére készült rajzfilm címében?": {
+            "A": "*Sárga",
+            "B": "Lyukas",
+            "C": "Zöld",
+            "D": "Atom"
+        },
+        "Melyik magyar rockegyüttes énekelt a 67-es útról?": {
+            "A": "Piramis",
+            "B": "Edda",
+            "C": "Omega",
+            "D": "*Republic"
+        },
+        "A hét melyik napjáról írt \"szomorú\" dalt Seress Rezső a 30-as években?": {
+            "A": "A hétfőről",
+            "B": "A szerdáról",
+            "C": "A szombatról",
+            "D": "*A vasárnapról"
+        },
+        "Melyik rockegyüttesben kezdte énekesi pályafutását Ákos?": {
+            "A": "Ámokfutók",
+            "B": "*Bonanza Banzai",
+            "C": "Animal Cannibals",
+            "D": "Első Emelet"
+        },
+        "Melyik együttes énekelte, hogy : \"Az ész a fontos, nem a haj\"?": {
+            "A": "Bergendy",
+            "B": "*Illés",
+            "C": "Omega",
+            "D": "Hungária"
+        },
+        "Melyik együttes énekelte, hogy \"Mindenki másképp csinálja\"?": {
+            "A": "Fonográf",
+            "B": "Piramis",
+            "C": "Skorpió",
+            "D": "*Lokomotiv GT"
+        },
+        "Milyen nemzetiségű a Depeche Mode együttes?": {
+            "A": "Francia",
+            "B": "*Brit",
+            "C": "Kanadai",
+            "D": "Ausztrál"
+        },
+        "Melyik énekes nyerte meg a táncdalfesztivált \"Szóljon hangosan az ének\" című dalával?": {
+            "A": "Máté Péter",
+            "B": "Szécsi Pál",
+            "C": "*Soltész Rezső",
+            "D": "Delhusa Gjon"
+        },
+        "Melyik énekesünk dalolta, hogy \"Azért vannak a jóbarátok...\"?": {
+            "A": "Korda György",
+            "B": "Szécsi Pál",
+            "C": "Aradszky László",
+            "D": "*Máté Péter"
+        },
+        "Milyen \"Halottkémek\" néven vált ismertté egy zenekar?": {
+            "A": "Repülő",
+            "B": "Zenélő",
+            "C": "*Vágtázó",
+            "D": "Ordító"
+        },
+        "Melyik együttes slágere volt a \"Waterloo\"?": {
+            "A": "Boney M",
+            "B": "Pussycat",
+            "C": "*ABBA",
+            "D": "Bee Gees"
+        },
+        "Melyik híres feltaláló nevét viseli címében a Fonográf együttes egyik albuma?": {
+            "A": "Morse",
+            "B": "Bell",
+            "C": "Zeppelin",
+            "D": "*Edison"
+        },
+        "Mit ér meg Pest a sláger címe szerint?": {
+            "A": "Egy misét",
+            "B": "*Egy estet",
+            "C": "Egy pengőt",
+            "D": "Nem ér semmit"
+        },
+        "Ki volt jelzője szerint a reggae-zene koronázatlan királya?": {
+            "A": "Bill Haley",
+            "B": "Frank Zappa",
+            "C": "Jimi Hendrix",
+            "D": "*Bob Marley"
+        },
+        "Melyik együttes nyert táncdalfesztivált \"Amikor én még kissrác voltam\" című dalával?": {
+            "A": "Metro",
+            "B": "*Illés",
+            "C": "Hungária",
+            "D": "Omega"
+        },
+        "Melyik énekesnő eredeti családneve Ciccone?": {
+            "A": "Cher",
+            "B": "Enya",
+            "C": "*Madonna",
+            "D": "Pink"
+        },
+        "Melyik együttes énekelte, hogy \"Szállj el, kismadár\"?": {
+            "A": "Edda",
+            "B": "*Republic",
+            "C": "Bonanza Banzai",
+            "D": "Manhattan"
+        },
+        "Melyik énekes platinalemeze volt 1995-ben a \"Mindenki valakié\"?": {
+            "A": "Delhusa Gjon",
+            "B": "Ákos",
+            "C": "Demjén Ferenc",
+            "D": "*Horváth Charlie"
+        },
+        "Melyik együttes énekelte a \"Kell, hogy várj\" című dalt?": {
+            "A": "Metro",
+            "B": "Illés",
+            "C": "Hungária",
+            "D": "*Neoton"
+        },
+        "Melyik magyar ifjúsági regény címét viseli egy magyar rockegyüttes?": {
+            "A": "Kőszívű ember fiai",
+            "B": "*Pál utcai fiúk",
+            "C": "Téli berek",
+            "D": "Egri csillagok"
+        },
+        "Melyik város lett a névadója 1968-ban egy amerikai zenekarnak?": {
+            "A": "Atlanta",
+            "B": "Boston",
+            "C": "*Chicago",
+            "D": "Detroit"
+        },
+        "Melyik énkesnő lemezei a Like A Virgin és a True Blue?": {
+            "A": "Cher",
+            "B": "*Madonna",
+            "C": "Whitney Houston",
+            "D": "Diana Ross"
+        },
+        "Milyen nemzetiségű a U2 nevű rockzenekar?": {
+            "A": "*Ír",
+            "B": "Ausztrál",
+            "C": "Angol",
+            "D": "Amerikai"
+        },
+        "Melyik együttesben játszott Peter Gabriel és Phil Collins?": {
+            "A": "Pink Floyd",
+            "B": "Yes",
+            "C": "*Genesis",
+            "D": "Dire Straits"
+        },
+        "Melyik együttesé volt az Ötödik sebesség című nagylemez?": {
+            "A": "Hungária",
+            "B": "*Bergendy",
+            "C": "Neoton Familia",
+            "D": "Express"
+        },
+        "Milyen közlekedési eszköz szerepel a Fonográf együttes egyik dalának címében?": {
+            "A": "Az utolsó metró",
+            "B": "*Az első villamos",
+            "C": "Az eltévedt troli",
+            "D": "A lerobbant busz"
+        },
+        "Melyik országban született a világhírű gitáros, Carlos Santana?": {
+            "A": "Brazília",
+            "B": "USA",
+            "C": "*Mexikó",
+            "D": "Kuba"
+        },
+        "Melyik együttes énekelt a \"Régi csibészek\"-ről?": {
+            "A": "Illés",
+            "B": "Generál",
+            "C": "*Omega",
+            "D": "Hungária"
+        },
+        "Melyik együttes énekelte, hogy : \"Nehéz a boldogságtól búcsút venni.\"?": {
+            "A": "*Apostol",
+            "B": "Bergendy",
+            "C": "Corvina",
+            "D": "Dinamit"
+        },
+        "Melyik együttes alapító tagja volt Jim Morrison?": {
+            "A": "Genesis",
+            "B": "Pink Floyd",
+            "C": "Queen",
+            "D": "*Doors"
+        },
+        "Melyik földrészről énekelt Varga Miklós a 80-as években?": {
+            "A": "Afrika",
+            "B": "*Európa",
+            "C": "Amerika",
+            "D": "Ázsia"
+        },
+        "Melyik együttes keltett nagy feltűnést \"Bábu vagy\"című számával az 1981-es Táncdalfesztiválon?": {
+            "A": "LGT",
+            "B": "URH",
+            "C": "*KFT",
+            "D": "VHK"
+        },
+        "Melyik országból származik Vangelis, a világhírű muzsikus?": {
+            "A": "Spanyolország",
+            "B": "*Görögország",
+            "C": "India",
+            "D": "Mexikó",
+            "N": 5
+        },
+        "Mi a címe Cserháti Zsuzsa híres slágerének: \"Száguldás, ...\"": {
+            "A": "Trabant, szerelem",
+            "B": "Jaguár, szerelem",
+            "C": "Ferrari, szerelem",
+            "D": "*Porsche, szerelem"
+        },
+        "Melyik zenei irányzat található Hobó együttesének nevében?": {
+            "A": "Country",
+            "B": "*Blues",
+            "C": "Rap",
+            "D": "Reggae"
+        },
+        "Melyik hangszer virtuóza Tátrai Tibor rockzenész?": {
+            "A": "Dob",
+            "B": "Zongora",
+            "C": "Szaxofon",
+            "D": "*Gitár"
+        }
+    },
     "lit": {
         "A felsoroltak közül melyik NEM Shakespeare műve?": {
             "A": "*Elveszett paradicsom",
@@ -4454,6 +4967,12 @@
             "C": "Galt McDermott",
             "D": "*Andrew Lloyd Webber"
         },
+        "Melyik háború idején játszódik a Hair című musical?": {
+            "A": "Öböl-háború",
+            "B": "II. világháború",
+            "C": "*Vietnami háború",
+            "D": "Koreai háború"
+        },
         "Ki írta Szörényi Levente rockoperája, az Attila, Isten kardja dalainak szövegét?": {
             "A": "Bródy János",
             "B": "*Lezsák Sándor",
@@ -4507,6 +5026,12 @@
             "B": "Bródy János",
             "C": "*Adamis Anna",
             "D": "Bereményi Géza"
+        },
+        "Móricz Zsigmond melyik művéből készült musical?": {
+            "A": "Úri muri",
+            "B": "Árvácska",
+            "C": "Rokonok",
+            "D": "*Légy jó mindhalálig"
         },
         "Mi a címe Munkácsi Miklós színpadi művének: \"Mindhalálig ...\"": {
             "A": "Metallica",
