@@ -4256,6 +4256,12 @@
         }
     },
     "lang": {
+        "Melyik hónapot nevezték régen Szent Jakab havának?": {
+            "A": "Február",
+            "B": "Április",
+            "C": "*Július",
+            "D": "November"
+        },
         "Melyik madarat nevezi a néphit vészmadárnak?": {
             "A": "A seregélyt",
             "B": "A verebet",
@@ -9187,6 +9193,12 @@
         }
     },
     "geo": {
+        "Melyik mai állam területén található a híres romváros, Machu Picchu?": {
+            "A": "Kolumbia",
+            "B": "*Peru",
+            "C": "Chile",
+            "D": "Brazília"
+        },
         "Melyik Európa legmagasabb működő vulkánja?": {
             "A": "Stromboli",
             "B": "Hekla",
@@ -10056,6 +10068,12 @@
             "B": "Győrött",
             "C": "*Szentendrén",
             "D": "Pécsett"
+        },
+        "Az alábbiak közül melyik városunkban NEM található minaret?": {
+            "A": "Pécs",
+            "B": "*Veszprém",
+            "C": "Érd",
+            "D": "Eger"
         },
         "Hol található II. Szulejmán szultán dzsámija?": {
             "A": "Pécsett",
@@ -12053,6 +12071,1119 @@
             "B": "Pestnek",
             "C": "*A Dunának",
             "D": "A Balatonnak"
+        },
+        "Az USA-n kívül hol adtak még ki Függetlenségi Nyilatkozatot?": {
+            "A": "Angliában",
+            "B": "Franciaországban",
+            "C": "Finnországban",
+            "D": "*Magyarországon"
+        },
+        "Melyik történelmi személyt nevezték kortársai il Magnificonak?": {
+            "A": "*Lorenzo de' Medicit",
+            "B": "II. Viktor Emánuelt",
+            "C": "Francesco Petrarcát",
+            "D": "Giuseppe Verdit"
+        },
+        "Melyik mai ország területén található Trója?": {
+            "A": "*Törökország",
+            "B": "Szíria",
+            "C": "Ciprus",
+            "D": "Görögország"
+        },
+        "Hogyan nevezték a középkori magyar vármegyék élén álló tisztviselőt?": {
+            "A": "Várnagy",
+            "B": "*Ispán",
+            "C": "Nádor",
+            "D": "Őrgróf"
+        },
+        "Kinek a kortársa volt Béri Balogh Ádám?": {
+            "A": "Petőfi Sándor",
+            "B": "Dózsa György",
+            "C": "*II. Rákóczi Ferenc",
+            "D": "Károly Róbert"
+        },
+        "Melyik ókori város pusztult el vulkánkitörés következtében?": {
+            "A": "Alexandria",
+            "B": "*Herculaneum",
+            "C": "Szürakuza",
+            "D": "Karthago"
+        },
+        "Kit neveznek kalapos királynak?": {
+            "A": "Ferenc Józsefet",
+            "B": "IV. Károlyt",
+            "C": "*II. Józsefet",
+            "D": "I. Lipótot"
+        },
+        "Mely nép uralkodói voltak a Karagyorgyevicsek?": {
+            "A": "*Szerb",
+            "B": "Román",
+            "C": "Orosz",
+            "D": "Albán"
+        },
+        "Ki volt az Osztrák-Magyar Monarchia első közös uralkodója?": {
+            "A": "IV. Károly",
+            "B": "II. József",
+            "C": "*Ferenc József",
+            "D": "Ferenc Ferdinánd"
+        },
+        "Mije volt egy hűbérúrnak, ha volt bandériuma?": {
+            "A": "Kincstára",
+            "B": "*Serege",
+            "C": "Örököse",
+            "D": "Nyári lakja"
+        },
+        "Melyik uralkodónk látogatására készült a váci diadalív?": {
+            "A": "I. Ferenc",
+            "B": "II. József",
+            "C": "Ferenc József",
+            "D": "*Mária Terézia"
+        },
+        "Ki követte közvetlenül Szent Isvánt a trónon?": {
+            "A": "I. András",
+            "B": "I. Béla",
+            "C": "*Orseolo Péter",
+            "D": "Szent László"
+        },
+        "Melyik magyar király volt német-római császár is az alábbiak közül?": {
+            "A": "Nagy Lajos",
+            "B": "*Luxemburgi Zsigmond",
+            "C": "Hunyadi Mátyás",
+            "D": "Szent László"
+        },
+        "Mely ország partjainál zajlott le a Disznó-öbölbeli konfliktus 1961-ben?": {
+            "A": "Vietnam",
+            "B": "Mexikó",
+            "C": "*Kuba",
+            "D": "Panama"
+        },
+        "Mit csinált Klapka György 1849. szeptemberében, a világosi fegyverletétel után?": {
+            "A": "Börtönben volt",
+            "B": "*Komárom várát védte",
+            "C": "Külföldre emigrált",
+            "D": "Csapatokat szervezett"
+        },
+        "Milyen békekötéssel zárult a harmincéves háború?": {
+            "A": "Vasvári",
+            "B": "Bécsi",
+            "C": "Linzi",
+            "D": "*Vesztfáliai"
+        },
+        "Ki \"oldotta\" meg a gordiuszi csomót?": {
+            "A": "Julius Caesar",
+            "B": "*Nagy Sándor",
+            "C": "Hannibál",
+            "D": "Spartacus"
+        },
+        "Ki építette a híres spanyol királyi palotát, az Escorialt?": {
+            "A": "Aragóniai Ferdinánd",
+            "B": "Kasztíliai Izabella",
+            "C": "V. Károly",
+            "D": "*II. Fülöp"
+        },
+        "Melyik királyunk viseli a \"kun\" jelzőt?": {
+            "A": "II. Béla",
+            "B": "III. András",
+            "C": "*IV. László",
+            "D": "II. István"
+        },
+        "Hol folytak eredményes béketárgyalások Egyiptom és Izrael között 1978-ban?": {
+            "A": "*Camp Davidben",
+            "B": "Kairóban",
+            "C": "Párizsban",
+            "D": "Helsinkiben"
+        },
+        "Kit neveztek a spanyol és a portugál királyi udvarban infánsnőnek?": {
+            "A": "A király ágyasait",
+            "B": "*A királyi hercegnőket",
+            "C": "A szakácsnőket",
+            "D": "Az udvarhölgyeket"
+        },
+        "Ki volt tíz éven át lengyel király az alábbi magyar történelmi személyek közül?": {
+            "A": "Bethlen Gábor",
+            "B": "Rákóczi György",
+            "C": "*Báthori István",
+            "D": "Bocskai István"
+        },
+        "Hogyan nevezték a II. világháborúban az öngyilkos japán pilótákat?": {
+            "A": "Harakiri",
+            "B": "*Kamikaze",
+            "C": "Fujijama",
+            "D": "Hoshimishi"
+        },
+        "Mit csináltak a középkori kolostorok lakói a dormitóriumban?": {
+            "A": "Étkeztek",
+            "B": "*Aludtak",
+            "C": "Kódexet másoltak",
+            "D": "Közösen imádkoztak"
+        },
+        "Ki volt a turini remete?": {
+            "A": "Deák Ferenc",
+            "B": "*Kossuth Lajos",
+            "C": "Mikes Kelemen",
+            "D": "Madách Imre"
+        },
+        "Ki volt az anglikán egyház alapítója?": {
+            "A": "*VIII. Henrik",
+            "B": "Morus Tamás",
+            "C": "Rotterdami Erasmus",
+            "D": "I. Erzsébet"
+        },
+        "Mi volt a neve Attila hun vezér testvérének?": {
+            "A": "Csaba",
+            "B": "Szvatopluk",
+            "C": "*Buda",
+            "D": "Zéta"
+        },
+        "Kije vagy mije volt Caligulának Incitatus?": {
+            "A": "Fogadott fia",
+            "B": "*Lova",
+            "C": "Rabszolgája",
+            "D": "Gyilkosa"
+        },
+        "Melyik ázsiai országot tartották uralmuk alatt a vörös khmerek az 1970-es években?": {
+            "A": "Thaiföld",
+            "B": "*Kambodzsa",
+            "C": "Vietnam",
+            "D": "Laosz"
+        },
+        "Milyen nemzetiségű volt a középkori reformer, Husz János?": {
+            "A": "*Cseh",
+            "B": "Francia",
+            "C": "Porosz",
+            "D": "Spanyol"
+        },
+        "Kit neveztek ki a magyar fősereg parancsnokává 1849 márciusában?": {
+            "A": "Kossuth Lajost",
+            "B": "Mészáros Lázárt",
+            "C": "*Görgey Artúrt",
+            "D": "Bem Józsefet"
+        },
+        "Melyik ország diktátora volt Antonio de Oliveira Salazar?": {
+            "A": "Mexikó",
+            "B": "Argentína",
+            "C": "Panama",
+            "D": "*Portugália"
+        },
+        "A legenda szerint melyik császár gyújtotta fel Rómát?": {
+            "A": "Caligula",
+            "B": "*Nero",
+            "C": "Claudius",
+            "D": "Tiberius"
+        },
+        "Hol keresték a kalandvágyók a mesés gazdagságáról híres Eldorádót?": {
+            "A": "Alaszkában",
+            "B": "Indiában",
+            "C": "*Dél-Amerikában",
+            "D": "Belső-Afrikában"
+        },
+        "Ki volt a mondabeli Arthur király felesége?": {
+            "A": "Izolda",
+            "B": "*Guinevra",
+            "C": "Freya",
+            "D": "Brünhilda"
+        },
+        "Melyik nép vezetője volt a mondákból ismert Szvatopluk?": {
+            "A": "Besenyő",
+            "B": "Bolgár",
+            "C": "Kazár",
+            "D": "*Morva"
+        },
+        "Melyik ország hírhedt titkosszolgálata volt a Securitate?": {
+            "A": "Bulgária",
+            "B": "*Románia",
+            "C": "Albánia",
+            "D": "Izrael"
+        },
+        "Kiről nevezték el az amerikai kontinenst?": {
+            "A": "Egy spanyol matrózról",
+            "B": "Egy viking hajósról",
+            "C": "Egy angol hajóépítőről",
+            "D": "*Egy itáliai felfedezőről"
+        },
+        "Melyik birodalom széthullásának fontos állomása volt a verduni szerződés 843-ban?": {
+            "A": "Római Birodalom",
+            "B": "*Frank Birodalom",
+            "C": "Hun Birodalom",
+            "D": "Avar Birodalom"
+        },
+        "Miből készült hajón tett kísérletet Thor Heyerdahl az Atlanti-óceán átszelésére?": {
+            "A": "Bambusz",
+            "B": "Ébenfa",
+            "C": "*Papirusz",
+            "D": "Parafa"
+        },
+        "Melyik ókori görög filozófus volt a macedóniai Nagy Sándor nevelője?": {
+            "A": "Arhimédész",
+            "B": "Platón",
+            "C": "*Arisztotelész",
+            "D": "Diogenész",
+            "N": 12
+        },
+        "Kinek a felajánlására alapították meg a Nemzeti Múzeumot?": {
+            "A": "Kazinczy Ferenc",
+            "B": "Martinovics Ignác",
+            "C": "*Széchényi Ferenc",
+            "D": "Széchenyi István"
+        },
+        "Ki az az angol költő, aki a görög szabadságharcban vesztette életét?": {
+            "A": "*Byron",
+            "B": "Shelley",
+            "C": "Milton",
+            "D": "Coleridge"
+        },
+        "Ki volt az a politikus, aki 1971-ben kikiáltotta Banglades függetlenségét?": {
+            "A": "Mórárdzsi Dészái",
+            "B": "Ziaur Rahman",
+            "C": "Mahmud Ullah",
+            "D": "*Mudzsibur Rahman"
+        },
+        "Ki volt az 1990-ben megalakult új magyar kormány vezetője?": {
+            "A": "*Antall József",
+            "B": "Németh Miklós",
+            "C": "Boross Péter",
+            "D": "Mádl Ferenc"
+        },
+        "Ki volt János Zsigmond erdélyi fejedelem apja?": {
+            "A": "I. Ferdinánd",
+            "B": "*Szapolyai János",
+            "C": "Werbőczy István",
+            "D": "Martinuzzi György"
+        },
+        "Hol született a híres kémnő, Mata Hari?": {
+            "A": "Indiában",
+            "B": "*Hollandiában",
+            "C": "Svédországban",
+            "D": "Jáva szigetén"
+        },
+        "Melyik földrészen végzett kutatómunkát Kittenberger Kálmán, a neves utazó?": {
+            "A": "Dél-Amerika",
+            "B": "Kelet-Ázsia",
+            "C": "*Afrika",
+            "D": "Antarktisz"
+        },
+        "Mely mai ország területén épült fel az ókori nevezetesség, Hadrianus fala?": {
+            "A": "Olaszország",
+            "B": "Görögország",
+            "C": "*Anglia",
+            "D": "Egyiptom"
+        },
+        "Melyik mai ország területének része a régi Bohémia?": {
+            "A": "Franciaország",
+            "B": "*Csehország",
+            "C": "Olaszország",
+            "D": "Spanyolország"
+        },
+        "Ki volt az Egyesült Államok elnöke az Öböl-háború idején?": {
+            "A": "Ronald Reagan",
+            "B": "*George Bush",
+            "C": "Bill Clinton",
+            "D": "Jimmy Carter"
+        },
+        "Ki volt Lehel vezér társa az elbukott augsburgi csatában?": {
+            "A": "Bács",
+            "B": "Baján",
+            "C": "*Bulcsú",
+            "D": "Berény"
+        },
+        "Melyik ókori városállam egyik kegyetlen szokása kapcsolódik Taigetosz hegyéhez?": {
+            "A": "Athén",
+            "B": "*Spárta",
+            "C": "Korinthos",
+            "D": "Théba"
+        },
+        "Melyik évben volt a Rajk-per Magyarországon?": {
+            "A": "1946-ban",
+            "B": "1948-ban",
+            "C": "*1949-ben",
+            "D": "1953-ban"
+        },
+        "Hogy nevezték a rabszolgát az ókori Spártában?": {
+            "A": "Ephorosz",
+            "B": "Perioikosz",
+            "C": "Geruszia",
+            "D": "*Helóta"
+        },
+        "Hogy nevezik a Martinovics Ignác körül szerveződött csoportot?": {
+            "A": "Magyar royalisták",
+            "B": "Magyar girondisták",
+            "C": "Magyar sans-culotte-ok",
+            "D": "*Magyar jakubinusok"
+        },
+        "Ki volt Nero császár híres nevelője?": {
+            "A": "*Seneca",
+            "B": "Cicero",
+            "C": "Ovidius",
+            "D": "Cato"
+        },
+        "Mit neveztek az ókori sumérok a \"tábla házának\"?": {
+            "A": "Bíróságot",
+            "B": "*Iskolát",
+            "C": "Vendéglőt",
+            "D": "Fürdőt"
+        },
+        "Milyen szerződésnek nevezték a Szovjetunió és szövetségesei alkotta katonai tömböt?": {
+            "A": "Moszkvai",
+            "B": "Prágai",
+            "C": "*Varsói",
+            "D": "Szófiai"
+        },
+        "Ki NEM volt az aradi vértanuk egyike?": {
+            "A": "Dessewffy Arisztid",
+            "B": "Schweidel József",
+            "C": "*Dembinszky Henrik",
+            "D": "Knezich Károly"
+        },
+        "Ki NEM volt a kerekasztal lovagja?": {
+            "A": "Iwein",
+            "B": "Gawain",
+            "C": "*Gorlois",
+            "D": "Galahad"
+        },
+        "Hogyan halt meg Marie Antoinette francia királyné?": {
+            "A": "Megmérgezték",
+            "B": "Máglyán elégették",
+            "C": "*Lefejezték",
+            "D": "Vízbe fulladt"
+        },
+        "Ki győzte le Marcus Antoniust az actiumi csatában?": {
+            "A": "*Octavianus",
+            "B": "Mucius Scaevola",
+            "C": "Pompeius",
+            "D": "Julius Caesar"
+        },
+        "Kiknek a hajóhadát nevezték Győzhetetlen Armadának a XVI. században?": {
+            "A": "Angolok",
+            "B": "*Spanyolok",
+            "C": "Hollandok",
+            "D": "Velenceiek"
+        },
+        "Hol ülésezett az országgyűlés 1848 elején?": {
+            "A": "Budán",
+            "B": "Gyulafehérvárott",
+            "C": "*Pozsonyban",
+            "D": "Debrecenben"
+        },
+        "Mi történt a Reichstag épületével 1933 februárjában?": {
+            "A": "Felrobbantották",
+            "B": "Elfoglalták",
+            "C": "*Felgyújtották",
+            "D": "Összeomlott"
+        },
+        "Melyik korszakban harcolt Lebstück Mária főhadnagy?": {
+            "A": "Rákóczi-szabadságharc",
+            "B": "I. világháború",
+            "C": "*1848-49-es szabadságharc",
+            "D": "Eger 1552-es ostroma"
+        },
+        "Melyik folyó partján fekszik az egykori pápai székhely, Avignon?": {
+            "A": "*Rhone",
+            "B": "Rajna",
+            "C": "Saone",
+            "D": "Temze"
+        },
+        "Milyen jelzővel szokás illetni IV. Iván orosz cárt?": {
+            "A": "Bölcs",
+            "B": "Büszke",
+            "C": "*Rettegett",
+            "D": "Szelíd"
+        },
+        "Az alábbi építmények közül melyik NEM tartozott az ókori világ hét csodája közé?": {
+            "A": "Epheszoszi Artemisz-templom",
+            "B": "Halikarnasszoszi mauzóleum",
+            "C": "Pheidiasz Zeusz-szobra",
+            "D": "*Salamon temploma"
+        },
+        "Milyen állat segítségével követett el öngyilkosságot Kleopátra a hiedelem szerint?": {
+            "A": "Krokodil",
+            "B": "*Kígyó",
+            "C": "Skorpió",
+            "D": "Oroszlán"
+        },
+        "Hogy hívták Ferenc József és Erzsébet királyné egyetlen fiúgyermekét?": {
+            "A": "Ottó",
+            "B": "Ferdinánd",
+            "C": "*Rudolf",
+            "D": "Miksa"
+        },
+        "Ki vezette a magyar seregeket 1448-ban a rigómezei csatában?": {
+            "A": "Kinizsi Pál",
+            "B": "Nádasdy Ferenc",
+            "C": "*Hunyadi János",
+            "D": "Török Bálint"
+        },
+        "Kit győzött le a lipcsei csatamezőn a szövetséges osztrák-orosz–porosz–svéd haderő?": {
+            "A": "Nagy Katalin cárnőt",
+            "B": "Hódító Vilmos királyt",
+            "C": "*Napóleon császárt",
+            "D": "III. Szelim szultánt"
+        },
+        "Melyik egyetemen tanított 1508-tól Luther Márton?": {
+            "A": "Wartburgi",
+            "B": "*Wittenbergi",
+            "C": "Heidelbergi",
+            "D": "Strassburgi"
+        },
+        "Melyik uralkodói családba tartozott a \"Dobzse\" melléknévvel illetett királyunk?": {
+            "A": "Árpád-ház",
+            "B": "*Jagelló-ház",
+            "C": "Anjou-ház",
+            "D": "Habsburg-ház"
+        },
+        "Ki volt Nagy-Britannia miniszterelnöke Sztálin 1953-ban bekövetkezett halálakor?": {
+            "A": "Clement Attlee",
+            "B": "*Sir Winston Churchill",
+            "C": "Harold Wilson",
+            "D": "Sir Anthony Eden"
+        },
+        "Hol mondták ki a Habsburgok trónfosztását 1849. április 14-én?": {
+            "A": "Pozsonyban",
+            "B": "*Debrecenben",
+            "C": "Kassán",
+            "D": "Székesfehérváron"
+        },
+        "Melyik magyar király viselt hadat Nápoly ellen?": {
+            "A": "II. András",
+            "B": "III. Béla",
+            "C": "*Nagy Lajos",
+            "D": "Zsigmond"
+        },
+        "Kik támadták meg Pearl Harbor városát 1941 decemberében?": {
+            "A": "*Japánok",
+            "B": "Németek",
+            "C": "Oroszok",
+            "D": "Olaszok"
+        },
+        "Melyik állam császára volt Bíborbanszületett Konstantin?": {
+            "A": "Német-Római Birodalom",
+            "B": "*Bizánci Birodalom",
+            "C": "Nyugat-Római Birodalom",
+            "D": "Frank Birodalom"
+        },
+        "Melyik orosz cár nyújtott katonai segítséget a Habsburgoknak 1849-ben?": {
+            "A": "*I. Miklós",
+            "B": "II. Miklós",
+            "C": "I. Sándor",
+            "D": "II. Sándor"
+        },
+        "Ki volt Nagy-Britannia miniszterelnöke a Falkland-szigeteki háború idején?": {
+            "A": "Sir Winston Churchill",
+            "B": "John Major",
+            "C": "*Margaret Thatcher",
+            "D": "Harold Wilson"
+        },
+        "Mije nincs egy államnak semmiképpen az interregnum idején?": {
+            "A": "Nagy államadóssága",
+            "B": "Természetes határa",
+            "C": "Kinevezett fővárosa",
+            "D": "*Törvényes államfője"
+        },
+        "Mely hónapok fordulójának felel meg a francia forradalmi naptár thermidor hava?": {
+            "A": "Január-február",
+            "B": "Március-április",
+            "C": "*Július-augusztus",
+            "D": "Október-november"
+        },
+        "Mi volt a híres betyár, Vidróczki keresztneve?": {
+            "A": "Bertalan",
+            "B": "*Márton",
+            "C": "Tamás",
+            "D": "Sándor"
+        },
+        "Ki telepítette le a hajdúkat Hajdú és Bihar vármegyékben 1606-ban?": {
+            "A": "Thököly Imre",
+            "B": "Szapolyai János",
+            "C": "*Bocskai István",
+            "D": "Werbőczy István"
+        },
+        "Mely ország XX. századi történelmében játszottak fontos szerepet a falangisták?": {
+            "A": "Szovjetunió",
+            "B": "*Spanyolország",
+            "C": "Ausztria",
+            "D": "Görögország"
+        },
+        "Ki igázta le a perui inka birodalmat?": {
+            "A": "Cortázar",
+            "B": "Cortez",
+            "C": "*Pizarro",
+            "D": "Piscator"
+        },
+        "Melyik ókori állam jelentős települése volt Luxor?": {
+            "A": "Mezopotámia",
+            "B": "Perzsia",
+            "C": "*Egyiptom",
+            "D": "Asszíria"
+        },
+        "Ki ellen követett el merényletet Zách Felicián?": {
+            "A": "Nagy Lajos",
+            "B": "*Károly Róbert",
+            "C": "Zsigmond",
+            "D": "II. András"
+        },
+        "Kinek a felesége volt Sarolt?": {
+            "A": "Szent Imre herceg",
+            "B": "Szent István király",
+            "C": "*Géza fejedelem",
+            "D": "Álmos vezér"
+        },
+        "Hogyan döntöttek a vesztes gladiátor sorsáról az ókori Róma arénáiban?": {
+            "A": "Hangos kiabálással",
+            "B": "A tóga lengetésével",
+            "C": "Füttyszóval",
+            "D": "*Ujj-jelzéssel"
+        },
+        "Melyik nép államalapítója I. Mieszko fejedelem?": {
+            "A": "Morva",
+            "B": "Szerb",
+            "C": "*Lengyel",
+            "D": "Litván"
+        },
+        "Kik építettek akropoliszokat?": {
+            "A": "Az ókori egyiptomiak",
+            "B": "A vikingek",
+            "C": "A maják",
+            "D": "*Az ókori görögök"
+        },
+        "Melyik uralkodóról készült fénykép az alábbiak közül?": {
+            "A": "Mária Terézia",
+            "B": "*Viktória királynő",
+            "C": "Stuart Mária",
+            "D": "Nagy Katalin"
+        },
+        "Kit tekintett felelősnek a korabeli nemesség a Dózsa-féle parasztfelkelés kirobbanásáért?": {
+            "A": "Habsburg Ferdinándot",
+            "B": "Szapolyai Jánost",
+            "C": "II. Lajost",
+            "D": "*Bakócz Tamást",
+            "N": 8
+        },
+        "\"A cél szentesíti az eszközt.\" Kinek tulajdonítjuk a megállapítást?": {
+            "A": "Winston Churchill",
+            "B": "Lucrezia Borgia",
+            "C": "*Niccolo Machiavelli",
+            "D": "Maximilien Rebespierre"
+        },
+        "Melyik tragikus emlékű csatát szokás Lech-mezei csatának is nevezni?": {
+            "A": "A mohácsi csatát",
+            "B": "A muhi csatát",
+            "C": "A merseburgi csatát",
+            "D": "*Az augsburgi csatát"
+        },
+        "Melyik feltaláló vett részt az Amerikai Függetlenségi Nyilatkozat megfogalmazásában?": {
+            "A": "Robert Fulton",
+            "B": "James Watt",
+            "C": "*Benjamin Franklin",
+            "D": "Samuel Morse"
+        },
+        "Melyik neves magyar író volt a háború után honvédelmi miniszter?": {
+            "A": "Illyés Gyula",
+            "B": "*Veres Péter",
+            "C": "Darvas József",
+            "D": "Szabó Pál"
+        },
+        "Hol halt meg Hunyadi Mátyás magyar király?": {
+            "A": "Visegrádon",
+            "B": "Székesfehérváron",
+            "C": "Budaváron",
+            "D": "*Bécsben"
+        },
+        "Melyik ország ipari minisztere volt Che Guevara 1961 és 1965 között?": {
+            "A": "Argentína",
+            "B": "*Kuba",
+            "C": "Mexikó",
+            "D": "Chile"
+        },
+        "Milyen kapcsolatban volt Bornemissza Péter Balassi Bálinttal?": {
+            "A": "Katonatársa volt",
+            "B": "Sógora volt",
+            "C": "Diáktársa volt",
+            "D": "*Nevelője volt"
+        },
+        "Kik voltak eredetileg az agent provocateur-ök?": {
+            "A": "Bolsevik aktivisták",
+            "B": "*Titkos rendőrügynökök",
+            "C": "Vásári komédiások",
+            "D": "Bujdosó bonapartisták"
+        },
+        "Kik laktak régen a klastromban?": {
+            "A": "Katonák",
+            "B": "Udvarhölgyek",
+            "C": "Céhlegények",
+            "D": "*Apácák"
+        },
+        "Ki volt az első csanádi püspök?": {
+            "A": "Bakócz Tamás",
+            "B": "Vitéz János",
+            "C": "Szent Vencel",
+            "D": "*Szent Gellért"
+        },
+        "Mit neveztek az ókori Rómában limesnek?": {
+            "A": "A cirkuszi kocsipályát",
+            "B": "A császári palástot",
+            "C": "*A birodalom határvonalát",
+            "D": "Az útadót"
+        },
+        "Melyik isten tiszteletére előadott szertartásokból alakult ki az ókori görög színjátszás?": {
+            "A": "*Dionüszosz",
+            "B": "Poszeidon",
+            "C": "Hermész",
+            "D": "Hádész"
+        },
+        "Mit neveztek a középkorban dézsmának?": {
+            "A": "Fa fürdőeszközt",
+            "B": "Hadizsákmányt",
+            "C": "*Jobbágyi szolgáltatást",
+            "D": "Őrölt gabonát"
+        },
+        "Melyik nem germán eredetű népcsoport volt az alábbiak közül?": {
+            "A": "Gepida",
+            "B": "Gót",
+            "C": "Frank",
+            "D": "*Trák"
+        },
+        "Mit neveztek a nagy francia forradalom alatt konventnek?": {
+            "A": "A forradalmi naptárt",
+            "B": "*Az alkotmányozó gyűlést",
+            "C": "Egy kivégzőeszközt",
+            "D": "Egy parlamenti csoportot"
+        },
+        "Melyik állam katonai főparancsnokai voltak a sógunok a középkorban?": {
+            "A": "*Japán",
+            "B": "Kína",
+            "C": "India",
+            "D": "Orosz"
+        },
+        "Mely ország nem tartozott a II. világháború alatt a tengelyhatalmak közé?": {
+            "A": "Németország",
+            "B": "Japán",
+            "C": "*Anglia",
+            "D": "Olaszország"
+        },
+        "Melyik királyunk lánya volt Árpád-házi Szent Erzsébet?": {
+            "A": "*II. András",
+            "B": "Szent László",
+            "C": "IV. Béla",
+            "D": "Szent István"
+        },
+        "Melyik amerikai elnök hirdette meg a New Deal néven emlegetett gazdaságpolitikát?": {
+            "A": "*F. D. Roosevelt",
+            "B": "J. F. Kennedy",
+            "C": "H. S Truman",
+            "D": "T. W. Wilson"
+        },
+        "Melyik magyar király alapította a tihanyi apátságot?": {
+            "A": "*I. András",
+            "B": "I. Béla",
+            "C": "I. István",
+            "D": "I. László"
+        },
+        "Kinek az uralkodásától szedték hazánkban a tizedet?": {
+            "A": "*I. István",
+            "B": "I. András",
+            "C": "I. Géza",
+            "D": "I. László"
+        },
+        "Hol tette le a fegyvert 1711-ben a kuruc sereg?": {
+            "A": "Bécsújhelynél",
+            "B": "*A majtényi síkon",
+            "C": "Kolozsvárnál",
+            "D": "Váradnál"
+        },
+        "Kinek a fia a mondabeli Csaba királyfi?": {
+            "A": "Árpád",
+            "B": "Attila",
+            "C": "*Buda",
+            "D": "Vata"
+        },
+        "Melyik volt egy gyakori középkori adófajta az alábbiak közül?": {
+            "A": "Páraadó",
+            "B": "Ködadó",
+            "C": "*Füstadó",
+            "D": "Harmatadó"
+        },
+        "Milyen harcászati jármű volt a tragikus emlékű Enola Gay?": {
+            "A": "Harckocsi",
+            "B": "Anyahajó",
+            "C": "*Repülőgép",
+            "D": "Tengeralattjáró"
+        },
+        "Ki volt az a német császár, aki 1122-ben a wormsi konkordátumban megegyezett a pápával?": {
+            "A": "III. Henrik",
+            "B": "III. Konrád",
+            "C": "*V. Henrik",
+            "D": "II. Frigyes"
+        },
+        "Melyik állam hadseregének tisztje volt Julius Haynau báró?": {
+            "A": "Porosz",
+            "B": "*Osztrák",
+            "C": "Francia",
+            "D": "Orosz"
+        },
+        "Melyik ország elnöke volt az 1973-ban meggyilkolt Salvador Allende?": {
+            "A": "Portugália",
+            "B": "Argentína",
+            "C": "*Chile",
+            "D": "Mexikó"
+        },
+        "Mivel hintették be Karthágó romjait a rómaiak a legenda szerint?": {
+            "A": "*Sóval",
+            "B": "Borssal",
+            "C": "Cukorral",
+            "D": "Oregánóval"
+        },
+        "Ki volt az a király, akit a nagy francia forradalom alatt kivégeztek?": {
+            "A": "XIV. Lajos",
+            "B": "XV. Lajos",
+            "C": "*XVI. Lajos",
+            "D": "XVII. Lajos"
+        },
+        "Melyik dél-amerikai ország elnöke volt Juan Domingo Perón?": {
+            "A": "*Argentína",
+            "B": "Brazília",
+            "C": "Chile",
+            "D": "Peru"
+        },
+        "Melyik orosz államférfi építtetett látszatfalvakat a cárnő látogatása alkalmából?": {
+            "A": "Raszputyin",
+            "B": "*Patyomkin",
+            "C": "Kutuzov",
+            "D": "Kolcsak"
+        },
+        "Melyik társadalmi réteghez tartozókat nevezték dzsentrinek hazánkban?": {
+            "A": "Nincstelen jobbágyokat",
+            "B": "*Elszegényedett nemeseket",
+            "C": "Szabad városi kézműveseket",
+            "D": "Vagyonos iparmágnásokat"
+        },
+        "Melyik évben lett Magyarország újra köztársaság?": {
+            "A": "1985",
+            "B": "*1989",
+            "C": "1990",
+            "D": "1992"
+        },
+        "Melyik hónapban végezték ki a tizenhárom aradi vértanút?": {
+            "A": "Augusztus",
+            "B": "Szeptember",
+            "C": "*Október",
+            "D": "November"
+        },
+        "Melyik évben hagyta el Magyarországot az utolsó szovjet katona?": {
+            "A": "1989",
+            "B": "1990",
+            "C": "*1991",
+            "D": "1992"
+        },
+        "Ki volt az amerikai elnök, amikor az USA belépett az I. világháborúba?": {
+            "A": "Theodore Roosevelt",
+            "B": "William Taft",
+            "C": "Warren Harding",
+            "D": "*Woodrow Wilson"
+        },
+        "Hogyan nevezték a törvényerejű rendeleteket egyes abszolút monarchiákban?": {
+            "A": "Páter",
+            "B": "*Pátens",
+            "C": "Ágens",
+            "D": "Agapé"
+        },
+        "Melyik magyar uralkodó vett részt a nikápolyi csatában?": {
+            "A": "Nagy Lajos",
+            "B": "*Zsigmond",
+            "C": "I. Ulászló",
+            "D": "II. Lajos"
+        },
+        "Milyen családi viszony volt Mária Terézia és II. József között?": {
+            "A": "Apa-lánya",
+            "B": "*Anya-fiú",
+            "C": "Nagynéni-unokaöcs",
+            "D": "Nagybácsi-unokahúg"
+        },
+        "Kinek a tiszteletére emelték az ókori görögök az athéni Parthenont?": {
+            "A": "Periklész",
+            "B": "Héra",
+            "C": "*Athéné",
+            "D": "Zeusz"
+        },
+        "Ki építtetett apácazárdát a Margit-szigeten?": {
+            "A": "Károly Róbert",
+            "B": "*IV. Béla",
+            "C": "Könyves Kálmán",
+            "D": "Szent István"
+        },
+        "Mi tette máig ismertté Landerer Lajos nevét?": {
+            "A": "Várkastélya",
+            "B": "Kávéháza",
+            "C": "*Nyomdája",
+            "D": "Bányája"
+        },
+        "Kiknek a halhatatlanságot adó eledele volt az ambrózia?": {
+            "A": "*Olümposzi istenek",
+            "B": "Egyiptomi fáraók",
+            "C": "Gall druidák",
+            "D": "Viking hősök"
+        },
+        "Ki volt I. Erzsébet angol királynő édesanyja?": {
+            "A": "Stuart Mária",
+            "B": "*Boleyn Anna",
+            "C": "Viktória",
+            "D": "Véres Mária"
+        },
+        "Milyen építmény része volt a szkéné az ókori görögöknél?": {
+            "A": "*Színház",
+            "B": "Jósda",
+            "C": "Fürdő",
+            "D": "Lakóház"
+        },
+        "Kit választottak a magyar rendek királlyá Besztercebányán?": {
+            "A": "*Bethlen Gábort",
+            "B": "II. Rákóczi Ferencet",
+            "C": "Bocskai Istvánt",
+            "D": "Thököly Imrét"
+        },
+        "\"Canossát jár.\"-mondják a vezeklő emberre. Minek vagy kinek a neve volt eredetileg Canossa?": {
+            "A": "Egy pápáé",
+            "B": "Egy császáré",
+            "C": "Egy templomé",
+            "D": "*Egy váré"
+        },
+        "Melyik dinasztia kiemelkedő alakja volt Nagy Károly császár?": {
+            "A": "*Karoling",
+            "B": "Meroving",
+            "C": "Valois",
+            "D": "Bourbon"
+        },
+        "Melyik épület nem I. Ferenc József uralkodása alatt épült?": {
+            "A": "*Magyar Nemzeti Múzeum",
+            "B": "Erkel Színház",
+            "C": "Budapesti Keleti pályaudvar",
+            "D": "Szépművészeti Múzeum"
+        },
+        "Melyik uralkodóházhoz tartozott az angol polgári forradalom alatt lefejezett I. Károly?": {
+            "A": "Plantagenet",
+            "B": "Tudor",
+            "C": "*Stuart",
+            "D": "Windsor"
+        },
+        "Ki volt Szemiramisz, akinek nevéhez a híres függőkert kapcsolódik?": {
+            "A": "Görög istennő",
+            "B": "*Asszír királynő",
+            "C": "Egyiptomi fáraó",
+            "D": "Dávid kegyence"
+        },
+        "Ki a szerzője a \"Húsvéti cikk\" néven emlegetett történelmi dokumentumnak?": {
+            "A": "Kossuth Lajos",
+            "B": "*Deák Ferenc",
+            "C": "Németh László",
+            "D": "Jászi Oszkár"
+        },
+        "Melyik római császár engedélyezte a keresztény vallás szabad gyakorlását?": {
+            "A": "Marcus Aurelius",
+            "B": "Diocletianus",
+            "C": "Vespasianus",
+            "D": "*Constantinus"
+        },
+        "Ki volt a két küzdő fél a búr háborúban?": {
+            "A": "Angol és francia",
+            "B": "*Angol és dél-afrikai holland",
+            "C": "Német és dél-afrikai holland",
+            "D": "Angol és indiai"
+        },
+        "Minek a reformjával foglalkozott a Ratio Educationis?": {
+            "A": "Lótenyésztés",
+            "B": "Kereskedelem",
+            "C": "*Oktatás",
+            "D": "Hadsereg"
+        },
+        "Kinek a nevéhez fűződik az ősiség törvényének kibocsátása?": {
+            "A": "Károly Róbert",
+            "B": "Könyves Kálmán",
+            "C": "*Nagy Lajos",
+            "D": "Mária Terézia"
+        },
+        "Ki kiáltotta ki 1989. október 23-án a Magyar Köztársaságot?": {
+            "A": "Göncz Árpád",
+            "B": "*Szűrös Mátyás",
+            "C": "Pozsgay Imre",
+            "D": "Szabad György"
+        },
+        "Hol választották királlyá Szapolyai Jánost a magyar rendek 1526 novemberében?": {
+            "A": "Budán",
+            "B": "*Székesfehérváron",
+            "C": "Pozsonyban",
+            "D": "Váradon"
+        },
+        "Mit vezetnek be, amikor kihirdetik a statáriumot?": {
+            "A": "Új nemzeti ünnepet",
+            "B": "*Rögtönítélő bíráskodást",
+            "C": "Élelmezési jegyrendszert",
+            "D": "Kijárási tilalmat"
+        },
+        "Ki volt XV. Lajos francia király híres kegyence?": {
+            "A": "Madame de Sévigné",
+            "B": "*Madame de Pompadour",
+            "C": "Madame Récamier",
+            "D": "Madame de Stael"
+        },
+        "Kiket neveztek brávóknak a XVIII. századi Itáliában?": {
+            "A": "Arisztokrata tiszteket",
+            "B": "A fejedelmek fiait",
+            "C": "*A bérgyilkosokat",
+            "D": "A pápa követeit"
+        },
+        "Kit ábrázol Fadrusz János Kolozsvárott álló lovas szobra?": {
+            "A": "Budai Nagy Antalt",
+            "B": "Dózsa Györgyöt",
+            "C": "*Mátyás királyt",
+            "D": "Szapolyai Jánost"
+        },
+        "Miről volt nevezetes az ókorban Delpoi városa?": {
+            "A": "Állatvásárairól",
+            "B": "Erkölcstelenségéről",
+            "C": "*Jósdájáról",
+            "D": "Szigorú neveléséről"
+        },
+        "Mi volt a Földet először körbeutazó hajó neve?": {
+            "A": "Pinta",
+            "B": "Argo",
+            "C": "*Victoria",
+            "D": "Trinidad"
+        },
+        "Melyik amerikai elnök hirdette meg az Apolló űrprogramot?": {
+            "A": "Truman",
+            "B": "*Kennedy",
+            "C": "Nixon",
+            "D": "Eisenhower"
+        },
+        "Mi a neve a legenda szerint hordóban lakó görög filozófusnak?": {
+            "A": "Diomédész",
+            "B": "Dionüszosz",
+            "C": "*Diogenész",
+            "D": "Diocletianus"
+        },
+        "Ki volt Árpád vezér apja?": {
+            "A": "*Álmos",
+            "B": "Géza",
+            "C": "Kurszán",
+            "D": "Előd"
+        },
+        "Kik dúlták fel Kijevet a XIII. század derekán?": {
+            "A": "Varégek",
+            "B": "*Tatárok",
+            "C": "Törökök",
+            "D": "Alánok"
+        },
+        "Melyik birodalmat irányította a 9-10. század fordulóján Bölcs Leó?": {
+            "A": "*Bizánci",
+            "B": "Orosz",
+            "C": "Frank",
+            "D": "Német-római"
+        },
+        "Ki győzte le a Magyarországra betörő III. Henrik német-római császárt?": {
+            "A": "*I. Béla",
+            "B": "II. Béla",
+            "C": "III. Béla",
+            "D": "IV. Béla"
+        },
+        "Melyik város egyetemének tanára volt az eretnekként megégetett Husz János?": {
+            "A": "Párizs",
+            "B": "*Prága",
+            "C": "Bologna",
+            "D": "Oxford"
+        },
+        "Kiknek az uralkodója volt Kopasz Károly?": {
+            "A": "Angolok",
+            "B": "Vikingek",
+            "C": "*Frankok",
+            "D": "Bizánciak"
+        },
+        "Kit választottak Erdély fejedelmévé 1704-ben?": {
+            "A": "Kemény Jánost",
+            "B": "Thököly Imrét",
+            "C": "II. Apafi Mihályt",
+            "D": "*II. Rákóczi Ferencet"
+        },
+        "Melyik mai állam területén találhatók az ókori Karthágó romjai?": {
+            "A": "Görögország",
+            "B": "Líbia",
+            "C": "Törökország",
+            "D": "*Tunézia"
+        },
+        "Mely ország területén szolgáltak a szipolyok?": {
+            "A": "Kína",
+            "B": "*India",
+            "C": "Japán",
+            "D": "Egyiptom"
+        },
+        "Kiknek a gyülekező- és temetkezőhelyei voltak a katakombák?": {
+            "A": "Egyiptomi rabszolgák",
+            "B": "*Első keresztények",
+            "C": "Római arisztokraták",
+            "D": "Középkori szerzetesek"
+        },
+        "Mi volt a török nagyvezír hivatalának elterjedt európai elnevezése?": {
+            "A": "Vilajet",
+            "B": "*Porta",
+            "C": "Szeráj",
+            "D": "Türbe"
+        },
+        "Hogyan nevezik az őskortól használt, hazánkbon is átvezető kereskedelmi útvonalat?": {
+            "A": "Kenderút",
+            "B": "*Borostyánút",
+            "C": "Selyemút",
+            "D": "Ércút"
+        },
+        "Kik ellen győzedelmeskedtek Montecuccoli csapatai Szentgotthárdnál?": {
+            "A": "Poroszok",
+            "B": "Franciák",
+            "C": "*Törökök",
+            "D": "Osztrákok"
+        },
+        "Kik voltak Fokváros alapítói?": {
+            "A": "Német gyarmatosítók",
+            "B": "Portugál hajósok",
+            "C": "*Holland kereskedők",
+            "D": "Angol kalózok"
+        },
+        "Melyik mai ország területén található a történelemből ismert Drinápoly?": {
+            "A": "Görögország",
+            "B": "*Törökország",
+            "C": "Olaszország",
+            "D": "Oroszország"
+        },
+        "Melyik nép egyik ismert képviselője volt Vörös Erik, a felfedező?": {
+            "A": "Szárd",
+            "B": "Kelta",
+            "C": "*Viking",
+            "D": "Frank"
+        },
+        "Ki volt a görögök vezére a marathoni csatában?": {
+            "A": "Leonidász",
+            "B": "*Miltiadész",
+            "C": "Themisztoklész",
+            "D": "Periklész",
+            "N": 6
+        },
+        "Hová menekült 622-ben Mekkából a próféta a \"Mohamed futásá\"-nak nevezett út során?": {
+            "A": "Bászrába",
+            "B": "*Medinába",
+            "C": "Damaszkuszba",
+            "D": "Bagdadba"
+        },
+        "Melyik fáraó piramisa nem tartozik a gízai piramisok közé?": {
+            "A": "Kheopsz",
+            "B": "Mükerinosz",
+            "C": "Khephrén",
+            "D": "*Dzsószer"
+        },
+        "Kinek a felesége volt Joséphine de Beauharnais?": {
+            "A": "XIV. Lajos",
+            "B": "XVI. Lajos",
+            "C": "*I. Napóleon",
+            "D": "III. Napóleon"
+        },
+        "Melyik tudományág nem tartozott bele az ókori hét szabad művészetbe?": {
+            "A": "Aritmetika",
+            "B": "Asztronómia",
+            "C": "*Filozófia",
+            "D": "Retorika"
         }
     },
     "misc": {
