@@ -2278,7 +2278,7 @@
             "D": "Holland"
         },
         "Milyen \"hölgy\" ifjabb Alexander Dumas művének címszereplője?": {
-            "A": "Kökörcsines",
+            "A": "Kamáslis",
             "B": "*Kaméliás",
             "C": "Kamillás",
             "D": "Kámeás"
@@ -6932,7 +6932,7 @@
             "A": "Uncle Sam",
             "B": "*Old Vic",
             "C": "Old Black Joe",
-            "D": "Old McDonnald"
+            "D": "Old McDonald"
         },
         "Melyik Verdi-operában hangzik el \"Az asszony ingatag\" kezdetű ária?": {
             "A": "Otello",
@@ -11914,6 +11914,111 @@
             "C": "Vidd el sétálni a növényeid nap",
             "D": "Legyen egy rossz napod nap",
             "X": "A Festivus a köztudatba 1997-ben került, miután a Seinfeld c. sorozat \"Sztrájk\" c. epizódjában megjelent. Az ünneplés része a festivus-napi vacsora, továbbá a sérelmek kimondása, és a könnyen magyarázható események festivus-i csodáknak nevezése."
+        },
+        "Melyik brit ünnepet nevezték el a férfi után, aki fel akart robbantani egy kormányzati épületet?": {
+            "A": "*Guy Fawkes nap",
+            "B": "Sadie Hawkins nap",
+            "C": "Bobby Levin nap",
+            "D": "Szent Dávid nap",
+            "X": "1605-ben, Guy Fawkes a lőporos összeesküvés során fel akarta robbantani I. Jakab angol királyt és a parlament tagjait. Nov. 4-én érték tetten a parlament alatti pincében, amiért kivégezték. Guy Fawkes napot ma is ünneplik, november 5-én, máglyákkal és tűzijátékkal."
+        },
+        "Melyik az alábbiak közül a zsidó újév ünnepe?": {
+            "A": "*Rosh Hashanah",
+            "B": "Purim",
+            "C": "Yom Kippur",
+            "D": "Ramadan",
+            "X": "Rosh Hashanah a zsidó újév és a világ teremtésének ünnepe, a zsidó év egyik legszentebb napja. A Biblia úgy utal rá mint Yom Ha-Zikkaron (az emlékezés napja) illetve Yom Teruah (a sófár megszólaltatásának napja). "
+        },
+        "A csokinyuszi melyik részét eszi meg a legtöbb gyerek először?": {
+            "A": "Hasát",
+            "B": "Karját",
+            "C": "Lábát",
+            "D": "*Füleit",
+            "X": "A gyerekek 76%-a a csokinyuszi fülét eszi meg először."
+        },
+        "Hogy hívják Hollandiában a Télapó segédjét, aki eldönti, hogy melyik gyerek volt jó vagy rossz?": {
+            "A": "Télanyó",
+            "B": "Zöld Erik",
+            "C": "*Fekete Péter",
+            "D": "Eli a tündér",
+            "X": "Hollandiában a gyerekeknek azt mesélik, hogy Fekete Péter a kéményen keresztül belépve édesség helyett virgácsot vagy sót tesz a cipőjükbe, ha rosszak voltak. A nagyon rossz gyerekeknek azt mondják, hogy Fekete Péter elviszi őket a zsákjában."
+        },
+        "Honnan ered a húsvéti tojások díszítésének gyakorlata?": {
+            "A": "*Afrika",
+            "B": "Görögország",
+            "C": "Róma",
+            "D": "Egyiptom",
+            "X": "A tojáshéj díszítése a tavaszi rituálék ősi gyakorlata. Afrikában 60.000 éves díszített, vésett strucc tojásokat is találtak."
+        },
+        "Melyik ünnep ered az ősi római Lupercalia fesztiválból?": {
+            "A": "Húsvét",
+            "B": "Halloween",
+            "C": "*Valentin-nap",
+            "D": "Karácsony",
+            "X": "A Valentin-nap az ősi római Lupercalia fesztiválból ered, amely során a termékenységet ünnepelték, február 15-én. Ezt a pogány ünnepet dologzta át I. Geláz pápa keresztény ünneppé 496 környékén, amikor február 14-t Szent Valentin napjává nyilvánította."
+        },
+        "Hogyan ünneplik az Elfelejtettem napot?": {
+            "A": "*Jóvátesznek valamit, amit elfelejtettek",
+            "B": "Elfelejtenak valamit",
+            "C": "Valami feledhetetlent tesznek",
+            "D": "Kötnek egy hurkot az ujjuk köré",
+            "X": "Az Elfelejtettem nap lényege, hogy jóvátedd azokat a dolgokat július 2-n, amiket elfelejtettél."
+        },
+        "Melyik ünnep alkalmából tartanak álarcos utcabált, karnevált?": {
+            "A": "*Húshagyókedd",
+            "B": "Hamvazószerda",
+            "C": "Nagycsütörtök",
+            "D": "Nagyboldogasszony",
+            "X": "Húshagyókedd napján sok országban az emberek álarcot és jelmezt viselve az utcán ünnepelnek, levetkőzve mindennapi személyiségüket, hogy ezáltal megtapasztalják a társadalmi egység fokozottabb érzését. Az ezt követő nagyböjt alatt tilos a hús és egyéb ételek fogyasztása, továbbá a túlzott alkoholfogyasztás."
+        },
+        "Hány dolgozó vonult fel először a Munka napján?": {
+            "A": "100",
+            "B": "1.000",
+            "C": "*10.000",
+            "D": "100.000",
+            "X": "1882 Szeptember 5-én 10.000 New York-i munkás vonult fel a Városháza és a Szakszervezeti tér között."
+        },
+        "Mi számít szerencsének Halloweenkor?": {
+            "A": "Töklámpás faragása",
+            "B": "Sok édesség szerzése",
+            "C": "*Ha pókot látunk",
+            "D": "Ha fekete macskát látunk",
+            "X": "Ha pókot látsz Halloweenkor, szerencsének számít: azt jelenti, hogy egyik szeretted lelke őrködik feletted."
+        },
+        "Melyek a Halloween hagyományos színei?": {
+            "A": "Fekete és piros",
+            "B": "Fekete és sárga",
+            "C": "Piros és sárga",
+            "D": "*Narancs és fekete",
+            "X": "A narancssárga és fekete a Halloween színei, mert a narancs az őszi aratást jelképezi, a fekete a sötétséget és a halált."
+        },
+        "Mit ünnepelnek az északi államokban február elsején?": {
+            "A": "Ügyefogyott emberek napját",
+            "B": "*Hidegűző hula-tánc napját",
+            "C": "Nemzeti szilvapuding napot",
+            "D": "Országos időjós napot",
+            "X": "Hidegűző hula-tánc-nap azért jött létre, mert az északi államokban élő emberek megunták a hideg időt télen, és februárra már készen álltak némi forróságra. Tehát úgy döntöttek, hogy hula szoknyát vesznek, szekrénybe dobják a kabátokat, kesztyűket, nadrágokat, sálakat arra a napra, és hula szoknyában mennek ki, mint az idióták, akik tüdőgyulladásba akarnak esni."
+        },
+        "Melyik kínai ünnep során emlékezünk gey híres kínai tudós életére?": {
+            "A": "Hét-öt-három nap",
+            "B": "*Sárkányhajó Fesztivál",
+            "C": "Kettős Kilencedik Fesztivál",
+            "D": "Sh&#333;wa nap",
+            "X": "A Sárkányhajó fesztivál egy hagyományos ünnep, mely során Qu Yuan híres kínai tudós életére és halálára emlékeznek. A kínai luniszoláris naptár szerint a fesztivál az 5. hónap 5. napján kerül megrendezésre."
+        },
+        "Melyik háború során elhunyt katonáknak állít emléket a Háborús Hősök Emléknapja (Memorial Day)?": {
+            "A": "Vietnami háború",
+            "B": "*Amerikai polgárháború",
+            "C": "I. Világháború",
+            "D": "II. Világháború",
+            "X": "A Háborús Hősök Emléknapja egy válasz az amerikai polgárháború példátlan vérengzésére, mely során összesen 620.000 katona halt meg a két oldalon."
+        },
+        "Mit ünneplünk a Holloweent követő napon?": {
+            "A": "Egyesült Nemzetek napja",
+            "B": "*Mindenszentek",
+            "C": "Nagyszülők napja",
+            "D": "Sadie Hawkins nap",
+            "X": "Eredetileg májusi Mindenszentek napját november 1-re tették a vallásos vezetők, abban a reményben, hogy háttérbe szorítja a pogány mindenszentek éjszakáját. Mindenszentek elismeri és megtiszteli a keresztény egyház összes szentjét."
         },
         "Miből kell ezer origamit hajtogatnia a japán legenda szerint egy beteg személynek, hogy felépüljön?": {
             "A": "Békából",
