@@ -74,7 +74,7 @@
         },
         "Hány négyzetméter egy hektár?": {
             "A": "1.000",
-            "B": "*1.0000",
+            "B": "*10.000",
             "C": "50.000",
             "D": "100.000"
         },
@@ -4586,8 +4586,7 @@
             "A": "Gall rabszolgák",
             "B": "*Római polgárok",
             "C": "Sumér papok",
-            "D": "Kínai mandarinok",
-            "N": 2
+            "D": "Kínai mandarinok"
         },
         "Ki borult le a nemzet nagysága előtt?": {
             "A": "Deák Ferenc",
@@ -5229,8 +5228,7 @@
             "A": "Várnában",
             "B": "Waterloonál",
             "C": "Philippinél",
-            "D": "*Lipcsénél",
-            "N": 7
+            "D": "*Lipcsénél"
         },
         "Ki volt Árpád-házi Szent Margit apja?": {
             "A": "Szent István",
@@ -5410,8 +5408,7 @@
             "A": "A fűző ellen",
             "B": "*A női választójogért",
             "C": "A válás jogáért",
-            "D": "A tanulás jogáért",
-            "N": 6
+            "D": "A tanulás jogáért"
         },
         "Melyik nép építette a híres Machu Picchut?": {
             "A": "Az aztékok",
@@ -5735,8 +5732,7 @@
             "A": "Arhimédész",
             "B": "Platón",
             "C": "*Arisztotelész",
-            "D": "Diogenész",
-            "N": 12
+            "D": "Diogenész"
         },
         "Kinek a felajánlására alapították meg a Nemzeti Múzeumot?": {
             "A": "Kazinczy Ferenc",
@@ -6072,8 +6068,7 @@
             "A": "Habsburg Ferdinándot",
             "B": "Szapolyai Jánost",
             "C": "II. Lajost",
-            "D": "*Bakócz Tamást",
-            "N": 8
+            "D": "*Bakócz Tamást"
         },
         "\"A cél szentesíti az eszközt.\" Kinek tulajdonítjuk a megállapítást?": {
             "A": "Winston Churchill",
@@ -6577,8 +6572,7 @@
             "A": "Leonidász",
             "B": "*Miltiadész",
             "C": "Themisztoklész",
-            "D": "Periklész",
-            "N": 6
+            "D": "Periklész"
         },
         "Hová menekült 622-ben Mekkából a próféta a \"Mohamed futásá\"-nak nevezett út során?": {
             "A": "Bászrába",
@@ -12365,8 +12359,7 @@
             "A": "Ava Gardnert",
             "B": "Doris Dayt",
             "C": "*Marilyn Monroe-t",
-            "D": "Anita Ekberget",
-            "N": 5
+            "D": "Anita Ekberget"
         },
         "Mi a címe a Whitney Houston főszereplésével készült filmnek? \"Több, mint ...\"": {
             "A": "Sok",
@@ -12642,8 +12635,7 @@
             "A": "Villamoson",
             "B": "Vonaton",
             "C": "*Taxival",
-            "D": "Metrón",
-            "N": 9
+            "D": "Metrón"
         },
         "Ki játszotta a női főszerepet a My Fair Lady című musical 1964-es filmváltozatában?": {
             "A": "Barbara Streisand",
@@ -12757,8 +12749,7 @@
             "A": "Pilinszky János",
             "B": "*Weöres Sándor",
             "C": "Szabó Lőrinc",
-            "D": "Esterházy Péter",
-            "N": 7
+            "D": "Esterházy Péter"
         },
         "Ki rendezte a Titanic című 1997-ben készült filmet?": {
             "A": "*James Cameron",
@@ -12962,8 +12953,7 @@
             "A": "Winston Churchill",
             "B": "*Charles de Gauille",
             "C": "J. F. Kennedy",
-            "D": "Mahatma Gandhi",
-            "N": 8
+            "D": "Mahatma Gandhi"
         },
         "Mi a címe Akira Kuroszava világhírű filmjének: \"A hét...\"": {
             "A": "Napjai",
@@ -13173,8 +13163,7 @@
             "A": "Humphrey Bogart",
             "B": "*Tony Curtis",
             "C": "Woody Allen",
-            "D": "Arnold Schwarzenegger",
-            "N": 8
+            "D": "Arnold Schwarzenegger"
         },
         "Ki rendezte a Csontváry című filmet?": {
             "A": "Jancsó Miklós",
@@ -13456,8 +13445,7 @@
             "A": "Fred Astaire",
             "B": "*Gene Kelly",
             "C": "Tony Curtis",
-            "D": "John Travolta",
-            "N": 4
+            "D": "John Travolta"
         },
         "Milyen jármű a címszereplője Buster Keaton A generális című filmjének?": {
             "A": "Hadihajó",
@@ -13487,8 +13475,7 @@
             "A": "James Stewart",
             "B": "*Humphrey Bogart",
             "C": "Clark Gable",
-            "D": "Gary Cooper",
-            "N": 3
+            "D": "Gary Cooper"
         },
         "Mi a címe Jancsó Miklós 1999-ben készített filmjének?": {
             "A": "Apád!... a farkasok",
@@ -13692,8 +13679,7 @@
             "A": "Vámpírok bálja",
             "B": "*Kínai negyed",
             "C": "Keserű méz",
-            "D": "Rosemary gyermeke",
-            "N": 10
+            "D": "Rosemary gyermeke"
         },
         "Bridget Jones mije szerepel a nagy sikerű film címében?": {
             "A": "Bugyija",
@@ -13891,8 +13877,7 @@
             "A": "*Medvebocs",
             "B": "Macska",
             "C": "Őzgida",
-            "D": "Kisegér",
-            "N": 7
+            "D": "Kisegér"
         },
         "Melyik mese hősei szerepelnek a Tigris színre lép című Disney-rajzfilmben?": {
             "A": "A dzsungel könyve",
@@ -14410,8 +14395,7 @@
             "A": "Spanyolország",
             "B": "*Görögország",
             "C": "India",
-            "D": "Mexikó",
-            "N": 5
+            "D": "Mexikó"
         },
         "Mi a címe Cserháti Zsuzsa híres slágerének: \"Száguldás, ...\"": {
             "A": "Trabant, szerelem",
@@ -15681,7 +15665,7 @@
             "B": "Halloween",
             "C": "*Valentin-nap",
             "D": "Karácsony",
-            "X": "A Valentin-nap az ősi római Lupercalia fesztiválból ered, amely során a termékenységet ünnepelték, február 15-én. Ezt a pogány ünnepet dologzta át I. Geláz pápa keresztény ünneppé 496 környékén, amikor február 14-t Szent Valentin napjává nyilvánította."
+            "X": "A Valentin-nap az ősi római Lupercalia fesztiválból ered, amely során a termékenységet ünnepelték, február 15-én. Ezt a pogány ünnepet dolgozta át I. Geláz pápa keresztény ünneppé 496 környékén, amikor február 14-t Szent Valentin napjává nyilvánította."
         },
         "Hogyan ünneplik az Elfelejtettem napot?": {
             "A": "*Jóvátesznek valamit, amit elfelejtettek",
