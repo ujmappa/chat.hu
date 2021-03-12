@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/ujmappa/chat.hu/issues"
   },
-  "homepage": "https://github.com/ujmappa/chat.hu#readme"
+  "homepage": "https://github.com/ujmappa/chat.hu#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.1",
+    "backbone": "^1.4.0",
+    "cheerio": "^1.0.0-rc.5",
+    "jquery": "^3.6.0",
+    "js-cookie": "^2.2.1",
+    "tough-cookie": "^4.0.0",
+    "underscore": "^1.12.0"
+  }
 }
