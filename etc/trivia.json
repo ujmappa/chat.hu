@@ -1,5 +1,180 @@
 {
     "sci": {
+        "Mi volt a leghíresebb faj, amelyet Charles Darwin vizsgált?": {
+            "A": "Fecske",
+            "B": "*Pinty",
+            "C": "Papagáj",
+            "D": "Daru",
+            "X": "Perhaps one of the finest examples of evolution in action were the finches of the Galapagos Islands. Each island had a different species of finch, and each species of finch had a different sized beak. The finches with the largest beak lived on an island with plenty of hard nuts, while the smallest-beaked finch lived on an island where the main food source was insects. This showed how well these birds had adapted to their environment."
+        },
+        "Az alábbiak közül melyik prefix jelent \"esőfelhőt\"?": {
+            "A": "Strato",
+            "B": "Cirrus",
+            "C": "Alto",
+            "D": "*Nimbus",
+            "X": "Nimbus means \"rain\" when added to a cloud's name. Nimbostratus are dark, low-level clouds accompanied by light to moderately falling precipitation, and Cumulonimbus are dense towering vertical clouds associated with thunderstorms."
+        },
+        "Hány agya volt a Stegosaurusnak?": {
+            "A": "0",
+            "B": "*1",
+            "C": "2",
+            "D": "3",
+            "X": "Although it was a long-held belief that the Stegosaurus had three brains: One in its head, one in its back, and one in its tail, recent studies have shown that these extra \"brains\" were actually energy stores for muscles. So the Stegosaurus had only one brain, and not a very big one at that!"
+        },
+        "Milyen műszerrel mérjük a szél sebességét?": {
+            "A": "*Anemométer",
+            "B": "Fanométer",
+            "C": "Barométer",
+            "D": "Altiméter",
+            "X": "An anemometer is used to measure wind speed. The first mechanical anemometer was invented in 1450 by Italian artist and architect Leon Battista Alberti."
+        },
+        "Az alábbiak közül melyiknek van a legnagyobb agya?": {
+            "A": "A gorillának",
+            "B": "Az embernek",
+            "C": "Az orrszarvúnak",
+            "D": "*A neandervölgyi ősembernek",
+            "X": "The appearance of modern man about 100,000 years ago was marked by a decrease in body size at the same time as an increase in brain size. However, it is worth noting that Neanderthals, which became extinct about 40,000 years ago, had larger brains than modern Homo sapiens."
+        },
+        "Az emberi testben hol van három legkisebb csont?": {
+            "A": "A szemben",
+            "B": "Az orrban",
+            "C": "A lábujjakban",
+            "D": "*A középfülben",
+            "X": "The three smallest bones in the human body are located in the middle ear. Individually, they are known as the malleus, incus, and stapes. Collectively, they are called the ossicles. Their purpose is to convey sound from the outer ear to the inner ear."
+        },
+        "Kinek a találmánya az első elem?": {
+            "A": "*Alessandro Volta",
+            "B": "Benjamin Franklin",
+            "C": "Luigi Galvani",
+            "D": "Nikola Tesla",
+            "X": "In 1800, Alessandro Volta discovered that certain fluids would generate a continuous flow of electrical power when used as a conductor. This discovery led to the invention of the first voltaic cell, more commonly known as a battery."
+        },
+        "A föld atmoszférájának melyik rétege teszi lehetővé a rádiós kommunikációt?": {
+            "A": "Exoszféra",
+            "B": "*Ionoszféra",
+            "C": "Sztratoszféra",
+            "D": "Termoszféra",
+            "X": "The ionosphere is an abundant layer of electrons and ionized atoms and molecules that stretches from about 48 kilometers (30 miles) above the surface of the Earth to the edge of space at about 965 km (600 mi). This dynamic region grows and shrinks based on solar conditions. Because of its high concentration of ions and free electrons, this region is able to reflect radio waves and makes radio communications possible."
+        },
+        "Miért kapott Albert Einstein Nobel-díjat 1921-ben?": {
+            "A": "*Fotoelektromos hatás",
+            "B": "Hullám-részecske kettősség",
+            "C": "Zéruspont-energia",
+            "D": "Relativitás-elmélet",
+            "X": "Because Einstein's general theory of relativity was considered too controversial, he was awarded the Nobel Prize in Physics \"for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect.\""
+        },
+        "Átlagosan hány petét rak egy méhkirálynő egy nap?": {
+            "A": "200",
+            "B": "*2.000",
+            "C": "20.000",
+            "D": "2.000.000",
+            "X": "A newly established queen bee will mate with one or more \"drones.\" Most likely, this one mating event will allow her to lay eggs for the rest of her life. A queen bee may lay up to 2,000 eggs a day and up to 1,000,000 in her lifetime."
+        },
+        "Mikor találták fel a gőzturbinát?": {
+            "A": "I.e. 2. században",
+            "B": "*I.sz. 1. században",
+            "C": "1712-ben",
+            "D": "1810-ben",
+            "X": "The Aeolipile, a simple steam turbine is first described by Hero of Alexandria in the 1st century AD, and many historians give him credit for the invention."
+        },
+        "Mit talált fel i.sz. 132-ben Chang Heng, kínai asztronómus és matematikus?": {
+            "A": "A gőzturbinát",
+            "B": "A horgászorsót",
+            "C": "*A szeizmográfot",
+            "D": "Az iránytűt",
+            "X": "The first seismograph was invented in 132 A.D. by the Chinese astronomer and mathematician Chang Heng. It consisted of a ceramic urn with eight dragons attached to its sides. Each dragon held a small bronze ball in its mouth. Whenever there was even a slight earth tremor, a mechanism inside the seismograph would open the mouth of one dragon, and the bronze ball would fall into the open mouth of one of eight toads sitting below. Imperial watchman could tell which direction the earthquake came from by seeing which dragon's mouth was empty."
+        },
+        "Mi az oganesszon periodósus rendszáma?": {
+            "A": "84",
+            "B": "112",
+            "C": "*118",
+            "D": "127",
+            "X": "Oganesson is a transactinide chemical element, first synthesized in 2002 by a joint team of Russian and American scientists. Formerly called ununoctium, it has an atomic number of 118. It was formerly thought to be a gas under normal conditions but is now predicted to be a solid due to relativistic effects."
+        },
+        "Mi az univerzum legerősebb ismert mágnese?": {
+            "A": "A sötét anyag",
+            "B": "A fekete lyukak",
+            "C": "*A magnetárok",
+            "D": "A neodímium mágnesek",
+            "X": "Magnetars (a type of neutron star) are the bizarre super-dense remnants of supernova explosions. They are the strongest magnets known in the universe -- hundreds of millions of times more powerful than the magnetic field surrounding Earth."
+        },
+        "Hány szabadalmat jegyeztetett be Thomas Alva Edison élete során?": {
+            "A": "0",
+            "B": "85",
+            "C": "1093",
+            "D": "*2332",
+            "X": "Thomas Edison was an inventor who accumulated 2,332 patents worldwide for his inventions. 1,093 of Edison's patents were in the United States, but other patents were approved in countries around the globe."
+        },
+        "Melyik a Föld atmoszférájának legalacsonyabb rétege?": {
+            "A": "Exoszféra",
+            "B": "Mezoszféra",
+            "C": "Sztratoszféra",
+            "D": "*Troposzféra",
+            "X": "The troposphere is the lowest layer of Earth's atmosphere. It starts at the Earth's surface and extends 8 to 14.5 kilometers high (5 to 9 miles). Most types of clouds are found in the troposphere, and almost all weather occurs within this layer."
+        },
+        "Az emberi test sejtjeinek hány százaléka baktérium?": {
+            "A": "2%",
+            "B": "15%",
+            "C": "68%",
+            "D": "*90%",
+            "X": "You are more bacteria than you are you! The average human body is made up of 90% bacteria and only 10% human cells. Because of their small size, however, microorganisms make up only about 1 to 3 percent of the body's mass. (In a 200-pound adult, that's 2 to 6 pounds of bacteria.)"
+        },
+        "Minek a mértékegysége a fényév?": {
+            "A": "Sebesség",
+            "B": "*Távolság",
+            "C": "Energia",
+            "D": "Idő",
+            "X": "A fényév az a távolság, amelyet a fény egy év alatt megtesz - kb. 9,5 billió km."
+        },
+        "Az alábbiak közül melyik tárgynak nem önmagán belül van a tömegközéppontja?": {
+            "A": "Baseball labda",
+            "B": "Féltégla",
+            "C": "Lándzsa",
+            "D": "*Frizbi",
+            "X": "Concave or hollow objects have centers of mass inside their \"shells\". So the center of mass of a Frisbee will not lie rather outside towards the curved surface."
+        },
+        "Ha egy test 10 másodperc alatt 50 métert tesz meg, mekkora a sebessége?": {
+            "A": "50 m/s",
+            "B": "*5 m/s",
+            "C": "10 m/s",
+            "D": "15 m/s",
+            "X": "Ha egy test 10 másodperc alatt 50 m-t tesz meg, akkor a sebessége 5 m/s."
+        },
+        "Hány elektron van egy H+ atomban?": {
+            "A": "*0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "X": "A hidrogén atomban egy elektron van, és H+ jelöli a hidrogén iont, amely azt jelenti, hogy elvesztette az egyetlen elektronját."
+        },
+        "Melyik tulajdonság NEM illik a fémekre?": {
+            "A": "Jól vezetik a hőt",
+            "B": "Jól vezetik az elektromosságot",
+            "C": "*Jó az áteresztő képességük",
+            "D": "Jól megmunkálhatóak, alakíthatóak",
+            "X": "A fémeknek nem jó az áteresztő képessége, mivel nem a folyadékok és gázok nem jutnak át rajta."
+        },
+        "A naprendszer melyik bolygóján található a legnagyobb óceán?": {
+            "A": "Föld",
+            "B": "*Jupiter",
+            "C": "Uránusz",
+            "D": "Neptunusz",
+            "X": "Számítógépes modellezés alapján a Jupiter óceánja nem csak a legnagyobb a naprendszerben, de a mélysége 40.000 km - körülbelül olyan mély, mint a Föld kerülete."
+        },
+        "Évente mennyi eső éri a Vénusz felszínét?": {
+            "A": "10 cm",
+            "B": "15 cm",
+            "C": "20 cm",
+            "D": "*Semennyi",
+            "X": "A Vénusz atmoszférájában ugyan van eső, de a felszín felett 25 km-rel hő hatására elpárolog, így nem éri a felszínt."
+        },
+        "Melyik törpebolygó felfedezése után osztályozták újra a Plutót?": {
+            "A": "Ceres",
+            "B": "Charon",
+            "C": "Makemake",
+            "D": "*Eris",
+            "X": "2005 július 29-én, a Caltech asztronómusai bejelentették egy új transz-neptunuszi objektum felfedezését, amelyet akkoriban a Plutónál nagyobbnak gondoltak."
+        },
         "Milyen egységben mérik a hang rezgésszámát?": {
             "A": "Tonban",
             "B": "Decibelben",
