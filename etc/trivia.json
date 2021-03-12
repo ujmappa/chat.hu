@@ -1923,8 +1923,8 @@
         "Mivel táplálkozik a folyton rágcsáló koala?": {
             "A": "Bambusszal",
             "B": "*Eukaliptuszlevéllel",
-            "C": "Cukorrépával",
-            "D": "Kókusszal"
+            "C": "Kókusszal",
+            "D": "Napfénnyel"
         },
         "Milyen állat az ürü?": {
             "A": "Fiatal bárány",
@@ -4732,12 +4732,6 @@
             "C": "Az effendik",
             "D": "A kádik"
         },
-        "Hol rendezték meg az Európai Biztonsági és Együttműködési Értekezletet 1975-ben?": {
-            "A": "Washington",
-            "B": "Párizs",
-            "C": "Genf",
-            "D": "*Helsinki"
-        },
         "Kivel írta közösen Marx a Kommunista Kiáltványt?": {
             "A": "Leninnel",
             "B": "*Engelsszel",
@@ -5746,12 +5740,6 @@
             "C": "Milton",
             "D": "Coleridge"
         },
-        "Ki volt az a politikus, aki 1971-ben kikiáltotta Banglades függetlenségét?": {
-            "A": "Mórárdzsi Dészái",
-            "B": "Ziaur Rahman",
-            "C": "Mahmud Ullah",
-            "D": "*Mudzsibur Rahman"
-        },
         "Ki volt az 1990-ben megalakult új magyar kormány vezetője?": {
             "A": "*Antall József",
             "B": "Németh Miklós",
@@ -5962,7 +5950,7 @@
             "C": "*Nagy Lajos",
             "D": "Zsigmond"
         },
-        "Kik támadták meg Pearl Harbor városát 1941 decemberében?": {
+        "Kik támadták meg Pearl Harbor-t 1941 decemberében?": {
             "A": "*Japánok",
             "B": "Németek",
             "C": "Oroszok",
@@ -7054,7 +7042,7 @@
         "Mivé változtatta Kirké Odüsszeusz társait?": {
             "A": "Kővé",
             "B": "Sóbálvánnyá",
-            "C": "Gyermekké",
+            "C": "Szörnyeteggé",
             "D": "*Disznóvá"
         },
         "Ki Titánia a Szentivánéji álom című Shakespeare-műben?": {
@@ -7213,7 +7201,7 @@
             "C": "*Saga",
             "D": "Oberon"
         },
-        "Melyik nem egy Moliére komédia címe?": {
+        "Melyik NEM egy Moliére komédia címe?": {
             "A": "A férjek iskolája",
             "B": "A nők iskolája",
             "C": "*A férfiak iskolája",
@@ -8217,7 +8205,7 @@
         },
         "Ki a szerzője az alábbi soroknak? \"Nem tudhatom, hogy másnak e tájék mit jelent, nekem szülőhazám...\"": {
             "A": "Vörösmarty Mihály",
-            "B": "Ady Endre",
+            "B": "Petőfi Sándor",
             "C": "József Attila",
             "D": "*Radnóti Miklós"
         },
@@ -8480,7 +8468,7 @@
         },
         "Melyik orosz drámaíró szerezte \"A főfelügyelő\" című művet?": {
             "A": "*Nikolai Gogol",
-            "B": "Alexander Pushkin",
+            "B": "Alexander Puskin",
             "C": "Anton Chekhov",
             "D": "Maxim Gorky",
             "X": "Nikolai Gogol's most celebrated play was The Inspector General (1836), a comedy which told the tale of a young civil servant who finds himself stranded in a small town, mistaken for an influential government inspector. A masterpiece of dramatic satire, The Inspector General is universally respected as one of the greatest plays of the Russian theatre."
@@ -9106,7 +9094,7 @@
             "A": "Szibériai vadludat",
             "B": "Doni kozákokat",
             "C": "*Orosz nyaralót",
-            "D": "Grúz feketeteát"
+            "D": "Grúz hangszert"
         },
         "Mi a lórum?": {
             "A": "Lovaspóló",
@@ -10761,7 +10749,7 @@
         "Miket láthatunk egy skanzenben?": {
             "A": "Éremgyűjteményeket",
             "B": "Tömegközlekedési eszközöket",
-            "C": "*Falusi epületeket",
+            "C": "*Falusi épületeket",
             "D": "Operaelőadásokat"
         },
         "Milyen ruhadarabot visel, aki neglizsében van?": {
@@ -11091,10 +11079,10 @@
             "D": "A tenger munkásai"
         },
         "Mi a címe Lloyd Webber musicaljének: \"József és a színes, szélesvásznú...\"": {
-            "A": "Filmkocka",
-            "B": "Televízió",
-            "C": "*Álomkabát",
-            "D": "Csodasaru"
+            "A": "*Álomkabát",
+            "B": "Csodasaru",
+            "C": "Filmkocka",
+            "D": "Televízió"
         },
         "Az alábbi zenés darabok közül melyiknek nem Presser Gábor a zeneszerzője?": {
             "A": "A próba",
@@ -12973,7 +12961,7 @@
             "C": "Az őrmester",
             "D": "A hét törpe"
         },
-        "Kiknek nem készített \"naplót\" Mészáros Márta filmjeinek címe szerint?": {
+        "Kiknek NEM készített \"naplót\" Mészáros Márta filmjeinek címe szerint?": {
             "A": "Szerelmeinek",
             "B": "Gyermekeinek",
             "C": "A holtaknak",
@@ -13771,7 +13759,7 @@
             "C": "Riporterrel",
             "D": "*Vámpírral"
         },
-        "Az alábbiak közül melyik nem kapta meg a legjobb filmnek járó Oscar-díjat?": {
+        "Az alábbiak közül melyik NEM kapta meg a legjobb filmnek járó Oscar-díjat?": {
             "A": "Most és mindörökké",
             "B": "*Van aki forrón szereti",
             "C": "A muzsika hangja",
