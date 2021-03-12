@@ -186,7 +186,7 @@
             "C": "Lóerőben",
             "D": "*Karátban"
         },
-        "Az alábbiak közül melyik nem nemesgáz?": {
+        "Az alábbiak közül melyik NEM nemesgáz?": {
             "A": "Radon",
             "B": "*Bróm",
             "C": "Argon",
@@ -312,7 +312,7 @@
             "C": "Szilícium",
             "D": "Króm"
         },
-        "Az alábbiak közül melyik nem szénvegyület?": {
+        "Az alábbiak közül melyik NEM szénvegyület?": {
             "A": "Mészkő",
             "B": "Metán",
             "C": "Hangyasav",
@@ -348,7 +348,7 @@
             "C": "Oxfordi",
             "D": "Cambridge-i"
         },
-        "A felsoroltak közül melyik nem nemesfém?": {
+        "A felsoroltak közül melyik NEM nemesfém?": {
             "A": "Platina",
             "B": "*Nikkel",
             "C": "Ozmium",
@@ -438,7 +438,7 @@
             "C": "Holland",
             "D": "Dán"
         },
-        "Melyik nem egy szögfüggvény elnevezése?": {
+        "Melyik NEM egy szögfüggvény elnevezése?": {
             "A": "Tangens",
             "B": "Koszinusz",
             "C": "*Szinkópa",
@@ -456,7 +456,7 @@
             "C": "Lux",
             "D": "Farad"
         },
-        "Melyik nem halogén elem az alábbiak közül?": {
+        "Melyik NEM halogén elem az alábbiak közül?": {
             "A": "Klór",
             "B": "*Hélium",
             "C": "Fluor",
@@ -498,7 +498,7 @@
             "C": "Sósborszesz",
             "D": "*Szalmiákszesz"
         },
-        "Melyik skálán nem mérhetünk hőmérsékletet?": {
+        "Melyik skálán NEM mérhetünk hőmérsékletet?": {
             "A": "Réaumur",
             "B": "Celsius",
             "C": "*Richter",
@@ -612,7 +612,7 @@
             "C": "*Charon",
             "D": "Callisto"
         },
-        "Melyik nem síkidom az alábbiak közül?": {
+        "Melyik NEM síkidom az alábbiak közül?": {
             "A": "Trapéz",
             "B": "Rombusz",
             "C": "*Hasáb",
@@ -726,7 +726,7 @@
             "C": "Tengely",
             "D": "Szelő"
         },
-        "Melyik kémiai elem nem szerepel az alábbiak közül a salétromsavban?": {
+        "Melyik kémiai elem NEM szerepel az alábbiak közül a salétromsavban?": {
             "A": "Oxigén",
             "B": "*Nátrium",
             "C": "Nitrogén",
@@ -774,7 +774,7 @@
             "C": "Angol",
             "D": "*Dán"
         },
-        "Ki nem volt soha a Magyar Tudományos Akadémia elnöke az alábbiak közül?": {
+        "Ki NEM volt soha a Magyar Tudományos Akadémia elnöke az alábbiak közül?": {
             "A": "Kodály Zoltán",
             "B": "*Kandó Kálmán",
             "C": "Eötvös Loránd",
@@ -1332,7 +1332,7 @@
             "C": "*Díszhalakat",
             "D": "Teheneket"
         },
-        "Melyik nem növény az alábbiak közül?": {
+        "Melyik NEM növény az alábbiak közül?": {
             "A": "Boglárka",
             "B": "Gyöngyvirág",
             "C": "*Tiszavirág",
@@ -1398,7 +1398,7 @@
             "C": "Afrikában",
             "D": "Szibériában"
         },
-        "Az alábbiak közül melyik nem halfajta?": {
+        "Az alábbiak közül melyik NEM halfajta?": {
             "A": "Viza",
             "B": "Tok",
             "C": "Harcsa",
@@ -1464,7 +1464,7 @@
             "C": "Patkány",
             "D": "Hidra"
         },
-        "Az alábbi női nevek közül melyik nem növénynév?": {
+        "Az alábbi női nevek közül melyik NEM növénynév?": {
             "A": "Amarillisz",
             "B": "Erika",
             "C": "*Xénia",
@@ -1506,7 +1506,7 @@
             "C": "Oroszlán",
             "D": "Kenguru"
         },
-        "Melyik állat nem tartozik a nagymacskák közé?": {
+        "Melyik állat NEM tartozik a nagymacskák közé?": {
             "A": "Tigris",
             "B": "Oroszlán",
             "C": "Jaguár",
@@ -2298,7 +2298,7 @@
             "C": "Futómadár",
             "D": "Sörényes borz"
         },
-        "Melyik nem rágcsáló az alábbiak közül?": {
+        "Melyik NEM rágcsáló az alábbiak közül?": {
             "A": "Hód",
             "B": "Hörcsög",
             "C": "Csincsilla",
@@ -2334,7 +2334,7 @@
             "C": "*Csésze",
             "D": "Villa"
         },
-        "Melyik nem ausztráliai állat az alábbiak közül?": {
+        "Melyik NEM ausztráliai állat az alábbiak közül?": {
             "A": "Dingó",
             "B": "Koala",
             "C": "*Dromedár",
@@ -2346,7 +2346,7 @@
             "C": "Tavaszi szúnyog",
             "D": "Barlangi denevér"
         },
-        "Melyik anyag nem növényi eredetű?": {
+        "Melyik anyag NEM növényi eredetű?": {
             "A": "Gyanta",
             "B": "Tömjén",
             "C": "Mézga",
@@ -2630,7 +2630,7 @@
             "C": "Mexikó",
             "D": "Kanada"
         },
-        "Melyik országot nem érinti a Duna?": {
+        "Melyik országot NEM érinti a Duna?": {
             "A": "Bulgáriát",
             "B": "*Szlovéniát",
             "C": "Horvátországot",
@@ -2648,7 +2648,7 @@
             "C": "Góbi-sivatag",
             "D": "*Szahara"
         },
-        "Melyik ország nem szigetország?": {
+        "Melyik ország NEM szigetország?": {
             "A": "Sri Lanka",
             "B": "Írország",
             "C": "*Honduras",
@@ -2708,7 +2708,7 @@
             "C": "A Gellért-hegy",
             "D": "A Szabadság-hegy"
         },
-        "Melyik országgal nem határos Luxemburg?": {
+        "Melyik országgal NEM határos Luxemburg?": {
             "A": "Belgium",
             "B": "*Svájc",
             "C": "Franciaország",
@@ -2822,13 +2822,13 @@
             "C": "A Hebridáknál",
             "D": "*A Holdon"
         },
-        "Melyik megyénk nem határos a Balatonnal az alábbiak közül?": {
+        "Melyik megyénk NEM határos a Balatonnal az alábbiak közül?": {
             "A": "*Fejér megye",
             "B": "Somogy megye",
             "C": "Zala megye",
             "D": "Veszprém megye"
         },
-        "Melyik nem svájci város az alábbiak közül?": {
+        "Melyik NEM svájci város az alábbiak közül?": {
             "A": "Lausanne",
             "B": "Luzern",
             "C": "*Leiden",
@@ -2936,7 +2936,7 @@
             "C": "Nílus",
             "D": "Amazonas"
         },
-        "A felsorolt országok közül melyik nem az afrikai földrészen található?": {
+        "A felsorolt országok közül melyik NEM az afrikai földrészen található?": {
             "A": "Szomália",
             "B": "Szudán",
             "C": "Szváziföld",
@@ -2966,7 +2966,7 @@
             "C": "*Pó",
             "D": "Tevere"
         },
-        "Melyik nem félsziget az alábbiak közül?": {
+        "Melyik NEM félsziget az alábbiak közül?": {
             "A": "Krím",
             "B": "Balkán",
             "C": "Labrador",
@@ -3002,7 +3002,7 @@
             "C": "Elba",
             "D": "Duna"
         },
-        "Melyik ország nem határos Brazíliával?": {
+        "Melyik ország NEM határos Brazíliával?": {
             "A": "*Ecuador",
             "B": "Guyana",
             "C": "Paraguyay",
@@ -3038,7 +3038,7 @@
             "C": "Havanna",
             "D": "Buenos Aires"
         },
-        "Milyen szín nem szerepel Németország zászlajában?": {
+        "Milyen szín NEM szerepel Németország zászlajában?": {
             "A": "Fekete",
             "B": "*Zöld",
             "C": "Sárga",
@@ -3098,7 +3098,7 @@
             "C": "Törökország",
             "D": "*Indonézia"
         },
-        "Melyik főváros nem Ázsiában található?": {
+        "Melyik főváros NEM Ázsiában található?": {
             "A": "Islamabad",
             "B": "*Tripoli",
             "C": "Bejrút",
@@ -3182,7 +3182,7 @@
             "C": "*Cseh",
             "D": "Bolgár"
         },
-        "Melyik szín nem szerepel Olaszország zászlójában?": {
+        "Melyik szín NEM szerepel Olaszország zászlójában?": {
             "A": "Zöld",
             "B": "Piros",
             "C": "*Kék",
@@ -3200,7 +3200,7 @@
             "C": "Ceylon",
             "D": "*Etiópia"
         },
-        "Melyik ország nem köztársaság az alábbi európai államok közül?": {
+        "Melyik ország NEM köztársaság az alábbi európai államok közül?": {
             "A": "San Marino",
             "B": "Málta",
             "C": "*Andorra",
@@ -3248,7 +3248,7 @@
             "C": "Kuvait",
             "D": "Tanzánia"
         },
-        "Melyik ország nem tagja a Benelux államoknak?": {
+        "Melyik ország NEM tagja a Benelux államoknak?": {
             "A": "Belgium",
             "B": "Hollandia",
             "C": "Luxemburg",
@@ -3284,7 +3284,7 @@
             "C": "Los Angeles",
             "D": "*New York"
         },
-        "Az alábbiak közül melyik ország zászlaja nem háromszínű?": {
+        "Az alábbiak közül melyik ország zászlaja NEM háromszínű?": {
             "A": "Csehország",
             "B": "Luxemburg",
             "C": "Írország",
@@ -3320,7 +3320,7 @@
             "C": "Észak-Amerikában",
             "D": "Közép-Ausztráliában"
         },
-        "A felsorolt európai államok közül melyik nem köztársaság?": {
+        "A felsorolt európai államok közül melyik NEM köztársaság?": {
             "A": "Szlovénia",
             "B": "Portugália",
             "C": "*Hollandia",
@@ -3434,7 +3434,7 @@
             "C": "Cordoba",
             "D": "*Granada"
         },
-        "Melyik nem alkotmányos monarchia az alábbi észak-európai országok közül?": {
+        "Melyik NEM alkotmányos monarchia az alábbi észak-európai országok közül?": {
             "A": "Dánia",
             "B": "Norvégia",
             "C": "Svédország",
@@ -3704,7 +3704,7 @@
             "C": "*Matyók",
             "D": "Rutének"
         },
-        "Melyik török személyiség után nem maradt fenn építészeti emlék Pécsett?": {
+        "Melyik török személyiség után NEM maradt fenn építészeti emlék Pécsett?": {
             "A": "Gázi Kászim pasa",
             "B": "Jakováli Hasszán pasa",
             "C": "Memi pasa",
@@ -4012,7 +4012,7 @@
             "C": "A bor",
             "D": "A bölcsesség"
         },
-        "Ki nem nőnemű az alábbi mitológiai alakok közül?": {
+        "Ki NEM nőnemű az alábbi mitológiai alakok közül?": {
             "A": "Erisz",
             "B": "Déméter",
             "C": "*Daphnis",
@@ -4366,7 +4366,7 @@
             "C": "Pizarrótól",
             "D": "Toscanellitől"
         },
-        "Ki nem volt VIII. Henrik felesége?": {
+        "Ki NEM volt VIII. Henrik felesége?": {
             "A": "Boleyn Anna",
             "B": "*Aquitániai Eleonóra",
             "C": "Catherine Parr",
@@ -4534,7 +4534,7 @@
             "C": "*Lordok Háza",
             "D": "Urak Háza"
         },
-        "Melyik nem a hét magyar törzs egyike az alábbiak közül?": {
+        "Melyik NEM a hét magyar törzs egyike az alábbiak közül?": {
             "A": "Jenő",
             "B": "Nyék",
             "C": "Megyer",
@@ -4846,7 +4846,7 @@
             "C": "Johnson",
             "D": "Carter"
         },
-        "Ki nem volt az 1848. áprilisában beiktatott Batthyány-kormány tagja?": {
+        "Ki NEM volt az 1848. áprilisában beiktatott Batthyány-kormány tagja?": {
             "A": "Mészáros Lázár",
             "B": "Klauzál Gábor",
             "C": "*Fáy András",
@@ -6136,7 +6136,7 @@
             "C": "*Jobbágyi szolgáltatást",
             "D": "Őrölt gabonát"
         },
-        "Melyik nem germán eredetű népcsoport volt az alábbiak közül?": {
+        "Melyik NEM germán eredetű népcsoport volt az alábbiak közül?": {
             "A": "Gepida",
             "B": "Gót",
             "C": "Frank",
@@ -6154,7 +6154,7 @@
             "C": "India",
             "D": "Orosz"
         },
-        "Mely ország nem tartozott a II. világháború alatt a tengelyhatalmak közé?": {
+        "Mely ország NEM tartozott a II. világháború alatt a tengelyhatalmak közé?": {
             "A": "Németország",
             "B": "Japán",
             "C": "*Anglia",
@@ -6352,7 +6352,7 @@
             "C": "Valois",
             "D": "Bourbon"
         },
-        "Melyik épület nem I. Ferenc József uralkodása alatt épült?": {
+        "Melyik épület NEM I. Ferenc József uralkodása alatt épült?": {
             "A": "*Magyar Nemzeti Múzeum",
             "B": "Erkel Színház",
             "C": "Budapesti Keleti pályaudvar",
@@ -6568,7 +6568,7 @@
             "C": "Damaszkuszba",
             "D": "Bagdadba"
         },
-        "Melyik fáraó piramisa nem tartozik a gízai piramisok közé?": {
+        "Melyik fáraó piramisa NEM tartozik a gízai piramisok közé?": {
             "A": "Kheopsz",
             "B": "Mükerinosz",
             "C": "Khephrén",
@@ -6580,7 +6580,7 @@
             "C": "*I. Napóleon",
             "D": "III. Napóleon"
         },
-        "Melyik tudományág nem tartozott bele az ókori hét szabad művészetbe?": {
+        "Melyik tudományág NEM tartozott bele az ókori hét szabad művészetbe?": {
             "A": "Aritmetika",
             "B": "Asztronómia",
             "C": "*Filozófia",
@@ -6937,7 +6937,7 @@
             "C": "Büntetett előéletéről",
             "D": "*Egy állati testrészről"
         },
-        "Ki nem volt a kőszívű ember fia?": {
+        "Ki NEM volt a kőszívű ember fia?": {
             "A": "Ödön",
             "B": "Richárd",
             "C": "*Ottó",
@@ -7219,7 +7219,7 @@
             "C": "Észak Dél ellen",
             "D": "Pekingi ősz"
         },
-        "Melyik nem Tamási Áron regényének címe?": {
+        "Melyik NEM Tamási Áron regényének címe?": {
             "A": "Ábel az országban",
             "B": "Ábel a rengetegben",
             "C": "*Ábel a nagyvárosban",
@@ -7465,7 +7465,7 @@
             "C": "*Kosztolányi Dezső",
             "D": "Zelk Zoltán"
         },
-        "Milyen címmel nem írt színdarabot Neil Simon?": {
+        "Milyen címmel NEM írt színdarabot Neil Simon?": {
             "A": "Mezítláb a parkban",
             "B": "Furcsa pár",
             "C": "A Napsugár fiúk",
@@ -7507,7 +7507,7 @@
             "C": "Oscar Wilde",
             "D": "*Jack London"
         },
-        "Melyik évszak nem jelenik meg Juhász Gyula \"Milyen volt...\" kezdetű versében?": {
+        "Melyik évszak NEM jelenik meg Juhász Gyula \"Milyen volt...\" kezdetű versében?": {
             "A": "*Tél",
             "B": "Tavasz",
             "C": "Nyár",
@@ -7555,7 +7555,7 @@
             "C": "Losonczi",
             "D": "*Sárvári"
         },
-        "Az alábbiak közül melyik nem Móricz Erdély-trilógiájának a része?": {
+        "Az alábbiak közül melyik NEM Móricz Erdély-trilógiájának a része?": {
             "A": "*A nap szerelmese",
             "B": "Tündérkert",
             "C": "A nagy fejedelem",
@@ -7705,7 +7705,7 @@
             "C": "A francia szupervasúton",
             "D": "Az Intercityn"
         },
-        "Melyik nem egy Shakespeare-királydráma címe?": {
+        "Melyik NEM egy Shakespeare-királydráma címe?": {
             "A": "V. Henrik",
             "B": "III. Richárd",
             "C": "VIII. Henrik",
@@ -7873,7 +7873,7 @@
             "C": "Batsányi János",
             "D": "Nagy László"
         },
-        "Ki nem lépett fel színészként?": {
+        "Ki NEM lépett fel színészként?": {
             "A": "Petőfi Sándor",
             "B": "Arany János",
             "C": "*Vörösmarty Mihály",
@@ -9210,7 +9210,7 @@
             "C": "Tokány",
             "D": "Hurka"
         },
-        "Melyik szókapcsolat nem hibás nyelvhelyességi szempontból?": {
+        "Melyik szókapcsolat NEM hibás nyelvhelyességi szempontból?": {
             "A": "Önműködő automata",
             "B": "*Harmonikus kapcsolat",
             "C": "Bestiális fenevad",
@@ -10704,7 +10704,7 @@
             "C": "Levélregény",
             "D": "Bujdosóének"
         },
-        "Az alábbiak közül melyik nem török-magyar eredetű név?": {
+        "Az alábbiak közül melyik NEM török-magyar eredetű név?": {
             "A": "Zoltán",
             "B": "Géza",
             "C": "Örs",
@@ -11084,7 +11084,7 @@
             "C": "Filmkocka",
             "D": "Televízió"
         },
-        "Az alábbi zenés darabok közül melyiknek nem Presser Gábor a zeneszerzője?": {
+        "Az alábbi zenés darabok közül melyiknek NEM Presser Gábor a zeneszerzője?": {
             "A": "A próba",
             "B": "Harmincéves vagyok",
             "C": "A padlás",
@@ -11300,7 +11300,7 @@
             "C": "A Nemzeti Színházban",
             "D": "Az Operett Színházban"
         },
-        "Ki nem rendező az ismert művészek közül?": {
+        "Ki NEM rendező az ismert művészek közül?": {
             "A": "Szinetár Miklós",
             "B": "Babarczy László",
             "C": "Szikora János",
@@ -11601,7 +11601,7 @@
             "C": "*Fából faragott",
             "D": "Gyurmából formált"
         },
-        "Az alábbiak közül melyik nem vígopera?": {
+        "Az alábbiak közül melyik NEM vígopera?": {
             "A": "Mozart: Figaro házassága",
             "B": "Rossini: A sevillai borbély",
             "C": "Verdi: Falstaff",
@@ -11697,13 +11697,13 @@
             "C": "I. Miklósról",
             "D": "Rettegett Ivánról"
         },
-        "Az alábbiak közül melyik Verdi-opera nem Shakespeare-dráma alapján készült?": {
+        "Az alábbiak közül melyik Verdi-opera NEM Shakespeare-dráma alapján készült?": {
             "A": "Othello",
             "B": "Macbeth",
             "C": "*Don Carlos",
             "D": "Falstaff"
         },
-        "Melyik nem Mozart-opera az alábbiak közül?": {
+        "Melyik NEM Mozart-opera az alábbiak közül?": {
             "A": "Cosi fan tutte",
             "B": "*A sevillai borbély",
             "C": "Don Giovanni",
@@ -11919,7 +11919,7 @@
             "C": "Erkel Ferenc: Dózsa György",
             "D": "Kacsóh Pongrác: János vitéz"
         },
-        "Az alábbiak közül melyik opera nem tartozik Puccini Triptichonjába?": {
+        "Az alábbiak közül melyik opera NEM tartozik Puccini Triptichonjába?": {
             "A": "A köpeny",
             "B": "*Nyugat lánya",
             "C": "Angelica nővér",
@@ -12259,7 +12259,7 @@
             "C": "*Fészkére",
             "D": "Széllel"
         },
-        "Ki nem kapott egyik alakításáért sem Oscar-díjat az alábbi színésznők közül?": {
+        "Ki NEM kapott egyik alakításáért sem Oscar-díjat az alábbi színésznők közül?": {
             "A": "*Greta Garbo",
             "B": "Audrey Hepburn",
             "C": "Olivia de Havilland",
@@ -12469,13 +12469,13 @@
             "C": "*Hattyúdal",
             "D": "Pacsirta"
         },
-        "Federico Fellini melyik filmjét nem díjazták a legjobb külföldi filmnek járó Oscar-díjjal?": {
+        "Federico Fellini melyik filmjét NEM díjazták a legjobb külföldi filmnek járó Oscar-díjjal?": {
             "A": "Amarcord",
             "B": "Országúton",
             "C": "*Az édes élet",
             "D": "8 és fél"
         },
-        "Sergio Leone melyik westernfilmjében nem Clint Eastwood játssza a főszerepet?": {
+        "Sergio Leone melyik westernfilmjében NEM Clint Eastwood játssza a főszerepet?": {
             "A": "Egy maréknyi dollárért",
             "B": "*Egy marék dinamit",
             "C": "A jó, a rossz és a csúf",
@@ -12637,7 +12637,7 @@
             "C": "Római vakáció",
             "D": "Egy férfi és egy nő"
         },
-        "Az alábbi női nevek közül melyik nem szerepelt Fassbinder-film címében?": {
+        "Az alábbi női nevek közül melyik NEM szerepelt Fassbinder-film címében?": {
             "A": "Petra von Kant",
             "B": "*Katharina Blum",
             "C": "Effi Briest",
@@ -12781,7 +12781,7 @@
             "C": "Laurence Olivier",
             "D": "Clark Gable"
         },
-        "Milyen állat nem szerepel Walt Disney A dzsungel könyve című rajzfilmjében?": {
+        "Milyen állat NEM szerepel Walt Disney A dzsungel könyve című rajzfilmjében?": {
             "A": "Óriáskígyó",
             "B": "Feketepárduc",
             "C": "*Zsiráf",
@@ -12871,13 +12871,13 @@
             "C": "Járvány idején",
             "D": "A lábtörlő alatt"
         },
-        "Kik nem voltak heten az alábbi filmszereplők közül?": {
+        "Kik NEM voltak heten az alábbi filmszereplők közül?": {
             "A": "Hófehérke törpéi",
             "B": "*Dumas muskétásai",
             "C": "Kuroszava szamurájai",
             "D": "Sturges mesterlövészei"
         },
-        "Fellini melyik filmjében nem játszott főszerepet Marcello Mastroianni?": {
+        "Fellini melyik filmjében NEM játszott főszerepet Marcello Mastroianni?": {
             "A": "Az édes élet",
             "B": "Ginger és Fred",
             "C": "*Országúton",
@@ -12895,7 +12895,7 @@
             "C": "Vadnyugat",
             "D": "Karácsony"
         },
-        "Melyik film főhősei nem járnak az űrben?": {
+        "Melyik film főhősei NEM járnak az űrben?": {
             "A": "Mentőexpedíció",
             "B": "*A világok harca",
             "C": "Csillagok között",
@@ -12997,7 +12997,7 @@
             "C": "*Japánban",
             "D": "Amerikában"
         },
-        "Melyik film cselekménye nem az ókorban játszódik?": {
+        "Melyik film cselekménye NEM az ókorban játszódik?": {
             "A": "Kleopátra",
             "B": "Ben Hur",
             "C": "*Dekameron",
@@ -13063,7 +13063,7 @@
             "C": "Nem kevés",
             "D": "Több, mint sok"
         },
-        "Ki nem kapta meg egyszer sem a legjobb rendezésért járó Oscar-díjat?": {
+        "Ki NEM kapta meg egyszer sem a legjobb rendezésért járó Oscar-díjat?": {
             "A": "*Alfred Hitchcock",
             "B": "Victor Fleming",
             "C": "Billy Wilder",
@@ -13075,7 +13075,7 @@
             "C": "Magyar sas",
             "D": "Kenyai kakadu"
         },
-        "Melyik filmben nem játszott Marlon Brando?": {
+        "Melyik filmben NEM játszott Marlon Brando?": {
             "A": "A vágy villamosa",
             "B": "Utolsó tangó Párizsban",
             "C": "*Arábiai Lawrence",
@@ -13279,7 +13279,7 @@
             "C": "Szibériai",
             "D": "*Római"
         },
-        "Hol nem járt Piedone a Bud Spencer főszereplésével készült filmek címe szerint?": {
+        "Hol NEM járt Piedone a Bud Spencer főszereplésével készült filmek címe szerint?": {
             "A": "Hongkongban",
             "B": "Afrikában",
             "C": "Egyiptomban",
@@ -13411,7 +13411,7 @@
             "C": "*Svéd",
             "D": "Finn"
         },
-        "Melyik film nem Kurt Vonnegut műve alapján készült?": {
+        "Melyik film NEM Kurt Vonnegut műve alapján készült?": {
             "A": "*A 22-es csapdája",
             "B": "Az ötös számú vágóhíd",
             "C": "Bajnokok reggelije",
@@ -13495,7 +13495,7 @@
             "C": "*Kolumbuszt",
             "D": "Amerigo Vespuccit"
         },
-        "Melyik filmben nem játszott együtt Ruttkai Éva és Latinovits Zoltán?": {
+        "Melyik filmben NEM játszott együtt Ruttkai Éva és Latinovits Zoltán?": {
             "A": "Szindbád",
             "B": "*Butaságom története",
             "C": "Kárpáthy Zoltán",
@@ -13537,7 +13537,7 @@
             "C": "*Dargay Attila",
             "D": "Sándor Pál"
         },
-        "Melyik Jókai-regényből nem Várkonyi Zoltán rendezett filmet?": {
+        "Melyik Jókai-regényből NEM Várkonyi Zoltán rendezett filmet?": {
             "A": "Fekete gyémántok",
             "B": "A kőszívű ember fiai",
             "C": "*Szegény gazdagok",
@@ -13639,7 +13639,7 @@
             "C": "Angelina Jolie",
             "D": "Winona Ryder"
         },
-        "Mit nem csinálunk \"sose\" Koltai Róbert filmjének címe szerint?": {
+        "Mit NEM csinálunk \"sose\" Koltai Róbert filmjének címe szerint?": {
             "A": "Adjuk fel",
             "B": "*Halunk meg",
             "C": "Hátrálunk meg",
@@ -13959,7 +13959,7 @@
             "C": "Korál",
             "D": "Edda"
         },
-        "Melyik rockzenész nem volt soha tagja a Locomotív GT-nek?": {
+        "Melyik rockzenész NEM volt soha tagja a Locomotív GT-nek?": {
             "A": "Barta Tamás",
             "B": "Frenreisz Károly",
             "C": "Karácsony János",
@@ -14019,7 +14019,7 @@
             "C": "Harry Rodger Webb",
             "D": "Lionel Richie"
         },
-        "Ki nem adott elő James Bond-film főcímdalt az alábbi híres zenészek közül?": {
+        "Ki NEM adott elő James Bond-film főcímdalt az alábbi híres zenészek közül?": {
             "A": "Paul McCartney",
             "B": "Tom Jones",
             "C": "Louis Amstrong",
@@ -14591,7 +14591,7 @@
             "C": "*Borókabogyóból",
             "D": "Borbolyából"
         },
-        "Az alábbi anyagok közül melyik nem a besamelmártás alapanyaga?": {
+        "Az alábbi anyagok közül melyik NEM a besamelmártás alapanyaga?": {
             "A": "Vaj",
             "B": "Liszt",
             "C": "Tej",
@@ -14639,7 +14639,7 @@
             "C": "A fehérpecsenye",
             "D": "A gömbölyű felsál"
         },
-        "Melyik nem fehérborszőlő-fajta az alábbiak közül?": {
+        "Melyik NEM fehérborszőlő-fajta az alábbiak közül?": {
             "A": "Leányka",
             "B": "*Oportó",
             "C": "Rizlingszilváni",
@@ -14741,7 +14741,7 @@
             "C": "Hegedű",
             "D": "Nagybőgő"
         },
-        "A felsoroltak közül melyik nem ütőhangszer?": {
+        "A felsoroltak közül melyik NEM ütőhangszer?": {
             "A": "Triangulum",
             "B": "Xilofon",
             "C": "Marimba",
@@ -15413,7 +15413,7 @@
             "C": "Francois Mitterand",
             "D": "Jacques Chirac"
         },
-        "Az alábbiak közül ki nem sakkozó Polgár-lány?": {
+        "Az alábbiak közül ki NEM sakkozó Polgár-lány?": {
             "A": "*Anna",
             "B": "Judit",
             "C": "Zsuzsa",
