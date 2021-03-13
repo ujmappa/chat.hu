@@ -1,7 +1,3 @@
-RegExp.quote = function(str) {
-    return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
-};
-
 var ChatManager = {
     __actions: {
         notification: 'onNotification',
@@ -127,7 +123,7 @@ var ChatManager = {
     },
     setupRoom: function(model) {
         model.set('unreadMessageCount', HoloChat.user.getRoomParam(model.id, 'unreadMessageCount', 0));
-        model.set('isClosed', HoloChat.user.getSetting('roomClosed', model.id, model.get('type') == 'private'));
+        model.set('isClosed', model.get('type') === 'private');
     },
     setCurrentPrivateRoom: function(roomId) {
         if (this.currentPrivateRoomId !== roomId) {
@@ -139,7 +135,6 @@ var ChatManager = {
         this.currentPrivateRoomId = null;
     },
     closePrivateRoom: function(roomId) {
-        HoloChat.user.setSetting('roomClosed', roomId, true);
         if (roomId === this.currentPrivateRoomId) {
             this.resetCurrentPrivateRoom();
         }
@@ -147,7 +142,6 @@ var ChatManager = {
     closeRoom: function(roomId) {
         var room = HoloChat.rooms.get(roomId);
         if (room && room.get('type') == 'private') {
-            HoloChat.user.setSetting('roomClosed', roomId, true);
             room.set('isClosed', true);
         }
         HoloChat.events.trigger('room:change', 'tree');
@@ -241,14 +235,6 @@ var ChatManager = {
     start: function() {
         HoloChat.debug('start');
         this.redraw = false;
-        var closedRooms = HoloChat.user.getSetting('roomClosed');
-        if (closedRooms !== null) {
-            for (var roomId in closedRooms) {
-                if (!HoloChat.rooms.get(roomId)) {
-                    HoloChat.user.deleteSetting('roomClosed', roomId);
-                }
-            }
-        }
         HoloChat.rooms.each(function(model) {
             ChatManager.setupRoom(model);
         });
@@ -268,7 +254,7 @@ var ChatManager = {
             this.privateRooms = new HoloChat.collections.rooms();
         }
         HoloChat.publicTrees.each(function(model) {
-            model.set('isClosed', HoloChat.user.getSetting('treeClosed', model.id, true));
+            model.set('isClosed', true);
         });
         HoloChat.users.each(function(model) {
             model.set('isIgnored', HoloChat.user.isIgnored(model.id));
@@ -300,13 +286,13 @@ var ChatManager = {
         var ban = bans[bans.length - 1];
         switch (ban.type) {
         case 'warning':
-            console.log('Moderálás', 'Figyelmeztetve lettél a szobában kiabálásért és/vagy káromkodásért!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
+            console.warn('Moderálás', 'Figyelmeztetve lettél a szobában kiabálásért és/vagy káromkodásért!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
             break;
         case 'roomMute':
-            console.log('Moderálás', 'Némítva lettél a szobában rendbontás miatt!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
+            console.warn('Moderálás', 'Némítva lettél a szobában rendbontás miatt!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
             break;
         case 'roomEnter':
-            console.log('Moderálás', 'Ki lettél zárva a szobából rendbontás miatt!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
+            console.warn('Moderálás', 'Ki lettél zárva a szobából rendbontás miatt!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
             break;
         case 'globalUser':
             console.warn('Moderálás', 'A chat funkció le lett tiltva számodra rendbontás miatt!\nIdőtartam: ' + this.formatTimeLength(ban.expiration));
@@ -337,16 +323,10 @@ var ChatManager = {
         case 'private':
             if (HoloChat.user.id != user.id) {
                 HoloChat.events.trigger('message:read', roomId, messageId);
-                if (HoloChat.user.get('name') === this.robotName) {
-                    BotManager.running && setTimeout(function(room, message) {
-                        this.checkAndAnswerMessage(room, message);
-                    }.bind(this), 1, room, message);
-                }
+            	room.set('isClosed', false);
+            	HoloChat.events.trigger('room:sort:private');
             }
-            HoloChat.user.setSetting('roomClosed', roomId, false);
-            room.set('isClosed', false);
-            HoloChat.events.trigger('room:sort:private');
-            break;
+            // nobreak;
         case 'conference':
             if (HoloChat.user.id !== user.id && HoloChat.user.get('name') === this.robotName) {
                 if (message.get('data').text === '!start') {
@@ -357,14 +337,6 @@ var ChatManager = {
                     BotManager.running && setTimeout(function(room, message) {
                         this.checkAndAnswerMessage(room, message);
                     }.bind(this), 1, room, message);
-                }
-            }
-            // nobreak;
-        case 'public':
-            if (HoloChat.user.id != user.id) {
-                if (room.id == this.currentRoomId && SwitchManager.isStatusChat() && this.windowFocus) {
-                    // New Folder: update unread counter in public rooms as well
-                    HoloChat.events.trigger('message:read', roomId, messageId);
                 }
             }
             break;
@@ -528,7 +500,6 @@ var ChatManager = {
         }
 
         manager.registerCommand(null, '!ping', function() { return 'pong!'; });
-		/*
         manager.registerCommand(null, '!ison', function(command, parameters) {
             var room = BotManager.currentRoom;
             var parameter = parameters.join(' ');
@@ -536,10 +507,10 @@ var ChatManager = {
                 return u.get('name').toLowerCase() === parameter.toLowerCase();
             });
             if (user === undefined) {
-                jQuery.get('https://chat.hu/user/default/username-autocomplete', {
-                    name: parameter
-                }, function(response) {
-                    user = response.find(function(user) {
+                axios.get('https://chat.hu/user/default/username-autocomplete', {
+                    params: { name: parameter }
+                }).then(function(response) {
+                    user = response.data.find(function(user) {
                         return user.value.toLowerCase() === parameter.toLowerCase();
                     });
                     if (user === undefined) {
@@ -552,8 +523,7 @@ var ChatManager = {
                 return user.get('name') + ' éppen online.';
             }
         });
-		*/
-		/*
+
         manager.registerCommand(null, '!seen', function(command, parameters) {
             var room = BotManager.currentRoom;
             var parameter = parameters.join(' ');
@@ -561,17 +531,18 @@ var ChatManager = {
                 return u.get('name').toLowerCase() === parameter.toLowerCase();
             });
             if (user === undefined) {
-                jQuery.get('https://chat.hu/user/default/username-autocomplete', {
-                    name: parameter
-                }, function(response) {
-                    user = response.find(function(user) {
+                axios.get('https://chat.hu/user/default/username-autocomplete', {
+                    params: { name: parameter }
+                }).then(function(response) {
+                    user = response.data.find(function(user) {
                         return user.value.toLowerCase() === parameter.toLowerCase();
                     });
                     if (user === undefined) {
                         BotManager.writeMessage(room, 'Nincs ilyen felhasználó: ' + parameter);
                     } else {
-                        jQuery.get('https://chat.hu/adatlap/' + user.id, function(data) {
-                            var sheet = $(data).find('.profile-text ul li');
+                        axios.get('https://chat.hu/adatlap/' + user.id).then(function(response) {
+							var $ = cheerio.load(response.data);
+                            var sheet = $('.profile-text ul li');
                             var line = sheet.filter(function() {
                                 return $(this).text().startsWith('Utolsó belépés ideje:')
                             }).first();
@@ -585,7 +556,7 @@ var ChatManager = {
                 return user.get('name') + ' éppen online.';
             }
         });
-		*/
+
         manager.registerCommand(null, '!find', function(command, parameters) {
             var gender = (parameters.find(function(p) { return p.startsWith('gender:') }) || 'gender:all').split(':').pop();
             var region = (parameters.find(function(p) { return p.startsWith('region:') }) || 'region:all').split(':').pop();
@@ -768,17 +739,20 @@ var ChatManager = {
                 manager.registerCommand(this, '!wakeup', function(command, parameters) {
                     return 'BEEP! BEEP! BEEP! BEEP!';
                 }, ['!ébresztő']);
-				/*
                 manager.registerCommand(this, '!nameday', function(command, parameters) {
                     var that = this, room = BotManager.currentRoom, now = new Date();
                     if (parameters.length === 0) {
-                        jQuery.get('https://raw.githubusercontent.com/ujmappa/chat.hu/master/etc/nameday.json', function(names) {
-                            var today = (now.getMonth()+1).toString().padLeft('00') + '.' + now.getDate().toString().padLeft('00') + '.';
+						FileSys.readFile('etc/nameday.json', function(error, result) {
+							if (error) throw error;
+							var names = JSON.parse(result);
+							var today = (now.getMonth()+1).toString().padLeft('00') + '.' + now.getDate().toString().padLeft('00') + '.';
                             BotManager.writeMessage(room, 'Mai névnap: ' + names[today].join(', ') + '. ' +
                                 'További névnapok: ' + names[today + '+'].join(', ') + '.', that.PREFIX);
-                        }, 'json');
+						});
                     } else {
-                        jQuery.get('https://raw.githubusercontent.com/ujmappa/chat.hu/master/etc/surename.json', function(names) {
+						FileSys.readFile('etc/surename.json', function(error, result) {
+							if (error) throw error;
+							var names = JSON.parse(result);
                             var name = parameters[0].charAt(0).toUpperCase() + parameters[0].slice(1).toLowerCase();
                             var dates = names[name] ? names[name].split(',') : undefined;
                             if (dates !== undefined) {
@@ -789,10 +763,9 @@ var ChatManager = {
                             } else {
                                 BotManager.writeMessage(room, 'Nem találok ilyen nevet: "' + name + '"', that.PREFIX);
                             }
-                        }, 'json');
+                        });
                     }
                 }, ['!névnap', '!nevnap']);
-				*/
                 manager.registerCommand(this, '!date', function(command, parameters) {
                     var now = new Date();
                     return now.getFullYear() + '. ' + this.MONTH_NAMES[now.getMonth()] + ' ' +  now.getDate() + '. ' + this.WEEKDAY_NAMES[now.getDay()];
@@ -1070,54 +1043,58 @@ var ChatManager = {
             }
         });
 
-		/*
         manager.registerPlugin({
             PLUGIN_NAME: 'WEATHER',
             PREFIX: '&#x26C5;',
             onPluginAdded: function(manager) {
-                var that = this;
                 manager.registerCommand(this, '!weather', function(command, parameters) {
                     var room = BotManager.currentRoom;
-                    jQuery.get('https://api.openweathermap.org/data/2.5/weather', {
-                        q: parameters[0] || 'Budapest' + ',' + parameters[1] || 'hu',
-                        units: 'metric',
-                        appid: '14ebe588d1c79155db3489426bef631c',
-                        lang: 'hu'
-                    }, function(result) {
-                        var answer = 'Jelenleg ' + result.main.temp + '&deg;C van itt: ' + result.name
-                            + ' (érzetre: ' + result.main.feels_like + '&deg;C, páratartalom: ' + result.main.humidity + '%, ' + ((result.weather[0] || {}).description || 'nincs adat') + ')';
-                        BotManager.writeMessage(room, answer, that.PREFIX);
-                    });
+                    axios.get('https://api.openweathermap.org/data/2.5/weather', {
+						params: {
+							q: parameters[0] || 'Budapest' + ',' + parameters[1] || 'hu',
+							units: 'metric',
+							appid: '14ebe588d1c79155db3489426bef631c',
+							lang: 'hu'
+						}
+					}).then(function(result) {
+						var data = result.data, main = data.main;
+                        var answer = 'Jelenleg ' + main.temp + '&deg;C van itt: ' + data.name
+                            + ' (érzetre: ' + main.feels_like + '&deg;C, páratartalom: ' + main.humidity + '%, ' + ((data.weather[0] || {}).description || 'nincs adat') + ')';
+                        BotManager.writeMessage(room, answer, this.PREFIX);
+                    }.bind(this));
                 }, ['!időjárás']);
                 manager.registerCommand(this, '!forecast', function(command, parameters) {
                     var room = BotManager.currentRoom;
-                    jQuery.get('https://api.openweathermap.org/data/2.5/weather', {
-                        q: parameters[0] || 'Budapest' + ',' + parameters[1] || 'hu',
-                        appid: '14ebe588d1c79155db3489426bef631c',
-                        lang: 'hu'
-                    }, function(result) {
-                        if (result.coord) {
-                            var city = result.name;
-                            jQuery.get('https://api.openweathermap.org/data/2.5/onecall', {
-                                lon: result.coord.lon,
-                                lat: result.coord.lat,
-                                units: 'metric',
-                                exclude: 'current,minutely,hourly',
-                                appid: '14ebe588d1c79155db3489426bef631c',
-                                lang: 'hu',
-                            }, function(result) {
-                                var w = result.daily[0], d = new Date(w.dt*1000);
-                                var answer = city + ', ma: ' + ((w.weather[0] || {}).description || 'nincs adat') + ','
-                                    + ' átlagosan: ' + w.temp.day + '&deg;C, minimum: ' + w.temp.min + '&deg;C, maximum: ' + w.temp.max + '&deg;C,'
-                                    + ' reggel: ' + w.temp.morn + '&deg;C, délután: ' + w.temp.eve + '&deg;C, éjszaka: ' + w.temp.night + '&deg;C';
-                                BotManager.writeMessage(room, answer, that.PREFIX);
-                            });
+                    axios.get('https://api.openweathermap.org/data/2.5/weather', {
+						params: {
+							q: parameters[0] || 'Budapest' + ',' + parameters[1] || 'hu',
+							appid: '14ebe588d1c79155db3489426bef631c',
+							lang: 'hu'
+						}
+					}).then(function(result) {
+                        if (result.data.coord) {
+							var coord = result.data.coord, city = result.data.name;
+                            axios.get('https://api.openweathermap.org/data/2.5/onecall', {
+								params: {
+									lon: coord.lon,
+									lat: coord.lat,
+									units: 'metric',
+									exclude: 'current,minutely,hourly',
+									appid: '14ebe588d1c79155db3489426bef631c',
+									lang: 'hu'
+								}
+                            }).then(function(result) {
+                                var main = result.data.daily[0];
+                                var answer = city + ', ma: ' + ((main.weather[0] || {}).description || 'nincs adat') + ','
+                                    + ' átlagosan: ' + main.temp.day + '&deg;C, minimum: ' + main.temp.min + '&deg;C, maximum: ' + main.temp.max + '&deg;C,'
+                                    + ' reggel: ' + main.temp.morn + '&deg;C, délután: ' + main.temp.eve + '&deg;C, éjszaka: ' + main.temp.night + '&deg;C';
+                                BotManager.writeMessage(room, answer, this.PREFIX);
+                            }.bind(this));
                         }
-                    });
+                    }.bind(this));
                 }, ['!előrejelzés']);
             }
         });
-		*/
 
 		/*
         manager.registerPlugin({
@@ -1285,7 +1262,6 @@ var ChatManager = {
             }
         });
 
-		/*
         manager.registerPlugin({
             PLUGIN_NAME: 'TRIVIA',
             PREFIX: '&#128172;',
@@ -1295,7 +1271,9 @@ var ChatManager = {
             partitions: [],
             onPluginAdded: function(manager) {
                 var that = this;
-                jQuery.get('https://raw.githubusercontent.com/ujmappa/chat.hu/master/etc/trivia.json', function(data) {
+				FileSys.readFile('etc/trivia.json', function(error, result) {
+					if (error) throw error;
+					var data = JSON.parse(result);
                     var previousSum = 0, questionSum = 0; that.questions = data;
                     Object.keys(that.questions).forEach(function(category) {
                         previousSum = questionSum;
@@ -1303,7 +1281,7 @@ var ChatManager = {
                         that.partitions['[' + previousSum + '..' + (questionSum-1) + ']'] = category;
                     });
                     that.partitions.total = questionSum;
-                }, 'json');
+                });
                 manager.registerCommand(this, '!trivia', function(command, parameters) {
                     if (this.questions === null) return 'Sajnálom, nem sikerült betölteni az adatbázist';
                     var room = BotManager.currentRoom;
@@ -1328,7 +1306,10 @@ var ChatManager = {
                         }
                         if (storage.previousQuestions.length >= 20) storage.previousQuestions.shift();
                         storage.previousQuestions.push(storage.triviaQuestion);
-                        storage.triviaAnswers = jQuery.extend({}, questionObject[storage.triviaQuestion]);
+                        storage.triviaAnswers = {};
+						Object.keys(questionObject[storage.triviaQuestion]).forEach(function(key) {
+							storage.triviaAnswers[key] = questionObject[storage.triviaQuestion][key]
+						})
                         storage.triviaExplanation = storage.triviaAnswers.X; delete storage.triviaAnswers.X;
                         storage.triviaSolution = Object.keys(storage.triviaAnswers).find(function(key) {
                             return storage.triviaAnswers[key].startsWith('*');
@@ -1382,9 +1363,7 @@ var ChatManager = {
                 }, 'ABCD'.split(''));
             }
         });
-		*/
 
-		/*
         manager.registerPlugin({
             PLUGIN_NAME: 'HANGMAN',
             PREFIX: '&#11088;',
@@ -1392,19 +1371,20 @@ var ChatManager = {
             ALPHABET: 'AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ',
             MINUTES: 3,
             answers: null,
-            argo: null,
             onPluginAdded: function(manager) {
                 var that = this;
-                jQuery.get('https://raw.githubusercontent.com/ujmappa/chat.hu/master/etc/hangman.json', function(data) {
-                    that.answers = data.answers, that.argo = data.argo;
-                }, 'json');
+                FileSys.readFile('etc/hangman.json', function(error, result) {
+					if (error) throw error;
+					var data = JSON.parse(result);
+                    that.answers = data.answers;
+                });
                 manager.registerCommand(this, '!hangman', function(command, parameters) {
                     if (this.answers === null) return 'Sajnálom, nem sikerült betölteni az adatbázist';
                     var room = BotManager.currentRoom;
                     var storage = BotManager.getBotStorage(room);
                     if (storage.wordGameTimer === undefined) {
                         storage.previousAnswers = storage.previousAnswers || [];
-                        var gameAnswers = (parameters.length && parameters[0].toLowerCase() === "argo") ? this.argo : this.answers;
+                        var gameAnswers = this.answers;
                         var randomText = gameAnswers[Math.floor(Math.random()*gameAnswers.length)];
                         while (storage.previousAnswers.indexOf(randomText) > -1) {
                             randomText = gameAnswers[Math.floor(Math.random()*gameAnswers.length)];
@@ -1480,10 +1460,9 @@ var ChatManager = {
                 }, ['!!']);
             },
         });
-		*/
 
 		HoloChat.publicRooms.filter({ type: "conference" }).forEach(function(room) {
-			console.log('Entering ' + room.get('name'));
+			console.log('Entering room: ' + room.get('name'));
 			HoloChat.events.trigger('room:change', room.id);
 		});
     }

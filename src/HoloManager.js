@@ -7,10 +7,8 @@ HoloChat.manager = {
         newRoom: 'onNewRoom',
         enterRoom: 'onEnterRoom',
         userEnterRoom: 'onUserEnterRoom',
-        changePublicRoomUserCount: 'onChangePublicRoomUserCount',
         leaveRoom: 'onLeaveRoom',
         userLeaveRoom: 'onUserLeaveRoom',
-        alterUser: 'onAlterUser',
         newMessage: 'onNewMessage',
         updateMessage: 'onUpdateMessage',
         typingMessage: 'onTypingMessage',
@@ -40,19 +38,7 @@ HoloChat.manager = {
         HoloChat.events.on('message:typing', this.typingMessage, this);
         HoloChat.events.on('user:ignore:add', this.addIgnore, this);
         HoloChat.events.on('user:ignore:remove', this.removeIgnore, this);
-        HoloChat.events.on('user:alter:show', this.showAlterUser, this);
-        HoloChat.events.on('user:alter:send', this.sendAlterUser, this);
-        HoloChat.events.on('user:alter', this.alterUser, this);
-        HoloChat.events.on('user:ban:show', this.showBanUser, this);
-        HoloChat.events.on('user:ban:send', this.sendBanUser, this);
-        HoloChat.events.on('user:ban', this.banUser, this);
-        HoloChat.events.on('user:invite:show', this.showInviteUser, this);
-        HoloChat.events.on('user:invite:send', this.sendInviteUser, this);
-        HoloChat.events.on('user:invite', this.inviteUser, this);
-        HoloChat.events.on('user:add:show', this.showAddUser, this);
-        HoloChat.events.on('user:add:send', this.sendAddUser, this);
         HoloChat.events.on('user:add', this.addUser, this);
-        HoloChat.events.on('user:kick', this.kickUser, this);
         HoloChat.events.on('user:changeStatus', this.changeUserStatus, this);
         HoloChat.events.on('user:changePrivateData', this.changePrivateData, this);
         HoloChat.events.on('room:delete', this.deleteRoom, this);
@@ -84,9 +70,7 @@ HoloChat.manager = {
     onNewBan: function(ban) {
         var bans = HoloChat.user.get('bans');
         bans.push(ban);
-        HoloChat.user.unset('bans', {
-            silent: true
-        });
+        HoloChat.user.unset('bans', { silent: true });
         HoloChat.user.set('bans', bans);
     },
     deleteRoom: function(roomId) {
@@ -142,12 +126,6 @@ HoloChat.manager = {
             data: data
         });
     },
-    changeUserSetting: function() {
-		Cookies.set('HoloChatSetting-' + HoloChat.user.id, JSON.stringify(HoloChat.user.get('setting')), { expires: 30, path: '/' });
-    },
-    getUserSetting: function() {
-        return JSON.parse(Cookies.get('HoloChatSetting-' + HoloChat.user.id) || null);
-    },
     readMessage: function(roomId, messageId) {
         HoloChat.user.resetRoomUnread(roomId, messageId);
         HoloChat.events.trigger('room:changeUnread', roomId);
@@ -187,8 +165,6 @@ HoloChat.manager = {
         HoloChat.user = HoloChat.container.users.add(new HoloChat.models.ChatUser(user), {
             merge: true
         });
-        HoloChat.user.on('change:setting', this.changeUserSetting, this);
-        HoloChat.user.set('setting', this.getUserSetting());
         // New Folder - then every other room (with messages referring to user)
         for (var i = 0; i < publicRooms.length; i++) {
             HoloChat.publicRooms.add(HoloChat.addRoom(new HoloChat.models.ChatRoom(publicRooms[i])));
@@ -214,18 +190,6 @@ HoloChat.manager = {
     },
     addUser: function(userId, roomId) {
         HoloChat.server.send('addUser', {
-            userId: userId,
-            roomId: roomId
-        });
-    },
-    inviteUser: function(userId, roomId) {
-        HoloChat.server.send('inviteUser', {
-            userId: userId,
-            roomId: roomId
-        });
-    },
-    kickUser: function(roomId, userId) {
-        HoloChat.server.send('kickUser', {
             userId: userId,
             roomId: roomId
         });
@@ -279,32 +243,6 @@ HoloChat.manager = {
             roomId: roomId
         });
     },
-    banUser: function(roomId, userId, type, expiration, reason) {
-        HoloChat.server.send('banUser', {
-            roomId: roomId,
-            userId: userId,
-            type: type,
-            expiration: expiration,
-            reason: reason
-        });
-    },
-    alterUser: function(roomId, userId, role) {
-        HoloChat.server.send('alterUser', {
-            roomId: roomId,
-            userId: userId,
-            role: role
-        });
-    },
-    onAlterUser: function(roomId, userId, role) {
-        var room = HoloChat.rooms.get(roomId);
-        if (room) {
-            var user = room.get('users').get(userId);
-            if (user) {
-                user.setRoomRole(roomId, role);
-                HoloChat.events.trigger('user:changeRole', roomId, userId);
-            }
-        }
-    },
     enterRoom: function(roomId) {
         if (HoloChat.rooms.get(roomId)) {
             HoloChat.events.trigger('user:enterRoom', roomId, HoloChat.user.id);
@@ -326,10 +264,6 @@ HoloChat.manager = {
             }));
             HoloChat.events.trigger('user:enterRoom', roomId, user.id);
         }
-    },
-    onChangePublicRoomUserCount: function(roomId, userCount) {
-        var room = HoloChat.publicRooms.get(roomId);
-        room.set('userCount', userCount);
     },
     leaveRoom: function(roomId) {
         if (HoloChat.rooms.get(roomId)) {

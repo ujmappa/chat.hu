@@ -1,10 +1,9 @@
 const vm = require("vm");
 const fs = require("fs");
 const ps = require("process");
-
-const ch = require('cheerio');
 const qs = require('querystring');
 
+const cheerio = require('cheerio');
 const axios = require('axios');
 const acjar = require('axios-cookiejar-support').default;
 const tough = require('tough-cookie');
@@ -13,10 +12,13 @@ function loadfile(path) {
 	vm.runInThisContext(fs.readFileSync(path));
 }
 
-global.Cookies = require("js-cookie");
+global.axios = require('axios');
+global.cheerio = require('cheerio');
+global.FileSys = require("fs");
 global.Backbone = require("backbone");
 global.WebSocket = require("websocket").w3cwebsocket;
 
+loadfile("./src/Polyfills.js");
 loadfile("./src/HoloChat.js");
 loadfile("./src/HoloServer.js");
 loadfile("./src/HoloManager.js");
@@ -38,8 +40,8 @@ axios.defaults.maxRedirects = 0;
 axios.defaults.jar = new tough.CookieJar();
 
 acjar(axios);
-axios.get("https://chat.hu").then(function (response) {
-	let $ = ch.load(response.data);
+axios.get("https://chat.hu").then(function(response) {
+	let $ = cheerio.load(response.data);
 	if ($("#login-form").length === 1) {
 		axios.post("https://chat.hu/authentication/default/login", qs.stringify({
 			"_csrf": $("meta[name='csrf-token']").attr("content"),

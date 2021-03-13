@@ -38,7 +38,6 @@ HoloChat.server = {
                 HoloChat.onMessage();
             }
         } catch (e) {
-            // New Folder: handle connect exceptions
             console.log('ChatServer.connect:exception', e)
         }
     },
