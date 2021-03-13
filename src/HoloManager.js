@@ -130,10 +130,8 @@ HoloChat.manager = {
     onChangeUserData: function(userId, field, data) {
         var user = HoloChat.container.users.get(userId);
         if (user) {
-            if (_.isObject(data)) {
-                user.unset(field, {
-                    silent: true
-                });
+            if (typeof data === 'object' && !!data) {
+                user.unset(field, { silent: true });
             }
             user.set(field, data);
         }
@@ -145,25 +143,10 @@ HoloChat.manager = {
         });
     },
     changeUserSetting: function() {
-        if (window.localStorage) {
-            window.localStorage.setItem('HoloChatSetting-' + HoloChat.user.id, JSON.stringify(HoloChat.user.get('setting')));
-            Cookies.set('HoloChatSetting-' + HoloChat.user.id, '', {
-                expires: -1,
-                path: '/'
-            });
-        } else {
-            Cookies.set('HoloChatSetting-' + HoloChat.user.id, JSON.stringify(HoloChat.user.get('setting')), {
-                expires: 30,
-                path: '/'
-            });
-        }
+		Cookies.set('HoloChatSetting-' + HoloChat.user.id, JSON.stringify(HoloChat.user.get('setting')), { expires: 30, path: '/' });
     },
     getUserSetting: function() {
-        if (window.localStorage) {
-            return JSON.parse(window.localStorage.getItem('HoloChatSetting-' + HoloChat.user.id) || null);
-        } else {
-            return JSON.parse(Cookies.get('HoloChatSetting-' + HoloChat.user.id) || null);
-        }
+        return JSON.parse(Cookies.get('HoloChatSetting-' + HoloChat.user.id) || null);
     },
     readMessage: function(roomId, messageId) {
         HoloChat.user.resetRoomUnread(roomId, messageId);

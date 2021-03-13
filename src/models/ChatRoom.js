@@ -16,7 +16,7 @@ HoloChat.models.ChatRoom = Backbone.Model.extend({
         var users = this.get('users');
         var collection = new HoloChat.collections.users();
         if (users) {
-            if (_.isArray(users)) {
+            if (Array.isArray(users)) {
                 for (var i = 0; i < users.length; i++) {
                     collection.add(HoloChat.container.users.add(users[i]), {
                         merge: true

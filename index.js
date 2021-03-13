@@ -15,44 +15,43 @@ function loadfile(path) {
 
 global.Cookies = require("js-cookie");
 global.Backbone = require("backbone");
+global.WebSocket = require("websocket").w3cwebsocket;
 
-loadfile("./src/app/HoloChat.js");
-loadfile("./src/app/ChatServer.js");
-loadfile("./src/app/ChatManager.js");
+loadfile("./src/HoloChat.js");
+loadfile("./src/HoloServer.js");
+loadfile("./src/HoloManager.js");
 
-loadfile("./src/app/models/ChatRoom.js");
-loadfile("./src/app/models/ChatRoomMessage.js");
-loadfile("./src/app/models/ChatRoomTree.js");
-loadfile("./src/app/models/ChatUser.js");
+loadfile("./src/models/ChatRoom.js");
+loadfile("./src/models/ChatRoomMessage.js");
+loadfile("./src/models/ChatRoomTree.js");
+loadfile("./src/models/ChatUser.js");
 
-loadfile("./src/app/collections/ChatRooms.js");
-loadfile("./src/app/collections/ChatRoomMessages.js");
-loadfile("./src/app/collections/ChatRoomTrees.js");
-loadfile("./src/app/collections/ChatUsers.js");
+loadfile("./src/collections/ChatRooms.js");
+loadfile("./src/collections/ChatRoomMessages.js");
+loadfile("./src/collections/ChatRoomTrees.js");
+loadfile("./src/collections/ChatUsers.js");
 
+loadfile("./src/ChatManager.js");
 
-const cookies = new tough.CookieJar();
 axios.defaults.withCredentials = true;
-axios.defaults.jar = cookies;
+axios.defaults.maxRedirects = 0;
+axios.defaults.jar = new tough.CookieJar();
 
 acjar(axios);
 axios.get("https://chat.hu").then(function (response) {
 	let $ = ch.load(response.data);
 	if ($("#login-form").length === 1) {
-		axios.post("https://chat.hu/authentication/default/login?exit=0", qs.stringify({
+		axios.post("https://chat.hu/authentication/default/login", qs.stringify({
 			"_csrf": $("meta[name='csrf-token']").attr("content"),
 			"LoginForm[username]": process.env.USER,
 			"LoginForm[password]": process.env.PASS,
 			"LoginForm[rememberMe]": 0,
-			"redirect_url": "/",
-			"ajax": "login-form"
+			"redirect_url": "/"
 		}), {
-			validateStatus: function(status) {
-				return (status >= 200 && status < 300) || status === 500; // redirect suxx
-			}
+			validateStatus: function(status) { return (status >= 200 && status < 300) || status === 500; }
 		}).then(function (response) {
 			process.on("SIGTERM", () => { axios.get("https://chat.hu/kilepes"); });
-			console.log(parseHoloChatParams(response.data));
+			startHoloChatClient(parseHoloChatParams(response.data));
 		}).catch(function (error) {
 			if (error.response) {
 				console.log(error.response.data);
@@ -68,14 +67,14 @@ axios.get("https://chat.hu").then(function (response) {
 		});
 	} else {
 		process.on("SIGTERM", () => { axios.get("https://chat.hu/kilepes"); });
-		console.log(parseHoloChatParams(response.data));
+		startHoloChatClient(parseHoloChatParams(response.data));
 	}
 });
 
 function parseHoloChatParams(responseData) {
 	let line = responseData.split('\n').find(line => { return line.startsWith("HoloChat.init"); })
 	let match = line.match(/HoloChat.start\({url:\[(.+)\],userId:"(registered-[0-9]+)",sessionId:"([0-9a-z]+)",debug:false}\);/i);
-	return { url: match[1].split(","), userId: match[2], sessionId: match[3], debug: false };
+	return { url: match[1].split(",").map(item => eval(item)), userId: match[2], sessionId: match[3], debug: false };
 }
 
 function startHoloChatClient(clientParams) {

@@ -1,13 +1,11 @@
 String.prototype.padLeft = function (padValue) {
     return String(padValue + this).slice(-padValue.length);
 };
+
 var HoloChat = {
     collections: {},
     models: {},
-    container: {
-        rooms: null,
-        users: null
-    },
+    container: { rooms: null, users: null },
     rooms: null,
     users: null,
     customRooms: null,
@@ -26,7 +24,12 @@ var HoloChat = {
     debugMode: false,
     templates: {},
     init: function () {
-        this.events = _.extend({}, Backbone.Events);
+        var target = this.events = {};
+        [Backbone.Events].forEach(function(source) {
+            Object.getOwnPropertyNames(source).forEach(function(propName) {
+                Object.defineProperty(target, propName, Object.getOwnPropertyDescriptor(source, propName));
+            });
+        });
         this.reset();
         this.addManager(this.manager);
     },
@@ -69,12 +72,6 @@ var HoloChat = {
             }
         }
     },
-    getTemplate: function (id) {
-        if (typeof this.templates[id] === 'undefined') {
-            this.templates[id] = _.template($(id).html());
-        }
-        return this.templates[id];
-    },
     addManager: function (manager) {
         for (var action in manager.__actions) {
             this.registerActionHandler(action, manager, manager[manager.__actions[action]]);
@@ -94,7 +91,7 @@ var HoloChat = {
             if (!obj.hasOwnProperty(field)) {
                 continue;
             }
-            if (_.isObject(obj[field])) {
+            if (typeof obj[field] === 'function' || typeof obj[field] === 'object' && !!obj[field]) {
                 var flatObject = this.flattenObject(obj[field]);
                 for (var flatField in flatObject) {
                     if (!flatObject.hasOwnProperty(flatField)) {
@@ -109,9 +106,9 @@ var HoloChat = {
         return result;
     },
     evaluateRule: function (obj, rule) {
-        if (_.isBoolean(rule) || _.isNumber(rule) || _.isString(rule)) {
+        if (rule === true || rule === false || ['[object Boolean]', '[object Number]', '[object String]'].indexOf(toString.call(rule)) > -1) {
             return rule;
-        } else if (_.isArray(rule) && rule.length >= 3) {
+        } else if (Array.isArray(rule) && rule.length >= 3) {
             var field = rule[1];
             switch (rule[0]) {
                 default:
@@ -129,7 +126,7 @@ var HoloChat = {
                 case 'not':
                     return typeof obj[field] != 'undefined' && obj[field] != this.evaluateRule(obj, rule[2]);
                 case 'in':
-                    return typeof obj[field] != 'undefined' && _.isArray(rule[2]) && rule[2].indexOf(obj[field]) != -1;
+                    return typeof obj[field] != 'undefined' && Array.isArray(rule[2]) && rule[2].indexOf(obj[field]) != -1;
                 case 'or':
                     var result = false;
                     for (var i = 1; i < rule.length; i++) {
@@ -143,7 +140,7 @@ var HoloChat = {
                     }
                     return result;
             }
-        } else if (_.isObject(rule)) {
+        } else if (typeof rule === 'function' || typeof rule === 'object' && !!rule) {
             var result = true;
             for (var field in rule) {
                 result = result && typeof obj[field] != 'undefined' && obj[field] == this.evaluateRule(obj, rule[field]);
@@ -194,7 +191,7 @@ var HoloChat = {
         var actionHandler, message, buffer = this.server.buffer; // New Folder: small tweak
         while (buffer.length) {
             message = buffer.shift();
-            actionHandler = this.actionHandlers[message.action]; 
+            actionHandler = this.actionHandlers[message.action];
             if (actionHandler !== undefined) {
                 var params = [], param;
                 for (var i = 0; i < actionHandler.params.length; i++) {

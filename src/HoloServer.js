@@ -5,11 +5,8 @@ HoloChat.server = {
     urls: null,
     currentUrl: 0,
     start: function (urls) {
-        if (!('WebSocket' in window || 'MozWebSocket' in window)) {
-            return;
-        }
-        this.urls = _.isString(urls) ? [urls] : urls;
-        this.currentUrl = 0; // New Folder: reconnect to different socket without refresh
+        this.urls = Array.isArray(urls) ? urls : [urls];
+        this.currentUrl = 0;
         this.connect();
     },
     connect: function () {
@@ -46,13 +43,7 @@ HoloChat.server = {
         }
     },
     send: function (action, data) {
-        HoloChat.debug('HoloChat.server.send', {
-            action: action,
-            data: data
-        });
-        this.socket.send(JSON.stringify({
-            action: action,
-            data: data
-        }));
+        HoloChat.debug('HoloChat.server.send', { action: action, data: data });
+        this.socket.send(JSON.stringify({ action: action, data: data }));
     }
 };
