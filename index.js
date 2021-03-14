@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const vm = require("vm");
 const fs = require("fs");
 const ps = require("process");
