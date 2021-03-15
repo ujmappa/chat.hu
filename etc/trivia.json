@@ -375,7 +375,7 @@
         },
         "Hol lépett előszőr ember a Holdra?": {
             "A": "Az Unalom tengerén",
-            "B": "Az Esők tengere",
+            "B": "Az Esők tengerén",
             "C": "*A Nyugalom tengerén",
             "D": "A Veszélyek tengerén"
         },
@@ -3167,9 +3167,9 @@
         },
         "Melyik mai ország területén található az egykori Fiume kikötője?": {
             "A": "Bosznia-Hercegovina",
-            "B": "Szlovénia",
-            "C": "*Horvátország",
-            "D": "Olaszország"
+            "B": "*Horvátország",
+            "C": "Olaszország",
+            "D": "Szlovénia"
         },
         "Melyik Európa leghosszabb folyója?": {
             "A": "*Volga",
