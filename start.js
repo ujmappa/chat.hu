@@ -37,6 +37,11 @@ loadfile("./src/collections/ChatUsers.js");
 
 loadfile("./src/ChatManager.js");
 
+if (process.env.USER === undefined || process.env.PASS === undefined) {
+	console.error("You have to specify user name and password");
+	process.exit(1);
+}
+
 axios.defaults.withCredentials = true;
 axios.defaults.maxRedirects = 0;
 axios.defaults.jar = new tough.CookieJar();

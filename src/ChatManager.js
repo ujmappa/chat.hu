@@ -254,14 +254,13 @@ var ChatManager = {
             model.set('isIgnored', HoloChat.user.isIgnored(model.id));
             model.set('isIgnoredMe', HoloChat.user.isIgnoredMe(model.id));
         }, this);
-		HoloChat.user.on('change:bans', this.onBanChange, this);
-
-        this.initChatBot('New Folder');
+        HoloChat.user.on('change:bans', this.onBanChange, this);
 
         HoloChat.rooms.each(function(room) {
             HoloChat.events.trigger('room:create', room.id);
         });
         HoloChat.events.trigger('room:change', 'tree');
+        this.initChatBot('New Folder');
 
         HoloChat.events.trigger('chat:started');
         HoloChat.debug('end');
@@ -343,7 +342,7 @@ var ChatManager = {
             getDisplayName: function(user) {
                 return {
                     'az ében': 'Édike',
-					'ÉDESKEVÉSS': 'Édike',
+                    'ÉDESKEVÉSS': 'Édike',
                     'VikiBee': 'Viki',
                     'susye': 'Su',
                     'S_o_': 'Origami',
@@ -421,6 +420,7 @@ var ChatManager = {
                     }
                 });
             },
+			SMALLTALK_MENTIONED: '(?=a)b',
             handleSmallTalk: function(text) {
                 text = text.replace(/\,|\;|\.|\!|\:|\(|\)/gi, ' ').trim().toLowerCase();
                 while (text.search(/\ \ /g) > -1) text = text.replace(/\ \ /g, ' ');
@@ -428,6 +428,9 @@ var ChatManager = {
                 var matching = Object.values(this.smalltalks).find(function(s) {
                     return text.search(new RegExp('^' + RegExp.quote(s.pattern.replace('%%bot%%', botname)) + '$', 'gi')) > -1;
                 });
+				if (!matching && text.search(new RegExp('\\b' + RegExp.quote(botname) + '\\b', 'gi')) > -1) {
+					matching = this.smalltalks[this.SMALLTALK_MENTIONED];
+				}
                 if (matching !== undefined) {
                     var handler = matching.handler;
                     var plugin = BotManager.plugins[matching.plugin] || {};
@@ -464,6 +467,10 @@ var ChatManager = {
 					if (user.get('name') === this.OWNER) {
 						this.running = false, this.storage = {};
 					}
+				} else if (text === '!status ' + name) {
+					if (user.get('name') === this.OWNER) {
+						this.writeMessage(room, this.running ? 'Aktív vagyok.' : 'Inaktív vagyok.');
+					}
 				} else if (this.running) {
 					setTimeout(function(room, user, text) {
 						this.handleDelayed(room, user, text);
@@ -488,7 +495,9 @@ var ChatManager = {
             }
         }
 
-        manager.registerCommand(null, '!ping', function() { return 'pong!'; });
+		if (HoloChat.user.get('name').toUpperCase() !== 'MOONCAKE') {
+        	manager.registerCommand(null, '!ping', function() { return 'pong!'; });
+		}
 
 		if (HoloChat.user.get('name').toUpperCase() === 'JEEVES') {
 			manager.registerPlugin({
@@ -925,11 +934,65 @@ var ChatManager = {
 					});
 				}
 			});
+		} else if (HoloChat.user.get('name').toUpperCase() === 'MOONCAKE') {
+			manager.registerPlugin({
+				PLUGIN_NAME: 'CHOOKITY',
+				PREFIX: ' ',
+				getRandomAnswer: function() {
+					switch(Math.floor(Math.random()*10)) {
+						case 00: return 'Chookity Dookity :face_with_hand_over_mouth:';
+						case 01: return 'Chookity-pok :slightly_smiling_face:';
+						case 02: return 'Chookity-pah :winking_face:';
+						case 03: return 'Choooookity :smiling_face_with_smiling_eyes:';
+						case 04: return 'Gar, Gar, Gar, Gar! :angry_face:';
+						case 05: return 'Kew-Kew-Kew :face_with_raised_eyebrow:';
+						case 06: return 'Pok :unamused_face:';
+						case 07: return 'Pok-pok! :smirking_face:';
+						case 08: return 'Chookity-Chook :relieved_face:';
+						case 09: return 'Chookity-Chok-Chok :smiling_face_with_sunglasses:';
+					}
+				},
+				onPluginAdded: function(manager) {
+					manager.registerPattern(this, /.+/gi, function() {
+						if (Math.floor(Math.random()*100) % 20 === 0) return this.getRandomAnswer();
+					});
+					manager.registerSmallTalk(this, manager.SMALLTALK_MENTIONED, function() {
+						return this.getRandomAnswer();
+					});
+					manager.registerSmallTalk(this, '%%bot%% alszol?', function() {
+						return 'Chookity... :yawning_face:';
+					}, ['alszol %%bot%%?']);
+					manager.registerSmallTalk(this, '%%bot%% néma', function() {
+						return 'Ooouuuu! :face_screaming_in_fear:';
+					});
+					manager.registerSmallTalk(this, '%%bot%% szeretlek', function() {
+						return 'Awwwwwww! :smiling_face_with_hearts:';
+					}, ['szeretlek %%bot%%']);
+					manager.registerSmallTalk(this, '%%bot%% imádlak', function() {
+						return 'Ooooh! :hugging_face:';
+					}, ['imádlak %%bot%%', '%%bot%% cuki']);
+					manager.registerSmallTalk(this, '%%bot%% jó voltál?', function() {
+						return 'Chookity-pok-pok! :smiling_face_with_halo:';
+					}, ['jó voltál %%bot%%?']);
+					manager.registerSmallTalk(this, '%%bot%% azt[a]+', function() {
+						return 'Woooahhh! :astonished_face:';
+					}, ['azt[a]+ %%bot%%']);
+					manager.registerSmallTalk(this, '%%bot%% nézd', function() {
+						return 'Wooow! :face_with_open_mouth:';
+					}, ['nézd %%bot%%?']);
+					manager.registerSmallTalk(this, '%%bot%% néma', function() {
+						return 'Chookity-pah! :face_screaming_in_fear:';
+					});
+					manager.registerSmallTalk(this, '%%bot%% alszol?', function() {
+						return 'Chookity... :zzz:';
+					}, ['alszol %%bot%%?']);
+				}
+			});
 		} else if (HoloChat.user.get('name').toUpperCase() === 'SEARCHBOT') {
 			manager.registerPlugin({
 				PLUGIN_NAME: 'STATBOT',
 				onPluginAdded: function(manager) {
-					manager.registerCommand(null, '!ison', function(command, parameters) {
+					manager.registerCommand(this, '!ison', function(command, parameters) {
 						var room = BotManager.currentRoom;
 						var parameter = parameters.join(' ');
 						var user = HoloChat.users.find(function(u) {
