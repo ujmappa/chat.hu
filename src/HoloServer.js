@@ -38,11 +38,15 @@ HoloChat.server = {
                 HoloChat.onMessage();
             }
         } catch (e) {
-            console.log('ChatServer.connect:exception', e)
+            console.error('Error during ChatServer connect:', e)
         }
     },
     send: function (action, data) {
         HoloChat.debug('HoloChat.server.send', { action: action, data: data });
         this.socket.send(JSON.stringify({ action: action, data: data }));
-    }
+    },
+	stop: function() {
+		if (!this.socket) return;
+		this.socket.close();
+	}
 };

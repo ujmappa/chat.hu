@@ -2,7 +2,6 @@
 
 const vm = require("vm");
 const fs = require("fs");
-const ps = require("process");
 const qs = require('querystring');
 
 const cheerio = require('cheerio');
@@ -43,7 +42,6 @@ if (process.env.USER === undefined || process.env.PASS === undefined) {
 }
 
 axios.defaults.withCredentials = true;
-axios.defaults.maxRedirects = 0;
 axios.defaults.jar = new tough.CookieJar();
 
 acjar(axios);
@@ -59,8 +57,9 @@ axios.get("https://chat.hu").then(function(response) {
 		}), {
 			validateStatus: function(status) { return (status >= 200 && status < 300) || status === 500; }
 		}).then(function (response) {
-			process.on("SIGTERM", () => { axios.get("https://chat.hu/kilepes"); });
-			startHoloChatClient(parseHoloChatParams(response.data));
+			console.log("Page login successful, starting client");
+			process.on("SIGTERM", () => { handleExit(); });
+			startChat(parseParams(response.data));
 		}).catch(function (error) {
 			if (error.response) {
 				console.log(error.response.data);
@@ -72,22 +71,39 @@ axios.get("https://chat.hu").then(function(response) {
 				console.log('Error', error.message);
 			}
 			console.log(error.config);
-			ps.exit(1);
+			process.exitCode = 1;
+			process.kill(process.pid, 'SIGTERM')
 		});
 	} else {
-		process.on("SIGTERM", () => { axios.get("https://chat.hu/kilepes"); });
-		startHoloChatClient(parseHoloChatParams(response.data));
+		console.log("No login was needed, starting client");
+		process.on("SIGTERM", () => { handleExit(); });
+		startChat(parseParams(response.data));
 	}
 });
 
-function parseHoloChatParams(responseData) {
+function parseParams(responseData) {
 	let line = responseData.split('\n').find(line => { return line.startsWith("HoloChat.init"); })
 	let match = line.match(/HoloChat.start\({url:\[(.+)\],userId:"(registered-[0-9]+)",sessionId:"([0-9a-z]+)",debug:false}\);/i);
 	return { url: match[1].split(",").map(item => eval(item)), userId: match[2], sessionId: match[3], debug: false };
 }
 
-function startHoloChatClient(clientParams) {
+function startChat(clientParams) {
+	console.log('Starting HoloChat client.');
 	HoloChat.init();
 	HoloChat.addManager(ChatManager);
 	HoloChat.start(clientParams);
 }
+
+function handleExit() {
+	console.log('Stopping HoloChat client.');
+	HoloChat.stop();
+	console.log('User is exiting site.');
+	axios.get("https://chat.hu/kilepes").then(() => {
+		process.exit(0);
+	});
+}
+
+process.on('uncaughtException', function(e) {
+    console.error('Unhandled exception:', e)
+})
+

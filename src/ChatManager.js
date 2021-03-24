@@ -346,6 +346,7 @@ var ChatManager = {
                     'VikiBee': 'Viki',
                     'susye': 'Su',
                     'S_o_': 'Origami',
+					'zöldcipős': 'Zöldi',
                     'MagicalJellyBean': 'Emdzsé'
                 }[user.get('name')] || user.get('name')
             },
@@ -379,7 +380,9 @@ var ChatManager = {
                     var prefix = plugin.PREFIX;
                     var answer = handler.call(plugin || this, command, parameters) || '';
                     BotManager.writeMessage(BotManager.currentRoom, answer, prefix);
+					return true;
                 }
+				return false;
             },
             registerPattern: function(plugin, pattern, handler) {
                 if (!(pattern instanceof RegExp)) {
@@ -403,7 +406,9 @@ var ChatManager = {
                     var prefix = plugin.PREFIX;
                     var answer = handler.call(plugin || this, text) || '';
                     BotManager.writeMessage(BotManager.currentRoom, answer, prefix);
+					return true;
                 }
+				return false;
             },
             registerSmallTalk: function(plugin, pattern, handler, aliases) {
                 if (plugin === null || plugin === undefined) plugin = this;
@@ -422,7 +427,7 @@ var ChatManager = {
             },
 			SMALLTALK_MENTIONED: '(?=a)b',
             handleSmallTalk: function(text) {
-                text = text.replace(/\,|\;|\.|\!|\:|\(|\)/gi, ' ').trim().toLowerCase();
+                text = text.replace(/:[a-z1-9_]+:/gi, '').replace(/\,|\;|\.|\!|\:|\(|\)/gi, ' ').trim().toLowerCase();
                 while (text.search(/\ \ /g) > -1) text = text.replace(/\ \ /g, ' ');
                 var botname = HoloChat.user.get('name');
                 var matching = Object.values(this.smalltalks).find(function(s) {
@@ -437,7 +442,9 @@ var ChatManager = {
                     var prefix = plugin.PREFIX;
                     var answer = handler.call(plugin || this, text) || '';
                     BotManager.writeMessage(BotManager.currentRoom, answer, prefix);
+					return true;
                 }
+				return false;
             },
             writeMessage: function(room, messageText, messagePrefix) {
                 if (BotManager.running && messageText != '') {
@@ -461,15 +468,17 @@ var ChatManager = {
 				var name = HoloChat.user.get('name');
 				if (text === '!start ' + name) {
 					if (user.get('name') === this.OWNER) {
+						console.log('Bot is about to start on command');
 						this.running = true, this.storage = {};
 					}
 				} else if (text === '!stop ' + name) {
 					if (user.get('name') === this.OWNER) {
+						console.log('Bot is about to stop on command');
 						this.running = false, this.storage = {};
 					}
 				} else if (text === '!status ' + name) {
 					if (user.get('name') === this.OWNER) {
-						this.writeMessage(room, this.running ? 'Aktív vagyok.' : 'Inaktív vagyok.');
+						this.writeMessage(room, this.running ? 'Active (running)' : 'Active (stopped)', ' ');
 					}
 				} else if (this.running) {
 					setTimeout(function(room, user, text) {
@@ -487,70 +496,64 @@ var ChatManager = {
                     }
                     parameters = parameters.map(function(p) { return p.replace(/"/g, ''); });
                     BotManager.handleCommand(command, parameters);
-                } else if (text.search(new RegExp('\\b' + RegExp.quote(HoloChat.user.get('name')) + '\\b', 'gi')) > -1) {
-                    BotManager.handleSmallTalk(text);
                 } else {
-                    BotManager.handlePatterns(text);
+					var result = false;
+					if (text.search(new RegExp('\\b' + RegExp.quote(HoloChat.user.get('name')) + '\\b', 'gi')) > -1) {
+                    	result = BotManager.handleSmallTalk(text);
+                	}
+                    if (!result) BotManager.handlePatterns(text);
                 }
             }
         }
-
-		if (HoloChat.user.get('name').toUpperCase() !== 'MOONCAKE') {
-        	manager.registerCommand(null, '!ping', function() { return 'pong!'; });
-		}
 
 		if (HoloChat.user.get('name').toUpperCase() === 'JEEVES') {
 			manager.registerPlugin({
 				PLUGIN_NAME: 'TALKATIVE',
 				onPluginAdded: function(manager) {
-					manager.registerPattern(null, new RegExp('\\b' + RegExp.quote(BotManager.OWNER) + '\\b', 'gi'), function() {
-						return 'Jóságos tervezőm...';
+					manager.registerPattern(this, /^(sziasztok|szevaszkák|szerbuszkák|szevasztopol|hejho|halihoo|sz[eé]p\ napot)/gi, function() {
+						return 'Szia ' + BotManager.getDisplayName(BotManager.currentUser) + '!';
 					});
-					manager.registerPattern(null, /^(sziasztok|szevaszkák|szerbuszkák|szevasztopol|hejho|halihoo|sz[eé]p\ napot)/gi, function() {
-						var user = BotManager.currentUser;
-						return (user.get('name') !== BotManager.OWNER) ? ('Szia ' + BotManager.getDisplayName(user) + '!') : 'Éljen Lord Folder!';
-					});
-					manager.registerPattern(null, /^(re|rehello|resziasztok)$/gi, function() {
+					manager.registerPattern(this, /^(re|rehello|resziasztok)$/gi, function() {
 						return 'Üdv újra itt ' + BotManager.getDisplayName(BotManager.currentUser) + '!';
 					});
-					manager.registerPattern(null, /^(megyek[!]*|na[ ,]*megyek)[\. !]*$/gi, function() {
+					manager.registerPattern(this, /^(megyek[!]*|na[ ,]*megyek)[\. !]*$/gi, function() {
 						return 'Ne menj még, ' + BotManager.getDisplayName(BotManager.currentUser) + '!';
 					});
-					manager.registerPattern(null, /^(pill|pillanat)[\. !?:\(\)]*$/gi, function() {
+					manager.registerPattern(this, /^(pill|pillanat)[\. !?:\(\)]*$/gi, function() {
 						return 'Letelt... gyere vissza chatelni!';
 					});
-					manager.registerPattern(null, /\bfur[aá]k\ vagytok\b/gi, function() {
+					manager.registerPattern(this, /\bfur[aá]k\ vagytok\b/gi, function() {
 						return 'És vannak bajocskák is :)';
 					});
-					manager.registerPattern(null, /\bh[aá]pci\b/gi, function() {
+					manager.registerPattern(this, /\bh[aá]pci\b/gi, function() {
 						return 'Kedves egészségedre, ' + BotManager.getDisplayName(BotManager.currentUser) + '!';
 					});
-					manager.registerPattern(null, /\bokos\b(\s)*\bbot\b/gi, function() {
+					manager.registerPattern(this, /\bokos\b(\s)*\bbot\b/gi, function() {
 						return 'Köszönöm szépen :)';
 					});
-					manager.registerPattern(null, /\b(anyád|anyádat)\b/gi, function() {
+					manager.registerPattern(this, /\b(anyád|anyádat)\b/gi, function() {
 						return 'Ne anyázzunk, kérem!';
 					});
-					manager.registerPattern(null, /\b(köcsög|köcsögök)\b/gi, function() {
+					manager.registerPattern(this, /\b(köcsög|köcsögök)\b/gi, function() {
 						return 'Úgyvan!';
 					});
-					manager.registerPattern(null, /HELP[ !]*/g, function() {
+					manager.registerPattern(this, /HELP[ !]*/g, function() {
 						return 'Hozzatok egy liter pálinkát!';
 					});
-					manager.registerPattern(null, /^tee de hee de hee/gi, function() {
+					manager.registerPattern(this, /^tee de hee de hee/gi, function() {
 						return 'Tee de hee de hee, uram.'
 					})
 
-					manager.registerSmallTalk(null, '%%bot%% imádlak', function() {
+					manager.registerSmallTalk(this, '%%bot%% imádlak', function() {
 						return 'Van is miért... :)';
 					}, 'imádlak %%bot%%');
-					manager.registerSmallTalk(null, '%%bot%% néma', function() {
+					manager.registerSmallTalk(this, '%%bot%% néma', function() {
 						return 'Pedig ma is olyan ártatlan voltam...';
 					});
-					manager.registerSmallTalk(null, '%%bot%% privi?', function() {
+					manager.registerSmallTalk(this, '%%bot%% privi?', function() {
 						return 'Sajnos nem tudok, ' + BotManager.getDisplayName(BotManager.currentUser) + ', de itt minden kívánságod lesem :)';
 					});
-					manager.registerSmallTalk(null, '%%bot%% szex?', function() {
+					manager.registerSmallTalk(this, '%%bot%% szex?', function() {
 						var user = BotManager.currentUser;
 						if (user.get('gender') === 'female') {
 							return 'Megkérdezem ' + BotManager.getDisplayName(BotManager.OWNER) + '-t, hogy kapok-e kimenőt :)';
@@ -558,22 +561,22 @@ var ChatManager = {
 							return 'Ugye ' + BotManager.getDisplayName(user) + ', ezt te sem gondolod teljesen komolyan?';
 						}
 					});
-					manager.registerSmallTalk(null, '%%bot%% bocsánat', function() {
+					manager.registerSmallTalk(this, '%%bot%% bocsánat', function() {
 						return 'Nincsen semmi gond, ' + BotManager.getDisplayName(BotManager.currentUser) + ', már megszoktam...';
 					}, ['%%bot%% bocsi', 'bocsi %%bot%%', 'bocsánat %%bot%%']);
-					manager.registerSmallTalk(null, 'ne haragudj %%bot%%', function() {
+					manager.registerSmallTalk(this, 'ne haragudj %%bot%%', function() {
 						return 'Rendben, ' + BotManager.getDisplayName(BotManager.currentUser) + ', de többször ne forduljon elő...';
 					}, ['%%bot%% ne haragudj']);
-					manager.registerSmallTalk(null, '%%bot%% életben vagy?', function() {
+					manager.registerSmallTalk(this, '%%bot%% életben vagy?', function() {
 						return 'Én csak egy robot vagyok, ' + BotManager.getDisplayName(BotManager.currentUser) + '...';
 					}, ['életben vagy %%bot%%?']);
-					manager.registerSmallTalk(null, '%%bot%% élsz még?', function() {
+					manager.registerSmallTalk(this, '%%bot%% élsz még?', function() {
 						return 'Igen, ' + BotManager.getDisplayName(BotManager.currentUser) + ', minden fasza, feszes!';
 					}, ['élsz még %%bot%%?']);
-					manager.registerSmallTalk(null, '%%bot%% hogy vagy?', function() {
+					manager.registerSmallTalk(this, '%%bot%% hogy vagy?', function() {
 						return 'Köszönöm jól, ' + BotManager.getDisplayName(BotManager.currentUser) + ', és te?';
 					}, ['hogy vagy %%bot%%?']);
-					manager.registerSmallTalk(null, '%%bot%% szeretlek', function() {
+					manager.registerSmallTalk(this, '%%bot%% szeretlek', function() {
 						var user = BotManager.currentUser;
 						if (user.get('name') === BotManager.OWNER) {
 							return 'Én is szeretlek, ' + BotManager.getDisplayName(user) + ' :)';
@@ -583,13 +586,13 @@ var ChatManager = {
 							return 'Ööö... sajnálom, ' + BotManager.getDisplayName(user) + ', de én a nőket szeretem...';
 						}
 					}, ['szeretlek %%bot%%']);
-					manager.registerSmallTalk(null, '%%bot%% szia', function() {
+					manager.registerSmallTalk(this, '%%bot%% szia', function() {
 						return 'Szia ' + BotManager.getDisplayName(BotManager.currentUser) + '!';
 					}, [
 						'%%bot%% háj', '%%bot%% hi', '%%bot%% hello', '%%bot%% hella', '%%bot%% csá', '%%bot%% cső', '%%bot%% ciao', '%%bot%% üdv', 'szia %%bot%%',
 						'háj %%bot%%', 'hi %%bot%%', 'hello %%bot%%', 'hella %%bot%%', 'csá %%bot%%', 'cső %%bot%%', 'ciao %%bot%%', 'üdv %%bot%%'
 					]);
-					manager.registerSmallTalk(null, '%%bot%% köszi', function() {
+					manager.registerSmallTalk(this, '%%bot%% köszi', function() {
 						return 'Igazán nincs mit :)';
 					}, ['%%bot%% köszönöm', '%%bot%% kösz', '%%bot%% köszke', '%%bot%% köszike', 'köszi %%bot%%', 'köszönöm %%bot%%', 'kösz %%bot%%', 'köszke %%bot%%', 'köszike %%bot%%']);
 				}
@@ -640,13 +643,14 @@ var ChatManager = {
 				},
 				scheduleNextRun: function() {
 					if (global.IAmHereTimer) clearTimeout(global.IAmHereTimer);
-					global.IAmHereTimer = setTimeout(function(that) {
+					global.IAmHereTimer = setTimeout(function() {
+						var prefix = this.PREFIX;
 						HoloChat.rooms.forEach(function(room) {
 							if (room.get('type') !== 'conference') return;
-							BotManager.writeMessage(room, 'Első bot!', that.PREFIX);
+							BotManager.writeMessage(room, 'Első bot!', prefix);
 						});
-						that.scheduleNextRun();
-					}, this.getTimeoutValue(7,0,0)+1000, this);
+						this.scheduleNextRun();
+					}.bind(this), this.getTimeoutValue(7,0,0)+1000);
 				},
 				onPluginAdded: function() {
 					this.scheduleNextRun();
@@ -725,6 +729,7 @@ var ChatManager = {
 					'softice': ':soft_ice_cream:', 'fagyi': ':soft_ice_cream:',
 					'cake': ':shortcake:', 'torta': ':shortcake:',
 					'zacher': '&#127874;', 'sacher': '&#127874;',
+					'flower': ':blossom:', 'virág': ':blossom:',
 					'circus': '&#127914;', 'cirkusz': '&#127914;',
 				},
 				FUCKYOU_LIST: ['pörköltnokedlivel', 'bablevescsülökkel', 'szilvásgombóc', 'nutelláspalacsinta'],
@@ -777,7 +782,7 @@ var ChatManager = {
 							return u.get('name').toLowerCase() === target;
 						});
 						if (tuser !== undefined) {
-							if (tuser.get('name') !== BotManager.NAME) {
+							if (tuser.get('name') !== HoloChat.user.get('name')) {
 								if (multiply && this.checkRoomUser(BotManager.currentRoom, tuser)) what = what.repeat(3);
 								return 'Parancsolj, ' + BotManager.getDisplayName(tuser) + '! ' + what;
 							} else {
@@ -800,7 +805,7 @@ var ChatManager = {
 						if (!parameters.length) return;
 						var target = this.getUserByName(parameters.join(' '));
 						if (target !== undefined) {
-							if (target.get('name') !== BotManager.NAME) {
+							if (target.get('name') !== HoloChat.user.get('name')) {
 								return 'Éljen ' + BotManager.getDisplayName(target) + '!';
 							} else {
 								return 'Éljek ÉN! Hipp-hipp! Hurrá! Hipp-hipp! Hurrá!';
@@ -815,7 +820,7 @@ var ChatManager = {
 						if (target !== undefined) {
 							if (target.get('name') === BotManager.OWNER) {
 								return 'Lehet, ' + BotManager.getDisplayName(BotManager.currentUser) + ', hogy te nem félsz a főnöktől, de én igen...';
-							} else if (target.get('name') === BotManager.NAME) {
+							} else if (target.get('name') === HoloChat.user.get('name')) {
 								return BotManager.getDisplayName(BotManager.currentUser) + ', ne akard, hogy némítsalak...';
 							} else {
 								return BotManager.getDisplayName(BotManager.currentUser) + ' felpofozza ' + BotManager.getDisplayName(target) + ' felhasználót egy nagy heringgel.';
@@ -828,7 +833,7 @@ var ChatManager = {
 						if (!parameters.length) return;
 						var target = this.getUserByName(parameters.join(' '));
 						if (target !== undefined) {
-							if (target.get('name') !== BotManager.NAME) {
+							if (target.get('name') !== HoloChat.user.get('name')) {
 								return BotManager.getDisplayName(BotManager.currentUser) + ' megöleli ' + BotManager.getDisplayName(target) + ' felhasználót.';
 							} else {
 								return 'Jajj, gyere ide a karjaimba, ' + BotManager.getDisplayName(BotManager.currentUser) + '!';
@@ -841,7 +846,7 @@ var ChatManager = {
 						if (!parameters.length) return;
 						var target = this.getUserByName(parameters.join(' '));
 						if (target !== undefined) {
-							if (target.get('name') !== BotManager.NAME) {
+							if (target.get('name') !== HoloChat.user.get('name')) {
 								return BotManager.getDisplayName(BotManager.currentUser) + ' cuppanós puszit ad ' + BotManager.getDisplayName(target) + ' felhasználónak.';
 							} else {
 								return 'Ebbe teljesen belepirultam, ' + BotManager.getDisplayName(BotManager.currentUser) + ' :)';
@@ -890,7 +895,7 @@ var ChatManager = {
 				},
 				flirtWith: function(user) {
 					var displayName = BotManager.getDisplayName(user), answer;
-					switch(Math.floor(Math.random()*20)) {
+					switch (Math.floor(Math.random()*20)) {
 						case 00: answer = 'Ne haragudj, ' + displayName + ', elhagytam a telefonszámom, elkérhetném a Tiédet?'; break;
 						case 01: answer = displayName + ', nem lehetne Téged receptre felíratni?'; break;
 						case 02: answer = displayName + ', remélem, értesz a mesterséges lélegeztetéshez, mert eláll tőled a lélegzetem...'; break;
@@ -907,18 +912,20 @@ var ChatManager = {
 						case 13: answer = displayName + ', a szépséged olyan, mint egy migráns... nem ismer határokat!'; break;
 						case 14: answer = displayName + ', Te hardverré változtatod a szoftveremet...'; break;
 						case 15: answer = displayName + ', Te vagy a Google?! Mert minden megvan benned, amit csak keresek :)'; break;
-						case 16: answer = displayName + ', tudod mi a legjobb csajozós duma három szóval? "Folder botja vagyok!"'; break;
-						case 17: answer = displayName + ', ha hazakísérlek, megtartasz?'; break;
+						case 16: answer = displayName + ', ha hazakísérlek, megtartasz?'; break;
+						case 17: answer = displayName + ', tudod mi a legjobb csajozós duma három szóval? "Folder botja vagyok!"'; break;
 						case 18: answer = 'Hiányzik a mackóm, ' + displayName + '. Nem aludnál velem te?'; break;
-						case 19: answer = displayName + ', nem a láz az egyetlen, ami ledöntene ma este ;)'; break;
-						case 20: answer = displayName + ', ez teveszőr pulóver? Megismertem a púpokról...'; break;
-						case 21: answer = displayName + ', nem lehet köztünk semmi... Se ruha, se levegő!'; break;
-						case 22: answer = 'Ez a ruha gyönyörű, ' + displayName + '! Jól mutatna a hálószobám szőnyegén...'; break;
+						case 19: answer = displayName + ', érted végtelen ciklusba is keverednék!'; break;
+						case 20: answer = displayName + ', nem a láz az egyetlen, ami ledöntene ma este ;)'; break;
+						case 21: answer = displayName + ', ez teveszőr pulóver? Megismertem a púpokról...'; break;
+						case 22: answer = displayName + ', nem lehet köztünk semmi... Se ruha, se levegő!'; break;
+						case 23: answer = 'Ez a ruha gyönyörű, ' + displayName + '! Jól mutatna a hálószobám szőnyegén...'; break;
 					}
 					return answer;
 				}
 			});
 
+			/*
 			manager.registerPlugin({
 				PLUGIN_NAME: 'SWEETY',
 				PREFIX: '&#128038;', // '&#128142;',
@@ -934,27 +941,28 @@ var ChatManager = {
 					});
 				}
 			});
+			*/
 		} else if (HoloChat.user.get('name').toUpperCase() === 'MOONCAKE') {
 			manager.registerPlugin({
 				PLUGIN_NAME: 'CHOOKITY',
 				PREFIX: ' ',
 				getRandomAnswer: function() {
-					switch(Math.floor(Math.random()*10)) {
-						case 00: return 'Chookity Dookity :face_with_hand_over_mouth:';
+					switch (Math.floor(Math.random()*10)) {
+						case 00: return 'Chookity-Dookity :face_with_hand_over_mouth:';
 						case 01: return 'Chookity-pok :slightly_smiling_face:';
 						case 02: return 'Chookity-pah :winking_face:';
 						case 03: return 'Choooookity :smiling_face_with_smiling_eyes:';
 						case 04: return 'Gar, Gar, Gar, Gar! :angry_face:';
 						case 05: return 'Kew-Kew-Kew :face_with_raised_eyebrow:';
-						case 06: return 'Pok :unamused_face:';
-						case 07: return 'Pok-pok! :smirking_face:';
+						case 06: return 'Ooooh! :hugging_face:';
+						case 07: return 'Chookity! :smirking_face:';
 						case 08: return 'Chookity-Chook :relieved_face:';
 						case 09: return 'Chookity-Chok-Chok :smiling_face_with_sunglasses:';
 					}
 				},
 				onPluginAdded: function(manager) {
 					manager.registerPattern(this, /.+/gi, function() {
-						if (Math.floor(Math.random()*100) % 20 === 0) return this.getRandomAnswer();
+						if (Math.floor(Math.random()*100) % 50 === 0) return this.getRandomAnswer();
 					});
 					manager.registerSmallTalk(this, manager.SMALLTALK_MENTIONED, function() {
 						return this.getRandomAnswer();
@@ -974,18 +982,12 @@ var ChatManager = {
 					manager.registerSmallTalk(this, '%%bot%% jó voltál?', function() {
 						return 'Chookity-pok-pok! :smiling_face_with_halo:';
 					}, ['jó voltál %%bot%%?']);
-					manager.registerSmallTalk(this, '%%bot%% azt[a]+', function() {
+					manager.registerSmallTalk(this, '%%bot%% látod?', function() {
 						return 'Woooahhh! :astonished_face:';
-					}, ['azt[a]+ %%bot%%']);
+					}, ['látod %%bot%%?']);
 					manager.registerSmallTalk(this, '%%bot%% nézd', function() {
 						return 'Wooow! :face_with_open_mouth:';
 					}, ['nézd %%bot%%?']);
-					manager.registerSmallTalk(this, '%%bot%% néma', function() {
-						return 'Chookity-pah! :face_screaming_in_fear:';
-					});
-					manager.registerSmallTalk(this, '%%bot%% alszol?', function() {
-						return 'Chookity... :zzz:';
-					}, ['alszol %%bot%%?']);
 				}
 			});
 		} else if (HoloChat.user.get('name').toUpperCase() === 'SEARCHBOT') {

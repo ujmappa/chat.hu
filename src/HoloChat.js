@@ -56,6 +56,9 @@ var HoloChat = {
         this.url = params.url;
         this.connect();
     },
+	stop: function() {
+		this.server.stop();
+	},
     connect: function () {
         this.server.start(this.url);
     },
