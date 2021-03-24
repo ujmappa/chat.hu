@@ -92,9 +92,9 @@
             "X": "Oganesson is a transactinide chemical element, first synthesized in 2002 by a joint team of Russian and American scientists. Formerly called ununoctium, it has an atomic number of 118. It was formerly thought to be a gas under normal conditions but is now predicted to be a solid due to relativistic effects."
         },
         "Mi az univerzum legerősebb ismert mágnese?": {
-            "A": "A sötét anyag",
+            "A": "*A magnetárok",
             "B": "A fekete lyukak",
-            "C": "*A magnetárok",
+            "C": "A sötét anyag",
             "D": "A neodímium mágnesek",
             "X": "Magnetars (a type of neutron star) are the bizarre super-dense remnants of supernova explosions. They are the strongest magnets known in the universe -- hundreds of millions of times more powerful than the magnetic field surrounding Earth."
         },
@@ -182,10 +182,10 @@
             "D": "Luxban"
         },
         "Milyen színű lesz a lakmuszpapír sav hatására?": {
-            "A": "Sárga",
+            "A": "Kék",
             "B": "Zöld",
             "C": "*Vörös",
-            "D": "Kék"
+            "D": "Sárga"
         },
         "Mit kiáltott Arkhimédész a fürdőkádból kiugorva, mikor rájött híres törvényére?": {
             "A": "Demokrácia!",
@@ -202,8 +202,8 @@
         "Ki dolgozta ki a kvantumelméletet?": {
             "A": "Werner Heisenberg",
             "B": "Erwin Schrödinger",
-            "C": "*Max Planck",
-            "D": "Max Born"
+            "C": "*Max Born",
+            "D": "Max Planck"
         },
         "Miket választ el egymástól a Kármán-vonal?": {
             "A": "*A légi teret és a világűrt",
@@ -375,9 +375,9 @@
         },
         "Hol lépett előszőr ember a Holdra?": {
             "A": "Az Unalom tengerén",
-            "B": "Az Esők tengerén",
-            "C": "*A Nyugalom tengerén",
-            "D": "A Veszélyek tengerén"
+            "B": "*A Nyugalom tengerén",
+            "C": "A Veszélyek tengerén",
+            "D": "Az Esők tengerén"
         },
         "Hogy hívták a rádió elődjének számító telefonos szolgáltatást?": {
             "A": "Telehírnök",
@@ -386,10 +386,10 @@
             "D": "Telefonhíradó"
         },
         "Mi az elektromos feszültség mértékegysége?": {
-            "A": "Watt",
-            "B": "Amper",
+            "A": "Amper",
+            "B": "Ohm",
             "C": "*Volt",
-            "D": "Ohm"
+            "D": "Watt"
         },
         "Mikor lesz egy fénykép alulexponált?": {
             "A": "Ha sok a fény",
@@ -416,9 +416,9 @@
             "D": "1036"
         },
         "Az alábbiak közül melyik bolygónak nincsen holdja?": {
-            "A": "Mars",
-            "B": "Jupiter",
-            "C": "*Vénusz",
+            "A": "*Vénusz",
+            "B": "Mars",
+            "C": "Jupiter",
             "D": "Neptunusz"
         },
         "Melyik kémiai elem kristályosodott változata a gyémánt?": {
@@ -591,8 +591,8 @@
         },
         "Melyik a legjobb hő- és elektromos vezetőképességű fém?": {
             "A": "Arany",
-            "B": "Réz",
-            "C": "*Ezüst",
+            "B": "*Ezüst",
+            "C": "Réz",
             "D": "Cink"
         },
         "Ki volt a mágneses indukció SI-mértékegységének névadója?": {
@@ -644,10 +644,10 @@
             "D": "Nem kapott"
         },
         "Milyen mértékegység az ár?": {
-            "A": "Hossz",
-            "B": "Súly",
-            "C": "*Terület",
-            "D": "Űr"
+            "A": "Űr",
+            "B": "Hossz",
+            "C": "Súly",
+            "D": "*Terület"
         },
         "Melyik magyar tudós kapott Nobel-díjat a holográf felfedezéséért?": {
             "A": "*Gábor Dénes",
@@ -675,8 +675,8 @@
         },
         "Melyik skálán NEM mérhetünk hőmérsékletet?": {
             "A": "Réaumur",
-            "B": "Celsius",
-            "C": "*Richter",
+            "B": "*Richter",
+            "C": "Celsius",
             "D": "Fahrenheit"
         },
         "Melyik kémiai elem vegyjele az Ag?": {
@@ -692,10 +692,10 @@
             "D": "360&deg;"
         },
         "Melyik elődjük nevére tesznek esküt a mai orvosok?": {
-            "A": "Vesalius",
-            "B": "Galénosz",
-            "C": "*Hippokratész",
-            "D": "Paracelsus"
+            "A": "Galénosz",
+            "B": "*Hippokratész",
+            "C": "Paracelsus",
+            "D": "Vesalius"
         },
         "Ki kapott fizikai és kémiai Nobel-díjat is az alábbi tudósok közül?": {
             "A": "Wilhelm Röntgen",
@@ -782,16 +782,16 @@
             "D": "Ellenállás"
         },
         "Mi a Plútó holdjának neve?": {
-            "A": "Umbriel",
-            "B": "Triton",
-            "C": "*Charon",
-            "D": "Callisto"
+            "A": "Callisto",
+            "B": "*Charon",
+            "C": "Triton",
+            "D": "Umbriel"
         },
         "Melyik NEM síkidom az alábbiak közül?": {
-            "A": "Trapéz",
-            "B": "Rombusz",
-            "C": "*Hasáb",
-            "D": "Deltoid"
+            "A": "Deltoid",
+            "B": "*Hasáb",
+            "C": "Rombusz",
+            "D": "Trapéz"
         },
         "Hány Nobel-díj átadáson vett részt az alapító, Alfred Nobel?": {
             "A": "Csak az elsőn",
@@ -926,10 +926,10 @@
             "D": "Nátrium-klorid"
         },
         "Melyik kémiai elem latin neve a plumbum?": {
-            "A": "Ón",
-            "B": "Platina",
-            "C": "*Ólom",
-            "D": "Hidrogén"
+            "A": "Hidrogén",
+            "B": "*Ólom",
+            "C": "Ón",
+            "D": "Platina"
         },
         "Melyik síkidom az alábbiak közül?": {
             "A": "Henger",
@@ -1000,10 +1000,10 @@
             "D": "*Belga"
         },
         "Hol találták fel a hőmérséklet-változásokra érzéketlen üveget?": {
-            "A": "Müchenben",
-            "B": "Weimarban",
-            "C": "*Jénában",
-            "D": "Herenden"
+            "A": "Herenden",
+            "B": "*Jénában",
+            "C": "Müchenben",
+            "D": "Weimarban"
         },
         "Milyen különleges képet készít a Nobel-díjas Gábor Dénes találmánya?": {
             "A": "Digitális képet",
@@ -1060,9 +1060,9 @@
             "D": "Louis Renault"
         },
         "Mi a porcelángyártás fő alapanyaga?": {
-            "A": "Kvarc",
-            "B": "Gyanta",
-            "C": "*Kaolin",
+            "A": "Gyanta",
+            "B": "*Kaolin",
+            "C": "Kvarc",
             "D": "Polisztirol"
         },
         "Kiről kapták nevüket a szovjet Tupoljev típusú repülőgépek?": {
@@ -1109,9 +1109,9 @@
         },
         "Ki találta fel a hírhedt kivégzőeszközt, a guillotine-t?": {
             "A": "Egy hóhér",
-            "B": "Egy borbély",
-            "C": "*Egy orvos",
-            "D": "Egy lovag"
+            "B": "*Egy orvos",
+            "C": "Egy lovag",
+            "D": "Egy borbély"
         },
         "Melyik feltaláló munkatársa volt Puskás Tivadar?": {
             "A": "Graham Bell",
@@ -6089,7 +6089,7 @@
             "C": "*Hunyadi János",
             "D": "Török Bálint"
         },
-        "Kit győzött le a lipcsei csatamezőn a szövetséges osztrák-orosz–porosz–svéd haderő?": {
+        "Kit győzött le a lipcsei csatamezőn a szövetséges osztrák-orosz-porosz-svéd haderő?": {
             "A": "Nagy Katalin cárnőt",
             "B": "Hódító Vilmos királyt",
             "C": "*Napóleon császárt",
@@ -7863,9 +7863,9 @@
             "D": "Dőlne már romba az egész világ!"
         },
         "Milyen állat szerepel Mándy Iván Csutakról szóló regényének címében?": {
-            "A": "Árva kiscica",
+            "A": "*Szürke ló",
             "B": "Ázott cinege",
-            "C": "*Szürke ló",
+            "C": "Árva kiscica",
             "D": "Gombszemű puli"
         },
         "Melyik város szülötte és száműzötte volt Dante?": {
@@ -15038,14 +15038,14 @@
         },
         "Milyen \"cirkusz\" volt a címe a rádió ötvenes években népszerű gyermekműsorának?": {
             "A": "Bimm-Bamm",
-            "B": "Csilicsala",
-            "C": "*Csinn-Bumm",
+            "B": "*Csinn-Bumm",
+            "C": "Csilicsala",
             "D": "Csinnadratta"
         },
         "Mire használják az oroszok a szamovárt?": {
-            "A": "Birkahús sütésére",
-            "B": "Fejfedőnek",
-            "C": "*Teavíz forralására",
+            "A": "*Teavíz forralására",
+            "B": "Birkahús sütésére",
+            "C": "Fejfedőnek",
             "D": "Sportolásra"
         },
         "Melyik országból származott a Nobel-békedíjas Teréz anya?": {
@@ -15057,8 +15057,8 @@
         "Kit neveztek régen egy apa természetes fiának?": {
             "A": "A legkisebb fiút",
             "B": "A legidősebb fiút",
-            "C": "*A törvénytelen fiút",
-            "D": "Az örökbefogadott fiút"
+            "C": "Az örökbefogadott fiút",
+            "D": "*A törvénytelen fiút"
         },
         "Mit gyártottak a bognárok?": {
             "A": "Patkókat",
