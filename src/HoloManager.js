@@ -297,7 +297,7 @@ HoloChat.manager = {
             if (message.get('user').id != HoloChat.user.id) {
                 HoloChat.user.incRoomUnread(roomId);
                 HoloChat.events.trigger('room:changeUnread', roomId);
-            } else if (message.get('type') == 'autotext') {} else {
+            } else if (message.get('type') !== 'autotext') {
                 HoloChat.user.resetRoomUnread(roomId, message.id);
             }
             room.set('lastMessage', message);

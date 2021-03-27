@@ -7,6 +7,7 @@ HoloChat.server = {
     start: function (urls) {
         this.urls = Array.isArray(urls) ? urls : [urls];
         this.currentUrl = 0;
+		this.connected = false;
         this.connect();
     },
     connect: function () {
@@ -18,8 +19,9 @@ HoloChat.server = {
                 HoloChat.onOpen(e);
             };
             this.socket.onclose = function (e) {
-                HoloChat.onClose(e);
-                if (!_this.connected) {
+				if (_this.connected) {
+                	HoloChat.onClose(e);
+				} else {
                     _this.currentUrl++;
                     if (_this.currentUrl < _this.urls.length) {
                         _this.connect();

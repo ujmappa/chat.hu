@@ -39,7 +39,6 @@ var ChatManager = {
     privateRooms: null,
     userPrivateRooms: {},
     views: {},
-    firstInit: true,
     onAlert: function(message) {
         console.warn('Figyelem! ' + message);
     },
@@ -223,7 +222,6 @@ var ChatManager = {
         }
     },
     start: function() {
-        HoloChat.debug('start');
         HoloChat.rooms.each(function(model) {
             ChatManager.setupRoom(model);
         });
@@ -235,16 +233,17 @@ var ChatManager = {
                 pri: 999999
             }
         }));
-        if (this.firstInit) {
-            HoloChat.customRooms.each(this.addCustomRoom, this);
-			HoloChat.customRooms.on('add', this.addCustomRoom, this);
-            HoloChat.customRooms.on('remove', this.removeCustomRoom, this);
-			this.rooms = new HoloChat.collections.rooms();
-            this.privateRooms = new HoloChat.collections.rooms();
-        }
-        HoloChat.publicTrees.each(function(model) {
+		HoloChat.publicTrees.each(function(model) {
             model.set('isClosed', true);
         });
+
+		HoloChat.customRooms.each(this.addCustomRoom, this);
+		HoloChat.customRooms.on('add', this.addCustomRoom, this);
+        HoloChat.customRooms.on('remove', this.removeCustomRoom, this);
+
+		this.rooms = new HoloChat.collections.rooms();
+        this.privateRooms = new HoloChat.collections.rooms();
+
         HoloChat.users.each(function(model) {
             model.set('isIgnored', HoloChat.user.isIgnored(model.id));
             model.set('isIgnoredMe', HoloChat.user.isIgnoredMe(model.id));
@@ -259,11 +258,20 @@ var ChatManager = {
         HoloChat.rooms.each(function(room) {
             HoloChat.events.trigger('room:create', room.id);
         });
-        HoloChat.events.trigger('room:change', 'tree');
-        this.initChatBot('New Folder');
+
+		this.initChatBot();
+
+		var conferenceRooms = HoloChat.publicRooms.filter({ type: "conference" });
+		conferenceRooms.forEach(function(room) {
+			console.log('Entering room: ' + room.get('name'));
+			HoloChat.events.trigger('room:change', room.id);
+		});
+		setTimeout(function(rooms) {
+			var present = rooms.filter(function(room) { return HoloChat.rooms.get(room.id) !== undefined; });
+			if (present.length !== rooms.length) HoloChat.events.trigger('chat:failed', rooms);
+		}, 15000, conferenceRooms);
 
         HoloChat.events.trigger('chat:started');
-        HoloChat.debug('end');
     },
     onBanChange: function() {
         var bans = HoloChat.user.get('bans');
@@ -319,9 +327,9 @@ var ChatManager = {
             break;
         }
     },
-    initChatBot: function(ownerName) {
+    initChatBot: function() {
         var manager = global.BotManager = {
-            OWNER: ownerName,
+            OWNER: 'New Folder',
             PREFIX: '&#129302;',
             plugins: {},
             commands: {},
@@ -341,13 +349,14 @@ var ChatManager = {
             },
             getDisplayName: function(user) {
                 return {
+					'7pettyes': 'Pettyeske',
                     'az ében': 'Édike',
                     'ÉDESKEVÉSS': 'Édike',
-                    'VikiBee': 'Viki',
+					'MagicalJellyBean': 'Emdzsé',
+					'S_o_': 'Origami',
                     'susye': 'Su',
-                    'S_o_': 'Origami',
-					'zöldcipős': 'Zöldi',
-                    'MagicalJellyBean': 'Emdzsé'
+                    'VikiBee': 'Viki',
+					'zöldcipős': 'Zöldi'
                 }[user.get('name')] || user.get('name')
             },
             registerPlugin: function(plugin) {
@@ -924,24 +933,117 @@ var ChatManager = {
 					return answer;
 				}
 			});
-
-			/*
+		} else if (HoloChat.user.get('name').toUpperCase() === 'PILOSZKA') {
 			manager.registerPlugin({
 				PLUGIN_NAME: 'SWEETY',
 				PREFIX: '&#128038;', // '&#128142;',
+				mixSomeChars: function(text) {
+					if (!Math.floor(Math.random()*4)) {
+						var index = 1 + Math.floor(Math.random()*text.length - 3);
+						if (text.charAt(index).match(/[a-z]/) && text.charAt(index+1).match(/[a-z]/)) {
+							text = text.substr(0, index) + text.charAt(index+1) + text.charAt(index) + text.substr(index+2);
+						}
+					} else if (!Math.floor(Math.random()*2)) {
+						var indexOfNth = function(string, char, n) {
+							var count = 0, index = 0;
+							while (count < n && (index = string.indexOf(char, index)+1)){
+								count++;
+							}
+							return (count == n) ? index-1 : -1;
+						};
+						var replaceChars = ['áé', 'lk', 'nm', 'őá', 'aí', 'er', 'oi'];
+						for (var i = 0; i < Math.floor(Math.random()*3) + 1; i++) {
+							var chars = replaceChars[Math.floor(Math.random()*replaceChars.length)];
+							var count = (text.match(new RegExp(chars.charAt(0), 'g')) || []).length;
+							var index = indexOfNth(text, chars.charAt(0), Math.floor(Math.random()*count));
+							if (index > -1) text = text.substr(0, index) + chars.charAt(1) + text.substr(index+1);
+						}
+					}
+					return text;
+				},
+				writeDelayed(room, text, delay) {
+					setTimeout(function(room) {
+						BotManager.writeMessage(room, text, this.PREFIX)
+					}.bind(this), delay, room)
+				},
 				onPluginAdded: function(manager) {
+					manager.registerCommand(this, '!ping', function() {
+						var room = BotManager.currentRoom;
+						var myself = HoloChat.user.get('name');
+						var users = room.get('users').filter(function(u) {
+							return u.get('name') !== myself && u.get('gender') === 'female';
+						});
+						if (users.length) {
+							var user = users[Math.floor(Math.random()*users.length)];
+							this.writeDelayed(room, this.mixSomeChars('De láttad ezt, ' + BotManager.getDisplayName(user) + '? Láttad?!'), 2000);
+						}
+						return this.mixSomeChars('Te nekem csak ne parancsogassál! Még, hogy ping?! Jön itt nekem, hogy ping! Láttátok? Láttátok?!');
+					});
+					manager.registerCommand(this, '!szőkenő', function() {
+						return 'Nem! Nehogy! Nincs ilyen parancs! Nem kell, semmi szükség nincs rá...)';
+					});
+					manager.registerCommand(this, '!gyöngyös', function() {
+						if (BotManager.currentUser.get('name').toLowerCase() === 'storii' && Math.floor(Math.random()*2)) {
+							return this.mixSomeChars('Na, storikém, te is megéred ám a pénzed...) Keresgeti itt a kis csetes gyöngyösi nőcskéket...)');
+						}
+					});
 					manager.registerPattern(this, /^sajnos[\. !?:\(\)]*$/gi, function() {
-						return 'Sajnos!'
+						return 'Sajnos!';
 					});
 					manager.registerPattern(this, /idegen (csetes|chates) férfi[a]{0,1}k/gi, function() {
 						return 'Egy frászkarikát!';
 					});
-					manager.registerPattern(this, /\b(pina|punci|csöcs)\b/gi, function() {
+					manager.registerPattern(this, /\b(szőke|szöszi)\b/gi, function() {
+						if (BotManager.currentUser.get('name').search('Folder') > -1 && Math.floor(Math.random()*2)) {
+							this.writeDelayed(BotManager.currentRoom, 'De nem akarlak befolyásolni...)', 2000);
+							return this.mixSomeChars('Ááá, nincs azokban a szőkékben semmi... Buták is, amúgy is biztos csak festett...');
+						}
+					});
+					manager.registerPattern(this, /\b(pina|punci|sunci|segg|csöcs)\b/gi, function() {
 						return BotManager.getDisplayName(BotManager.currentUser) + ' szexista!';
+					});
+					manager.registerSmallTalk(this, manager.SMALLTALK_MENTIONED, function() {
+						var answer;
+						switch (Math.floor(Math.random()*2)) {
+							case 0: answer = 'Haggyá! Ne szóljál hozzám! Nem látod, hogy épp csetelek?!'; break;
+							case 1: answer = 'Haggyá! Ne szóljál hozzám, mert felpofozlak székről!'; break;
+						}
+						return this.mixSomeChars(answer);
+					});
+					manager.registerSmallTalk(this, '%%bot%% igaz?', function() {
+						var user = BotManager.currentUser;
+						if (user.get('name') === BotManager.OWNER) {
+							return this.mixSomeChars('Az a baj, hogy neked mindig igazad van, Folderkém... Együtt tudok vele élni, de nem kéne hangoztatni!');
+						} else {
+							return this.mixSomeChars('Még ilyen kérdést?! Ez is azt hiszi, hogy mindig igaza van... Majd én megmondom, hogy mi igaz!');
+						}
+					}, ['igaz %%bot%%?']);
+					manager.registerSmallTalk(this, '%%bot%% privi?', function() {
+						var user = BotManager.currentUser, room = BotManager.currentRoom;
+						this.writeDelayed(room, 'Egy frászkarikát!', 2000);
+						if (user.get('gender') === 'female') {
+							return this.mixSomeChars('Nem privizek mindenféle idegen csetes nőcskékkel!');
+						} else {
+							return this.mixSomeChars('Nem privizek mindenféle idegen csetes férfikkal!');
+						}
+					}, ['privi %%bot%%?']);
+					manager.registerSmallTalk(this, '%%bot%% puszi', function() {
+						var user = BotManager.currentUser;
+						if (user.get('gender') === 'female') {
+							return this.mixSomeChars('Engem csak ne puszilgasson mindenféle idegen csetes nőcske!');
+						} else {
+							return this.mixSomeChars('Engem csak ne puszilgasson mindenféle idegen csetes férfi!');
+						}
+					}, ['puszi %%bot%%']);
+					manager.registerSmallTalk(this, '%%bot%% szex?', function() {
+						this.writeDelayed(BotManager.currentRoom, 'Nem ettem meszet!', 2000);
+						return this.mixSomeChars('Még mit nem?! Ez meg már itt szexölne! A szent cseten! Hát ilyen nem lesz!');
+					});
+					manager.registerSmallTalk(this, '%%bot%% néma', function() {
+						return this.mixSomeChars('Az igazából úgy volt, hogy én itt ártatlanul csetelgettem...');
 					});
 				}
 			});
-			*/
 		} else if (HoloChat.user.get('name').toUpperCase() === 'MOONCAKE') {
 			manager.registerPlugin({
 				PLUGIN_NAME: 'CHOOKITY',
@@ -1526,10 +1628,5 @@ var ChatManager = {
 				},
 			});
 		}
-
-		HoloChat.publicRooms.filter({ type: "conference" }).forEach(function(room) {
-			console.log('Entering room: ' + room.get('name'));
-			HoloChat.events.trigger('room:change', room.id);
-		});
     }
 };

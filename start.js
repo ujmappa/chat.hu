@@ -52,12 +52,11 @@ axios.get("https://chat.hu").then(function(response) {
 			"_csrf": $("meta[name='csrf-token']").attr("content"),
 			"LoginForm[username]": process.env.USER,
 			"LoginForm[password]": process.env.PASS,
-			"LoginForm[rememberMe]": 0,
-			"redirect_url": "/"
+			"LoginForm[rememberMe]": 0
 		}), {
 			validateStatus: function(status) { return (status >= 200 && status < 300) || status === 500; }
 		}).then(function (response) {
-			console.log("Page login successful, starting client");
+			console.log("Page login successful, opening site...");
 			process.on("SIGTERM", () => { handleExit(); });
 			startChat(parseParams(response.data));
 		}).catch(function (error) {
@@ -72,33 +71,66 @@ axios.get("https://chat.hu").then(function(response) {
 			}
 			console.log(error.config);
 			process.exitCode = 1;
-			process.kill(process.pid, 'SIGTERM')
+			process.kill(process.pid, 'SIGTERM');
 		});
 	} else {
-		console.log("No login was needed, starting client");
+		console.log("No login was needed, opening site...");
 		process.on("SIGTERM", () => { handleExit(); });
 		startChat(parseParams(response.data));
 	}
+}).catch((error) => {
+	console.error("Site is unreachable and throws error:", error);
+	process.exitCode = 1;
+	process.kill(process.pid, 'SIGTERM');
 });
 
 function parseParams(responseData) {
-	let line = responseData.split('\n').find(line => { return line.startsWith("HoloChat.init"); })
-	let match = line.match(/HoloChat.start\({url:\[(.+)\],userId:"(registered-[0-9]+)",sessionId:"([0-9a-z]+)",debug:false}\);/i);
-	return { url: match[1].split(",").map(item => eval(item)), userId: match[2], sessionId: match[3], debug: false };
+	let line = responseData.split('\n').find(line => line.startsWith("HoloChat.init"));
+	if (line !== undefined) {
+		console.log("Found line with parameters:", line.substr(line.search("HoloChat.start")));
+		let match = line.match(/HoloChat.start\({url:\[(.+)\],userId:"(registered-[0-9]+)",sessionId:"([0-9a-z]+)",debug:false}\);/i);
+		if (match !== null && Array.isArray(match) && match.length > 3) {
+			var urls = match[1].split(",").map(item => eval(item)).filter(item => item.startsWith("wss://"));
+			return { url: urls, userId: match[2], sessionId: match[3], debug: false };
+		} else {
+			console.error("Parameters did not match pattern!");
+		}
+	} else {
+		console.error("Did not find line with parameters!");
+	}
+	return null;
 }
 
 function startChat(clientParams) {
-	console.log('Starting HoloChat client.');
-	HoloChat.init();
-	HoloChat.addManager(ChatManager);
-	HoloChat.start(clientParams);
+	if (clientParams !== null) {
+		console.log('Starting chat client with session:', clientParams.sessionId);
+		HoloChat.init();
+		HoloChat.addManager(ChatManager);
+		HoloChat.events.on('chat:close', function() {
+			console.log('Lost connection, closing program...');
+			process.exitCode = 130;
+			process.kill(process.pid, 'SIGTERM');
+		}, this);
+		HoloChat.events.on('chat:failed', function() {
+			console.log('Room enter failed, closing program...');
+			process.exitCode = 131;
+			process.kill(process.pid, 'SIGTERM');
+		});
+		HoloChat.start(clientParams);
+	} else {
+		console.log('Wrong client parameters, exiting.');
+		process.exitCode = 129;
+		process.kill(process.pid, 'SIGTERM');
+	}
 }
 
 function handleExit() {
-	console.log('Stopping HoloChat client.');
+	console.log('Stopping chat client if running...');
 	HoloChat.stop();
-	console.log('User is exiting site.');
+	console.log('Leaving site and exiting program.');
 	axios.get("https://chat.hu/kilepes").then(() => {
+		process.exit(0);
+	}).catch(() => {
 		process.exit(0);
 	});
 }
